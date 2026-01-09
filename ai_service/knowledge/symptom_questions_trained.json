@@ -1,0 +1,894 @@
+{
+  "live with 4 or more people": {
+    "question": "Do you live with 4 or more people?",
+    "type": "binary"
+  },
+  "significantly increased sweating": {
+    "question": "Have you had significantly increased sweating?",
+    "type": "binary"
+  },
+  "pain": {
+    "question": "Do you have pain somewhere, related to your reason for consulting?",
+    "type": "binary"
+  },
+  "e 54": {
+    "question": "Characterize your pain:",
+    "type": "categorical"
+  },
+  "feel pain": {
+    "question": "Do you feel pain somewhere?",
+    "type": "categorical"
+  },
+  "e 56": {
+    "question": "How intense is the pain?",
+    "type": "categorical"
+  },
+  "pain radiate to another location": {
+    "question": "Does the pain radiate to another location?",
+    "type": "categorical"
+  },
+  "e 58": {
+    "question": "How precisely is the pain located?",
+    "type": "categorical"
+  },
+  "e 59": {
+    "question": "How fast did the pain appear?",
+    "type": "categorical"
+  },
+  "cough that produces colored or more abundant sputum than usual": {
+    "question": "Do you have a cough that produces colored or more abundant sputum than usual?",
+    "type": "binary"
+  },
+  "smoking": {
+    "question": "Do you smoke cigarettes?",
+    "type": "binary"
+  },
+  "fever (either felt or measured with a thermometer)": {
+    "question": "Do you have a fever (either felt or measured with a thermometer)?",
+    "type": "binary"
+  },
+  "sore throat": {
+    "question": "Do you have a sore throat?",
+    "type": "binary"
+  },
+  "cough": {
+    "question": "Do you have a cough?",
+    "type": "binary"
+  },
+  "e 204": {
+    "question": "Have you traveled out of the country in the last 4 weeks?",
+    "type": "categorical"
+  },
+  "exposed to secondhand cigarette smoke on a daily basis": {
+    "question": "Are you exposed to secondhand cigarette smoke on a daily basis?",
+    "type": "binary"
+  },
+  "swollen or painful lymph nodes": {
+    "question": "Do you have swollen or painful lymph nodes?",
+    "type": "binary"
+  },
+  "e 27": {
+    "question": "Have you ever had a sexually transmitted infection?",
+    "type": "binary"
+  },
+  "diarrhea or an increase in stool frequency": {
+    "question": "Have you had diarrhea or an increase in stool frequency?",
+    "type": "binary"
+  },
+  "unprotected sex with more than one partner in the last 6 months": {
+    "question": "Have you had unprotected sex with more than one partner in the last 6 months?",
+    "type": "binary"
+  },
+  "lesions, redness or problems on your skin that you believe are related to the condition you are consulting for": {
+    "question": "Do you have any lesions, redness or problems on your skin that you believe are related to the condition you are consulting for?",
+    "type": "binary"
+  },
+  "e 130": {
+    "question": "What color is the rash?",
+    "type": "categorical"
+  },
+  "e 131": {
+    "question": "Do your lesions peel off?",
+    "type": "categorical"
+  },
+  "e 132": {
+    "question": "Is the rash swollen?",
+    "type": "categorical"
+  },
+  "e 133": {
+    "question": "Where is the affected region located?",
+    "type": "categorical"
+  },
+  "e 134": {
+    "question": "How intense is the pain caused by the rash?",
+    "type": "categorical"
+  },
+  "e 135": {
+    "question": "Is the lesion (or are the lesions) larger than 1cm?",
+    "type": "categorical"
+  },
+  "e 136": {
+    "question": "How severe is the itching?",
+    "type": "categorical"
+  },
+  "feel like vomiting": {
+    "question": "Are you feeling nauseous or do you feel like vomiting?",
+    "type": "binary"
+  },
+  "involuntary weight loss over the last 3 months": {
+    "question": "Have you had an involuntary weight loss over the last 3 months?",
+    "type": "binary"
+  },
+  "sexual intercourse with an hiv-positive partner in the past 12 months": {
+    "question": "Have you had sexual intercourse with an HIV-positive partner in the past 12 months?",
+    "type": "binary"
+  },
+  "addiction to alcohol": {
+    "question": "Do you drink alcohol excessively or do you have an addiction to alcohol?",
+    "type": "binary"
+  },
+  "chills or shivers": {
+    "question": "Have you had chills or shivers?",
+    "type": "binary"
+  },
+  "heart failure": {
+    "question": "Do you have heart failure?",
+    "type": "binary"
+  },
+  "e 118": {
+    "question": "Have you ever had pneumonia?",
+    "type": "binary"
+  },
+  "chronic obstructive pulmonary disease (copd)": {
+    "question": "Do you have a chronic obstructive pulmonary disease (COPD)?",
+    "type": "binary"
+  },
+  "asthma or have you ever had to use a bronchodilator in the past": {
+    "question": "Do you have asthma or have you ever had to use a bronchodilator in the past?",
+    "type": "binary"
+  },
+  "diffuse (widespread) muscle pain": {
+    "question": "Do you have diffuse (widespread) muscle pain?",
+    "type": "binary"
+  },
+  "e 175": {
+    "question": "Have you noticed any new fatigue, generalized and vague discomfort, diffuse (widespread) muscle aches or a change in your general well-being related to your consultation today?",
+    "type": "binary"
+  },
+  "nasal congestion or a clear runny nose": {
+    "question": "Do you have nasal congestion or a clear runny nose?",
+    "type": "binary"
+  },
+  "attend or work in a daycare": {
+    "question": "Do you attend or work in a daycare?",
+    "type": "binary"
+  },
+  "e 103": {
+    "question": "Have you lost your sense of smell?",
+    "type": "binary"
+  },
+  "cold in the last 2 weeks": {
+    "question": "Have you had a cold in the last 2 weeks?",
+    "type": "binary"
+  },
+  "polyps in your nose": {
+    "question": "Do you have polyps in your nose?",
+    "type": "binary"
+  },
+  "deviated nasal septum": {
+    "question": "Do you have a deviated nasal septum?",
+    "type": "binary"
+  },
+  "e 125": {
+    "question": "Have you ever been diagnosed with gastroesophageal reflux?",
+    "type": "binary"
+  },
+  "greenish or yellowish nasal discharge": {
+    "question": "Do you have greenish or yellowish nasal discharge?",
+    "type": "binary"
+  },
+  "more likely to develop common allergies than the general population": {
+    "question": "Are you more likely to develop common allergies than the general population?",
+    "type": "binary"
+  },
+  "e 41": {
+    "question": "Have you been in contact with a person with similar symptoms in the past 2 weeks?",
+    "type": "binary"
+  },
+  "immunosuppressed": {
+    "question": "Are you immunosuppressed?",
+    "type": "binary"
+  },
+  "poor diet": {
+    "question": "Do you have a poor diet?",
+    "type": "binary"
+  },
+  "e 24": {
+    "question": "Have you ever had a diagnosis of anemia?",
+    "type": "binary"
+  },
+  "feel lightheaded and dizzy or do you feel like you are about to faint": {
+    "question": "Do you feel lightheaded and dizzy or do you feel like you are about to faint?",
+    "type": "binary"
+  },
+  "feel so tired that you are unable to do your usual activities or are you stuck in your bed all day long": {
+    "question": "Do you feel so tired that you are unable to do your usual activities or are you stuck in your bed all day long?",
+    "type": "binary"
+  },
+  "chronic kidney failure": {
+    "question": "Do you have chronic kidney failure?",
+    "type": "binary"
+  },
+  "e 140": {
+    "question": "Have you recently had stools that were black (like coal)?",
+    "type": "binary"
+  },
+  "taking any new oral anticoagulants ((noacs)": {
+    "question": "Are you taking any new oral anticoagulants ((NOACs)?",
+    "type": "binary"
+  },
+  "skin much paler than usual": {
+    "question": "Is your skin much paler than usual?",
+    "type": "binary"
+  },
+  "underweight": {
+    "question": "Is your BMI less than 18.5, or are you underweight?",
+    "type": "binary"
+  },
+  "e 19": {
+    "question": "Have you been diagnosed with hyperthyroidism?",
+    "type": "binary"
+  },
+  "known issue with one of your heart valves": {
+    "question": "Do you have a known issue with one of your heart valves?",
+    "type": "binary"
+  },
+  "severe chronic obstructive pulmonary disease (copd)": {
+    "question": "Do you have severe Chronic Obstructive Pulmonary Disease (COPD)?",
+    "type": "binary"
+  },
+  "shortness of breath or difficulty breathing in a significant way": {
+    "question": "Are you experiencing shortness of breath or difficulty breathing in a significant way?",
+    "type": "binary"
+  },
+  "diabetes": {
+    "question": "Do you have diabetes?",
+    "type": "binary"
+  },
+  "significantly overweight compared to people of the same height as you": {
+    "question": "Are you significantly overweight compared to people of the same height as you?",
+    "type": "binary"
+  },
+  "feel slightly dizzy or lightheaded": {
+    "question": "Do you feel slightly dizzy or lightheaded?",
+    "type": "binary"
+  },
+  "high blood pressure or do you take medications to treat high blood pressure": {
+    "question": "Do you have high blood pressure or do you take medications to treat high blood pressure?",
+    "type": "binary"
+  },
+  "angina (chest pain)": {
+    "question": "Have you ever had a heart attack or do you have angina (chest pain)?",
+    "type": "binary"
+  },
+  "known heart defect": {
+    "question": "Do you have a known heart defect?",
+    "type": "binary"
+  },
+  "feel your heart is beating fast (racing), irregularly (missing a beat) or do you feel palpitations": {
+    "question": "Do you feel your heart is beating fast (racing), irregularly (missing a beat) or do you feel palpitations?",
+    "type": "binary"
+  },
+  "symptoms that are increased with physical exertion but alleviated with rest": {
+    "question": "Do you have symptoms that are increased with physical exertion but alleviated with rest?",
+    "type": "binary"
+  },
+  "close family members who suffer from allergies (any type), hay fever or eczema": {
+    "question": "Do you have any close family members who suffer from allergies (any type), hay fever or eczema?",
+    "type": "binary"
+  },
+  "family members who have asthma": {
+    "question": "Do you have any family members who have asthma?",
+    "type": "binary"
+  },
+  "nose or the back of your throat itchy": {
+    "question": "Is your nose or the back of your throat itchy?",
+    "type": "binary"
+  },
+  "severe itching in one or both eyes": {
+    "question": "Do you have severe itching in one or both eyes?",
+    "type": "binary"
+  },
+  "live in in a big city": {
+    "question": "Do you live in in a big city?",
+    "type": "binary"
+  },
+  "e 194": {
+    "question": "Have you noticed a high pitched sound when breathing in?",
+    "type": "binary"
+  },
+  "e 25": {
+    "question": "Have any of your family members been diagnosed with cluster headaches?",
+    "type": "binary"
+  },
+  "take medication that dilates your blood vessels": {
+    "question": "Do you take medication that dilates your blood vessels?",
+    "type": "binary"
+  },
+  "known severe food allergy": {
+    "question": "Do you have a known severe food allergy?",
+    "type": "binary"
+  },
+  "e 42": {
+    "question": "Have you been in contact with or ate something that you have an allergy to?",
+    "type": "binary"
+  },
+  "swelling in one or more areas of your body": {
+    "question": "Do you have swelling in one or more areas of your body?",
+    "type": "binary"
+  },
+  "e 152": {
+    "question": "Where is the swelling located?",
+    "type": "categorical"
+  },
+  "e 159": {
+    "question": "Did you lose consciousness?",
+    "type": "binary"
+  },
+  "e 45": {
+    "question": "Have you been coughing up blood?",
+    "type": "binary"
+  },
+  "e 21": {
+    "question": "Have you ever had a spontaneous pneumothorax?",
+    "type": "binary"
+  },
+  "pain that is increased when you breathe in deeply": {
+    "question": "Do you have pain that is increased when you breathe in deeply?",
+    "type": "binary"
+  },
+  "feel that your eyes produce excessive tears": {
+    "question": "Do you feel that your eyes produce excessive tears?",
+    "type": "binary"
+  },
+  "currently, have any weakness/paralysis in one or more of your limbs or in your face": {
+    "question": "Did you previously, or do you currently, have any weakness/paralysis in one or more of your limbs or in your face?",
+    "type": "binary"
+  },
+  "e 5": {
+    "question": "Have you ever had fluid in your lungs?",
+    "type": "binary"
+  },
+  "e 217": {
+    "question": "Are your symptoms worse when lying down and alleviated while sitting up?",
+    "type": "binary"
+  },
+  "infected with the human immunodeficiency virus (hiv)": {
+    "question": "Are you infected with the human immunodeficiency virus (HIV)?",
+    "type": "binary"
+  },
+  "take corticosteroids": {
+    "question": "Do you take corticosteroids?",
+    "type": "binary"
+  },
+  "currently using intravenous drugs": {
+    "question": "Are you currently using intravenous drugs?",
+    "type": "binary"
+  },
+  "e 28": {
+    "question": "Are there any members of your family who have been diagnosed myasthenia gravis?",
+    "type": "binary"
+  },
+  "perception of seeing two images of a single object seen overlapping or adjacent to each other (double vision)": {
+    "question": "Do you have the perception of seeing two images of a single object seen overlapping or adjacent to each other (double vision)?",
+    "type": "binary"
+  },
+  "feel weakness in both arms and/or both legs": {
+    "question": "Do you feel weakness in both arms and/or both legs?",
+    "type": "binary"
+  },
+  "e 90": {
+    "question": "Do your symptoms of muscle weakness increase with fatigue and/or stress?",
+    "type": "binary"
+  },
+  "hard time opening/raising one or both eyelids": {
+    "question": "Do you have a hard time opening/raising one or both eyelids?",
+    "type": "binary"
+  },
+  "feel anxious": {
+    "question": "Do you feel anxious?",
+    "type": "binary"
+  },
+  "suffer from chronic anxiety": {
+    "question": "Do you suffer from chronic anxiety?",
+    "type": "binary"
+  },
+  "e 99": {
+    "question": "Have you ever had a migraine or is a member of your family known to have migraines?",
+    "type": "binary"
+  },
+  "suffer from fibromyalgia": {
+    "question": "Do you suffer from fibromyalgia?",
+    "type": "binary"
+  },
+  "e 157": {
+    "question": "Have you recently had numbness, loss of sensation or tingling, in both arms and legs and around your mouth?",
+    "type": "binary"
+  },
+  "currently, or did you ever, have numbness, loss of sensitivity or tingling anywhere on your body": {
+    "question": "Do you currently, or did you ever, have numbness, loss of sensitivity or tingling anywhere on your body?",
+    "type": "binary"
+  },
+  "e 185": {
+    "question": "Have you ever had a head trauma?",
+    "type": "binary"
+  },
+  "feel like you are (or were) choking or suffocating": {
+    "question": "Do you feel like you are (or were) choking or suffocating?",
+    "type": "binary"
+  },
+  "e 80": {
+    "question": "Have you ever been diagnosed with depression?",
+    "type": "binary"
+  },
+  "feel like you are dying or were you afraid that you were about do die": {
+    "question": "Do you feel like you are dying or were you afraid that you were about do die?",
+    "type": "binary"
+  },
+  "feel like you are detached from your own body or your surroundings": {
+    "question": "Do you feel like you are detached from your own body or your surroundings?",
+    "type": "binary"
+  },
+  "e 92": {
+    "question": "Did your cheeks suddenly turn red?",
+    "type": "binary"
+  },
+  "e 187": {
+    "question": "Did you eat dark-fleshed fish (such as tuna) or Swiss cheese before the reaction occurred?",
+    "type": "binary"
+  },
+  "pain that improves when you lean forward": {
+    "question": "Do you have pain that improves when you lean forward?",
+    "type": "binary"
+  },
+  "regularly take stimulant drugs": {
+    "question": "Do you regularly take stimulant drugs?",
+    "type": "binary"
+  },
+  "difficulty swallowing, or have a feeling of discomfort/blockage when swallowing": {
+    "question": "Do you have difficulty swallowing, or have a feeling of discomfort/blockage when swallowing?",
+    "type": "binary"
+  },
+  "e 190": {
+    "question": "Have you noticed that you produce more saliva than usual?",
+    "type": "binary"
+  },
+  "e 209": {
+    "question": "Are your vaccinations up to date?",
+    "type": "binary"
+  },
+  "e 150": {
+    "question": "Have you been able to pass stools or gas since your symptoms increased?",
+    "type": "binary"
+  },
+  "e 160": {
+    "question": "Were you born prematurely or did you suffer any complication at birth?",
+    "type": "binary"
+  },
+  "intense coughing fits": {
+    "question": "Do you have intense coughing fits?",
+    "type": "binary"
+  },
+  "e 221": {
+    "question": "Are the symptoms or pain increased with coughing, with an effort like lifting a weight or from forcing a bowel movement?",
+    "type": "binary"
+  },
+  "e 211": {
+    "question": "Have you vomited several times or have you made several efforts to vomit?",
+    "type": "binary"
+  },
+  "chronic pancreatitis": {
+    "question": "Do you have chronic pancreatitis?",
+    "type": "binary"
+  },
+  "non-restful sleep": {
+    "question": "Do you constantly feel fatigued or do you have non-restful sleep?",
+    "type": "binary"
+  },
+  "pale stools and dark urine": {
+    "question": "Do you have pale stools and dark urine?",
+    "type": "binary"
+  },
+  "e 223": {
+    "question": "Are there members of your family who have been diagnosed with pancreatic cancer?",
+    "type": "binary"
+  },
+  "e 3": {
+    "question": "Have you ever had a pericarditis?",
+    "type": "binary"
+  },
+  "consulting because you have high blood pressure": {
+    "question": "Are you consulting because you have high blood pressure?",
+    "type": "binary"
+  },
+  "painful mouth ulcers or sores": {
+    "question": "Do you have painful mouth ulcers or sores?",
+    "type": "binary"
+  },
+  "e 212": {
+    "question": "Have you noticed that the tone of your voice has become deeper, softer or hoarse?",
+    "type": "binary"
+  },
+  "find that your symptoms have worsened over the last 2 weeks and that progressively less effort is required to cause the symptoms": {
+    "question": "Do you find that your symptoms have worsened over the last 2 weeks and that progressively less effort is required to cause the symptoms?",
+    "type": "binary"
+  },
+  "chest pain even at rest": {
+    "question": "Do you have chest pain even at rest?",
+    "type": "binary"
+  },
+  "close family members who had a cardiovascular disease problem before the age of 50": {
+    "question": "Do you have close family members who had a cardiovascular disease problem before the age of 50?",
+    "type": "binary"
+  },
+  "rheumatoid arthritis": {
+    "question": "Do you have Rheumatoid Arthritis?",
+    "type": "binary"
+  },
+  "suffer from crohn\u2019s disease or ulcerative colitis (uc)": {
+    "question": "Do you suffer from Crohn\u2019s disease or ulcerative colitis (UC)?",
+    "type": "binary"
+  },
+  "problem with poor circulation": {
+    "question": "Do you have a problem with poor circulation?",
+    "type": "binary"
+  },
+  "get full more quickly then usually": {
+    "question": "Have you recently had a loss of appetite or do you get full more quickly then usually?",
+    "type": "binary"
+  },
+  "former smoker": {
+    "question": "Are you a former smoker?",
+    "type": "binary"
+  },
+  "e 174": {
+    "question": "Have you been unintentionally losing weight or have you lost your appetite?",
+    "type": "binary"
+  },
+  "think you are pregnant or are you currently pregnant": {
+    "question": "Do you think you are pregnant or are you currently pregnant?",
+    "type": "binary"
+  },
+  "currently taking or have you recently taken anti-inflammatory drugs (nsaids)": {
+    "question": "Are you currently taking or have you recently taken anti-inflammatory drugs (NSAIDs)?",
+    "type": "binary"
+  },
+  "e 109": {
+    "question": "Have you ever had deep vein thrombosis (DVT)?",
+    "type": "binary"
+  },
+  "e 137": {
+    "question": "Have you ever had surgery to remove lymph nodes?",
+    "type": "binary"
+  },
+  "known kidney problem resulting in an inability to retain proteins": {
+    "question": "Do you have a known kidney problem resulting in an inability to retain proteins?",
+    "type": "binary"
+  },
+  "e 43": {
+    "question": "Have you lost consciousness associated with violent and sustained muscle contractions or had an absence episode?",
+    "type": "binary"
+  },
+  "e 74": {
+    "question": "Have you noticed a diffuse (widespread) redness in one or both eyes?",
+    "type": "binary"
+  },
+  "work in agriculture": {
+    "question": "Do you work in agriculture?",
+    "type": "binary"
+  },
+  "being treated for osteoporosis": {
+    "question": "Are you being treated for osteoporosis?",
+    "type": "binary"
+  },
+  "pain that is increased with movement": {
+    "question": "Do you have pain that is increased with movement?",
+    "type": "binary"
+  },
+  "e 165": {
+    "question": "Have any of your family members ever had a pneumothorax?",
+    "type": "binary"
+  },
+  "e 214": {
+    "question": "Have you noticed a wheezing sound when you exhale?",
+    "type": "binary"
+  },
+  "e 96": {
+    "question": "Have you gained weight recently?",
+    "type": "binary"
+  },
+  "liver cirrhosis": {
+    "question": "Do you have liver cirrhosis?",
+    "type": "binary"
+  },
+  "e 158": {
+    "question": "Were you diagnosed with endocrine disease or a hormone dysfunction?",
+    "type": "binary"
+  },
+  "family members who have been diagnosed with anemia": {
+    "question": "Do you have any family members who have been diagnosed with anemia?",
+    "type": "binary"
+  },
+  "e 179": {
+    "question": "Have you noticed light red blood or blood clots in your stool?",
+    "type": "binary"
+  },
+  "parkinson\u2019s disease": {
+    "question": "Do you have Parkinson\u2019s disease?",
+    "type": "binary"
+  },
+  "hiatal hernia": {
+    "question": "Do you have a hiatal hernia?",
+    "type": "binary"
+  },
+  "burning sensation that starts in your stomach then goes up into your throat, and can be associated with a bitter taste in your mouth": {
+    "question": "Do you have a burning sensation that starts in your stomach then goes up into your throat, and can be associated with a bitter taste in your mouth?",
+    "type": "binary"
+  },
+  "symptoms that get worse after eating": {
+    "question": "Do you have symptoms that get worse after eating?",
+    "type": "binary"
+  },
+  "pain or weakness in your jaw": {
+    "question": "Do you have pain or weakness in your jaw?",
+    "type": "binary"
+  },
+  "difficulty articulating words/speaking": {
+    "question": "Do you have difficulty articulating words/speaking?",
+    "type": "binary"
+  },
+  "e 101": {
+    "question": "Have you been hospitalized for an asthma attack in the past year?",
+    "type": "binary"
+  },
+  "e 119": {
+    "question": "Have you been diagnosed with chronic sinusitis?",
+    "type": "binary"
+  },
+  "one or several flare ups of chronic obstructive pulmonary disease (copd) in the past year": {
+    "question": "Have you had one or several flare ups of chronic obstructive pulmonary disease (COPD) in the past year?",
+    "type": "binary"
+  },
+  "work in construction": {
+    "question": "Do you work in construction?",
+    "type": "binary"
+  },
+  "2 or more asthma attacks in the past year": {
+    "question": "Have you had 2 or more asthma attacks in the past year?",
+    "type": "binary"
+  },
+  "e 0": {
+    "question": "Have you recently had a viral infection?",
+    "type": "binary"
+  },
+  "e 83": {
+    "question": "Have you noticed weakness in your facial muscles and/or eyes?",
+    "type": "binary"
+  },
+  "numbness, loss of sensation or tingling in the feet": {
+    "question": "Do you have numbness, loss of sensation or tingling in the feet?",
+    "type": "binary"
+  },
+  "high cholesterol or do you take medications to treat high cholesterol": {
+    "question": "Do you have high cholesterol or do you take medications to treat high cholesterol?",
+    "type": "binary"
+  },
+  "very abundant or very long menstruation periods": {
+    "question": "Do you have very abundant or very long menstruation periods?",
+    "type": "binary"
+  },
+  "active cancer": {
+    "question": "Do you have an active cancer?",
+    "type": "binary"
+  },
+  "e 110": {
+    "question": "Have you been unable to move or get up for more than 3 consecutive days within the last 4 weeks?",
+    "type": "binary"
+  },
+  "surgery within the last month": {
+    "question": "Have you had surgery within the last month?",
+    "type": "binary"
+  },
+  "e 219": {
+    "question": "Are your symptoms more prominent at night?",
+    "type": "binary"
+  },
+  "e 186": {
+    "question": "Have you ever been diagnosed with obstructive sleep apnea (OSA)?",
+    "type": "binary"
+  },
+  "e 210": {
+    "question": "Have you recently thrown up blood or something resembling coffee beans?",
+    "type": "binary"
+  },
+  "e 40": {
+    "question": "Have you been in contact with someone who has had pertussis (whoooping cough)?",
+    "type": "binary"
+  },
+  "e 166": {
+    "question": "Did you vomit after coughing?",
+    "type": "binary"
+  },
+  "feel your heart is beating very irregularly or in a disorganized pattern": {
+    "question": "Do you feel your heart is beating very irregularly or in a disorganized pattern?",
+    "type": "binary"
+  },
+  "exercise regularly, 4 times per week or more": {
+    "question": "Do you exercise regularly, 4 times per week or more?",
+    "type": "binary"
+  },
+  "e 15": {
+    "question": "Have you started or taken any antipsychotic medication within the last 7 days?",
+    "type": "binary"
+  },
+  "e 128": {
+    "question": "Have you ever felt like you were suffocating for a very short time associated with inability to breathe or speak?",
+    "type": "binary"
+  },
+  "e 147": {
+    "question": "Have you been treated in hospital recently for nausea, agitation, intoxication or aggressive behavior and received medication via an intravenous or intramuscular route?",
+    "type": "binary"
+  },
+  "unable to control the direction of your eyes": {
+    "question": "Are you unable to control the direction of your eyes?",
+    "type": "binary"
+  },
+  "feel that muscle spasms or soreness in your neck are keeping you from turning your head to one side": {
+    "question": "Do you feel that muscle spasms or soreness in your neck are keeping you from turning your head to one side?",
+    "type": "binary"
+  },
+  "annoying muscle spasms in your face, neck or any other part of your body": {
+    "question": "Do you have annoying muscle spasms in your face, neck or any other part of your body?",
+    "type": "binary"
+  },
+  "suddenly have difficulty or an inability to open your mouth or have jaw pain when opening it": {
+    "question": "Do you suddenly have difficulty or an inability to open your mouth or have jaw pain when opening it?",
+    "type": "binary"
+  },
+  "feel your abdomen is bloated or distended (swollen due to pressure from inside)": {
+    "question": "Do you feel your abdomen is bloated or distended (swollen due to pressure from inside)?",
+    "type": "binary"
+  },
+  "currently undergo dialysis": {
+    "question": "Do you currently undergo dialysis?",
+    "type": "binary"
+  },
+  "bouts of choking or shortness of breath that wake you up at night": {
+    "question": "Do you have bouts of choking or shortness of breath that wake you up at night?",
+    "type": "binary"
+  },
+  "family members who have had lung cancer": {
+    "question": "Do you have family members who have had lung cancer?",
+    "type": "binary"
+  },
+  "trouble keeping your tongue in your mouth": {
+    "question": "Do you have trouble keeping your tongue in your mouth?",
+    "type": "binary"
+  },
+  "currently being treated or have you recently been treated with an oral antibiotic for an ear infection": {
+    "question": "Are you currently being treated or have you recently been treated with an oral antibiotic for an ear infection?",
+    "type": "binary"
+  },
+  "weakness or paralysis on one side of the face, which may still be present or completely resolved": {
+    "question": "Have you had weakness or paralysis on one side of the face, which may still be present or completely resolved?",
+    "type": "binary"
+  },
+  "regularly drink coffee or tea": {
+    "question": "Do you regularly drink coffee or tea?",
+    "type": "binary"
+  },
+  "e 213": {
+    "question": "Have you recently taken decongestants or other substances that may have stimulant effects?",
+    "type": "binary"
+  },
+  "metastatic cancer": {
+    "question": "Do you have metastatic cancer?",
+    "type": "binary"
+  },
+  "more irritable or has your mood been very unstable": {
+    "question": "Are you more irritable or has your mood been very unstable recently?",
+    "type": "binary"
+  },
+  "take a calcium channel blockers (medication)": {
+    "question": "Do you take a calcium channel blockers (medication)?",
+    "type": "binary"
+  },
+  "vaginal discharge": {
+    "question": "Have you had any vaginal discharge?",
+    "type": "binary"
+  },
+  "cystic fibrosis": {
+    "question": "Do you have cystic fibrosis?",
+    "type": "binary"
+  },
+  "currently take hormones": {
+    "question": "Do you currently take hormones?",
+    "type": "binary"
+  },
+  "wheeze while inhaling or is your breathing noisy after coughing spells": {
+    "question": "Do you wheeze while inhaling or is your breathing noisy after coughing spells?",
+    "type": "binary"
+  },
+  "feel out of breath with minimal physical effort": {
+    "question": "Do you feel out of breath with minimal physical effort?",
+    "type": "binary"
+  },
+  "e 29": {
+    "question": "Do any members of your immediate family have a psychiatric illness?",
+    "type": "binary"
+  },
+  "e 107": {
+    "question": "Have you ever had a stroke?",
+    "type": "binary"
+  },
+  "consume energy drinks regularly": {
+    "question": "Do you consume energy drinks regularly?",
+    "type": "binary"
+  },
+  "person have a whooping cough": {
+    "question": "Does the person have a whooping cough?",
+    "type": "binary"
+  },
+  "e 4": {
+    "question": "Have you or any member of your family ever had croup?",
+    "type": "binary"
+  },
+  "work in the mining sector": {
+    "question": "Do you work in the mining sector?",
+    "type": "binary"
+  },
+  "e 141": {
+    "question": "Did you have your first menstrual period before the age of 12?",
+    "type": "binary"
+  },
+  "e 11": {
+    "question": "Have you breastfed one of your children for more than 9 months?",
+    "type": "binary"
+  },
+  "e 39": {
+    "question": "Have you felt confused or disorientated lately?",
+    "type": "binary"
+  },
+  "e 73": {
+    "question": "In the last month, have you been in contact with anyone infected with the Ebola virus?",
+    "type": "binary"
+  },
+  "e 178": {
+    "question": "Have you noticed any unusual bleeding or bruising related to your consultation today?",
+    "type": "binary"
+  },
+  "live in the suburbs": {
+    "question": "Do you live in the suburbs?",
+    "type": "binary"
+  },
+  "ever temporarily stop breathing while you\u2019re asleep": {
+    "question": "Do you ever temporarily stop breathing while you\u2019re asleep?",
+    "type": "binary"
+  },
+  "decrease in appetite": {
+    "question": "Do you have a decrease in appetite?",
+    "type": "binary"
+  },
+  "e 142": {
+    "question": "Does your mother suffer from asthma?",
+    "type": "binary"
+  },
+  "live in a rural area": {
+    "question": "Do you live in a rural area?",
+    "type": "binary"
+  },
+  "of asian descent": {
+    "question": "Are you of Asian descent?",
+    "type": "binary"
+  }
+}

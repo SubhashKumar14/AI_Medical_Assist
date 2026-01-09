@@ -8,6 +8,7 @@ __pycache__/
 
 # Environment files
 .env
+.env.example
 .env.local
 .env.*.local
 
@@ -38,3 +39,8 @@ htmlcov/
 # Misc
 *.tmp
 *.temp
+
+# Large datasets (keep locally, not in git)
+evaluation/datasets/rximage/image/
+evaluation/datasets/sampleData/
+evaluation/datasets/ddxplus_release/

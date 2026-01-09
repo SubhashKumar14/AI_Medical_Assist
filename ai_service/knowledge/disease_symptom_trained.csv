@@ -1,0 +1,2041 @@
+disease,symptom,weight,info_gain
+URTI,live with 4 or more people,0.7136,2.8818
+URTI,significantly increased sweating,0.6467,4.5145
+URTI,pain,0.9962,20.388
+URTI,e 54 - sensitive,0.5423,8.6855
+URTI,e 54 - heavy,0.545,6.7571
+URTI,feel pain - forehead,0.544,5.9043
+URTI,feel pain - cheek(r),0.5474,3.6361
+URTI,feel pain - temple(l),0.4589,2.0817
+URTI,e 56 (4),0.1416,0.4581
+URTI,pain radiate to another location - nowhere,1.0,23.6038
+URTI,e 58 (3),0.143,0.3954
+URTI,e 59 (3),0.1642,0.4815
+URTI,cough that produces colored or more abundant sputum than usual,0.4121,4.9588
+URTI,smoking,0.5754,11.0741
+URTI,fever (either felt or measured with a thermometer),0.7008,9.051
+URTI,sore throat,0.7793,3.3494
+URTI,cough,0.6834,12.413
+URTI,e 204 - n,0.9707,3.0182
+URTI,exposed to secondhand cigarette smoke on a daily basis,0.632,3.0379
+URTI,feel pain - top of the head,0.5462,3.2727
+URTI,feel pain - temple(r),0.5199,2.7333
+URTI,e 56 (7),0.1415,0.5221
+URTI,e 58 (7),0.1411,0.4903
+URTI,e 59 (2),0.1656,0.4978
+URTI,e 56 (5),0.1431,0.4589
+URTI,e 58 (2),0.1444,0.398
+URTI,diffuse (widespread) muscle pain,0.5876,3.4885
+URTI,nasal congestion or a clear runny nose,0.8079,8.0171
+URTI,feel pain - cheek(l),0.5499,3.6301
+URTI,feel pain - occiput,0.5481,1.5068
+URTI,e 58 (5),0.1436,0.4049
+URTI,e 59 (4),0.1687,0.4853
+URTI,attend or work in a daycare,0.6145,2.3282
+URTI,e 58 (4),0.142,0.3967
+URTI,e 56 (6),0.1415,0.4696
+URTI,e 59 (1),0.1646,0.5038
+URTI,e 41,0.656,3.2716
+URTI,e 56 (2),0.1443,0.466
+URTI,e 59 (0),0.1699,0.751
+URTI,e 56 (3),0.1418,0.4716
+URTI,e 56 (8),0.1424,0.5473
+URTI,e 58 (1),0.1427,0.2877
+URTI,e 54 - tedious,0.6387,5.599
+URTI,e 59 (5),0.167,0.464
+URTI,e 58 (6),0.1393,0.4249
+HIV (initial infection),significantly increased sweating,0.6204,4.5145
+HIV (initial infection),pain,0.9971,20.388
+HIV (initial infection),e 54 - sensitive,0.5983,8.6855
+HIV (initial infection),feel pain - forehead,0.5978,5.9043
+HIV (initial infection),feel pain - temple(l),0.6021,2.0817
+HIV (initial infection),e 56 (4),0.1447,0.4581
+HIV (initial infection),pain radiate to another location - nowhere,1.0,23.6038
+HIV (initial infection),e 58 (3),0.1456,0.3954
+HIV (initial infection),e 59 (3),0.1398,0.4815
+HIV (initial infection),fever (either felt or measured with a thermometer),0.8408,9.051
+HIV (initial infection),sore throat,0.5634,3.3494
+HIV (initial infection),e 204 - n,0.9166,3.0182
+HIV (initial infection),swollen or painful lymph nodes,0.7527,2.4759
+HIV (initial infection),e 27,0.7177,1.0013
+HIV (initial infection),diarrhea or an increase in stool frequency,0.5949,3.4266
+HIV (initial infection),e 54 - exhausting,0.6239,5.0553
+HIV (initial infection),feel pain - top of the head,0.6029,3.2727
+HIV (initial infection),feel pain - temple(r),0.5969,2.7333
+HIV (initial infection),e 56 (7),0.1412,0.5221
+HIV (initial infection),e 58 (7),0.145,0.4903
+HIV (initial infection),e 59 (2),0.1421,0.4978
+HIV (initial infection),unprotected sex with more than one partner in the last 6 months,0.7168,0.9987
+HIV (initial infection),"lesions, redness or problems on your skin that you believe are related to the condition you are consulting for",1.0,11.7506
+HIV (initial infection),e 130 - pale,1.0,3.4887
+HIV (initial infection),e 131 - n,1.0,13.3891
+HIV (initial infection),e 132 (0),0.2012,2.5805
+HIV (initial infection),e 133 - lower gum,0.762,1.1305
+HIV (initial infection),e 133 - upper gum,0.7636,1.1354
+HIV (initial infection),e 133 - labia majora(r),0.7652,1.1402
+HIV (initial infection),e 133 - internal cheek(r),0.7576,1.1173
+HIV (initial infection),e 133 - internal cheek(l),0.566,0.618
+HIV (initial infection),e 134 (6),0.1398,0.0936
+HIV (initial infection),e 135 - y,1.0,10.3408
+HIV (initial infection),e 136 (0),1.0,6.0007
+HIV (initial infection),feel like vomiting,0.6376,5.387
+HIV (initial infection),involuntary weight loss over the last 3 months,0.6722,3.2873
+HIV (initial infection),sexual intercourse with an hiv-positive partner in the past 12 months,0.7194,1.0061
+HIV (initial infection),e 56 (5),0.1421,0.4589
+HIV (initial infection),e 58 (2),0.1395,0.398
+HIV (initial infection),e 59 (6),0.1419,0.4549
+HIV (initial infection),e 132 (4),0.1991,0.2742
+HIV (initial infection),diffuse (widespread) muscle pain,0.6347,3.4885
+HIV (initial infection),feel pain - occiput,0.2278,1.5068
+HIV (initial infection),e 58 (5),0.1428,0.4049
+HIV (initial infection),e 59 (4),0.1426,0.4853
+HIV (initial infection),e 58 (4),0.141,0.3967
+HIV (initial infection),e 56 (6),0.1436,0.4696
+HIV (initial infection),e 59 (1),0.1444,0.5038
+HIV (initial infection),feel so tired that you are unable to do your usual activities or are you stuck in your bed all day long,0.6359,2.627
+HIV (initial infection),e 56 (2),0.1429,0.466
+HIV (initial infection),e 58 (8),0.1434,0.515
+HIV (initial infection),e 59 (0),0.1454,0.751
+HIV (initial infection),e 56 (3),0.1395,0.4716
+HIV (initial infection),e 134 (3),0.1469,0.3726
+HIV (initial infection),e 56 (8),0.1432,0.5473
+HIV (initial infection),e 54 - tedious,0.6009,5.599
+HIV (initial infection),e 59 (5),0.1439,0.464
+HIV (initial infection),currently using intravenous drugs,0.5982,1.2967
+HIV (initial infection),e 58 (6),0.1398,0.4249
+HIV (initial infection),feel pain - back of the neck,0.2838,3.3589
+HIV (initial infection),e 132 (3),0.1995,0.3118
+HIV (initial infection),e 54 - a pulse,0.5972,1.3706
+HIV (initial infection),feel pain - back of head,0.5985,2.8334
+HIV (initial infection),e 134 (2),0.1405,0.3626
+HIV (initial infection),e 132 (1),0.1987,0.3125
+HIV (initial infection),e 132 (2),0.2015,0.3118
+HIV (initial infection),e 134 (5),0.1438,0.141
+HIV (initial infection),e 133 - labia majora(l),0.7596,1.1233
+HIV (initial infection),e 133 - bottom lip(r),0.3342,0.2101
+HIV (initial infection),e 134 (8),0.1414,0.0345
+HIV (initial infection),feel pain - cervical spine,0.2639,0.7807
+HIV (initial infection),e 134 (4),0.1426,0.1274
+HIV (initial infection),e 134 (7),0.1449,0.0784
+HIV (initial infection),e 133 - palace,0.0766,0.0089
+HIV (initial infection),e 133 - upper lip(r),0.1661,0.0487
+Pneumonia,pain,0.9846,20.388
+Pneumonia,e 56 (4),0.1396,0.4581
+Pneumonia,pain radiate to another location - nowhere,1.0,23.6038
+Pneumonia,e 58 (3),0.1006,0.3954
+Pneumonia,e 59 (3),0.1393,0.4815
+Pneumonia,cough that produces colored or more abundant sputum than usual,0.8536,4.9588
+Pneumonia,smoking,0.6448,11.0741
+Pneumonia,fever (either felt or measured with a thermometer),0.6961,9.051
+Pneumonia,cough,0.8276,12.413
+Pneumonia,e 204 - n,0.9701,3.0182
+Pneumonia,e 56 (7),0.1417,0.5221
+Pneumonia,e 58 (7),0.0994,0.4903
+Pneumonia,e 59 (2),0.14,0.4978
+Pneumonia,"lesions, redness or problems on your skin that you believe are related to the condition you are consulting for",0.9934,11.7506
+Pneumonia,e 132 (0),0.1473,2.5805
+Pneumonia,e 136 (0),0.1718,6.0007
+Pneumonia,e 54 - a knife stroke,0.7398,9.5684
+Pneumonia,e 54 - sharp,0.515,10.1932
+Pneumonia,feel pain - lower chest,0.253,6.3707
+Pneumonia,feel pain - side of the chest(r),0.5308,5.4358
+Pneumonia,feel pain - side of the chest(l),0.5272,4.7443
+Pneumonia,feel pain - posterior chest wall(r),0.5185,3.7359
+Pneumonia,feel pain - posterior chest wall(l),0.5273,3.3986
+Pneumonia,e 56 (5),0.1412,0.4589
+Pneumonia,e 58 (2),0.0989,0.398
+Pneumonia,e 59 (6),0.1396,0.4549
+Pneumonia,addiction to alcohol,0.6181,6.2613
+Pneumonia,chills or shivers,0.6893,1.7233
+Pneumonia,heart failure,0.7285,3.5963
+Pneumonia,e 118,0.8055,3.7898
+Pneumonia,chronic obstructive pulmonary disease (copd),0.7359,4.6812
+Pneumonia,asthma or have you ever had to use a bronchodilator in the past,0.6153,8.2922
+Pneumonia,e 130 - pink,0.9934,6.8587
+Pneumonia,e 131 - y,0.9934,1.9333
+Pneumonia,e 132 (4),0.1422,0.2742
+Pneumonia,e 133 - side of the neck(l),0.1992,0.3605
+Pneumonia,e 133 - flank(l),0.2252,0.0926
+Pneumonia,e 134 (0),0.1743,2.6038
+Pneumonia,e 135 - n,1.0,3.9451
+Pneumonia,diffuse (widespread) muscle pain,0.6904,3.4885
+Pneumonia,e 175,0.6068,2.9676
+Pneumonia,nasal congestion or a clear runny nose,0.4187,8.0171
+Pneumonia,e 58 (5),0.0984,0.4049
+Pneumonia,e 59 (4),0.1426,0.4853
+Pneumonia,e 58 (4),0.094,0.3967
+Pneumonia,e 56 (6),0.1394,0.4696
+Pneumonia,e 59 (1),0.1404,0.5038
+Pneumonia,e 58 (9),0.0991,0.4141
+Pneumonia,e 56 (1),0.1382,0.3478
+Pneumonia,underweight,0.6188,2.5741
+Pneumonia,e 56 (2),0.1427,0.466
+Pneumonia,e 58 (8),0.0993,0.515
+Pneumonia,e 59 (0),0.1597,0.751
+Pneumonia,shortness of breath or difficulty breathing in a significant way,0.6839,10.3715
+Pneumonia,e 56 (3),0.1417,0.4716
+Pneumonia,e 133 - back of the neck,0.2596,2.264
+Pneumonia,e 134 (3),0.1639,0.3726
+Pneumonia,e 45,0.5227,4.6275
+Pneumonia,feel pain - upper chest,0.2269,5.3575
+Pneumonia,feel pain - breast(r),0.2496,6.0427
+Pneumonia,feel pain - breast(l),0.2365,5.5486
+Pneumonia,e 58 (1),0.1003,0.2877
+Pneumonia,pain that is increased when you breathe in deeply,0.5263,5.5419
+Pneumonia,e 59 (5),0.1384,0.464
+Pneumonia,e 58 (6),0.0978,0.4249
+Pneumonia,e 133 - cervical spine,0.2602,0.3261
+Pneumonia,e 133 - thoracic spine,0.2577,0.1795
+Pneumonia,e 134 (1),0.1661,0.3469
+Pneumonia,e 209,0.4227,4.1077
+Pneumonia,e 132 (3),0.1425,0.3118
+Pneumonia,e 136 (3),0.1624,0.2137
+Pneumonia,get full more quickly then usually,0.6666,2.8867
+Pneumonia,e 58 (0),0.1123,0.4857
+Pneumonia,e 134 (2),0.1623,0.3626
+Pneumonia,parkinson’s disease,0.6509,0.8212
+Pneumonia,e 132 (6),0.1437,0.1279
+Pneumonia,e 133 - commissure(l),0.2607,0.1256
+Pneumonia,e 136 (2),0.1642,0.2122
+Pneumonia,e 133 - side of the neck(r),0.2153,0.3783
+Pneumonia,surgery within the last month,0.4971,2.2138
+Pneumonia,e 219,0.573,1.9713
+Pneumonia,e 132 (5),0.1458,0.1574
+Pneumonia,e 136 (4),0.1692,0.1159
+Pneumonia,e 132 (1),0.1405,0.3125
+Pneumonia,e 132 (2),0.138,0.3118
+Pneumonia,e 134 (5),0.167,0.141
+Pneumonia,e 134 (4),0.1664,0.1274
+Pneumonia,e 136 (1),0.1644,0.2172
+Pneumonia,e 107,0.5866,0.6647
+Pneumonia,e 133 - belly,0.1544,0.0417
+Pneumonia,e 133 - shoulder(r),0.2533,0.1183
+Pneumonia,e 133 - buttock(r),0.2479,0.1131
+Pneumonia,e 133 - buttock(l),0.2418,0.1074
+Pneumonia,e 133 - commissure(r),0.2618,0.1268
+Pneumonia,e 136 (5),0.168,0.0854
+Pneumonia,e 133 - posterior chest wall(l),0.1704,0.0514
+Pneumonia,e 133 - shoulder(l),0.2543,0.1193
+Pneumonia,e 133 - lumbar spine,0.2559,0.1328
+Pneumonia,e 133 - posterior chest wall(r),0.1858,0.0618
+Pneumonia,e 133 - flank(r),0.2368,0.1028
+Chronic rhinosinusitis,pain,1.0,20.388
+Chronic rhinosinusitis,feel pain - forehead,0.7494,5.9043
+Chronic rhinosinusitis,feel pain - cheek(r),0.7492,3.6361
+Chronic rhinosinusitis,feel pain - temple(l),0.0929,2.0817
+Chronic rhinosinusitis,e 56 (4),0.1599,0.4581
+Chronic rhinosinusitis,e 58 (3),0.14,0.3954
+Chronic rhinosinusitis,e 59 (3),0.1968,0.4815
+Chronic rhinosinusitis,smoking,0.7099,11.0741
+Chronic rhinosinusitis,cough,0.8287,12.413
+Chronic rhinosinusitis,e 204 - n,0.9693,3.0182
+Chronic rhinosinusitis,feel pain - temple(r),0.1913,2.7333
+Chronic rhinosinusitis,e 58 (7),0.1445,0.4903
+Chronic rhinosinusitis,e 59 (2),0.1997,0.4978
+Chronic rhinosinusitis,e 54 - sharp,0.7459,10.1932
+Chronic rhinosinusitis,e 56 (5),0.1641,0.4589
+Chronic rhinosinusitis,e 58 (2),0.1397,0.398
+Chronic rhinosinusitis,e 118,0.7103,3.7898
+Chronic rhinosinusitis,asthma or have you ever had to use a bronchodilator in the past,0.8675,8.2922
+Chronic rhinosinusitis,nasal congestion or a clear runny nose,0.5134,8.0171
+Chronic rhinosinusitis,feel pain - cheek(l),0.7404,3.6301
+Chronic rhinosinusitis,e 58 (5),0.1423,0.4049
+Chronic rhinosinusitis,e 59 (4),0.2063,0.4853
+Chronic rhinosinusitis,e 58 (4),0.1418,0.3967
+Chronic rhinosinusitis,e 54 - burning,0.8092,7.083
+Chronic rhinosinusitis,feel pain - nose,0.7409,2.1021
+Chronic rhinosinusitis,feel pain - eye(r),0.5725,2.2954
+Chronic rhinosinusitis,e 56 (6),0.1655,0.4696
+Chronic rhinosinusitis,pain radiate to another location - forehead,0.6332,1.8342
+Chronic rhinosinusitis,pain radiate to another location - nose,0.6403,1.821
+Chronic rhinosinusitis,pain radiate to another location - temple(r),0.6351,1.8163
+Chronic rhinosinusitis,pain radiate to another location - temple(l),0.6373,1.8358
+Chronic rhinosinusitis,e 59 (1),0.1969,0.5038
+Chronic rhinosinusitis,e 103,0.8432,2.4083
+Chronic rhinosinusitis,cold in the last 2 weeks,0.6206,3.7424
+Chronic rhinosinusitis,polyps in your nose,0.9086,3.1761
+Chronic rhinosinusitis,deviated nasal septum,0.6849,1.796
+Chronic rhinosinusitis,e 125,0.6879,3.5721
+Chronic rhinosinusitis,greenish or yellowish nasal discharge,0.6675,2.1005
+Chronic rhinosinusitis,more likely to develop common allergies than the general population,0.8177,5.018
+Chronic rhinosinusitis,e 56 (1),0.1699,0.3478
+Chronic rhinosinusitis,e 56 (2),0.1702,0.466
+Chronic rhinosinusitis,e 58 (8),0.1473,0.515
+Chronic rhinosinusitis,e 59 (0),0.2002,0.751
+Chronic rhinosinusitis,feel pain - eye(l),0.3518,1.5452
+Chronic rhinosinusitis,e 56 (3),0.1705,0.4716
+Chronic rhinosinusitis,e 58 (6),0.1443,0.4249
+Chronic rhinosinusitis,feel pain - mouth,0.7397,2.0889
+Chronic rhinosinusitis,pain radiate to another location - back of head,0.6376,1.8175
+Viral pharyngitis,live with 4 or more people,0.6399,2.8818
+Viral pharyngitis,pain,1.0,20.388
+Viral pharyngitis,e 54 - sensitive,0.7972,8.6855
+Viral pharyngitis,e 56 (4),0.145,0.4581
+Viral pharyngitis,pain radiate to another location - nowhere,1.0,23.6038
+Viral pharyngitis,e 59 (3),0.1689,0.4815
+Viral pharyngitis,smoking,0.6004,11.0741
+Viral pharyngitis,fever (either felt or measured with a thermometer),0.4932,9.051
+Viral pharyngitis,cough,0.5998,12.413
+Viral pharyngitis,e 204 - n,0.9699,3.0182
+Viral pharyngitis,e 56 (7),0.1441,0.5221
+Viral pharyngitis,e 58 (7),0.1437,0.4903
+Viral pharyngitis,e 59 (2),0.1699,0.4978
+Viral pharyngitis,e 56 (5),0.1424,0.4589
+Viral pharyngitis,nasal congestion or a clear runny nose,0.6868,8.0171
+Viral pharyngitis,e 58 (5),0.145,0.4049
+Viral pharyngitis,e 59 (4),0.1646,0.4853
+Viral pharyngitis,attend or work in a daycare,0.7167,2.3282
+Viral pharyngitis,e 58 (4),0.1415,0.3967
+Viral pharyngitis,e 54 - burning,0.8379,7.083
+Viral pharyngitis,e 56 (6),0.1421,0.4696
+Viral pharyngitis,e 59 (1),0.1652,0.5038
+Viral pharyngitis,e 41,0.7988,3.2716
+Viral pharyngitis,feel pain - tonsil(r),0.7968,3.159
+Viral pharyngitis,feel pain - tonsil(l),0.7975,3.1485
+Viral pharyngitis,feel pain - thyroid cartilage,0.7962,1.7192
+Viral pharyngitis,feel pain - palace,0.7935,3.1344
+Viral pharyngitis,feel pain - pharynx,0.7953,3.4434
+Viral pharyngitis,e 58 (9),0.1422,0.4141
+Viral pharyngitis,immunosuppressed,0.5935,2.1992
+Viral pharyngitis,e 58 (8),0.1414,0.515
+Viral pharyngitis,e 59 (0),0.1648,0.751
+Viral pharyngitis,e 58 (10),0.1421,0.4175
+Viral pharyngitis,e 56 (3),0.1407,0.4716
+Viral pharyngitis,e 45,0.5525,4.6275
+Viral pharyngitis,e 56 (8),0.142,0.5473
+Viral pharyngitis,e 56 (9),0.1438,0.5211
+Viral pharyngitis,e 59 (5),0.1666,0.464
+Viral pharyngitis,e 58 (6),0.1442,0.4249
+Viral pharyngitis,feel pain - under the jaw,0.5413,1.4394
+Anemia,pain,0.9905,20.388
+Anemia,e 54 - sensitive,0.5934,8.6855
+Anemia,feel pain - forehead,0.6021,5.9043
+Anemia,feel pain - temple(l),0.6011,2.0817
+Anemia,e 56 (4),0.1981,0.4581
+Anemia,pain radiate to another location - nowhere,1.0,23.6038
+Anemia,e 58 (3),0.1415,0.3954
+Anemia,e 59 (3),0.166,0.4815
+Anemia,e 204 - n,0.5285,3.0182
+Anemia,e 54 - exhausting,0.6201,5.0553
+Anemia,feel pain - top of the head,0.5963,3.2727
+Anemia,feel pain - temple(r),0.6038,2.7333
+Anemia,e 58 (7),0.1431,0.4903
+Anemia,e 59 (2),0.1645,0.4978
+Anemia,e 56 (5),0.1961,0.4589
+Anemia,e 58 (2),0.1404,0.398
+Anemia,e 58 (5),0.1462,0.4049
+Anemia,e 59 (4),0.1658,0.4853
+Anemia,e 58 (4),0.1386,0.3967
+Anemia,e 59 (1),0.1639,0.5038
+Anemia,poor diet,0.7497,1.0939
+Anemia,e 24,0.7775,1.1776
+Anemia,e 54 - tugging,0.593,4.1004
+Anemia,e 54 - a cramp,0.5942,3.7986
+Anemia,e 56 (1),0.2024,0.3478
+Anemia,feel lightheaded and dizzy or do you feel like you are about to faint,0.6671,3.693
+Anemia,feel so tired that you are unable to do your usual activities or are you stuck in your bed all day long,0.6352,2.627
+Anemia,chronic kidney failure,0.7514,1.0989
+Anemia,e 140,0.5981,0.8535
+Anemia,taking any new oral anticoagulants ((noacs),0.7983,1.2423
+Anemia,skin much paler than usual,0.6011,0.6985
+Anemia,underweight,0.7772,2.5741
+Anemia,e 56 (2),0.1949,0.466
+Anemia,e 58 (8),0.1377,0.515
+Anemia,e 59 (0),0.1739,0.751
+Anemia,shortness of breath or difficulty breathing in a significant way,0.6041,10.3715
+Anemia,feel slightly dizzy or lightheaded,0.6027,2.5106
+Anemia,e 56 (3),0.199,0.4716
+Anemia,e 59 (5),0.1658,0.464
+Anemia,e 58 (6),0.143,0.4249
+Anemia,non-restful sleep,0.6014,4.2598
+Anemia,feel pain - back of head,0.6021,2.8334
+Anemia,think you are pregnant or are you currently pregnant,0.3426,0.4381
+Anemia,family members who have been diagnosed with anemia,0.7126,0.9869
+Anemia,e 179,0.6004,0.6969
+Anemia,very abundant or very long menstruation periods,0.2177,0.0862
+Anemia,e 204 - west africa,0.0704,1.9617
+Anemia,e 204 - asia,0.0556,0.0042
+Anemia,e 204 - north africa,0.0707,0.0074
+Anemia,e 204 - south east asia,0.0553,0.0041
+Anemia,e 204 - south africa,0.0738,0.0081
+Atrial fibrillation,e 204 - n,0.9679,3.0182
+Atrial fibrillation,e 19,0.7098,0.979
+Atrial fibrillation,known issue with one of your heart valves,0.7647,1.8662
+Atrial fibrillation,severe chronic obstructive pulmonary disease (copd),0.7471,1.9001
+Atrial fibrillation,shortness of breath or difficulty breathing in a significant way,0.7217,10.3715
+Atrial fibrillation,diabetes,0.5762,5.5862
+Atrial fibrillation,significantly overweight compared to people of the same height as you,0.6241,5.8498
+Atrial fibrillation,feel slightly dizzy or lightheaded,0.6912,2.5106
+Atrial fibrillation,high blood pressure or do you take medications to treat high blood pressure,0.7386,5.0569
+Atrial fibrillation,angina (chest pain),0.7191,5.4348
+Atrial fibrillation,known heart defect,0.6652,0.8582
+Atrial fibrillation,"feel your heart is beating fast (racing), irregularly (missing a beat) or do you feel palpitations",0.7314,5.1248
+Atrial fibrillation,symptoms that are increased with physical exertion but alleviated with rest,0.5748,5.004
+Atrial fibrillation,feel your heart is beating very irregularly or in a disorganized pattern,0.7632,1.1341
+Allergic sinusitis,cough,0.6277,12.413
+Allergic sinusitis,e 204 - n,0.9521,3.0182
+Allergic sinusitis,asthma or have you ever had to use a bronchodilator in the past,0.7548,8.2922
+Allergic sinusitis,nasal congestion or a clear runny nose,0.8764,8.0171
+Allergic sinusitis,more likely to develop common allergies than the general population,0.7134,5.018
+Allergic sinusitis,"close family members who suffer from allergies (any type), hay fever or eczema",0.6886,0.9206
+Allergic sinusitis,family members who have asthma,0.5174,1.3347
+Allergic sinusitis,nose or the back of your throat itchy,0.8236,1.3233
+Allergic sinusitis,severe itching in one or both eyes,0.7263,1.0257
+Allergic sinusitis,live in in a big city,0.6211,1.3644
+Larygospasm,smoking,0.5348,11.0741
+Larygospasm,e 204 - n,0.9469,3.0182
+Larygospasm,exposed to secondhand cigarette smoke on a daily basis,0.5187,3.0379
+Larygospasm,asthma or have you ever had to use a bronchodilator in the past,0.5185,8.2922
+Larygospasm,cold in the last 2 weeks,0.5292,3.7424
+Larygospasm,e 125,0.5107,3.5721
+Larygospasm,e 194,1.0,4.5582
+Larygospasm,e 204 - north america,0.0531,0.9775
+Cluster headache,pain,1.0,20.388
+Cluster headache,feel pain - forehead,0.7641,5.9043
+Cluster headache,feel pain - cheek(r),0.7617,3.6361
+Cluster headache,feel pain - temple(l),0.3265,2.0817
+Cluster headache,pain radiate to another location - nowhere,1.0,23.6038
+Cluster headache,e 204 - n,0.9694,3.0182
+Cluster headache,feel pain - temple(r),0.5581,2.7333
+Cluster headache,e 56 (7),0.2476,0.5221
+Cluster headache,e 58 (7),0.168,0.4903
+Cluster headache,e 54 - a knife stroke,0.7597,9.5684
+Cluster headache,e 54 - sharp,0.7623,10.1932
+Cluster headache,addiction to alcohol,0.6652,6.2613
+Cluster headache,nasal congestion or a clear runny nose,0.5941,8.0171
+Cluster headache,feel pain - cheek(l),0.7593,3.6301
+Cluster headache,e 58 (5),0.1656,0.4049
+Cluster headache,feel pain - eye(r),0.7615,2.2954
+Cluster headache,e 58 (9),0.1665,0.4141
+Cluster headache,e 54 - tugging,0.7629,4.1004
+Cluster headache,e 58 (8),0.1669,0.515
+Cluster headache,e 25,0.8308,1.3469
+Cluster headache,e 54 - haunting,0.7613,3.6621
+Cluster headache,e 54 - violent,0.7588,4.0309
+Cluster headache,feel pain - eye(l),0.7623,1.5452
+Cluster headache,e 58 (10),0.169,0.4175
+Cluster headache,e 59 (9),0.2506,0.4846
+Cluster headache,take medication that dilates your blood vessels,0.7506,1.0965
+Cluster headache,e 56 (8),0.2507,0.5473
+Cluster headache,e 59 (8),0.249,0.5129
+Cluster headache,e 56 (9),0.2505,0.5211
+Cluster headache,feel that your eyes produce excessive tears,0.6044,0.7063
+Cluster headache,e 58 (6),0.1641,0.4249
+Cluster headache,e 56 (10),0.2512,0.4343
+Cluster headache,e 59 (10),0.2466,0.409
+Cluster headache,e 59 (7),0.2537,0.5638
+Anaphylaxis,pain,0.9995,20.388
+Anaphylaxis,e 56 (4),0.1445,0.4581
+Anaphylaxis,pain radiate to another location - nowhere,1.0,23.6038
+Anaphylaxis,e 58 (3),0.1437,0.3954
+Anaphylaxis,e 59 (3),0.1444,0.4815
+Anaphylaxis,e 204 - n,0.9701,3.0182
+Anaphylaxis,diarrhea or an increase in stool frequency,0.6047,3.4266
+Anaphylaxis,e 56 (7),0.1441,0.5221
+Anaphylaxis,e 59 (2),0.1389,0.4978
+Anaphylaxis,"lesions, redness or problems on your skin that you believe are related to the condition you are consulting for",1.0,11.7506
+Anaphylaxis,e 131 - n,1.0,13.3891
+Anaphylaxis,e 132 (0),0.1435,2.5805
+Anaphylaxis,e 135 - y,1.0,10.3408
+Anaphylaxis,feel like vomiting,0.5479,5.387
+Anaphylaxis,e 54 - a knife stroke,0.6457,9.5684
+Anaphylaxis,e 54 - sharp,0.5541,10.1932
+Anaphylaxis,e 56 (5),0.1395,0.4589
+Anaphylaxis,e 58 (2),0.139,0.398
+Anaphylaxis,e 59 (6),0.1435,0.4549
+Anaphylaxis,e 130 - pink,1.0,6.8587
+Anaphylaxis,e 132 (4),0.1415,0.2742
+Anaphylaxis,e 134 (0),0.2539,2.6038
+Anaphylaxis,e 58 (5),0.1454,0.4049
+Anaphylaxis,e 59 (4),0.1435,0.4853
+Anaphylaxis,e 58 (4),0.1434,0.3967
+Anaphylaxis,e 56 (6),0.1425,0.4696
+Anaphylaxis,more likely to develop common allergies than the general population,0.669,5.018
+Anaphylaxis,e 54 - a cramp,0.5569,3.7986
+Anaphylaxis,feel lightheaded and dizzy or do you feel like you are about to faint,0.6307,3.693
+Anaphylaxis,shortness of breath or difficulty breathing in a significant way,0.6022,10.3715
+Anaphylaxis,e 194,0.601,4.5582
+Anaphylaxis,known severe food allergy,0.804,1.2603
+Anaphylaxis,e 42,0.772,1.1608
+Anaphylaxis,feel pain - iliac fossa(r),0.5548,1.7481
+Anaphylaxis,feel pain - iliac fossa(l),0.552,1.7604
+Anaphylaxis,feel pain - hypochondrium(r),0.5276,1.4309
+Anaphylaxis,feel pain - hypochondrium(l),0.462,2.0952
+Anaphylaxis,feel pain - epigastric,0.5507,5.699
+Anaphylaxis,e 56 (3),0.1447,0.4716
+Anaphylaxis,e 133 - back of the neck,0.7521,2.264
+Anaphylaxis,e 133 - biceps(l),0.7498,1.9187
+Anaphylaxis,e 133 - mouth,0.7503,1.9338
+Anaphylaxis,e 133 - thyroid cartilage,0.7505,1.9222
+Anaphylaxis,e 133 - ankle(r),0.5746,1.2719
+Anaphylaxis,e 134 (3),0.2491,0.3726
+Anaphylaxis,e 136 (10),0.2551,0.1895
+Anaphylaxis,swelling in one or more areas of your body,0.9933,6.9475
+Anaphylaxis,e 152 - forehead,0.718,1.0021
+Anaphylaxis,e 152 - cheek(r),0.7173,1.0001
+Anaphylaxis,e 152 - cheek(l),0.7137,0.99
+Anaphylaxis,e 159,0.5999,1.5328
+Anaphylaxis,e 56 (8),0.1455,0.5473
+Anaphylaxis,e 58 (1),0.1435,0.2877
+Anaphylaxis,e 59 (8),0.1442,0.5129
+Anaphylaxis,e 56 (9),0.1388,0.5211
+Anaphylaxis,e 59 (5),0.1415,0.464
+Anaphylaxis,feel pain - flank(l),0.5569,1.7209
+Anaphylaxis,e 58 (6),0.141,0.4249
+Anaphylaxis,feel pain - pubis,0.2862,0.4036
+Anaphylaxis,e 133 - ankle(l),0.3471,0.5613
+Anaphylaxis,e 133 - cervical spine,0.184,0.3261
+Anaphylaxis,e 133 - thoracic spine,0.0856,0.1795
+Anaphylaxis,e 134 (1),0.2477,0.3469
+Anaphylaxis,e 132 (3),0.1426,0.3118
+Anaphylaxis,feel pain - flank(r),0.5562,1.4761
+Anaphylaxis,feel pain - belly,0.3773,2.2215
+Anaphylaxis,e 133 - biceps(r),0.747,1.9013
+Anaphylaxis,e 136 (9),0.2507,0.1826
+Anaphylaxis,e 58 (0),0.144,0.4857
+Anaphylaxis,e 134 (2),0.2493,0.3626
+Anaphylaxis,e 136 (8),0.249,0.1831
+Anaphylaxis,e 152 - nose,0.7173,1.0001
+Anaphylaxis,e 214,0.5977,5.3032
+Anaphylaxis,e 132 (6),0.143,0.1279
+Anaphylaxis,e 132 (5),0.1412,0.1574
+Anaphylaxis,e 136 (7),0.2451,0.1776
+Anaphylaxis,e 59 (7),0.1435,0.5638
+Anaphylaxis,e 132 (1),0.1446,0.3125
+Anaphylaxis,e 132 (2),0.1436,0.3118
+Spontaneous pneumothorax,pain,1.0,20.388
+Spontaneous pneumothorax,pain radiate to another location - nowhere,1.0,23.6038
+Spontaneous pneumothorax,e 58 (3),0.145,0.3954
+Spontaneous pneumothorax,smoking,0.7961,11.0741
+Spontaneous pneumothorax,e 204 - n,0.969,3.0182
+Spontaneous pneumothorax,e 56 (7),0.1994,0.5221
+Spontaneous pneumothorax,e 58 (7),0.1422,0.4903
+Spontaneous pneumothorax,e 54 - a knife stroke,0.7705,9.5684
+Spontaneous pneumothorax,feel pain - lower chest,0.5518,6.3707
+Spontaneous pneumothorax,feel pain - side of the chest(r),0.5558,5.4358
+Spontaneous pneumothorax,feel pain - side of the chest(l),0.5466,4.7443
+Spontaneous pneumothorax,e 58 (2),0.1421,0.398
+Spontaneous pneumothorax,e 59 (6),0.1632,0.4549
+Spontaneous pneumothorax,chronic obstructive pulmonary disease (copd),0.5918,4.6812
+Spontaneous pneumothorax,e 58 (5),0.1445,0.4049
+Spontaneous pneumothorax,e 58 (4),0.1407,0.3967
+Spontaneous pneumothorax,e 56 (6),0.1989,0.4696
+Spontaneous pneumothorax,shortness of breath or difficulty breathing in a significant way,0.6529,10.3715
+Spontaneous pneumothorax,symptoms that are increased with physical exertion but alleviated with rest,0.5694,5.004
+Spontaneous pneumothorax,e 54 - violent,0.7495,4.0309
+Spontaneous pneumothorax,e 59 (9),0.1605,0.4846
+Spontaneous pneumothorax,e 21,0.8446,1.3925
+Spontaneous pneumothorax,e 54 - heartbreaking,0.7505,3.06
+Spontaneous pneumothorax,feel pain - upper chest,0.4941,5.3575
+Spontaneous pneumothorax,feel pain - breast(r),0.7572,6.0427
+Spontaneous pneumothorax,feel pain - breast(l),0.7457,5.5486
+Spontaneous pneumothorax,e 56 (8),0.2052,0.5473
+Spontaneous pneumothorax,e 58 (1),0.1416,0.2877
+Spontaneous pneumothorax,e 59 (8),0.1643,0.5129
+Spontaneous pneumothorax,pain that is increased when you breathe in deeply,0.9058,5.5419
+Spontaneous pneumothorax,e 56 (9),0.1984,0.5211
+Spontaneous pneumothorax,e 59 (5),0.1696,0.464
+Spontaneous pneumothorax,e 58 (6),0.1438,0.4249
+Spontaneous pneumothorax,e 56 (10),0.1981,0.4343
+Spontaneous pneumothorax,chest pain even at rest,0.5678,1.4329
+Spontaneous pneumothorax,e 59 (10),0.17,0.409
+Spontaneous pneumothorax,e 165,0.6654,0.8587
+Spontaneous pneumothorax,e 59 (7),0.1724,0.5638
+Acute pulmonary edema,significantly increased sweating,0.5865,4.5145
+Acute pulmonary edema,pain,1.0,20.388
+Acute pulmonary edema,e 54 - sensitive,0.5972,8.6855
+Acute pulmonary edema,e 54 - heavy,0.6281,6.7571
+Acute pulmonary edema,e 56 (4),0.1223,0.4581
+Acute pulmonary edema,e 58 (3),0.1205,0.3954
+Acute pulmonary edema,e 59 (3),0.1102,0.4815
+Acute pulmonary edema,e 204 - n,0.9706,3.0182
+Acute pulmonary edema,e 56 (7),0.1309,0.5221
+Acute pulmonary edema,e 58 (7),0.1276,0.4903
+Acute pulmonary edema,e 59 (2),0.1125,0.4978
+Acute pulmonary edema,feel pain - lower chest,0.5241,6.3707
+Acute pulmonary edema,feel pain - side of the chest(r),0.5211,5.4358
+Acute pulmonary edema,feel pain - side of the chest(l),0.5181,4.7443
+Acute pulmonary edema,feel pain - posterior chest wall(r),0.5229,3.7359
+Acute pulmonary edema,feel pain - posterior chest wall(l),0.5202,3.3986
+Acute pulmonary edema,e 56 (5),0.1225,0.4589
+Acute pulmonary edema,e 58 (2),0.1262,0.398
+Acute pulmonary edema,e 59 (6),0.1078,0.4549
+Acute pulmonary edema,heart failure,0.9097,3.5963
+Acute pulmonary edema,e 175,0.7187,2.9676
+Acute pulmonary edema,e 58 (5),0.1269,0.4049
+Acute pulmonary edema,e 59 (4),0.1143,0.4853
+Acute pulmonary edema,e 58 (4),0.1245,0.3967
+Acute pulmonary edema,e 56 (6),0.1265,0.4696
+Acute pulmonary edema,e 59 (1),0.1113,0.5038
+Acute pulmonary edema,e 54 - tugging,0.525,4.1004
+Acute pulmonary edema,e 56 (2),0.1215,0.466
+Acute pulmonary edema,e 58 (8),0.1237,0.515
+Acute pulmonary edema,e 59 (0),0.108,0.751
+Acute pulmonary edema,shortness of breath or difficulty breathing in a significant way,0.7935,10.3715
+Acute pulmonary edema,high blood pressure or do you take medications to treat high blood pressure,0.749,5.0569
+Acute pulmonary edema,angina (chest pain),0.8187,5.4348
+Acute pulmonary edema,symptoms that are increased with physical exertion but alleviated with rest,0.7589,5.004
+Acute pulmonary edema,e 56 (3),0.1245,0.4716
+Acute pulmonary edema,swelling in one or more areas of your body,0.9988,6.9475
+Acute pulmonary edema,feel pain - upper chest,0.3866,5.3575
+Acute pulmonary edema,feel pain - breast(r),0.4992,6.0427
+Acute pulmonary edema,feel pain - breast(l),0.453,5.5486
+Acute pulmonary edema,e 56 (8),0.1266,0.5473
+Acute pulmonary edema,e 58 (1),0.1247,0.2877
+Acute pulmonary edema,e 59 (8),0.1146,0.5129
+Acute pulmonary edema,e 56 (9),0.1251,0.5211
+Acute pulmonary edema,e 5,0.8252,1.3285
+Acute pulmonary edema,e 54 - tedious,0.5934,5.599
+Acute pulmonary edema,feel pain - ankle(r),0.3529,1.654
+Acute pulmonary edema,feel pain - ankle(l),0.2577,1.5609
+Acute pulmonary edema,pain radiate to another location - biceps(l),0.5229,3.3038
+Acute pulmonary edema,pain radiate to another location - triceps(r),0.3074,0.2418
+Acute pulmonary edema,pain radiate to another location - triceps(l),0.2354,0.1126
+Acute pulmonary edema,pain radiate to another location - shoulder(r),0.5193,3.3027
+Acute pulmonary edema,pain radiate to another location - shoulder(l),0.5211,2.2908
+Acute pulmonary edema,e 59 (5),0.1095,0.464
+Acute pulmonary edema,e 152 - ankle(r),0.6667,2.0029
+Acute pulmonary edema,e 152 - calf(l),0.6667,1.1865
+Acute pulmonary edema,e 152 - tibia(r),0.6725,0.8774
+Acute pulmonary edema,e 152 - tibia(l),0.5786,0.6463
+Acute pulmonary edema,e 217,0.7609,3.4495
+Acute pulmonary edema,e 58 (6),0.1258,0.4249
+Acute pulmonary edema,pain radiate to another location - scapula(r),0.4516,2.4264
+Acute pulmonary edema,pain radiate to another location - scapula(l),0.3834,2.3345
+Acute pulmonary edema,pain radiate to another location - biceps(r),0.5242,3.314
+Acute pulmonary edema,e 152 - ankle(l),0.6679,1.9991
+Acute pulmonary edema,pain radiate to another location - chin,0.5059,0.4916
+Acute pulmonary edema,e 152 - calf(r),0.6705,1.2051
+Acute pulmonary edema,e 59 (7),0.1119,0.5638
+Acute pulmonary edema,currently undergo dialysis,0.75,1.0947
+Acute pulmonary edema,feel pain - calf(l),0.1117,0.0253
+Acute pulmonary edema,pain radiate to another location - jaw,0.5178,0.5155
+Acute pulmonary edema,bouts of choking or shortness of breath that wake you up at night,0.743,1.0741
+Acute pulmonary edema,feel pain - calf(r),0.1709,0.0674
+Acute pulmonary edema,feel pain - tibia(r),0.0679,0.0067
+Tuberculosis,fever (either felt or measured with a thermometer),0.6443,9.051
+Tuberculosis,cough,0.9998,12.413
+Tuberculosis,e 204 - n,0.9683,3.0182
+Tuberculosis,involuntary weight loss over the last 3 months,0.5789,3.2873
+Tuberculosis,addiction to alcohol,0.5956,6.2613
+Tuberculosis,underweight,0.6291,2.5741
+Tuberculosis,shortness of breath or difficulty breathing in a significant way,0.5821,10.3715
+Tuberculosis,diabetes,0.6919,5.5862
+Tuberculosis,e 45,0.7709,4.6275
+Tuberculosis,infected with the human immunodeficiency virus (hiv),0.607,1.5479
+Tuberculosis,take corticosteroids,0.542,1.3264
+Tuberculosis,currently using intravenous drugs,0.5725,1.2967
+Myasthenia gravis,e 204 - n,0.9577,3.0182
+Myasthenia gravis,shortness of breath or difficulty breathing in a significant way,0.7639,10.3715
+Myasthenia gravis,"currently, have any weakness/paralysis in one or more of your limbs or in your face",0.57,1.2676
+Myasthenia gravis,e 28,0.6495,0.8176
+Myasthenia gravis,perception of seeing two images of a single object seen overlapping or adjacent to each other (double vision),0.7448,1.0794
+Myasthenia gravis,feel weakness in both arms and/or both legs,0.6392,1.8272
+Myasthenia gravis,e 90,0.4952,0.4706
+Myasthenia gravis,hard time opening/raising one or both eyelids,0.7393,1.709
+Myasthenia gravis,"difficulty swallowing, or have a feeling of discomfort/blockage when swallowing",0.759,2.1116
+Myasthenia gravis,pain or weakness in your jaw,0.6618,0.8493
+Myasthenia gravis,difficulty articulating words/speaking,0.7429,1.0738
+Panic attack,significantly increased sweating,0.6063,4.5145
+Panic attack,pain,1.0,20.388
+Panic attack,e 56 (4),0.1432,0.4581
+Panic attack,pain radiate to another location - nowhere,1.0,23.6038
+Panic attack,e 204 - n,0.97,3.0182
+Panic attack,e 56 (7),0.1393,0.5221
+Panic attack,e 58 (7),0.1987,0.4903
+Panic attack,feel like vomiting,0.5337,5.387
+Panic attack,e 54 - sharp,0.6948,10.1932
+Panic attack,feel pain - lower chest,0.3208,6.3707
+Panic attack,feel pain - side of the chest(r),0.5625,5.4358
+Panic attack,feel pain - side of the chest(l),0.4518,4.7443
+Panic attack,e 56 (5),0.145,0.4589
+Panic attack,e 59 (6),0.1675,0.4549
+Panic attack,addiction to alcohol,0.5694,6.2613
+Panic attack,asthma or have you ever had to use a bronchodilator in the past,0.6307,8.2922
+Panic attack,e 56 (6),0.1472,0.4696
+Panic attack,e 58 (9),0.199,0.4141
+Panic attack,e 54 - a cramp,0.7869,3.7986
+Panic attack,feel lightheaded and dizzy or do you feel like you are about to faint,0.7013,3.693
+Panic attack,e 56 (2),0.145,0.466
+Panic attack,e 58 (8),0.2016,0.515
+Panic attack,shortness of breath or difficulty breathing in a significant way,0.7054,10.3715
+Panic attack,"feel your heart is beating fast (racing), irregularly (missing a beat) or do you feel palpitations",0.7219,5.1248
+Panic attack,e 58 (10),0.2002,0.4175
+Panic attack,e 59 (9),0.1662,0.4846
+Panic attack,feel pain - iliac fossa(r),0.4101,1.7481
+Panic attack,feel pain - iliac fossa(l),0.4041,1.7604
+Panic attack,feel pain - hypochondrium(r),0.4135,1.4309
+Panic attack,feel pain - hypochondrium(l),0.4126,2.0952
+Panic attack,e 56 (3),0.1373,0.4716
+Panic attack,feel pain - upper chest,0.0667,5.3575
+Panic attack,feel pain - breast(r),0.2044,6.0427
+Panic attack,feel pain - breast(l),0.1181,5.5486
+Panic attack,e 56 (8),0.143,0.5473
+Panic attack,e 59 (8),0.1639,0.5129
+Panic attack,e 59 (5),0.1659,0.464
+Panic attack,feel anxious,0.6716,1.7277
+Panic attack,feel pain - flank(l),0.4081,1.7209
+Panic attack,e 58 (6),0.2005,0.4249
+Panic attack,suffer from chronic anxiety,0.7523,1.1016
+Panic attack,e 99,0.5434,0.5688
+Panic attack,suffer from fibromyalgia,0.6651,0.858
+Panic attack,e 157,0.805,2.1519
+Panic attack,"currently, or did you ever, have numbness, loss of sensitivity or tingling anywhere on your body",0.5518,1.2013
+Panic attack,e 185,0.714,0.9908
+Panic attack,feel pain - pubis,0.3702,0.4036
+Panic attack,feel like you are (or were) choking or suffocating,0.5659,0.6178
+Panic attack,e 80,0.7337,1.047
+Panic attack,feel like you are dying or were you afraid that you were about do die,0.7666,1.1444
+Panic attack,feel like you are detached from your own body or your surroundings,0.7163,0.9973
+Panic attack,feel pain - flank(r),0.4087,1.4761
+Panic attack,feel pain - belly,0.3885,2.2215
+Panic attack,e 59 (10),0.1678,0.409
+Panic attack,e 59 (7),0.1688,0.5638
+Panic attack,e 29,0.5539,0.5914
+Scombroid food poisoning,e 204 - n,0.9707,3.0182
+Scombroid food poisoning,diarrhea or an increase in stool frequency,0.5232,3.4266
+Scombroid food poisoning,"lesions, redness or problems on your skin that you believe are related to the condition you are consulting for",1.0,11.7506
+Scombroid food poisoning,e 131 - n,1.0,13.3891
+Scombroid food poisoning,e 132 (0),0.1396,2.5805
+Scombroid food poisoning,e 135 - y,1.0,10.3408
+Scombroid food poisoning,feel like vomiting,0.5329,5.387
+Scombroid food poisoning,e 130 - pink,1.0,6.8587
+Scombroid food poisoning,e 132 (4),0.1463,0.2742
+Scombroid food poisoning,e 134 (0),0.2518,2.6038
+Scombroid food poisoning,feel lightheaded and dizzy or do you feel like you are about to faint,0.5176,3.693
+Scombroid food poisoning,shortness of breath or difficulty breathing in a significant way,0.5568,10.3715
+Scombroid food poisoning,"feel your heart is beating fast (racing), irregularly (missing a beat) or do you feel palpitations",0.5366,5.1248
+Scombroid food poisoning,e 133 - back of the neck,0.6672,2.264
+Scombroid food poisoning,e 133 - biceps(l),0.6678,1.9187
+Scombroid food poisoning,e 133 - mouth,0.6731,1.9338
+Scombroid food poisoning,e 133 - thyroid cartilage,0.6684,1.9222
+Scombroid food poisoning,e 133 - ankle(r),0.5853,1.2719
+Scombroid food poisoning,e 134 (3),0.253,0.3726
+Scombroid food poisoning,e 136 (10),0.2015,0.1895
+Scombroid food poisoning,e 92,0.9854,1.902
+Scombroid food poisoning,e 133 - ankle(l),0.4259,0.5613
+Scombroid food poisoning,e 133 - cervical spine,0.2874,0.3261
+Scombroid food poisoning,e 133 - thoracic spine,0.1702,0.1795
+Scombroid food poisoning,e 134 (1),0.2487,0.3469
+Scombroid food poisoning,e 187,0.9796,1.8795
+Scombroid food poisoning,e 132 (3),0.1417,0.3118
+Scombroid food poisoning,e 133 - biceps(r),0.6642,1.9013
+Scombroid food poisoning,e 136 (9),0.1979,0.1826
+Scombroid food poisoning,e 134 (2),0.2465,0.3626
+Scombroid food poisoning,e 136 (8),0.2007,0.1831
+Scombroid food poisoning,e 214,0.5354,5.3032
+Scombroid food poisoning,e 132 (6),0.1441,0.1279
+Scombroid food poisoning,e 136 (6),0.2017,0.0735
+Scombroid food poisoning,e 132 (5),0.1433,0.1574
+Scombroid food poisoning,e 136 (7),0.1982,0.1776
+Scombroid food poisoning,e 132 (1),0.1437,0.3125
+Scombroid food poisoning,e 132 (2),0.1413,0.3118
+Scombroid food poisoning,e 133 - lumbar spine,0.0925,0.1328
+Scombroid food poisoning,e 133 - thigh(r),0.0509,0.0033
+Epiglottitis,pain,1.0,20.388
+Epiglottitis,pain radiate to another location - nowhere,1.0,23.6038
+Epiglottitis,e 59 (3),0.1412,0.4815
+Epiglottitis,fever (either felt or measured with a thermometer),0.682,9.051
+Epiglottitis,e 204 - n,0.9681,3.0182
+Epiglottitis,e 56 (7),0.1634,0.5221
+Epiglottitis,e 58 (7),0.1677,0.4903
+Epiglottitis,e 54 - a knife stroke,0.828,9.5684
+Epiglottitis,e 54 - sharp,0.7792,10.1932
+Epiglottitis,e 56 (5),0.1662,0.4589
+Epiglottitis,e 59 (6),0.1437,0.4549
+Epiglottitis,addiction to alcohol,0.5942,6.2613
+Epiglottitis,e 58 (5),0.1704,0.4049
+Epiglottitis,e 59 (4),0.1389,0.4853
+Epiglottitis,e 56 (6),0.1669,0.4696
+Epiglottitis,feel pain - tonsil(r),0.7834,3.159
+Epiglottitis,feel pain - tonsil(l),0.781,3.1485
+Epiglottitis,feel pain - palace,0.7798,3.1344
+Epiglottitis,feel pain - pharynx,0.7742,3.4434
+Epiglottitis,e 58 (9),0.1629,0.4141
+Epiglottitis,e 58 (8),0.1633,0.515
+Epiglottitis,shortness of breath or difficulty breathing in a significant way,0.6826,10.3715
+Epiglottitis,diabetes,0.6048,5.5862
+Epiglottitis,high blood pressure or do you take medications to treat high blood pressure,0.5984,5.0569
+Epiglottitis,e 194,0.777,4.5582
+Epiglottitis,e 58 (10),0.1682,0.4175
+Epiglottitis,e 59 (9),0.1461,0.4846
+Epiglottitis,e 56 (8),0.1677,0.5473
+Epiglottitis,e 59 (8),0.1458,0.5129
+Epiglottitis,e 56 (9),0.1687,0.5211
+Epiglottitis,e 59 (5),0.146,0.464
+Epiglottitis,e 58 (6),0.1675,0.4249
+Epiglottitis,pain that improves when you lean forward,0.609,0.7173
+Epiglottitis,feel pain - back of the neck,0.7385,3.3589
+Epiglottitis,e 56 (10),0.1671,0.4343
+Epiglottitis,regularly take stimulant drugs,0.5996,2.5202
+Epiglottitis,"difficulty swallowing, or have a feeling of discomfort/blockage when swallowing",0.7295,2.1116
+Epiglottitis,e 190,0.7376,1.687
+Epiglottitis,e 209,0.4991,4.1077
+Epiglottitis,feel pain - under the jaw,0.1636,1.4394
+Epiglottitis,e 212,0.7591,2.5159
+Epiglottitis,feel pain - trachea,0.0737,0.3098
+Epiglottitis,feel pain - side of the neck(r),0.5365,1.418
+Epiglottitis,feel pain - side of the neck(l),0.3197,0.8311
+Epiglottitis,e 59 (7),0.1385,0.5638
+Inguinal hernia,pain,0.9998,20.388
+Inguinal hernia,e 54 - heavy,0.9998,6.7571
+Inguinal hernia,e 56 (4),0.1367,0.4581
+Inguinal hernia,pain radiate to another location - nowhere,1.0,23.6038
+Inguinal hernia,e 58 (3),0.1428,0.3954
+Inguinal hernia,e 59 (3),0.1371,0.4815
+Inguinal hernia,e 204 - n,0.9584,3.0182
+Inguinal hernia,e 56 (7),0.1495,0.5221
+Inguinal hernia,e 59 (2),0.1384,0.4978
+Inguinal hernia,"lesions, redness or problems on your skin that you believe are related to the condition you are consulting for",0.9055,11.7506
+Inguinal hernia,e 130 - pale,0.9055,3.4887
+Inguinal hernia,e 131 - n,1.0,13.3891
+Inguinal hernia,e 132 (0),0.0945,2.5805
+Inguinal hernia,e 134 (6),0.1494,0.0936
+Inguinal hernia,e 135 - y,0.9055,10.3408
+Inguinal hernia,e 136 (0),1.0,6.0007
+Inguinal hernia,e 56 (5),0.1378,0.4589
+Inguinal hernia,e 58 (2),0.1399,0.398
+Inguinal hernia,e 59 (6),0.1452,0.4549
+Inguinal hernia,e 132 (4),0.1184,0.2742
+Inguinal hernia,e 134 (0),0.0945,2.6038
+Inguinal hernia,e 135 - n,0.0945,3.9451
+Inguinal hernia,e 58 (5),0.1443,0.4049
+Inguinal hernia,e 59 (4),0.1409,0.4853
+Inguinal hernia,e 58 (4),0.1469,0.3967
+Inguinal hernia,e 56 (6),0.1427,0.4696
+Inguinal hernia,e 59 (1),0.1494,0.5038
+Inguinal hernia,e 56 (1),0.1471,0.3478
+Inguinal hernia,e 56 (2),0.1462,0.466
+Inguinal hernia,significantly overweight compared to people of the same height as you,0.3541,5.8498
+Inguinal hernia,feel pain - iliac fossa(r),0.6836,1.7481
+Inguinal hernia,feel pain - iliac fossa(l),0.6934,1.7604
+Inguinal hernia,e 56 (3),0.1398,0.4716
+Inguinal hernia,e 134 (3),0.1026,0.3726
+Inguinal hernia,e 58 (1),0.1402,0.2877
+Inguinal hernia,e 59 (5),0.1441,0.464
+Inguinal hernia,e 58 (6),0.1332,0.4249
+Inguinal hernia,e 134 (1),0.1099,0.3469
+Inguinal hernia,feel pain - hip(r),0.687,0.9163
+Inguinal hernia,feel pain - hip(l),0.6853,0.9117
+Inguinal hernia,feel pain - testicle(r),0.5741,0.6362
+Inguinal hernia,feel pain - testicle(l),0.4993,0.4786
+Inguinal hernia,e 132 (3),0.12,0.3118
+Inguinal hernia,e 133 - iliac fossa(l),0.7,0.9518
+Inguinal hernia,e 150,0.5301,0.5408
+Inguinal hernia,e 160,0.5805,0.6507
+Inguinal hernia,intense coughing fits,0.6489,2.8522
+Inguinal hernia,e 221,0.5994,0.6945
+Inguinal hernia,e 130 - na,0.0945,2.1071
+Inguinal hernia,e 133 - nowhere,0.0945,2.1071
+Inguinal hernia,e 58 (0),0.1527,0.4857
+Inguinal hernia,e 134 (2),0.1108,0.3626
+Inguinal hernia,e 132 (6),0.1312,0.1279
+Inguinal hernia,e 132 (5),0.1318,0.1574
+Inguinal hernia,e 59 (7),0.1447,0.5638
+Inguinal hernia,e 132 (1),0.1373,0.3125
+Inguinal hernia,e 132 (2),0.1252,0.3118
+Inguinal hernia,e 134 (5),0.1503,0.141
+Inguinal hernia,feel your abdomen is bloated or distended (swollen due to pressure from inside),0.6156,0.7332
+Inguinal hernia,e 132 (7),0.1415,0.0346
+Inguinal hernia,e 133 - iliac fossa(r),0.7056,0.9673
+Inguinal hernia,e 134 (4),0.1248,0.1274
+Inguinal hernia,e 134 (7),0.1578,0.0784
+Boerhaave,pain,0.9999,20.388
+Boerhaave,e 58 (3),0.1403,0.3954
+Boerhaave,e 204 - n,0.973,3.0182
+Boerhaave,e 56 (7),0.1945,0.5221
+Boerhaave,e 58 (7),0.1404,0.4903
+Boerhaave,feel like vomiting,0.7626,5.387
+Boerhaave,e 54 - a knife stroke,0.7525,9.5684
+Boerhaave,feel pain - lower chest,0.7537,6.3707
+Boerhaave,e 58 (2),0.1477,0.398
+Boerhaave,e 59 (6),0.1999,0.4549
+Boerhaave,addiction to alcohol,0.7141,6.2613
+Boerhaave,e 58 (5),0.1428,0.4049
+Boerhaave,e 58 (4),0.1419,0.3967
+Boerhaave,e 56 (6),0.2033,0.4696
+Boerhaave,shortness of breath or difficulty breathing in a significant way,0.641,10.3715
+Boerhaave,e 54 - haunting,0.7571,3.6621
+Boerhaave,e 54 - violent,0.7495,4.0309
+Boerhaave,e 59 (9),0.1995,0.4846
+Boerhaave,feel pain - hypochondrium(r),0.3517,1.4309
+Boerhaave,feel pain - hypochondrium(l),0.2468,2.0952
+Boerhaave,feel pain - epigastric,0.7647,5.699
+Boerhaave,e 54 - heartbreaking,0.7514,3.06
+Boerhaave,feel pain - upper chest,0.7532,5.3575
+Boerhaave,e 56 (8),0.202,0.5473
+Boerhaave,e 58 (1),0.1409,0.2877
+Boerhaave,e 59 (8),0.1955,0.5129
+Boerhaave,e 56 (9),0.1977,0.5211
+Boerhaave,feel pain - flank(l),0.4609,1.7209
+Boerhaave,e 58 (6),0.1459,0.4249
+Boerhaave,e 56 (10),0.2025,0.4343
+Boerhaave,e 54 - sickening,0.7598,3.0164
+Boerhaave,feel pain - flank(r),0.557,1.4761
+Boerhaave,feel pain - belly,0.6805,2.2215
+Boerhaave,pain radiate to another location - thoracic spine,0.7558,5.2286
+Boerhaave,pain radiate to another location - scapula(r),0.7516,2.4264
+Boerhaave,pain radiate to another location - scapula(l),0.758,2.3345
+Boerhaave,e 211,0.8033,1.2581
+Boerhaave,e 59 (10),0.204,0.409
+Boerhaave,e 210,0.719,1.1678
+Boerhaave,e 59 (7),0.201,0.5638
+Pancreatic neoplasm,pain,0.9727,20.388
+Pancreatic neoplasm,e 54 - sensitive,0.5832,8.6855
+Pancreatic neoplasm,e 56 (4),0.1601,0.4581
+Pancreatic neoplasm,pain radiate to another location - nowhere,0.4182,23.6038
+Pancreatic neoplasm,e 58 (3),0.1612,0.3954
+Pancreatic neoplasm,e 59 (3),0.1622,0.4815
+Pancreatic neoplasm,smoking,0.6695,11.0741
+Pancreatic neoplasm,cough,0.5023,12.413
+Pancreatic neoplasm,e 204 - n,0.9688,3.0182
+Pancreatic neoplasm,diarrhea or an increase in stool frequency,0.5605,3.4266
+Pancreatic neoplasm,e 59 (2),0.1626,0.4978
+Pancreatic neoplasm,"lesions, redness or problems on your skin that you believe are related to the condition you are consulting for",0.7184,11.7506
+Pancreatic neoplasm,e 131 - n,1.0,13.3891
+Pancreatic neoplasm,e 132 (0),0.4667,2.5805
+Pancreatic neoplasm,e 135 - y,0.7184,10.3408
+Pancreatic neoplasm,e 136 (0),0.4268,6.0007
+Pancreatic neoplasm,feel like vomiting,0.4947,5.387
+Pancreatic neoplasm,involuntary weight loss over the last 3 months,0.6195,3.2873
+Pancreatic neoplasm,e 56 (5),0.16,0.4589
+Pancreatic neoplasm,e 58 (2),0.1633,0.398
+Pancreatic neoplasm,e 134 (0),0.4595,2.6038
+Pancreatic neoplasm,e 135 - n,0.2816,3.9451
+Pancreatic neoplasm,e 58 (5),0.1602,0.4049
+Pancreatic neoplasm,e 59 (4),0.1599,0.4853
+Pancreatic neoplasm,e 58 (4),0.1621,0.3967
+Pancreatic neoplasm,e 56 (6),0.1605,0.4696
+Pancreatic neoplasm,e 59 (1),0.1592,0.5038
+Pancreatic neoplasm,e 54 - a cramp,0.7407,3.7986
+Pancreatic neoplasm,e 56 (1),0.1651,0.3478
+Pancreatic neoplasm,e 56 (2),0.162,0.466
+Pancreatic neoplasm,e 59 (0),0.1907,0.751
+Pancreatic neoplasm,diabetes,0.5937,5.5862
+Pancreatic neoplasm,significantly overweight compared to people of the same height as you,0.6653,5.8498
+Pancreatic neoplasm,feel pain - hypochondrium(l),0.6096,2.0952
+Pancreatic neoplasm,feel pain - epigastric,0.6115,5.699
+Pancreatic neoplasm,e 56 (3),0.165,0.4716
+Pancreatic neoplasm,e 134 (3),0.1799,0.3726
+Pancreatic neoplasm,e 58 (1),0.1602,0.2877
+Pancreatic neoplasm,e 59 (5),0.1653,0.464
+Pancreatic neoplasm,feel pain - flank(l),0.515,1.7209
+Pancreatic neoplasm,e 134 (1),0.184,0.3469
+Pancreatic neoplasm,e 132 (3),0.1774,0.3118
+Pancreatic neoplasm,feel pain - belly,0.5217,2.2215
+Pancreatic neoplasm,pain radiate to another location - thoracic spine,0.5818,5.2286
+Pancreatic neoplasm,chronic pancreatitis,0.64,0.7935
+Pancreatic neoplasm,non-restful sleep,0.6066,4.2598
+Pancreatic neoplasm,e 130 - yellow,0.7184,1.0032
+Pancreatic neoplasm,e 133 - epigastric,0.7184,1.0032
+Pancreatic neoplasm,e 136 (3),0.1416,0.2137
+Pancreatic neoplasm,pale stools and dark urine,0.7241,1.0195
+Pancreatic neoplasm,e 223,0.7502,1.0953
+Pancreatic neoplasm,e 130 - na,0.2816,2.1071
+Pancreatic neoplasm,e 133 - nowhere,0.2816,2.1071
+Pancreatic neoplasm,e 58 (0),0.193,0.4857
+Pancreatic neoplasm,e 134 (2),0.1767,0.3626
+Pancreatic neoplasm,e 136 (2),0.1417,0.2122
+Pancreatic neoplasm,e 136 (4),0.1437,0.1159
+Pancreatic neoplasm,e 132 (1),0.1757,0.3125
+Pancreatic neoplasm,e 132 (2),0.1802,0.3118
+Pancreatic neoplasm,e 136 (1),0.1462,0.2172
+Bronchitis,pain,0.9945,20.388
+Bronchitis,e 54 - sensitive,0.4438,8.6855
+Bronchitis,e 56 (4),0.1997,0.4581
+Bronchitis,pain radiate to another location - nowhere,1.0,23.6038
+Bronchitis,e 58 (3),0.1405,0.3954
+Bronchitis,e 59 (3),0.1668,0.4815
+Bronchitis,cough that produces colored or more abundant sputum than usual,0.7818,4.9588
+Bronchitis,smoking,0.5763,11.0741
+Bronchitis,fever (either felt or measured with a thermometer),0.5357,9.051
+Bronchitis,sore throat,0.491,3.3494
+Bronchitis,cough,0.8717,12.413
+Bronchitis,e 204 - n,0.9705,3.0182
+Bronchitis,e 58 (7),0.1413,0.4903
+Bronchitis,e 59 (2),0.1653,0.4978
+Bronchitis,feel pain - lower chest,0.4436,6.3707
+Bronchitis,feel pain - side of the chest(r),0.4415,5.4358
+Bronchitis,feel pain - side of the chest(l),0.4451,4.7443
+Bronchitis,feel pain - posterior chest wall(r),0.4369,3.7359
+Bronchitis,feel pain - posterior chest wall(l),0.4394,3.3986
+Bronchitis,e 56 (5),0.1973,0.4589
+Bronchitis,e 58 (2),0.1432,0.398
+Bronchitis,chronic obstructive pulmonary disease (copd),0.7865,4.6812
+Bronchitis,nasal congestion or a clear runny nose,0.4609,8.0171
+Bronchitis,e 58 (5),0.1419,0.4049
+Bronchitis,e 59 (4),0.1691,0.4853
+Bronchitis,e 58 (4),0.1411,0.3967
+Bronchitis,e 54 - burning,0.7457,7.083
+Bronchitis,e 59 (1),0.1674,0.5038
+Bronchitis,feel pain - pharynx,0.4367,3.4434
+Bronchitis,e 56 (1),0.1973,0.3478
+Bronchitis,e 56 (2),0.1977,0.466
+Bronchitis,e 59 (0),0.167,0.751
+Bronchitis,shortness of breath or difficulty breathing in a significant way,0.5704,10.3715
+Bronchitis,e 56 (3),0.2024,0.4716
+Bronchitis,feel pain - upper chest,0.3353,5.3575
+Bronchitis,feel pain - breast(r),0.4182,6.0427
+Bronchitis,feel pain - breast(l),0.3817,5.5486
+Bronchitis,e 58 (1),0.1415,0.2877
+Bronchitis,e 59 (5),0.1644,0.464
+Bronchitis,e 58 (6),0.1449,0.4249
+Bronchitis,e 209,0.4278,4.1077
+Bronchitis,e 214,0.5427,5.3032
+Bronchitis,e 219,0.5726,1.9713
+SLE,pain,1.0,20.388
+SLE,e 54 - sensitive,0.613,8.6855
+SLE,e 56 (4),0.1375,0.4581
+SLE,pain radiate to another location - nowhere,1.0,23.6038
+SLE,e 59 (3),0.1455,0.4815
+SLE,smoking,0.6599,11.0741
+SLE,e 204 - n,0.9171,3.0182
+SLE,e 56 (7),0.1432,0.5221
+SLE,e 58 (7),0.1649,0.4903
+SLE,e 59 (2),0.1479,0.4978
+SLE,"lesions, redness or problems on your skin that you believe are related to the condition you are consulting for",0.972,11.7506
+SLE,e 131 - n,1.0,13.3891
+SLE,e 132 (0),0.2219,2.5805
+SLE,e 135 - y,0.972,10.3408
+SLE,e 136 (0),0.2726,6.0007
+SLE,e 54 - sharp,0.7791,10.1932
+SLE,e 56 (5),0.1412,0.4589
+SLE,e 59 (6),0.1464,0.4549
+SLE,e 132 (4),0.1994,0.2742
+SLE,e 58 (5),0.1635,0.4049
+SLE,e 59 (4),0.1423,0.4853
+SLE,e 56 (6),0.146,0.4696
+SLE,e 59 (1),0.1426,0.5038
+SLE,e 58 (9),0.1655,0.4141
+SLE,e 56 (2),0.1443,0.466
+SLE,e 58 (8),0.1673,0.515
+SLE,e 59 (0),0.1386,0.751
+SLE,shortness of breath or difficulty breathing in a significant way,0.7073,10.3715
+SLE,e 58 (10),0.1705,0.4175
+SLE,e 56 (3),0.1475,0.4716
+SLE,e 56 (8),0.1403,0.5473
+SLE,feel pain - ankle(r),0.6393,1.654
+SLE,feel pain - ankle(l),0.6438,1.5609
+SLE,e 59 (5),0.1366,0.464
+SLE,e 58 (6),0.1685,0.4249
+SLE,feel pain - back of the neck,0.6499,3.3589
+SLE,e 132 (3),0.1976,0.3118
+SLE,non-restful sleep,0.5874,4.2598
+SLE,e 136 (3),0.2427,0.2137
+SLE,e 3,0.6054,2.0347
+SLE,feel pain - dorsal aspect of the wrist(l),0.4466,0.3893
+SLE,feel pain - palmar face of the wrist(r),0.3133,0.1861
+SLE,feel pain - palmar face of the wrist(l),0.2021,0.0738
+SLE,feel pain - shoulder(l),0.6406,0.8506
+SLE,consulting because you have high blood pressure,0.5824,0.655
+SLE,e 130 - red,0.972,1.8501
+SLE,e 133 - cheek(r),0.6687,0.8674
+SLE,e 133 - cheek(l),0.6623,0.8506
+SLE,e 133 - nose,0.6661,0.8606
+SLE,painful mouth ulcers or sores,0.6557,0.8335
+SLE,feel pain - dorsal aspect of the wrist(r),0.5663,0.6407
+SLE,feel pain - shoulder(r),0.6412,0.911
+SLE,e 136 (2),0.2411,0.2122
+SLE,e 132 (1),0.1886,0.3125
+SLE,e 132 (2),0.1925,0.3118
+SLE,e 136 (1),0.2436,0.2172
+SLE,feel pain - knee(r),0.1198,0.0241
+SLE,e 141,0.3401,0.2178
+SLE,e 11,0.1002,0.0163
+SLE,feel pain - knee(l),0.0686,0.0069
+Acute laryngitis,live with 4 or more people,0.5976,2.8818
+Acute laryngitis,pain,0.9993,20.388
+Acute laryngitis,e 54 - sensitive,0.6659,8.6855
+Acute laryngitis,e 56 (4),0.144,0.4581
+Acute laryngitis,pain radiate to another location - nowhere,1.0,23.6038
+Acute laryngitis,e 58 (3),0.138,0.3954
+Acute laryngitis,e 59 (3),0.1667,0.4815
+Acute laryngitis,smoking,0.5957,11.0741
+Acute laryngitis,fever (either felt or measured with a thermometer),0.5483,9.051
+Acute laryngitis,cough,0.5755,12.413
+Acute laryngitis,e 204 - n,0.9704,3.0182
+Acute laryngitis,e 56 (7),0.141,0.5221
+Acute laryngitis,e 58 (7),0.1405,0.4903
+Acute laryngitis,e 59 (2),0.1657,0.4978
+Acute laryngitis,e 56 (5),0.1443,0.4589
+Acute laryngitis,e 58 (2),0.1393,0.398
+Acute laryngitis,e 58 (5),0.1453,0.4049
+Acute laryngitis,e 59 (4),0.1635,0.4853
+Acute laryngitis,attend or work in a daycare,0.6015,2.3282
+Acute laryngitis,e 58 (4),0.1436,0.3967
+Acute laryngitis,e 54 - burning,0.7754,7.083
+Acute laryngitis,e 56 (6),0.1424,0.4696
+Acute laryngitis,e 59 (1),0.1724,0.5038
+Acute laryngitis,cold in the last 2 weeks,0.6648,3.7424
+Acute laryngitis,feel pain - tonsil(r),0.6665,3.159
+Acute laryngitis,feel pain - tonsil(l),0.6643,3.1485
+Acute laryngitis,feel pain - thyroid cartilage,0.5106,1.7192
+Acute laryngitis,feel pain - palace,0.6649,3.1344
+Acute laryngitis,feel pain - pharynx,0.6459,3.4434
+Acute laryngitis,e 56 (1),0.1412,0.3478
+Acute laryngitis,e 56 (2),0.1417,0.466
+Acute laryngitis,e 58 (8),0.1472,0.515
+Acute laryngitis,e 59 (0),0.1657,0.751
+Acute laryngitis,e 56 (3),0.1448,0.4716
+Acute laryngitis,e 59 (5),0.166,0.464
+Acute laryngitis,e 58 (6),0.1454,0.4249
+Acute laryngitis,feel pain - under the jaw,0.6706,1.4394
+Acute laryngitis,e 212,0.8608,2.5159
+Acute laryngitis,feel pain - trachea,0.3998,0.3098
+Unstable angina,significantly increased sweating,0.5265,4.5145
+Unstable angina,pain,1.0,20.388
+Unstable angina,e 54 - heavy,0.7222,6.7571
+Unstable angina,e 56 (4),0.1431,0.4581
+Unstable angina,e 58 (3),0.1416,0.3954
+Unstable angina,e 59 (3),0.1415,0.4815
+Unstable angina,smoking,0.7105,11.0741
+Unstable angina,e 204 - n,0.9697,3.0182
+Unstable angina,e 54 - exhausting,0.7442,5.0553
+Unstable angina,e 56 (7),0.1404,0.5221
+Unstable angina,e 58 (7),0.1432,0.4903
+Unstable angina,feel like vomiting,0.55,5.387
+Unstable angina,feel pain - lower chest,0.7226,6.3707
+Unstable angina,feel pain - side of the chest(r),0.5208,5.4358
+Unstable angina,feel pain - side of the chest(l),0.39,4.7443
+Unstable angina,e 56 (5),0.1466,0.4589
+Unstable angina,e 58 (2),0.1412,0.398
+Unstable angina,e 59 (6),0.1458,0.4549
+Unstable angina,addiction to alcohol,0.6275,6.2613
+Unstable angina,e 58 (5),0.1424,0.4049
+Unstable angina,e 59 (4),0.1399,0.4853
+Unstable angina,e 58 (4),0.1447,0.3967
+Unstable angina,e 56 (6),0.1429,0.4696
+Unstable angina,feel pain - thyroid cartilage,0.0943,1.7192
+Unstable angina,e 58 (8),0.1441,0.515
+Unstable angina,shortness of breath or difficulty breathing in a significant way,0.6309,10.3715
+Unstable angina,diabetes,0.7639,5.5862
+Unstable angina,significantly overweight compared to people of the same height as you,0.7276,5.8498
+Unstable angina,high blood pressure or do you take medications to treat high blood pressure,0.6772,5.0569
+Unstable angina,angina (chest pain),0.8172,5.4348
+Unstable angina,symptoms that are increased with physical exertion but alleviated with rest,0.718,5.004
+Unstable angina,e 59 (9),0.1438,0.4846
+Unstable angina,feel pain - epigastric,0.6741,5.699
+Unstable angina,feel pain - upper chest,0.6761,5.3575
+Unstable angina,feel pain - breast(r),0.6781,6.0427
+Unstable angina,feel pain - breast(l),0.678,5.5486
+Unstable angina,e 56 (8),0.142,0.5473
+Unstable angina,e 59 (8),0.1441,0.5129
+Unstable angina,e 56 (9),0.1438,0.5211
+Unstable angina,e 54 - tedious,0.7206,5.599
+Unstable angina,pain radiate to another location - biceps(l),0.7196,3.3038
+Unstable angina,pain radiate to another location - triceps(r),0.117,0.2418
+Unstable angina,pain radiate to another location - triceps(l),0.0537,0.1126
+Unstable angina,pain radiate to another location - shoulder(r),0.7178,3.3027
+Unstable angina,pain radiate to another location - shoulder(l),0.5788,2.2908
+Unstable angina,e 59 (5),0.1398,0.464
+Unstable angina,e 58 (6),0.1428,0.4249
+Unstable angina,e 56 (10),0.1412,0.4343
+Unstable angina,pain radiate to another location - thoracic spine,0.7161,5.2286
+Unstable angina,non-restful sleep,0.5407,4.2598
+Unstable angina,find that your symptoms have worsened over the last 2 weeks and that progressively less effort is required to cause the symptoms,0.6953,0.9389
+Unstable angina,chest pain even at rest,0.6586,1.4329
+Unstable angina,pain radiate to another location - thyroid cartilage,0.7267,2.8833
+Unstable angina,pain radiate to another location - under the jaw,0.3872,0.8244
+Unstable angina,pain radiate to another location - trachea,0.2206,0.2748
+Unstable angina,close family members who had a cardiovascular disease problem before the age of 50,0.7668,2.8628
+Unstable angina,pain radiate to another location - biceps(r),0.7212,3.314
+Unstable angina,feel pain - shoulder(r),0.0562,0.911
+Unstable angina,high cholesterol or do you take medications to treat high cholesterol,0.705,2.9053
+Unstable angina,e 59 (7),0.1451,0.5638
+Unstable angina,feel pain - biceps(l),0.1196,0.0685
+Unstable angina,feel pain - thoracic spine,0.0731,0.0238
+Unstable angina,"exercise regularly, 4 times per week or more",0.6562,1.6341
+Unstable angina,feel pain - biceps(r),0.1465,0.111
+Bronchiectasis,cough that produces colored or more abundant sputum than usual,0.8523,4.9588
+Bronchiectasis,cough,0.7068,12.413
+Bronchiectasis,e 204 - n,0.9675,3.0182
+Bronchiectasis,e 118,0.6352,3.7898
+Bronchiectasis,chronic obstructive pulmonary disease (copd),0.6584,4.6812
+Bronchiectasis,asthma or have you ever had to use a bronchodilator in the past,0.5838,8.2922
+Bronchiectasis,immunosuppressed,0.711,2.1992
+Bronchiectasis,shortness of breath or difficulty breathing in a significant way,0.7162,10.3715
+Bronchiectasis,e 45,0.5877,4.6275
+Bronchiectasis,rheumatoid arthritis,0.6771,0.8897
+Bronchiectasis,suffer from crohn’s disease or ulcerative colitis (uc),0.6708,0.8729
+Bronchiectasis,cystic fibrosis,0.7956,1.2338
+Bronchiectasis,of asian descent,0.1131,0.0213
+Possible NSTEMI / STEMI,significantly increased sweating,0.6372,4.5145
+Possible NSTEMI / STEMI,pain,1.0,20.388
+Possible NSTEMI / STEMI,e 54 - heavy,0.7457,6.7571
+Possible NSTEMI / STEMI,e 58 (3),0.1385,0.3954
+Possible NSTEMI / STEMI,smoking,0.7454,11.0741
+Possible NSTEMI / STEMI,e 204 - n,0.972,3.0182
+Possible NSTEMI / STEMI,e 56 (7),0.1691,0.5221
+Possible NSTEMI / STEMI,e 58 (7),0.1454,0.4903
+Possible NSTEMI / STEMI,feel like vomiting,0.5989,5.387
+Possible NSTEMI / STEMI,e 54 - sharp,0.7437,10.1932
+Possible NSTEMI / STEMI,feel pain - lower chest,0.7398,6.3707
+Possible NSTEMI / STEMI,feel pain - side of the chest(r),0.5553,5.4358
+Possible NSTEMI / STEMI,feel pain - side of the chest(l),0.3854,4.7443
+Possible NSTEMI / STEMI,e 56 (5),0.1673,0.4589
+Possible NSTEMI / STEMI,e 58 (2),0.1426,0.398
+Possible NSTEMI / STEMI,e 59 (6),0.1651,0.4549
+Possible NSTEMI / STEMI,e 58 (5),0.1443,0.4049
+Possible NSTEMI / STEMI,e 58 (4),0.1435,0.3967
+Possible NSTEMI / STEMI,e 56 (6),0.1675,0.4696
+Possible NSTEMI / STEMI,feel pain - thyroid cartilage,0.0762,1.7192
+Possible NSTEMI / STEMI,e 58 (8),0.1444,0.515
+Possible NSTEMI / STEMI,shortness of breath or difficulty breathing in a significant way,0.6661,10.3715
+Possible NSTEMI / STEMI,diabetes,0.765,5.5862
+Possible NSTEMI / STEMI,significantly overweight compared to people of the same height as you,0.6857,5.8498
+Possible NSTEMI / STEMI,high blood pressure or do you take medications to treat high blood pressure,0.7227,5.0569
+Possible NSTEMI / STEMI,angina (chest pain),0.7187,5.4348
+Possible NSTEMI / STEMI,e 59 (9),0.1686,0.4846
+Possible NSTEMI / STEMI,feel pain - epigastric,0.7018,5.699
+Possible NSTEMI / STEMI,feel pain - upper chest,0.6995,5.3575
+Possible NSTEMI / STEMI,feel pain - breast(r),0.6959,6.0427
+Possible NSTEMI / STEMI,feel pain - breast(l),0.6976,5.5486
+Possible NSTEMI / STEMI,e 56 (8),0.1653,0.5473
+Possible NSTEMI / STEMI,e 59 (8),0.1695,0.5129
+Possible NSTEMI / STEMI,e 56 (9),0.1671,0.5211
+Possible NSTEMI / STEMI,e 54 - tedious,0.7392,5.599
+Possible NSTEMI / STEMI,pain radiate to another location - biceps(l),0.7436,3.3038
+Possible NSTEMI / STEMI,pain radiate to another location - triceps(r),0.0923,0.2418
+Possible NSTEMI / STEMI,pain radiate to another location - shoulder(r),0.7398,3.3027
+Possible NSTEMI / STEMI,pain radiate to another location - shoulder(l),0.5722,2.2908
+Possible NSTEMI / STEMI,e 59 (5),0.166,0.464
+Possible NSTEMI / STEMI,infected with the human immunodeficiency virus (hiv),0.669,1.5479
+Possible NSTEMI / STEMI,e 58 (6),0.1413,0.4249
+Possible NSTEMI / STEMI,e 56 (10),0.1637,0.4343
+Possible NSTEMI / STEMI,e 54 - sickening,0.7441,3.0164
+Possible NSTEMI / STEMI,pain radiate to another location - thoracic spine,0.7411,5.2286
+Possible NSTEMI / STEMI,non-restful sleep,0.5568,4.2598
+Possible NSTEMI / STEMI,pain radiate to another location - thyroid cartilage,0.7397,2.8833
+Possible NSTEMI / STEMI,pain radiate to another location - under the jaw,0.3615,0.8244
+Possible NSTEMI / STEMI,pain radiate to another location - trachea,0.1963,0.2748
+Possible NSTEMI / STEMI,close family members who had a cardiovascular disease problem before the age of 50,0.5965,2.8628
+Possible NSTEMI / STEMI,e 54 - scary,0.7431,1.3182
+Possible NSTEMI / STEMI,pain radiate to another location - biceps(r),0.7431,3.314
+Possible NSTEMI / STEMI,problem with poor circulation,0.7333,1.0459
+Possible NSTEMI / STEMI,get full more quickly then usually,0.6399,2.8867
+Possible NSTEMI / STEMI,former smoker,0.5908,1.8876
+Possible NSTEMI / STEMI,e 59 (10),0.1661,0.409
+Possible NSTEMI / STEMI,high cholesterol or do you take medications to treat high cholesterol,0.7521,2.9053
+Possible NSTEMI / STEMI,e 59 (7),0.1647,0.5638
+Possible NSTEMI / STEMI,feel pain - biceps(l),0.1011,0.0685
+Possible NSTEMI / STEMI,feel pain - thoracic spine,0.0571,0.0238
+Possible NSTEMI / STEMI,feel pain - biceps(r),0.1331,0.111
+Chagas,pain,1.0,20.388
+Chagas,e 54 - sensitive,0.5942,8.6855
+Chagas,feel pain - forehead,0.5887,5.9043
+Chagas,feel pain - temple(l),0.3462,2.0817
+Chagas,e 56 (4),0.1432,0.4581
+Chagas,pain radiate to another location - nowhere,1.0,23.6038
+Chagas,e 58 (3),0.1119,0.3954
+Chagas,e 59 (3),0.1437,0.4815
+Chagas,fever (either felt or measured with a thermometer),0.6065,9.051
+Chagas,e 204 - n,0.8375,3.0182
+Chagas,swollen or painful lymph nodes,0.5296,2.4759
+Chagas,diarrhea or an increase in stool frequency,0.5714,3.4266
+Chagas,e 54 - exhausting,0.6069,5.0553
+Chagas,feel pain - top of the head,0.5905,3.2727
+Chagas,feel pain - temple(r),0.4608,2.7333
+Chagas,e 56 (7),0.1421,0.5221
+Chagas,e 58 (7),0.1104,0.4903
+Chagas,e 59 (2),0.1448,0.4978
+Chagas,feel like vomiting,0.5631,5.387
+Chagas,e 54 - sharp,0.5427,10.1932
+Chagas,e 56 (5),0.145,0.4589
+Chagas,e 58 (2),0.1112,0.398
+Chagas,e 59 (6),0.142,0.4549
+Chagas,e 175,0.6385,2.9676
+Chagas,feel pain - occiput,0.55,1.5068
+Chagas,e 58 (5),0.1087,0.4049
+Chagas,e 59 (4),0.1418,0.4853
+Chagas,e 58 (4),0.1148,0.3967
+Chagas,e 56 (6),0.141,0.4696
+Chagas,e 59 (1),0.1418,0.5038
+Chagas,e 58 (9),0.1053,0.4141
+Chagas,e 54 - tugging,0.549,4.1004
+Chagas,e 54 - a cramp,0.5495,3.7986
+Chagas,e 204 - central america,0.056,0.0042
+Chagas,e 56 (2),0.1484,0.466
+Chagas,e 58 (8),0.1075,0.515
+Chagas,e 59 (0),0.1441,0.751
+Chagas,shortness of breath or difficulty breathing in a significant way,0.5724,10.3715
+Chagas,e 204 - north america,0.0534,0.9775
+Chagas,e 58 (10),0.1181,0.4175
+Chagas,feel pain - iliac fossa(r),0.0665,1.7481
+Chagas,feel pain - epigastric,0.2592,5.699
+Chagas,e 56 (3),0.1442,0.4716
+Chagas,e 56 (8),0.1362,0.5473
+Chagas,e 54 - tedious,0.5973,5.599
+Chagas,e 59 (5),0.142,0.464
+Chagas,feel pain - flank(l),0.101,1.7209
+Chagas,e 58 (6),0.1122,0.4249
+Chagas,feel pain - back of the neck,0.6009,3.3589
+Chagas,feel pain - flank(r),0.157,1.4761
+Chagas,e 54 - a pulse,0.5988,1.3706
+Chagas,e 152 - nowhere,1.0,1.9699
+Chagas,e 174,0.5577,0.5997
+Chagas,feel pain - back of head,0.5987,2.8334
+Chagas,feel pain - cervical spine,0.5863,0.7807
+Chagas,e 204 - south america,0.0531,0.0037
+Localized edema,pain,1.0,20.388
+Localized edema,e 54 - sensitive,0.6001,8.6855
+Localized edema,e 54 - heavy,0.6009,6.7571
+Localized edema,e 56 (4),0.1433,0.4581
+Localized edema,pain radiate to another location - nowhere,1.0,23.6038
+Localized edema,e 58 (3),0.1403,0.3954
+Localized edema,e 59 (3),0.1402,0.4815
+Localized edema,e 204 - n,0.9718,3.0182
+Localized edema,e 56 (7),0.1452,0.5221
+Localized edema,e 58 (7),0.1406,0.4903
+Localized edema,e 59 (2),0.1439,0.4978
+Localized edema,e 54 - sharp,0.601,10.1932
+Localized edema,e 56 (5),0.1439,0.4589
+Localized edema,e 58 (2),0.1436,0.398
+Localized edema,e 59 (6),0.1439,0.4549
+Localized edema,heart failure,0.7517,3.5963
+Localized edema,e 58 (5),0.1439,0.4049
+Localized edema,e 59 (4),0.1437,0.4853
+Localized edema,e 58 (4),0.1446,0.3967
+Localized edema,e 56 (6),0.142,0.4696
+Localized edema,e 54 - tugging,0.6052,4.1004
+Localized edema,e 56 (2),0.1415,0.466
+Localized edema,e 58 (8),0.1444,0.515
+Localized edema,known issue with one of your heart valves,0.6292,1.8662
+Localized edema,e 56 (3),0.1417,0.4716
+Localized edema,swelling in one or more areas of your body,1.0,6.9475
+Localized edema,e 56 (8),0.1423,0.5473
+Localized edema,e 59 (8),0.143,0.5129
+Localized edema,e 54 - tedious,0.6102,5.599
+Localized edema,feel pain - ankle(r),0.5987,1.654
+Localized edema,feel pain - ankle(l),0.5981,1.5609
+Localized edema,e 59 (5),0.1425,0.464
+Localized edema,e 152 - ankle(r),0.7792,2.0029
+Localized edema,take corticosteroids,0.638,1.3264
+Localized edema,e 58 (6),0.1427,0.4249
+Localized edema,currently taking or have you recently taken anti-inflammatory drugs (nsaids),0.5668,0.6198
+Localized edema,feel pain - lateral side of the foot(r),0.2407,0.1064
+Localized edema,feel pain - lateral side of the foot(l),0.1605,0.0453
+Localized edema,feel pain - dorsal aspect of the foot(l),0.5517,0.5866
+Localized edema,feel pain - sole(r),0.4572,0.3998
+Localized edema,feel pain - sole(l),0.3477,0.228
+Localized edema,e 109,0.5666,1.4346
+Localized edema,e 137,0.751,1.0977
+Localized edema,e 152 - ankle(l),0.7769,1.9991
+Localized edema,e 152 - thigh(r),0.7774,1.1773
+Localized edema,e 152 - thigh(l),0.7787,1.1813
+Localized edema,e 152 - dorsal aspect of the foot(r),0.7788,1.1816
+Localized edema,known kidney problem resulting in an inability to retain proteins,0.6667,0.8622
+Localized edema,feel pain - thigh(l),0.6009,0.698
+Localized edema,feel pain - dorsal aspect of the foot(r),0.6048,0.7073
+Localized edema,e 96,0.6012,0.6987
+Localized edema,liver cirrhosis,0.669,0.8682
+Localized edema,e 152 - dorsal aspect of the foot(l),0.5537,0.591
+Localized edema,e 158,0.5472,0.5769
+Localized edema,feel pain - thigh(r),0.6006,0.6973
+Localized edema,e 152 - lateral side of the foot(r),0.0627,0.0056
+Localized edema,e 152 - sole(r),0.308,0.1775
+Localized edema,e 152 - sole(l),0.1479,0.038
+Localized edema,e 186,0.5995,0.6947
+Localized edema,e 59 (7),0.1428,0.5638
+Localized edema,feel pain - calf(l),0.0601,0.0253
+Localized edema,take a calcium channel blockers (medication),0.601,0.6983
+Localized edema,feel pain - calf(r),0.1019,0.0674
+Sarcoidosis,pain,1.0,20.388
+Sarcoidosis,e 54 - sensitive,0.5702,8.6855
+Sarcoidosis,e 56 (4),0.1235,0.4581
+Sarcoidosis,pain radiate to another location - nowhere,1.0,23.6038
+Sarcoidosis,e 58 (3),0.0989,0.3954
+Sarcoidosis,e 59 (3),0.1702,0.4815
+Sarcoidosis,e 204 - n,0.9697,3.0182
+Sarcoidosis,swollen or painful lymph nodes,0.6948,2.4759
+Sarcoidosis,e 56 (7),0.1281,0.5221
+Sarcoidosis,e 58 (7),0.0944,0.4903
+Sarcoidosis,e 59 (2),0.1685,0.4978
+Sarcoidosis,e 131 - n,1.0,13.3891
+Sarcoidosis,e 132 (0),1.0,2.5805
+Sarcoidosis,e 136 (0),1.0,6.0007
+Sarcoidosis,e 54 - sharp,0.5453,10.1932
+Sarcoidosis,e 56 (5),0.1254,0.4589
+Sarcoidosis,e 58 (2),0.1014,0.398
+Sarcoidosis,e 134 (0),1.0,2.6038
+Sarcoidosis,e 135 - n,1.0,3.9451
+Sarcoidosis,e 58 (5),0.1038,0.4049
+Sarcoidosis,e 59 (4),0.1668,0.4853
+Sarcoidosis,e 58 (4),0.1026,0.3967
+Sarcoidosis,e 54 - burning,0.6538,7.083
+Sarcoidosis,e 56 (6),0.1247,0.4696
+Sarcoidosis,e 59 (1),0.1651,0.5038
+Sarcoidosis,e 58 (9),0.1028,0.4141
+Sarcoidosis,e 56 (1),0.1228,0.3478
+Sarcoidosis,e 56 (2),0.1224,0.466
+Sarcoidosis,e 58 (8),0.0974,0.515
+Sarcoidosis,e 59 (0),0.1655,0.751
+Sarcoidosis,shortness of breath or difficulty breathing in a significant way,0.6494,10.3715
+Sarcoidosis,significantly overweight compared to people of the same height as you,0.7009,5.8498
+Sarcoidosis,e 56 (3),0.1287,0.4716
+Sarcoidosis,e 56 (8),0.1243,0.5473
+Sarcoidosis,e 58 (1),0.0986,0.2877
+Sarcoidosis,e 59 (5),0.1639,0.464
+Sarcoidosis,e 58 (6),0.0989,0.4249
+Sarcoidosis,feel pain - dorsal aspect of the wrist(l),0.084,0.3893
+Sarcoidosis,feel pain - palmar face of the wrist(r),0.0502,0.1861
+Sarcoidosis,feel pain - shoulder(l),0.1877,0.8506
+Sarcoidosis,e 43,0.5708,0.6287
+Sarcoidosis,feel pain - finger (ring finger)(r),0.5795,0.6484
+Sarcoidosis,feel pain - finger (little finger)(r),0.4649,0.4137
+Sarcoidosis,feel pain - finger (index)(r),0.5678,0.622
+Sarcoidosis,feel pain - finger (index)(l),0.5718,0.631
+Sarcoidosis,feel pain - finger (middle)(r),0.5689,0.6245
+Sarcoidosis,e 74,0.5499,0.5827
+Sarcoidosis,e 130 - na,1.0,2.1071
+Sarcoidosis,e 133 - nowhere,1.0,2.1071
+Sarcoidosis,work in agriculture,0.6014,1.3283
+Sarcoidosis,feel pain - dorsal aspect of the wrist(r),0.1272,0.6407
+Sarcoidosis,feel pain - shoulder(r),0.2584,0.911
+Sarcoidosis,e 58 (0),0.1011,0.4857
+Sarcoidosis,feel pain - finger (middle)(l),0.5681,0.6227
+Sarcoidosis,feel pain - finger (little finger)(l),0.3646,0.2514
+Sarcoidosis,vaginal discharge,0.431,0.3543
+Sarcoidosis,feel pain - finger (ring finger)(l),0.5352,0.5514
+Spontaneous rib fracture,pain,1.0,20.388
+Spontaneous rib fracture,pain radiate to another location - nowhere,0.0899,23.6038
+Spontaneous rib fracture,cough,0.6287,12.413
+Spontaneous rib fracture,e 204 - n,0.9703,3.0182
+Spontaneous rib fracture,e 56 (7),0.2014,0.5221
+Spontaneous rib fracture,e 58 (7),0.2499,0.4903
+Spontaneous rib fracture,e 54 - a knife stroke,0.718,9.5684
+Spontaneous rib fracture,e 54 - sharp,0.705,10.1932
+Spontaneous rib fracture,feel pain - lower chest,0.1752,6.3707
+Spontaneous rib fracture,feel pain - side of the chest(r),0.6957,5.4358
+Spontaneous rib fracture,feel pain - side of the chest(l),0.701,4.7443
+Spontaneous rib fracture,feel pain - posterior chest wall(r),0.7116,3.7359
+Spontaneous rib fracture,feel pain - posterior chest wall(l),0.712,3.3986
+Spontaneous rib fracture,addiction to alcohol,0.676,6.2613
+Spontaneous rib fracture,e 56 (6),0.2008,0.4696
+Spontaneous rib fracture,e 58 (9),0.2496,0.4141
+Spontaneous rib fracture,e 58 (8),0.2475,0.515
+Spontaneous rib fracture,shortness of breath or difficulty breathing in a significant way,0.4316,10.3715
+Spontaneous rib fracture,e 54 - haunting,0.7065,3.6621
+Spontaneous rib fracture,e 54 - violent,0.7144,4.0309
+Spontaneous rib fracture,e 58 (10),0.253,0.4175
+Spontaneous rib fracture,e 59 (9),0.2458,0.4846
+Spontaneous rib fracture,e 54 - heartbreaking,0.7165,3.06
+Spontaneous rib fracture,feel pain - upper chest,0.1571,5.3575
+Spontaneous rib fracture,feel pain - breast(r),0.6999,6.0427
+Spontaneous rib fracture,feel pain - breast(l),0.5881,5.5486
+Spontaneous rib fracture,e 56 (8),0.2031,0.5473
+Spontaneous rib fracture,e 59 (8),0.2407,0.5129
+Spontaneous rib fracture,pain that is increased when you breathe in deeply,0.9929,5.5419
+Spontaneous rib fracture,e 56 (9),0.1957,0.5211
+Spontaneous rib fracture,e 56 (10),0.199,0.4343
+Spontaneous rib fracture,intense coughing fits,0.8434,2.8522
+Spontaneous rib fracture,e 59 (10),0.2462,0.409
+Spontaneous rib fracture,pain radiate to another location - posterior chest wall(l),0.703,2.6001
+Spontaneous rib fracture,being treated for osteoporosis,0.7428,1.0735
+Spontaneous rib fracture,pain that is increased with movement,0.9965,1.9456
+Spontaneous rib fracture,e 59 (7),0.2673,0.5638
+Spontaneous rib fracture,pain radiate to another location - posterior chest wall(r),0.7008,2.9546
+Spontaneous rib fracture,metastatic cancer,0.6754,0.8851
+GERD,pain,0.9948,20.388
+GERD,e 54 - sensitive,0.7027,8.6855
+GERD,e 56 (4),0.1449,0.4581
+GERD,pain radiate to another location - nowhere,0.0682,23.6038
+GERD,e 58 (3),0.1404,0.3954
+GERD,e 59 (3),0.1402,0.4815
+GERD,smoking,0.6695,11.0741
+GERD,cough,0.6914,12.413
+GERD,e 204 - n,0.9706,3.0182
+GERD,e 56 (7),0.1388,0.5221
+GERD,e 58 (7),0.1411,0.4903
+GERD,e 59 (2),0.1437,0.4978
+GERD,e 54 - a knife stroke,0.598,9.5684
+GERD,feel pain - lower chest,0.4792,6.3707
+GERD,e 56 (5),0.1384,0.4589
+GERD,e 58 (2),0.144,0.398
+GERD,e 59 (6),0.1438,0.4549
+GERD,addiction to alcohol,0.604,6.2613
+GERD,asthma or have you ever had to use a bronchodilator in the past,0.6694,8.2922
+GERD,e 58 (5),0.1444,0.4049
+GERD,e 59 (4),0.1442,0.4853
+GERD,e 58 (4),0.1423,0.3967
+GERD,e 54 - burning,0.7464,7.083
+GERD,e 56 (6),0.1397,0.4696
+GERD,e 59 (1),0.1383,0.5038
+GERD,e 54 - tugging,0.6965,4.1004
+GERD,e 140,0.3072,0.8535
+GERD,e 58 (8),0.1386,0.515
+GERD,e 59 (0),0.1486,0.751
+GERD,significantly overweight compared to people of the same height as you,0.6014,5.8498
+GERD,e 54 - haunting,0.5964,3.6621
+GERD,feel pain - hypochondrium(r),0.4731,1.4309
+GERD,feel pain - hypochondrium(l),0.6025,2.0952
+GERD,feel pain - epigastric,0.7581,5.699
+GERD,e 56 (3),0.1431,0.4716
+GERD,feel pain - upper chest,0.451,5.3575
+GERD,e 56 (8),0.1448,0.5473
+GERD,e 56 (9),0.145,0.5211
+GERD,e 59 (5),0.1412,0.464
+GERD,e 217,0.6434,3.4495
+GERD,e 58 (6),0.144,0.4249
+GERD,e 54 - sickening,0.6979,3.0164
+GERD,feel pain - belly,0.4745,2.2215
+GERD,e 54 - scary,0.3748,1.3182
+GERD,think you are pregnant or are you currently pregnant,0.3464,0.4381
+GERD,pain radiate to another location - lower chest,0.7419,1.0709
+GERD,hiatal hernia,0.6844,0.9093
+GERD,"burning sensation that starts in your stomach then goes up into your throat, and can be associated with a bitter taste in your mouth",0.7475,1.0874
+GERD,symptoms that get worse after eating,0.7457,1.0821
+GERD,pain radiate to another location - upper chest,0.7439,1.0892
+GERD,e 210,0.3106,1.1678
+Bronchospasm / acute asthma exacerbation,cough,0.7728,12.413
+Bronchospasm / acute asthma exacerbation,e 204 - n,0.9663,3.0182
+Bronchospasm / acute asthma exacerbation,exposed to secondhand cigarette smoke on a daily basis,0.6215,3.0379
+Bronchospasm / acute asthma exacerbation,asthma or have you ever had to use a bronchodilator in the past,0.9735,8.2922
+Bronchospasm / acute asthma exacerbation,cold in the last 2 weeks,0.7808,3.7424
+Bronchospasm / acute asthma exacerbation,more likely to develop common allergies than the general population,0.7313,5.018
+Bronchospasm / acute asthma exacerbation,shortness of breath or difficulty breathing in a significant way,0.8493,10.3715
+Bronchospasm / acute asthma exacerbation,family members who have asthma,0.6611,1.3347
+Bronchospasm / acute asthma exacerbation,live in in a big city,0.5788,1.3644
+Bronchospasm / acute asthma exacerbation,e 214,0.8631,5.3032
+Bronchospasm / acute asthma exacerbation,e 101,0.7155,0.995
+Bronchospasm / acute asthma exacerbation,e 119,0.739,1.0624
+Bronchospasm / acute asthma exacerbation,2 or more asthma attacks in the past year,0.7729,1.1635
+Acute COPD exacerbation / infection,cough that produces colored or more abundant sputum than usual,0.7257,4.9588
+Acute COPD exacerbation / infection,smoking,0.8141,11.0741
+Acute COPD exacerbation / infection,cough,0.7731,12.413
+Acute COPD exacerbation / infection,e 204 - n,0.968,3.0182
+Acute COPD exacerbation / infection,chronic obstructive pulmonary disease (copd),0.8234,4.6812
+Acute COPD exacerbation / infection,e 125,0.8655,3.5721
+Acute COPD exacerbation / infection,severe chronic obstructive pulmonary disease (copd),0.6636,1.9001
+Acute COPD exacerbation / infection,shortness of breath or difficulty breathing in a significant way,0.747,10.3715
+Acute COPD exacerbation / infection,work in agriculture,0.5834,1.3283
+Acute COPD exacerbation / infection,e 214,0.9051,5.3032
+Acute COPD exacerbation / infection,one or several flare ups of chronic obstructive pulmonary disease (copd) in the past year,0.7251,1.0223
+Acute COPD exacerbation / infection,work in construction,0.5599,0.6045
+Acute COPD exacerbation / infection,work in the mining sector,0.6301,0.7687
+Guillain-Barré syndrome,e 204 - n,0.9665,3.0182
+Guillain-Barré syndrome,shortness of breath or difficulty breathing in a significant way,0.6575,10.3715
+Guillain-Barré syndrome,"currently, have any weakness/paralysis in one or more of your limbs or in your face",0.5879,1.2676
+Guillain-Barré syndrome,feel weakness in both arms and/or both legs,0.743,1.8272
+Guillain-Barré syndrome,e 157,0.6934,2.1519
+Guillain-Barré syndrome,"currently, or did you ever, have numbness, loss of sensitivity or tingling anywhere on your body",0.5758,1.2013
+Guillain-Barré syndrome,e 0,0.6892,2.881
+Guillain-Barré syndrome,e 83,0.658,0.8395
+Guillain-Barré syndrome,"numbness, loss of sensation or tingling in the feet",0.6092,0.7178
+Guillain-Barré syndrome,"weakness or paralysis on one side of the face, which may still be present or completely resolved",0.566,0.618
+Influenza,significantly increased sweating,0.6825,4.5145
+Influenza,pain,1.0,20.388
+Influenza,e 54 - sensitive,0.6801,8.6855
+Influenza,e 54 - heavy,0.6784,6.7571
+Influenza,feel pain - forehead,0.6813,5.9043
+Influenza,feel pain - temple(l),0.0848,2.0817
+Influenza,e 56 (4),0.1438,0.4581
+Influenza,pain radiate to another location - nowhere,1.0,23.6038
+Influenza,e 58 (3),0.1418,0.3954
+Influenza,e 59 (3),0.1426,0.4815
+Influenza,smoking,0.7482,11.0741
+Influenza,fever (either felt or measured with a thermometer),0.8008,9.051
+Influenza,sore throat,0.5422,3.3494
+Influenza,cough,0.8207,12.413
+Influenza,e 204 - n,0.9694,3.0182
+Influenza,e 54 - exhausting,0.7151,5.0553
+Influenza,feel pain - top of the head,0.6831,3.2727
+Influenza,feel pain - temple(r),0.1541,2.7333
+Influenza,e 56 (7),0.1437,0.5221
+Influenza,e 58 (7),0.1422,0.4903
+Influenza,e 59 (2),0.1437,0.4978
+Influenza,"lesions, redness or problems on your skin that you believe are related to the condition you are consulting for",0.865,11.7506
+Influenza,e 131 - n,1.0,13.3891
+Influenza,e 132 (0),0.2783,2.5805
+Influenza,e 134 (6),0.1221,0.0936
+Influenza,e 135 - y,0.865,10.3408
+Influenza,e 136 (0),0.2751,6.0007
+Influenza,e 56 (5),0.1441,0.4589
+Influenza,e 58 (2),0.1372,0.398
+Influenza,e 59 (6),0.1396,0.4549
+Influenza,chills or shivers,0.6572,1.7233
+Influenza,e 130 - pink,0.865,6.8587
+Influenza,e 132 (4),0.1481,0.2742
+Influenza,e 133 - side of the neck(l),0.3941,0.3605
+Influenza,e 134 (0),0.2576,2.6038
+Influenza,e 135 - n,0.135,3.9451
+Influenza,diffuse (widespread) muscle pain,0.6922,3.4885
+Influenza,nasal congestion or a clear runny nose,0.6515,8.0171
+Influenza,feel pain - occiput,0.4214,1.5068
+Influenza,e 58 (5),0.1448,0.4049
+Influenza,e 59 (4),0.142,0.4853
+Influenza,e 58 (4),0.1444,0.3967
+Influenza,e 56 (6),0.1393,0.4696
+Influenza,e 59 (1),0.1461,0.5038
+Influenza,feel pain - pharynx,0.2721,3.4434
+Influenza,immunosuppressed,0.5715,2.1992
+Influenza,feel so tired that you are unable to do your usual activities or are you stuck in your bed all day long,0.7766,2.627
+Influenza,e 56 (2),0.1451,0.466
+Influenza,e 58 (8),0.1448,0.515
+Influenza,e 59 (0),0.1427,0.751
+Influenza,e 56 (3),0.1422,0.4716
+Influenza,e 133 - back of the neck,0.3959,2.264
+Influenza,e 134 (3),0.1264,0.3726
+Influenza,e 56 (8),0.1419,0.5473
+Influenza,e 59 (5),0.1432,0.464
+Influenza,e 58 (6),0.1449,0.4249
+Influenza,e 134 (1),0.1247,0.3469
+Influenza,feel pain - back of the neck,0.6838,3.3589
+Influenza,e 132 (3),0.1431,0.3118
+Influenza,e 136 (3),0.1468,0.2137
+Influenza,get full more quickly then usually,0.6065,2.8867
+Influenza,feel pain - back of head,0.6827,2.8334
+Influenza,e 130 - na,0.135,2.1071
+Influenza,e 133 - nowhere,0.135,2.1071
+Influenza,e 134 (2),0.1231,0.3626
+Influenza,e 136 (2),0.1446,0.2122
+Influenza,feel pain - side of the neck(r),0.6784,1.418
+Influenza,feel pain - side of the neck(l),0.582,0.8311
+Influenza,e 133 - side of the neck(r),0.3978,0.3783
+Influenza,e 133 - forehead,0.3919,0.2916
+Influenza,e 132 (5),0.1428,0.1574
+Influenza,e 136 (4),0.1414,0.1159
+Influenza,e 132 (1),0.1442,0.3125
+Influenza,e 132 (2),0.1434,0.3118
+Influenza,e 134 (5),0.1236,0.141
+Influenza,e 134 (4),0.1225,0.1274
+Influenza,e 136 (1),0.1455,0.2172
+Influenza,e 136 (5),0.1465,0.0854
+Pulmonary embolism,pain,1.0,20.388
+Pulmonary embolism,e 54 - sensitive,0.5156,8.6855
+Pulmonary embolism,e 56 (4),0.1001,0.4581
+Pulmonary embolism,e 58 (3),0.1137,0.3954
+Pulmonary embolism,e 59 (3),0.0933,0.4815
+Pulmonary embolism,e 204 - n,0.2961,3.0182
+Pulmonary embolism,e 56 (7),0.0981,0.5221
+Pulmonary embolism,e 58 (7),0.111,0.4903
+Pulmonary embolism,e 59 (2),0.0927,0.4978
+Pulmonary embolism,e 54 - a knife stroke,0.766,9.5684
+Pulmonary embolism,e 54 - sharp,0.7313,10.1932
+Pulmonary embolism,feel pain - side of the chest(r),0.7282,5.4358
+Pulmonary embolism,feel pain - side of the chest(l),0.7319,4.7443
+Pulmonary embolism,feel pain - posterior chest wall(r),0.729,3.7359
+Pulmonary embolism,feel pain - posterior chest wall(l),0.5819,3.3986
+Pulmonary embolism,e 56 (5),0.1026,0.4589
+Pulmonary embolism,e 58 (2),0.1112,0.398
+Pulmonary embolism,e 59 (6),0.0891,0.4549
+Pulmonary embolism,e 58 (5),0.1089,0.4049
+Pulmonary embolism,e 59 (4),0.0893,0.4853
+Pulmonary embolism,e 58 (4),0.1107,0.3967
+Pulmonary embolism,e 56 (6),0.1022,0.4696
+Pulmonary embolism,e 59 (1),0.0914,0.5038
+Pulmonary embolism,e 58 (9),0.11,0.4141
+Pulmonary embolism,e 56 (1),0.0987,0.3478
+Pulmonary embolism,e 56 (2),0.0991,0.466
+Pulmonary embolism,e 58 (8),0.1134,0.515
+Pulmonary embolism,e 59 (0),0.09,0.751
+Pulmonary embolism,shortness of breath or difficulty breathing in a significant way,0.7199,10.3715
+Pulmonary embolism,e 204 - north america,0.7039,0.9775
+Pulmonary embolism,e 58 (10),0.109,0.4175
+Pulmonary embolism,e 59 (9),0.0905,0.4846
+Pulmonary embolism,e 56 (3),0.0983,0.4716
+Pulmonary embolism,swelling in one or more areas of your body,0.894,6.9475
+Pulmonary embolism,e 159,0.6695,1.5328
+Pulmonary embolism,e 45,0.6297,4.6275
+Pulmonary embolism,feel pain - upper chest,0.1067,5.3575
+Pulmonary embolism,feel pain - breast(r),0.3788,6.0427
+Pulmonary embolism,feel pain - breast(l),0.2085,5.5486
+Pulmonary embolism,e 56 (8),0.1009,0.5473
+Pulmonary embolism,e 59 (8),0.093,0.5129
+Pulmonary embolism,pain that is increased when you breathe in deeply,0.7195,5.5419
+Pulmonary embolism,e 56 (9),0.101,0.5211
+Pulmonary embolism,e 59 (5),0.0894,0.464
+Pulmonary embolism,e 152 - calf(l),0.4267,1.1865
+Pulmonary embolism,e 58 (6),0.1121,0.4249
+Pulmonary embolism,e 56 (10),0.099,0.4343
+Pulmonary embolism,pain radiate to another location - scapula(r),0.7296,2.4264
+Pulmonary embolism,pain radiate to another location - scapula(l),0.7269,2.3345
+Pulmonary embolism,feel pain - scapula(r),0.7278,1.03
+Pulmonary embolism,e 59 (10),0.0913,0.409
+Pulmonary embolism,e 152 - nowhere,0.106,1.9699
+Pulmonary embolism,e 109,0.6603,1.4346
+Pulmonary embolism,pain radiate to another location - posterior chest wall(l),0.5814,2.6001
+Pulmonary embolism,e 152 - calf(r),0.4321,1.2051
+Pulmonary embolism,active cancer,0.6749,0.8838
+Pulmonary embolism,feel pain - scapula(l),0.7253,1.0229
+Pulmonary embolism,pain radiate to another location - side of the chest(r),0.7267,1.0269
+Pulmonary embolism,pain radiate to another location - side of the chest(l),0.7305,1.0378
+Pulmonary embolism,pain radiate to another location - breast(r),0.3732,0.2637
+Pulmonary embolism,e 110,0.6111,0.7223
+Pulmonary embolism,e 152 - posterior aspect of the ankle(r),0.4274,0.3483
+Pulmonary embolism,surgery within the last month,0.953,2.2138
+Pulmonary embolism,pain radiate to another location - upper chest,0.1056,1.0892
+Pulmonary embolism,e 59 (7),0.0901,0.5638
+Pulmonary embolism,pain radiate to another location - posterior chest wall(r),0.7322,2.9546
+Pulmonary embolism,e 152 - posterior aspect of the ankle(l),0.4254,0.345
+Pulmonary embolism,currently take hormones,0.2955,0.163
+Pulmonary embolism,pain radiate to another location - breast(l),0.21,0.08
+Stable angina,pain,1.0,20.388
+Stable angina,e 54 - heavy,0.684,6.7571
+Stable angina,e 56 (4),0.141,0.4581
+Stable angina,e 58 (3),0.1403,0.3954
+Stable angina,e 59 (3),0.1433,0.4815
+Stable angina,smoking,0.7146,11.0741
+Stable angina,e 204 - n,0.9701,3.0182
+Stable angina,e 54 - exhausting,0.7116,5.0553
+Stable angina,e 56 (7),0.1376,0.5221
+Stable angina,e 58 (7),0.1457,0.4903
+Stable angina,feel pain - lower chest,0.6882,6.3707
+Stable angina,feel pain - side of the chest(r),0.4973,5.4358
+Stable angina,feel pain - side of the chest(l),0.4069,4.7443
+Stable angina,e 56 (5),0.1488,0.4589
+Stable angina,e 58 (2),0.1471,0.398
+Stable angina,e 59 (6),0.1443,0.4549
+Stable angina,addiction to alcohol,0.6269,6.2613
+Stable angina,e 58 (5),0.1422,0.4049
+Stable angina,e 59 (4),0.139,0.4853
+Stable angina,e 58 (4),0.1417,0.3967
+Stable angina,e 56 (6),0.1401,0.4696
+Stable angina,feel pain - thyroid cartilage,0.1132,1.7192
+Stable angina,e 58 (8),0.1407,0.515
+Stable angina,shortness of breath or difficulty breathing in a significant way,0.6103,10.3715
+Stable angina,diabetes,0.7633,5.5862
+Stable angina,significantly overweight compared to people of the same height as you,0.7265,5.8498
+Stable angina,high blood pressure or do you take medications to treat high blood pressure,0.6772,5.0569
+Stable angina,angina (chest pain),0.8185,5.4348
+Stable angina,symptoms that are increased with physical exertion but alleviated with rest,0.84,5.004
+Stable angina,e 59 (9),0.1449,0.4846
+Stable angina,feel pain - epigastric,0.6384,5.699
+Stable angina,e 56 (3),0.1446,0.4716
+Stable angina,feel pain - upper chest,0.6356,5.3575
+Stable angina,feel pain - breast(r),0.6375,6.0427
+Stable angina,feel pain - breast(l),0.6376,5.5486
+Stable angina,e 56 (8),0.1428,0.5473
+Stable angina,e 59 (8),0.1418,0.5129
+Stable angina,e 56 (9),0.1451,0.5211
+Stable angina,e 54 - tedious,0.6886,5.599
+Stable angina,pain radiate to another location - biceps(l),0.6848,3.3038
+Stable angina,pain radiate to another location - triceps(r),0.1508,0.2418
+Stable angina,pain radiate to another location - triceps(l),0.0793,0.1126
+Stable angina,pain radiate to another location - shoulder(r),0.693,3.3027
+Stable angina,pain radiate to another location - shoulder(l),0.5768,2.2908
+Stable angina,e 59 (5),0.1407,0.464
+Stable angina,e 58 (6),0.1424,0.4249
+Stable angina,pain radiate to another location - thoracic spine,0.6874,5.2286
+Stable angina,non-restful sleep,0.5411,4.2598
+Stable angina,feel pain - shoulder(l),0.0615,0.8506
+Stable angina,pain radiate to another location - thyroid cartilage,0.6873,2.8833
+Stable angina,pain radiate to another location - under the jaw,0.4154,0.8244
+Stable angina,pain radiate to another location - trachea,0.2634,0.2748
+Stable angina,close family members who had a cardiovascular disease problem before the age of 50,0.7691,2.8628
+Stable angina,pain radiate to another location - biceps(r),0.6867,3.314
+Stable angina,feel pain - shoulder(r),0.0746,0.911
+Stable angina,high cholesterol or do you take medications to treat high cholesterol,0.7047,2.9053
+Stable angina,e 59 (7),0.1461,0.5638
+Stable angina,feel pain - biceps(l),0.1342,0.0685
+Stable angina,feel pain - thoracic spine,0.0886,0.0238
+Stable angina,"exercise regularly, 4 times per week or more",0.6559,1.6341
+Stable angina,feel pain - biceps(r),0.1653,0.111
+Pericarditis,pain,1.0,20.388
+Pericarditis,e 56 (4),0.1439,0.4581
+Pericarditis,e 58 (3),0.1439,0.3954
+Pericarditis,e 59 (3),0.1425,0.4815
+Pericarditis,e 204 - n,0.9722,3.0182
+Pericarditis,e 56 (7),0.1458,0.5221
+Pericarditis,e 58 (7),0.1386,0.4903
+Pericarditis,e 54 - a knife stroke,0.8099,9.5684
+Pericarditis,e 54 - sharp,0.7544,10.1932
+Pericarditis,feel pain - lower chest,0.7613,6.3707
+Pericarditis,e 56 (5),0.1414,0.4589
+Pericarditis,e 58 (2),0.1433,0.398
+Pericarditis,e 59 (6),0.142,0.4549
+Pericarditis,e 58 (5),0.1456,0.4049
+Pericarditis,e 59 (4),0.1427,0.4853
+Pericarditis,e 58 (4),0.1437,0.3967
+Pericarditis,e 56 (6),0.143,0.4696
+Pericarditis,e 58 (8),0.1417,0.515
+Pericarditis,shortness of breath or difficulty breathing in a significant way,0.6302,10.3715
+Pericarditis,"feel your heart is beating fast (racing), irregularly (missing a beat) or do you feel palpitations",0.5586,5.1248
+Pericarditis,e 59 (9),0.1405,0.4846
+Pericarditis,feel pain - epigastric,0.4736,5.699
+Pericarditis,feel pain - upper chest,0.7078,5.3575
+Pericarditis,feel pain - breast(r),0.7062,6.0427
+Pericarditis,feel pain - breast(l),0.7068,5.5486
+Pericarditis,e 56 (8),0.1407,0.5473
+Pericarditis,e 59 (8),0.1429,0.5129
+Pericarditis,pain that is increased when you breathe in deeply,0.6957,5.5419
+Pericarditis,e 56 (9),0.1434,0.5211
+Pericarditis,e 59 (5),0.1447,0.464
+Pericarditis,e 217,0.7124,3.4495
+Pericarditis,e 58 (6),0.1432,0.4249
+Pericarditis,e 56 (10),0.1417,0.4343
+Pericarditis,pain radiate to another location - thoracic spine,0.7458,5.2286
+Pericarditis,e 3,0.8369,2.0347
+Pericarditis,pain radiate to another location - posterior chest wall(l),0.7512,2.6001
+Pericarditis,e 0,0.7491,2.881
+Pericarditis,e 59 (7),0.1446,0.5638
+Pericarditis,pain radiate to another location - posterior chest wall(r),0.7471,2.9546
+Acute rhinosinusitis,pain,1.0,20.388
+Acute rhinosinusitis,feel pain - forehead,0.7662,5.9043
+Acute rhinosinusitis,feel pain - cheek(r),0.7428,3.6361
+Acute rhinosinusitis,e 56 (4),0.1423,0.4581
+Acute rhinosinusitis,e 58 (3),0.147,0.3954
+Acute rhinosinusitis,e 59 (3),0.1456,0.4815
+Acute rhinosinusitis,smoking,0.7123,11.0741
+Acute rhinosinusitis,fever (either felt or measured with a thermometer),0.3528,9.051
+Acute rhinosinusitis,cough,0.7742,12.413
+Acute rhinosinusitis,e 204 - n,0.9723,3.0182
+Acute rhinosinusitis,e 56 (7),0.1453,0.5221
+Acute rhinosinusitis,e 58 (7),0.141,0.4903
+Acute rhinosinusitis,e 59 (2),0.1406,0.4978
+Acute rhinosinusitis,e 54 - sharp,0.7424,10.1932
+Acute rhinosinusitis,e 56 (5),0.142,0.4589
+Acute rhinosinusitis,e 58 (2),0.141,0.398
+Acute rhinosinusitis,e 59 (6),0.1373,0.4549
+Acute rhinosinusitis,e 118,0.7218,3.7898
+Acute rhinosinusitis,asthma or have you ever had to use a bronchodilator in the past,0.8743,8.2922
+Acute rhinosinusitis,nasal congestion or a clear runny nose,0.3228,8.0171
+Acute rhinosinusitis,feel pain - cheek(l),0.7501,3.6301
+Acute rhinosinusitis,e 58 (5),0.1404,0.4049
+Acute rhinosinusitis,e 59 (4),0.1455,0.4853
+Acute rhinosinusitis,e 58 (4),0.1426,0.3967
+Acute rhinosinusitis,e 54 - burning,0.81,7.083
+Acute rhinosinusitis,feel pain - nose,0.7446,2.1021
+Acute rhinosinusitis,feel pain - eye(r),0.5716,2.2954
+Acute rhinosinusitis,e 56 (6),0.1439,0.4696
+Acute rhinosinusitis,pain radiate to another location - forehead,0.7505,1.8342
+Acute rhinosinusitis,pain radiate to another location - nose,0.7399,1.821
+Acute rhinosinusitis,pain radiate to another location - temple(r),0.7427,1.8163
+Acute rhinosinusitis,pain radiate to another location - temple(l),0.7476,1.8358
+Acute rhinosinusitis,e 59 (1),0.1447,0.5038
+Acute rhinosinusitis,e 103,0.742,2.4083
+Acute rhinosinusitis,cold in the last 2 weeks,0.6208,3.7424
+Acute rhinosinusitis,polyps in your nose,0.9128,3.1761
+Acute rhinosinusitis,deviated nasal septum,0.6897,1.796
+Acute rhinosinusitis,e 125,0.6869,3.5721
+Acute rhinosinusitis,greenish or yellowish nasal discharge,0.8102,2.1005
+Acute rhinosinusitis,more likely to develop common allergies than the general population,0.8067,5.018
+Acute rhinosinusitis,e 56 (2),0.1373,0.466
+Acute rhinosinusitis,e 58 (8),0.1421,0.515
+Acute rhinosinusitis,e 59 (0),0.1474,0.751
+Acute rhinosinusitis,feel pain - eye(l),0.3512,1.5452
+Acute rhinosinusitis,e 56 (3),0.1428,0.4716
+Acute rhinosinusitis,e 56 (8),0.1464,0.5473
+Acute rhinosinusitis,e 59 (5),0.1389,0.464
+Acute rhinosinusitis,e 58 (6),0.1459,0.4249
+Acute rhinosinusitis,e 209,0.4954,4.1077
+Acute rhinosinusitis,feel pain - mouth,0.7412,2.0889
+Acute rhinosinusitis,pain radiate to another location - back of head,0.741,1.8175
+Whooping cough,e 204 - n,0.8927,3.0182
+Whooping cough,asthma or have you ever had to use a bronchodilator in the past,0.5675,8.2922
+Whooping cough,significantly overweight compared to people of the same height as you,0.5075,5.8498
+Whooping cough,e 204 - north america,0.1073,0.9775
+Whooping cough,e 209,0.9234,4.1077
+Whooping cough,intense coughing fits,0.6298,2.8522
+Whooping cough,e 40,0.6565,0.8356
+Whooping cough,e 166,0.977,1.8694
+Whooping cough,wheeze while inhaling or is your breathing noisy after coughing spells,0.5746,0.6373
+Myocarditis,pain,0.9938,20.388
+Myocarditis,e 54 - sensitive,0.5646,8.6855
+Myocarditis,e 56 (4),0.1395,0.4581
+Myocarditis,pain radiate to another location - nowhere,1.0,23.6038
+Myocarditis,e 58 (3),0.1442,0.3954
+Myocarditis,e 59 (3),0.1677,0.4815
+Myocarditis,e 204 - n,0.9685,3.0182
+Myocarditis,e 56 (7),0.144,0.5221
+Myocarditis,e 58 (7),0.1442,0.4903
+Myocarditis,e 59 (2),0.1632,0.4978
+Myocarditis,e 54 - a knife stroke,0.7565,9.5684
+Myocarditis,feel pain - lower chest,0.5697,6.3707
+Myocarditis,feel pain - side of the chest(r),0.5678,5.4358
+Myocarditis,feel pain - side of the chest(l),0.5737,4.7443
+Myocarditis,e 56 (5),0.1461,0.4589
+Myocarditis,e 58 (2),0.1442,0.398
+Myocarditis,e 175,0.5836,2.9676
+Myocarditis,e 58 (5),0.138,0.4049
+Myocarditis,e 59 (4),0.1656,0.4853
+Myocarditis,e 58 (4),0.1384,0.3967
+Myocarditis,e 56 (6),0.1394,0.4696
+Myocarditis,e 59 (1),0.1669,0.5038
+Myocarditis,e 56 (2),0.1471,0.466
+Myocarditis,e 59 (0),0.1727,0.751
+Myocarditis,shortness of breath or difficulty breathing in a significant way,0.7667,10.3715
+Myocarditis,"feel your heart is beating fast (racing), irregularly (missing a beat) or do you feel palpitations",0.5348,5.1248
+Myocarditis,symptoms that are increased with physical exertion but alleviated with rest,0.6449,5.004
+Myocarditis,e 56 (3),0.1376,0.4716
+Myocarditis,feel pain - upper chest,0.5342,5.3575
+Myocarditis,feel pain - breast(r),0.5815,6.0427
+Myocarditis,feel pain - breast(l),0.576,5.5486
+Myocarditis,e 56 (8),0.14,0.5473
+Myocarditis,e 58 (1),0.1429,0.2877
+Myocarditis,e 59 (5),0.1639,0.464
+Myocarditis,e 217,0.6273,3.4495
+Myocarditis,e 58 (6),0.142,0.4249
+Myocarditis,e 0,0.7143,2.881
+Myocarditis,feel out of breath with minimal physical effort,0.6041,0.7056
+Acute dystonic reactions,e 204 - n,0.9684,3.0182
+Acute dystonic reactions,shortness of breath or difficulty breathing in a significant way,0.5934,10.3715
+Acute dystonic reactions,hard time opening/raising one or both eyelids,0.5937,1.709
+Acute dystonic reactions,regularly take stimulant drugs,0.7079,2.5202
+Acute dystonic reactions,e 15,0.7058,0.9679
+Acute dystonic reactions,e 128,0.5952,0.6846
+Acute dystonic reactions,e 147,0.7048,0.9651
+Acute dystonic reactions,unable to control the direction of your eyes,0.5933,0.6802
+Acute dystonic reactions,feel that muscle spasms or soreness in your neck are keeping you from turning your head to one side,0.6575,0.8382
+Acute dystonic reactions,"annoying muscle spasms in your face, neck or any other part of your body",0.6639,0.8548
+Acute dystonic reactions,suddenly have difficulty or an inability to open your mouth or have jaw pain when opening it,0.6589,0.8418
+Acute dystonic reactions,trouble keeping your tongue in your mouth,0.6619,0.8496
+Pulmonary neoplasm,pain,0.8531,20.388
+Pulmonary neoplasm,e 54 - sensitive,0.5091,8.6855
+Pulmonary neoplasm,e 56 (4),0.1438,0.4581
+Pulmonary neoplasm,pain radiate to another location - nowhere,1.0,23.6038
+Pulmonary neoplasm,e 58 (3),0.1206,0.3954
+Pulmonary neoplasm,e 59 (3),0.1405,0.4815
+Pulmonary neoplasm,smoking,0.9359,11.0741
+Pulmonary neoplasm,cough,0.7116,12.413
+Pulmonary neoplasm,e 204 - n,0.9716,3.0182
+Pulmonary neoplasm,exposed to secondhand cigarette smoke on a daily basis,0.7834,3.0379
+Pulmonary neoplasm,e 54 - exhausting,0.5094,5.0553
+Pulmonary neoplasm,e 59 (2),0.1402,0.4978
+Pulmonary neoplasm,involuntary weight loss over the last 3 months,0.7961,3.2873
+Pulmonary neoplasm,e 54 - a knife stroke,0.5664,9.5684
+Pulmonary neoplasm,feel pain - posterior chest wall(r),0.6129,3.7359
+Pulmonary neoplasm,feel pain - posterior chest wall(l),0.6096,3.3986
+Pulmonary neoplasm,e 56 (5),0.1438,0.4589
+Pulmonary neoplasm,e 58 (2),0.1245,0.398
+Pulmonary neoplasm,e 58 (5),0.1226,0.4049
+Pulmonary neoplasm,e 59 (4),0.1453,0.4853
+Pulmonary neoplasm,e 58 (4),0.1218,0.3967
+Pulmonary neoplasm,e 56 (6),0.1456,0.4696
+Pulmonary neoplasm,e 59 (1),0.148,0.5038
+Pulmonary neoplasm,e 56 (1),0.1404,0.3478
+Pulmonary neoplasm,e 56 (2),0.1403,0.466
+Pulmonary neoplasm,e 59 (0),0.2863,0.751
+Pulmonary neoplasm,shortness of breath or difficulty breathing in a significant way,0.8192,10.3715
+Pulmonary neoplasm,e 56 (3),0.1393,0.4716
+Pulmonary neoplasm,e 45,0.8572,4.6275
+Pulmonary neoplasm,e 58 (1),0.1193,0.2877
+Pulmonary neoplasm,e 59 (5),0.1397,0.464
+Pulmonary neoplasm,e 58 (6),0.1228,0.4249
+Pulmonary neoplasm,non-restful sleep,0.6022,4.2598
+Pulmonary neoplasm,get full more quickly then usually,0.6069,2.8867
+Pulmonary neoplasm,former smoker,0.8012,1.8876
+Pulmonary neoplasm,e 58 (0),0.2684,0.4857
+Pulmonary neoplasm,family members who have had lung cancer,0.6631,0.8527
+Pulmonary neoplasm,e 54 - na,0.1469,0.2583
+Pulmonary neoplasm,feel pain - nowhere,0.1469,0.2583
+Pulmonary neoplasm,e 56 (0),0.1469,0.2583
+Acute otitis media,pain,0.9982,20.388
+Acute otitis media,e 54 - sensitive,0.8163,8.6855
+Acute otitis media,e 56 (4),0.1427,0.4581
+Acute otitis media,pain radiate to another location - nowhere,1.0,23.6038
+Acute otitis media,e 59 (3),0.1408,0.4815
+Acute otitis media,fever (either felt or measured with a thermometer),0.5662,9.051
+Acute otitis media,cough,0.5263,12.413
+Acute otitis media,e 204 - n,0.9701,3.0182
+Acute otitis media,e 56 (7),0.1453,0.5221
+Acute otitis media,e 58 (7),0.1992,0.4903
+Acute otitis media,e 59 (2),0.1482,0.4978
+Acute otitis media,e 54 - sharp,0.7474,10.1932
+Acute otitis media,e 56 (5),0.142,0.4589
+Acute otitis media,e 59 (6),0.1419,0.4549
+Acute otitis media,nasal congestion or a clear runny nose,0.605,8.0171
+Acute otitis media,e 59 (4),0.1413,0.4853
+Acute otitis media,e 56 (6),0.1414,0.4696
+Acute otitis media,e 59 (1),0.1427,0.5038
+Acute otitis media,e 58 (9),0.201,0.4141
+Acute otitis media,e 58 (8),0.1971,0.515
+Acute otitis media,e 58 (10),0.2017,0.4175
+Acute otitis media,e 56 (3),0.1398,0.4716
+Acute otitis media,e 56 (8),0.1412,0.5473
+Acute otitis media,e 56 (9),0.1458,0.5211
+Acute otitis media,e 59 (5),0.1411,0.464
+Acute otitis media,e 58 (6),0.1991,0.4249
+Acute otitis media,e 209,0.498,4.1077
+Acute otitis media,e 59 (7),0.1422,0.5638
+Acute otitis media,currently being treated or have you recently been treated with an oral antibiotic for an ear infection,0.5435,0.569
+Acute otitis media,feel pain - ear(r),0.7976,1.2401
+Acute otitis media,feel pain - ear(l),0.7972,1.2389
+Acute otitis media,more irritable or has your mood been very unstable,0.5472,0.5769
+PSVT,pain,0.6548,20.388
+PSVT,e 54 - heavy,0.1322,6.7571
+PSVT,feel pain - forehead,0.1927,5.9043
+PSVT,feel pain - temple(l),0.1933,2.0817
+PSVT,e 56 (4),0.0927,0.4581
+PSVT,pain radiate to another location - nowhere,1.0,23.6038
+PSVT,e 58 (3),0.0889,0.3954
+PSVT,e 59 (3),0.0941,0.4815
+PSVT,e 204 - n,0.971,3.0182
+PSVT,feel pain - top of the head,0.1932,3.2727
+PSVT,feel pain - temple(r),0.1939,2.7333
+PSVT,e 56 (7),0.0907,0.5221
+PSVT,e 58 (7),0.0923,0.4903
+PSVT,e 59 (2),0.0944,0.4978
+PSVT,e 54 - a knife stroke,0.1305,9.5684
+PSVT,e 54 - sharp,0.1283,10.1932
+PSVT,e 56 (5),0.0946,0.4589
+PSVT,e 58 (2),0.0929,0.398
+PSVT,e 59 (6),0.09,0.4549
+PSVT,e 58 (5),0.0978,0.4049
+PSVT,e 59 (4),0.0949,0.4853
+PSVT,e 58 (4),0.0946,0.3967
+PSVT,e 54 - burning,0.2202,7.083
+PSVT,e 56 (6),0.0911,0.4696
+PSVT,e 54 - tugging,0.1317,4.1004
+PSVT,e 54 - a cramp,0.1297,3.7986
+PSVT,feel lightheaded and dizzy or do you feel like you are about to faint,0.6883,3.693
+PSVT,e 56 (2),0.0953,0.466
+PSVT,e 58 (8),0.0913,0.515
+PSVT,e 59 (0),0.3452,0.751
+PSVT,shortness of breath or difficulty breathing in a significant way,0.5575,10.3715
+PSVT,feel slightly dizzy or lightheaded,0.7133,2.5106
+PSVT,"feel your heart is beating fast (racing), irregularly (missing a beat) or do you feel palpitations",0.9892,5.1248
+PSVT,e 54 - haunting,0.1319,3.6621
+PSVT,e 56 (3),0.0955,0.4716
+PSVT,e 56 (8),0.0949,0.5473
+PSVT,e 59 (8),0.0942,0.5129
+PSVT,e 54 - tedious,0.1285,5.599
+PSVT,e 59 (5),0.0927,0.464
+PSVT,feel anxious,0.677,1.7277
+PSVT,e 58 (6),0.097,0.4249
+PSVT,regularly take stimulant drugs,0.703,2.5202
+PSVT,e 54 - a pulse,0.13,1.3706
+PSVT,feel pain - back of head,0.191,2.8334
+PSVT,e 58 (0),0.3452,0.4857
+PSVT,e 59 (7),0.0945,0.5638
+PSVT,regularly drink coffee or tea,0.551,0.5851
+PSVT,e 213,0.5974,0.6898
+PSVT,e 54 - na,0.3452,0.2583
+PSVT,feel pain - nowhere,0.3452,0.2583
+PSVT,e 56 (0),0.3452,0.2583
+PSVT,consume energy drinks regularly,0.5973,0.6896
+Croup,fever (either felt or measured with a thermometer),0.5922,9.051
+Croup,e 204 - n,0.9634,3.0182
+Croup,nasal congestion or a clear runny nose,0.6531,8.0171
+Croup,shortness of breath or difficulty breathing in a significant way,0.6589,10.3715
+Croup,e 194,0.722,4.5582
+Croup,e 190,0.5861,1.687
+Croup,e 209,0.5159,4.1077
+Croup,e 219,0.6387,1.9713
+Croup,person have a whooping cough,0.7227,1.0155
+Croup,e 4,0.7794,1.1835
+Ebola,fever (either felt or measured with a thermometer),0.4901,9.051
+Ebola,sore throat,0.6497,3.3494
+Ebola,cough,0.6856,12.413
+Ebola,diarrhea or an increase in stool frequency,0.5891,3.4266
+Ebola,feel like vomiting,0.5817,5.387
+Ebola,diffuse (widespread) muscle pain,0.5087,3.4885
+Ebola,e 41,0.8267,3.2716
+Ebola,shortness of breath or difficulty breathing in a significant way,0.6646,10.3715
+Ebola,non-restful sleep,0.5,4.2598
+Ebola,e 204 - west africa,1.0,1.9617
+Ebola,e 39,0.7141,0.9911
+Ebola,e 73,0.9059,1.6046
+Ebola,e 178,0.9035,1.596
+Bronchiolitis,live with 4 or more people,0.5571,2.8818
+Bronchiolitis,fever (either felt or measured with a thermometer),0.993,9.051
+Bronchiolitis,cough,0.564,12.413
+Bronchiolitis,e 204 - n,0.9896,3.0182
+Bronchiolitis,nasal congestion or a clear runny nose,1.0,8.0171
+Bronchiolitis,shortness of breath or difficulty breathing in a significant way,1.0,10.3715
+Bronchiolitis,e 209,0.481,4.1077
+Bronchiolitis,e 214,0.7232,5.3032
+Bronchiolitis,live in the suburbs,0.5398,0.5611
+Bronchiolitis,ever temporarily stop breathing while you’re asleep,0.5398,0.5611
+Bronchiolitis,decrease in appetite,0.5571,0.5984
+Bronchiolitis,e 142,0.5744,0.6368
+Bronchiolitis,live in a rural area,0.5675,0.6214

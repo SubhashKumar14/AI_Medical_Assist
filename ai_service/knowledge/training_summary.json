@@ -1,0 +1,87 @@
+{
+  "total_cases": 1158050,
+  "total_diseases": 49,
+  "total_symptoms": 516,
+  "top_discriminating_symptoms": [
+    [
+      "pain radiate to another location - nowhere",
+      23.6038
+    ],
+    [
+      "pain",
+      20.388
+    ],
+    [
+      "e 131 - n",
+      13.3891
+    ],
+    [
+      "cough",
+      12.413
+    ],
+    [
+      "lesions, redness or problems on your skin that you believe are related to the condition you are consulting for",
+      11.7506
+    ],
+    [
+      "smoking",
+      11.0741
+    ],
+    [
+      "shortness of breath or difficulty breathing in a significant way",
+      10.3715
+    ],
+    [
+      "e 135 - y",
+      10.3408
+    ],
+    [
+      "e 54 - sharp",
+      10.1932
+    ],
+    [
+      "e 54 - a knife stroke",
+      9.5684
+    ],
+    [
+      "fever (either felt or measured with a thermometer)",
+      9.051
+    ],
+    [
+      "e 54 - sensitive",
+      8.6855
+    ],
+    [
+      "asthma or have you ever had to use a bronchodilator in the past",
+      8.2922
+    ],
+    [
+      "nasal congestion or a clear runny nose",
+      8.0171
+    ],
+    [
+      "e 54 - burning",
+      7.083
+    ],
+    [
+      "swelling in one or more areas of your body",
+      6.9475
+    ],
+    [
+      "e 130 - pink",
+      6.8587
+    ],
+    [
+      "e 54 - heavy",
+      6.7571
+    ],
+    [
+      "feel pain - lower chest",
+      6.3707
+    ],
+    [
+      "addiction to alcohol",
+      6.2613
+    ]
+  ]
+}

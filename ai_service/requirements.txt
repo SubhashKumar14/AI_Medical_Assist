@@ -1,38 +1,58 @@
 # AI Service Requirements
-# Stable, free, sufficient for CDSS
+# SOTA Medical AI - Production Ready
+# For B.Tech Major Project: AI-Assisted Telemedicine Platform (CDSS)
 
-# Core
-fastapi
-uvicorn
-pandas
-numpy
-scikit-learn
+# ===== CORE FRAMEWORK =====
+fastapi>=0.104.0
+uvicorn[standard]>=0.24.0
+python-multipart>=0.0.6
+python-dotenv>=1.0.0
 
-# NLP (Clinical)
-transformers
-torch
-sentencepiece
+# ===== DATA PROCESSING =====
+pandas>=2.0.0
+numpy>=1.24.0
+scikit-learn>=1.3.0
 
-# OCR & PDF
-pytesseract
-pillow
-pdf2image
+# ===== NLP & TRANSFORMERS (SOTA) =====
+# Bio_ClinicalBERT for medical text understanding
+transformers>=4.35.0
+torch>=2.0.0
+sentencepiece>=0.1.99
+tokenizers>=0.15.0
 
-# Medical Images (Optional)
-torchvision
-opencv-python
+# HuggingFace Datasets (for DDXPlus training)
+datasets>=2.14.0
+huggingface_hub>=0.19.0
 
-# API Clients
-google-generativeai
-openai
+# ===== OCR & DOCUMENT PROCESSING =====
+pytesseract>=0.3.10
+pillow>=10.0.0
+pdf2image>=1.16.3
+PyMuPDF>=1.23.0  # Better PDF handling
 
-# Utilities
-python-multipart
-python-dotenv
-requests
-redis
-aiohttp
+# ===== MEDICAL IMAGE ANALYSIS (SOTA) =====
+# DenseNet121 for X-ray, EfficientNet for skin lesions
+torchvision>=0.15.0
+opencv-python>=4.8.0
+timm>=0.9.0  # PyTorch Image Models (pre-trained medical models)
 
-# Testing
-pytest
-pytest-asyncio
+# ===== API CLIENTS =====
+google-generativeai>=0.3.0
+openai>=1.3.0
+requests>=2.31.0
+aiohttp>=3.9.0
+httpx>=0.25.0
+
+# ===== CACHING & PERFORMANCE =====
+redis>=5.0.0
+cachetools>=5.3.0
+
+# ===== VALIDATION & TESTING =====
+pytest>=7.4.0
+pytest-asyncio>=0.21.0
+pydantic>=2.5.0
+
+# ===== OPTIONAL: GPU ACCELERATION =====
+# Uncomment for CUDA support (requires NVIDIA GPU)
+# torch-cuda>=2.0.0
+# torchvision-cuda>=0.15.0
