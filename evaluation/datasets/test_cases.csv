@@ -1,0 +1,42 @@
+symptoms,disease
+"fever,headache,body ache,joint pain",Dengue
+"fever,rash,fatigue,nausea",Dengue
+"high fever,severe headache,joint pain,rash",Dengue
+"fever,headache,body ache",Dengue
+"fever,chills,sweating",Malaria
+"fever,chills,headache,fatigue",Malaria
+"cyclic fever,chills,nausea,sweating",Malaria
+"fever,chills,fatigue",Malaria
+"runny nose,sneezing,sore throat",Common Cold
+"runny nose,cough,mild fever",Common Cold
+"sneezing,sore throat,fatigue",Common Cold
+"runny nose,sneezing,cough",Common Cold
+"fever,body ache,fatigue,cough",Influenza
+"fever,headache,chills,fatigue",Influenza
+"body ache,cough,fever,weakness",Influenza
+"fever,fatigue,headache,body ache",Influenza
+"fever,cough,loss of taste,loss of smell",COVID-19
+"cough,fatigue,loss of smell",COVID-19
+"fever,shortness of breath,fatigue,cough",COVID-19
+"loss of taste,loss of smell,fever",COVID-19
+"diarrhea,vomiting,abdominal pain",Gastroenteritis
+"nausea,vomiting,diarrhea,fever",Gastroenteritis
+"abdominal pain,diarrhea,nausea",Gastroenteritis
+"vomiting,diarrhea,fatigue",Gastroenteritis
+"fever,abdominal pain,headache,weakness",Typhoid
+"high fever,constipation,fatigue,abdominal pain",Typhoid
+"fever,weakness,headache",Typhoid
+"severe headache,nausea,light sensitivity",Migraine
+"throbbing headache,nausea,vision changes",Migraine
+"severe headache,light sensitivity,dizziness",Migraine
+"cough,fever,shortness of breath,chest pain",Pneumonia
+"fever,cough,fatigue,chills",Pneumonia
+"shortness of breath,cough,chest pain",Pneumonia
+"cough,chest discomfort,fatigue",Bronchitis
+"persistent cough,shortness of breath",Bronchitis
+"fatigue,weakness,dizziness",Anemia
+"weakness,shortness of breath,fatigue",Anemia
+"fatigue,frequent urination,increased thirst",Diabetes
+"weight loss,fatigue,frequent urination",Diabetes
+"facial pain,nasal congestion,headache",Sinusitis
+"runny nose,headache,cough",Sinusitis

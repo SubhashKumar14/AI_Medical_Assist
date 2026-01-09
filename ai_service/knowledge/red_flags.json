@@ -1,0 +1,92 @@
+[
+    {
+        "symptom": "chest pain",
+        "severity": "critical",
+        "action": "Seek emergency care immediately. Call emergency services.",
+        "possible_conditions": ["Heart attack", "Pulmonary embolism", "Angina"]
+    },
+    {
+        "symptom": "difficulty breathing",
+        "severity": "critical",
+        "action": "Seek emergency care immediately. This requires urgent medical attention.",
+        "possible_conditions": ["Asthma attack", "Pneumonia", "Heart failure", "Anaphylaxis"]
+    },
+    {
+        "symptom": "shortness of breath",
+        "severity": "high",
+        "action": "Consult a doctor urgently within a few hours.",
+        "possible_conditions": ["Asthma", "COPD", "Pneumonia", "Anxiety"]
+    },
+    {
+        "symptom": "severe headache",
+        "severity": "high",
+        "action": "Consult a doctor urgently. Especially if sudden onset or 'worst headache ever'.",
+        "possible_conditions": ["Migraine", "Meningitis", "Stroke", "Aneurysm"]
+    },
+    {
+        "symptom": "confusion",
+        "severity": "critical",
+        "action": "Seek emergency care immediately. May indicate stroke or serious infection.",
+        "possible_conditions": ["Stroke", "Meningitis", "Hypoglycemia", "Drug interaction"]
+    },
+    {
+        "symptom": "loss of consciousness",
+        "severity": "critical",
+        "action": "Call emergency services immediately (911/108).",
+        "possible_conditions": ["Cardiac arrest", "Stroke", "Seizure", "Severe hypoglycemia"]
+    },
+    {
+        "symptom": "severe bleeding",
+        "severity": "critical",
+        "action": "Apply pressure and seek emergency care immediately.",
+        "possible_conditions": ["Trauma", "Internal bleeding"]
+    },
+    {
+        "symptom": "high fever",
+        "severity": "high",
+        "action": "Consult a doctor within 24 hours. Take fever-reducing medication.",
+        "possible_conditions": ["Serious infection", "Dengue", "Malaria", "COVID-19"]
+    },
+    {
+        "symptom": "persistent vomiting",
+        "severity": "high",
+        "action": "Consult a doctor urgently to prevent dehydration.",
+        "possible_conditions": ["Food poisoning", "Gastroenteritis", "Appendicitis"]
+    },
+    {
+        "symptom": "blood in stool",
+        "severity": "high",
+        "action": "Consult a doctor within 24 hours.",
+        "possible_conditions": ["Hemorrhoids", "GI bleeding", "Ulcer"]
+    },
+    {
+        "symptom": "blood in urine",
+        "severity": "high",
+        "action": "Consult a doctor within 24 hours.",
+        "possible_conditions": ["UTI", "Kidney stones", "Bladder infection"]
+    },
+    {
+        "symptom": "sudden vision loss",
+        "severity": "critical",
+        "action": "Seek emergency eye care immediately.",
+        "possible_conditions": ["Retinal detachment", "Stroke", "Glaucoma"]
+    },
+    {
+        "symptom": "numbness or weakness on one side",
+        "severity": "critical",
+        "action": "Call emergency services immediately. Possible stroke - act FAST.",
+        "possible_conditions": ["Stroke", "TIA"]
+    },
+    {
+        "symptom": "severe abdominal pain",
+        "severity": "high",
+        "action": "Seek urgent medical care.",
+        "possible_conditions": ["Appendicitis", "Pancreatitis", "Bowel obstruction"]
+    },
+    {
+        "symptom": "suicidal thoughts",
+        "severity": "critical",
+        "action": "Seek immediate mental health support. Contact crisis helpline.",
+        "possible_conditions": ["Depression", "Mental health crisis"]
+    }
+]

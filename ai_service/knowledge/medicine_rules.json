@@ -1,0 +1,162 @@
+{
+  "rules": [
+    {
+      "id": "R001",
+      "name": "High Fever Duration Rule",
+      "condition": "fever_duration > 5 days",
+      "action": "escalate",
+      "recommendation": "Persistent fever for more than 5 days requires immediate medical evaluation to rule out serious infections like Typhoid, Dengue, or bacterial infections.",
+      "priority": "high"
+    },
+    {
+      "id": "R002",
+      "name": "Dengue Warning Signs",
+      "condition": "dengue_likely AND (platelet_low OR bleeding OR severe_abdominal_pain)",
+      "action": "emergency",
+      "recommendation": "Warning signs suggest possible severe dengue (hemorrhagic fever). Immediate hospitalization recommended.",
+      "priority": "critical"
+    },
+    {
+      "id": "R003",
+      "name": "Respiratory Distress",
+      "condition": "shortness_of_breath AND (fever OR cough)",
+      "action": "escalate",
+      "recommendation": "Respiratory symptoms with difficulty breathing require chest examination. Consider pneumonia, COVID-19, or other respiratory infections.",
+      "priority": "high"
+    },
+    {
+      "id": "R004",
+      "name": "Dehydration Assessment",
+      "condition": "vomiting AND diarrhea AND (dry_mouth OR reduced_urination)",
+      "action": "urgent",
+      "recommendation": "Signs of dehydration present. ORS and IV fluids may be required. Monitor for worsening.",
+      "priority": "high"
+    },
+    {
+      "id": "R005",
+      "name": "Chest Pain Evaluation",
+      "condition": "chest_pain AND (age > 40 OR sweating OR shortness_of_breath)",
+      "action": "emergency",
+      "recommendation": "Chest pain with risk factors requires immediate cardiac evaluation. Do not delay medical care.",
+      "priority": "critical"
+    },
+    {
+      "id": "R006",
+      "name": "Neurological Symptoms",
+      "condition": "confusion OR sudden_weakness OR speech_difficulty OR vision_changes",
+      "action": "emergency",
+      "recommendation": "Neurological symptoms may indicate stroke or serious brain condition. Time-critical emergency.",
+      "priority": "critical"
+    },
+    {
+      "id": "R007",
+      "name": "Pediatric Fever",
+      "condition": "age < 3 months AND fever",
+      "action": "emergency",
+      "recommendation": "Fever in infants under 3 months requires immediate medical evaluation.",
+      "priority": "critical"
+    },
+    {
+      "id": "R008",
+      "name": "Drug Interaction Check",
+      "condition": "taking_blood_thinners AND (bleeding OR easy_bruising)",
+      "action": "urgent",
+      "recommendation": "Bleeding symptoms in patients on anticoagulants require immediate INR check and medical review.",
+      "priority": "high"
+    },
+    {
+      "id": "R009",
+      "name": "Diabetic Emergency",
+      "condition": "diabetic AND (confusion OR fruity_breath OR rapid_breathing)",
+      "action": "emergency",
+      "recommendation": "Possible diabetic ketoacidosis (DKA). Requires immediate emergency care and IV insulin.",
+      "priority": "critical"
+    },
+    {
+      "id": "R010",
+      "name": "Allergic Reaction",
+      "condition": "rash AND (swelling OR breathing_difficulty) AND recent_medication",
+      "action": "emergency",
+      "recommendation": "Possible severe allergic reaction (anaphylaxis). Administer epinephrine if available and call emergency services.",
+      "priority": "critical"
+    },
+    {
+      "id": "R011",
+      "name": "Malaria High Risk",
+      "condition": "cyclic_fever AND chills AND recent_travel_to_endemic_area",
+      "action": "urgent",
+      "recommendation": "High suspicion for malaria. Peripheral smear and rapid diagnostic test recommended. Start antimalarials if confirmed.",
+      "priority": "high"
+    },
+    {
+      "id": "R012",
+      "name": "COVID-19 Severity",
+      "condition": "covid_likely AND (oxygen_saturation < 94 OR respiratory_rate > 24)",
+      "action": "emergency",
+      "recommendation": "Moderate to severe COVID-19. Hospital admission recommended for oxygen support and monitoring.",
+      "priority": "critical"
+    },
+    {
+      "id": "R013",
+      "name": "Appendicitis Suspicion",
+      "condition": "right_lower_abdominal_pain AND fever AND nausea",
+      "action": "urgent",
+      "recommendation": "Clinical presentation suggests possible appendicitis. Surgical consultation recommended.",
+      "priority": "high"
+    },
+    {
+      "id": "R014",
+      "name": "UTI Complication",
+      "condition": "uti_symptoms AND (flank_pain OR fever)",
+      "action": "urgent",
+      "recommendation": "UTI with systemic symptoms may indicate pyelonephritis. Requires antibiotics and possible hospitalization.",
+      "priority": "high"
+    },
+    {
+      "id": "R015",
+      "name": "Pregnancy Warning",
+      "condition": "pregnant AND (vaginal_bleeding OR severe_abdominal_pain OR headache)",
+      "action": "emergency",
+      "recommendation": "Warning symptoms during pregnancy require immediate obstetric evaluation.",
+      "priority": "critical"
+    }
+  ],
+  "dose_guidelines": {
+    "paracetamol": {
+      "adult": "500-1000mg every 4-6 hours, max 4g/day",
+      "child": "10-15mg/kg every 4-6 hours",
+      "contraindications": ["liver disease", "chronic alcohol use"]
+    },
+    "ibuprofen": {
+      "adult": "200-400mg every 4-6 hours, max 1.2g/day",
+      "child": "5-10mg/kg every 6-8 hours",
+      "contraindications": ["peptic ulcer", "aspirin allergy", "kidney disease", "pregnancy third trimester"]
+    },
+    "ors": {
+      "adult": "200-400ml after each loose stool",
+      "child": "50-100ml after each loose stool (under 2 years: 50-100ml, 2-10 years: 100-200ml)"
+    }
+  },
+  "triage_categories": {
+    "emergency": {
+      "response_time": "Immediate",
+      "color": "red",
+      "description": "Life-threatening condition requiring immediate intervention"
+    },
+    "urgent": {
+      "response_time": "Within 1-2 hours",
+      "color": "orange",
+      "description": "Serious condition requiring prompt medical attention"
+    },
+    "escalate": {
+      "response_time": "Within 24 hours",
+      "color": "yellow",
+      "description": "Condition requiring medical evaluation but not immediately life-threatening"
+    },
+    "routine": {
+      "response_time": "Scheduled appointment",
+      "color": "green",
+      "description": "Non-urgent condition suitable for routine consultation"
+    }
+  }
+}

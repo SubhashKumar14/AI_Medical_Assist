@@ -1,0 +1,93 @@
+{
+    "fever": {
+        "text": "How high is your fever?",
+        "options": ["Mild (99-100°F / 37.2-37.8°C)", "Moderate (100-102°F / 37.8-38.9°C)", "High (>102°F / >38.9°C)", "Not sure"],
+        "followup": {
+            "High (>102°F / >38.9°C)": "duration"
+        }
+    },
+    "headache": {
+        "text": "How would you describe your headache?",
+        "options": ["Mild - manageable", "Throbbing/Pulsating", "Severe - worst headache ever", "With nausea/vomiting", "With light sensitivity"]
+    },
+    "cough": {
+        "text": "What type of cough do you have?",
+        "options": ["Dry cough", "Wet/productive cough with mucus", "Cough with blood", "Persistent for >2 weeks"]
+    },
+    "body ache": {
+        "text": "Where do you feel the body aches most?",
+        "options": ["Joints (knees, elbows, etc.)", "Muscles all over", "Back pain", "Specific area"]
+    },
+    "fatigue": {
+        "text": "How severe is your fatigue?",
+        "options": ["Mild tiredness", "Moderate - affecting daily activities", "Severe - mostly bed-bound", "With dizziness"]
+    },
+    "rash": {
+        "text": "Describe the rash:",
+        "options": ["Red flat spots", "Raised bumps", "Itchy", "Spreading rapidly", "With fever"]
+    },
+    "nausea": {
+        "text": "Is the nausea accompanied by:",
+        "options": ["Vomiting", "Abdominal pain", "Loss of appetite only", "Diarrhea", "None of these"]
+    },
+    "vomiting": {
+        "text": "How frequent is the vomiting?",
+        "options": ["Once or twice", "Multiple times today", "Cannot keep fluids down", "With blood"]
+    },
+    "diarrhea": {
+        "text": "Describe the diarrhea:",
+        "options": ["Watery", "With blood", "With mucus", "More than 6 times today"]
+    },
+    "shortness of breath": {
+        "text": "When do you experience shortness of breath?",
+        "options": ["At rest", "With mild activity", "With exercise only", "When lying down"]
+    },
+    "chest pain": {
+        "text": "Describe your chest pain:",
+        "options": ["Sharp stabbing", "Dull pressure", "Burning sensation", "Radiating to arm/jaw", "With breathing"]
+    },
+    "sore throat": {
+        "text": "How severe is your sore throat?",
+        "options": ["Mild scratchiness", "Painful swallowing", "Very painful - difficulty eating", "With white patches"]
+    },
+    "runny nose": {
+        "text": "What does the nasal discharge look like?",
+        "options": ["Clear/watery", "Thick white/yellow", "Green", "With blood"]
+    },
+    "chills": {
+        "text": "How would you describe the chills?",
+        "options": ["Mild shivering", "Severe shaking", "With sweating episodes", "Cyclic (comes and goes)"]
+    },
+    "joint pain": {
+        "text": "Which joints are affected?",
+        "options": ["Small joints (fingers, toes)", "Large joints (knees, hips)", "Multiple joints", "Single joint only"]
+    },
+    "abdominal pain": {
+        "text": "Where is the abdominal pain located?",
+        "options": ["Upper abdomen", "Lower abdomen", "Around navel", "Right lower side", "All over"]
+    },
+    "loss of taste": {
+        "text": "How complete is the loss of taste?",
+        "options": ["Partial - food tastes bland", "Complete - cannot taste anything", "With loss of smell", "Gradual onset"]
+    },
+    "loss of smell": {
+        "text": "How complete is the loss of smell?",
+        "options": ["Partial - reduced sense", "Complete - cannot smell anything", "Sudden onset", "With nasal congestion"]
+    },
+    "duration": {
+        "text": "How long have you had these symptoms?",
+        "options": ["Less than 24 hours", "1-3 days", "4-7 days", "1-2 weeks", "More than 2 weeks"]
+    },
+    "severity": {
+        "text": "Overall, how severe are your symptoms?",
+        "options": ["Mild - manageable at home", "Moderate - affecting daily activities", "Severe - need to rest", "Very severe - considering emergency care"]
+    },
+    "travel": {
+        "text": "Have you traveled recently?",
+        "options": ["No travel", "Domestic travel", "International travel", "To tropical/endemic area"]
+    },
+    "contact": {
+        "text": "Have you been in contact with anyone who is sick?",
+        "options": ["No known contact", "Family member sick", "Colleague/classmate sick", "COVID-19 positive contact"]
+    }
+}

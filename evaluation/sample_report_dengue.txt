@@ -1,0 +1,45 @@
+MEDICAL LABORATORY REPORT
+==========================
+
+Patient ID: DEMO-002
+Date: 2026-01-09
+Report Type: Dengue Profile + CBC
+
+CLINICAL HISTORY
+----------------
+Patient presents with high fever (5 days), severe headache,
+body aches, and joint pain. Recent travel to endemic area.
+
+HEMATOLOGY
+----------
+Hemoglobin: 14.2 g/dL (Normal: 13–17)              [NORMAL]
+WBC Count: 3,200 cells/mm3 (Normal: 4,000–11,000)  [LOW]
+Platelets: 45,000 /µL (Normal: 150,000–450,000)    [CRITICAL LOW]
+Hematocrit: 48% (Normal: 38–50%)                   [NORMAL]
+
+DENGUE SEROLOGY
+---------------
+NS1 Antigen: POSITIVE
+IgM Antibodies: POSITIVE
+IgG Antibodies: NEGATIVE
+
+LIVER FUNCTION
+--------------
+ALT (SGPT): 125 U/L (Normal: 7–56)                 [HIGH]
+AST (SGOT): 180 U/L (Normal: 10–40)                [HIGH]
+
+OBSERVATION
+-----------
+Laboratory findings consistent with acute Dengue infection.
+Thrombocytopenia (low platelets) and leukopenia (low WBC)
+are characteristic findings. Elevated liver enzymes noted.
+
+RECOMMENDATIONS
+---------------
+- Monitor platelet count daily
+- Watch for warning signs (bleeding, severe abdominal pain)
+- Hydration therapy
+- Avoid aspirin/NSAIDs (use paracetamol only)
+- Follow-up in 24-48 hours
+
+NOTE: This is a synthetic report for demonstration purposes only.

@@ -1,0 +1,31 @@
+case_id,symptoms,expected_disease
+1,"fever headache rash",Dengue
+2,"fever chills sweating",Malaria
+3,"fever abdominal_pain loss_of_appetite",Typhoid
+4,"fever cough runny_nose",Common Cold
+5,"fever body_ache joint_pain",Dengue
+6,"fever headache body_ache fatigue",Influenza
+7,"fever cough loss_of_taste loss_of_smell",COVID-19
+8,"diarrhea vomiting abdominal_pain",Gastroenteritis
+9,"severe_headache nausea light_sensitivity",Migraine
+10,"fever shortness_of_breath cough chest_pain",Pneumonia
+11,"fever chills headache fatigue",Malaria
+12,"runny_nose sneezing sore_throat",Common Cold
+13,"fever rash fatigue nausea",Dengue
+14,"fever abdominal_pain headache weakness",Typhoid
+15,"cough fever fatigue body_ache",Influenza
+16,"loss_of_smell loss_of_taste fatigue",COVID-19
+17,"nausea vomiting diarrhea fever",Gastroenteritis
+18,"throbbing_headache nausea vision_changes",Migraine
+19,"fever cough chest_discomfort fatigue",Bronchitis
+20,"fatigue weakness dizziness",Anemia
+21,"cyclic_fever chills nausea sweating",Malaria
+22,"high_fever severe_headache joint_pain rash",Dengue
+23,"sneezing sore_throat fatigue runny_nose",Common Cold
+24,"fever headache chills fatigue body_ache",Influenza
+25,"fever shortness_of_breath fatigue cough",COVID-19
+26,"abdominal_pain diarrhea nausea",Gastroenteritis
+27,"severe_headache light_sensitivity dizziness",Migraine
+28,"cough fever shortness_of_breath",Pneumonia
+29,"weakness shortness_of_breath fatigue",Anemia
+30,"high_fever constipation fatigue abdominal_pain",Typhoid

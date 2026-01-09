@@ -1,0 +1,237 @@
+{
+  "diseases": {
+    "Dengue": {
+      "precautions": [
+        "Stay hydrated - drink plenty of fluids (water, ORS, coconut water)",
+        "Get adequate rest",
+        "Avoid aspirin and NSAIDs (use paracetamol for fever)",
+        "Monitor for warning signs: severe abdominal pain, persistent vomiting, bleeding",
+        "Use mosquito nets and repellents to prevent transmission",
+        "Seek immediate medical care if platelet count drops significantly"
+      ],
+      "home_care": [
+        "Take paracetamol for fever (not aspirin or ibuprofen)",
+        "Eat light, easily digestible foods",
+        "Apply cold compresses for fever",
+        "Get daily blood tests during critical phase (Day 4-7)"
+      ],
+      "when_to_seek_emergency": [
+        "Severe abdominal pain",
+        "Persistent vomiting",
+        "Bleeding from gums, nose, or in stool/urine",
+        "Extreme fatigue or restlessness",
+        "Rapid breathing",
+        "Cold, clammy skin"
+      ]
+    },
+    "Malaria": {
+      "precautions": [
+        "Complete the full course of antimalarial medication",
+        "Stay hydrated",
+        "Rest adequately",
+        "Use mosquito nets and repellents",
+        "Avoid alcohol during treatment"
+      ],
+      "home_care": [
+        "Take medications exactly as prescribed",
+        "Monitor temperature regularly",
+        "Eat nutritious foods",
+        "Get adequate sleep"
+      ],
+      "when_to_seek_emergency": [
+        "High fever not responding to medication",
+        "Confusion or altered consciousness",
+        "Severe vomiting or inability to take oral medications",
+        "Jaundice (yellowing of skin/eyes)",
+        "Dark or reduced urine"
+      ]
+    },
+    "COVID-19": {
+      "precautions": [
+        "Isolate from other household members",
+        "Wear a mask if around others",
+        "Stay hydrated",
+        "Monitor oxygen levels if available",
+        "Rest adequately"
+      ],
+      "home_care": [
+        "Take over-the-counter fever reducers as needed",
+        "Sleep in a prone position if having breathing difficulties",
+        "Use a humidifier for congestion",
+        "Practice breathing exercises"
+      ],
+      "when_to_seek_emergency": [
+        "Difficulty breathing or shortness of breath at rest",
+        "Oxygen saturation below 94%",
+        "Persistent chest pain or pressure",
+        "Confusion or inability to stay awake",
+        "Bluish lips or face",
+        "Sudden worsening of symptoms after initial improvement"
+      ]
+    },
+    "Influenza": {
+      "precautions": [
+        "Stay home and avoid contact with others",
+        "Cover coughs and sneezes",
+        "Wash hands frequently",
+        "Stay hydrated",
+        "Get adequate rest"
+      ],
+      "home_care": [
+        "Take over-the-counter fever and pain relievers",
+        "Drink warm fluids (soup, tea, water)",
+        "Use a humidifier",
+        "Gargle with salt water for sore throat"
+      ],
+      "when_to_seek_emergency": [
+        "Difficulty breathing or shortness of breath",
+        "Persistent chest pain",
+        "Confusion or severe weakness",
+        "Severe vomiting",
+        "Flu symptoms that improve then return with fever and worse cough"
+      ]
+    },
+    "Gastroenteritis": {
+      "precautions": [
+        "Stay hydrated with ORS or clear fluids",
+        "Avoid dairy products temporarily",
+        "Practice good hand hygiene",
+        "Avoid sharing utensils",
+        "Rest adequately"
+      ],
+      "home_care": [
+        "Drink small, frequent sips of fluids",
+        "Start with bland foods (BRAT: bananas, rice, applesauce, toast)",
+        "Avoid fatty, spicy, or heavily seasoned foods",
+        "Consider probiotics after acute phase"
+      ],
+      "when_to_seek_emergency": [
+        "Signs of severe dehydration (dry mouth, dizziness, dark urine)",
+        "Blood in stool or vomit",
+        "High fever",
+        "Symptoms lasting more than 3 days",
+        "Severe abdominal pain"
+      ]
+    },
+    "Typhoid": {
+      "precautions": [
+        "Complete the full course of antibiotics",
+        "Stay hydrated",
+        "Eat easily digestible foods",
+        "Maintain strict hygiene",
+        "Avoid preparing food for others during illness"
+      ],
+      "home_care": [
+        "Take medications as prescribed",
+        "Rest in bed during high fever",
+        "Eat soft, bland foods",
+        "Drink boiled or filtered water"
+      ],
+      "when_to_seek_emergency": [
+        "Persistent high fever despite medication",
+        "Severe abdominal pain",
+        "Blood in stool",
+        "Confusion or extreme weakness",
+        "Signs of intestinal perforation"
+      ]
+    },
+    "Pneumonia": {
+      "precautions": [
+        "Take all prescribed antibiotics (if bacterial)",
+        "Rest adequately",
+        "Stay hydrated",
+        "Avoid smoking or secondhand smoke",
+        "Use a humidifier"
+      ],
+      "home_care": [
+        "Take fever-reducing medication as needed",
+        "Sleep propped up if having breathing difficulties",
+        "Practice deep breathing exercises",
+        "Drink warm fluids"
+      ],
+      "when_to_seek_emergency": [
+        "Severe difficulty breathing",
+        "Bluish lips or fingernails",
+        "Confusion or altered mental status",
+        "High fever not responding to medication",
+        "Coughing up blood"
+      ]
+    },
+    "Migraine": {
+      "precautions": [
+        "Identify and avoid triggers (stress, certain foods, lack of sleep)",
+        "Maintain regular sleep schedule",
+        "Stay hydrated",
+        "Take prescribed medications at onset of symptoms",
+        "Manage stress through relaxation techniques"
+      ],
+      "home_care": [
+        "Rest in a dark, quiet room",
+        "Apply cold or warm compresses",
+        "Stay hydrated",
+        "Practice relaxation techniques",
+        "Take pain medication early in the attack"
+      ],
+      "when_to_seek_emergency": [
+        "Sudden, severe headache (worst headache of life)",
+        "Headache with fever and stiff neck",
+        "Headache after head injury",
+        "Headache with confusion or seizures",
+        "New neurological symptoms (weakness, vision changes)"
+      ]
+    },
+    "Common Cold": {
+      "precautions": [
+        "Rest adequately",
+        "Stay hydrated",
+        "Avoid spreading to others - cover coughs/sneezes",
+        "Wash hands frequently",
+        "Avoid smoking"
+      ],
+      "home_care": [
+        "Use saline nasal spray or drops",
+        "Drink warm fluids (honey lemon tea)",
+        "Gargle with salt water",
+        "Use a humidifier",
+        "Take over-the-counter cold medications as needed"
+      ],
+      "when_to_seek_emergency": [
+        "Fever above 103°F (39.4°C)",
+        "Symptoms lasting more than 10 days",
+        "Severe headache, throat pain, or sinus pain",
+        "Difficulty breathing"
+      ]
+    },
+    "Diabetes": {
+      "precautions": [
+        "Monitor blood sugar regularly",
+        "Take medications as prescribed",
+        "Follow a balanced diet",
+        "Exercise regularly",
+        "Maintain a healthy weight",
+        "Check feet daily for wounds or infections"
+      ],
+      "home_care": [
+        "Eat regular, balanced meals",
+        "Limit sugary foods and refined carbohydrates",
+        "Stay physically active",
+        "Check blood sugar as recommended",
+        "Take medications on schedule"
+      ],
+      "when_to_seek_emergency": [
+        "Blood sugar above 400 mg/dL or below 70 mg/dL",
+        "Symptoms of diabetic ketoacidosis (nausea, vomiting, confusion)",
+        "Signs of hypoglycemia not responding to treatment",
+        "Wounds that won't heal",
+        "Sudden vision changes"
+      ]
+    }
+  },
+  "general_precautions": [
+    "Always follow your healthcare provider's instructions",
+    "Never stop prescribed medications without consulting your doctor",
+    "Keep a record of your symptoms and vital signs",
+    "Stay hydrated unless otherwise advised",
+    "Get adequate rest during illness"
+  ]
+}

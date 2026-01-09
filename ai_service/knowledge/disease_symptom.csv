@@ -1,0 +1,92 @@
+disease,symptom,weight
+Dengue,fever,0.95
+Dengue,headache,0.85
+Dengue,body ache,0.80
+Dengue,joint pain,0.75
+Dengue,rash,0.50
+Dengue,nausea,0.45
+Dengue,fatigue,0.60
+Malaria,fever,0.95
+Malaria,chills,0.90
+Malaria,sweating,0.75
+Malaria,headache,0.70
+Malaria,fatigue,0.65
+Malaria,nausea,0.50
+Common Cold,runny nose,0.90
+Common Cold,sneezing,0.85
+Common Cold,sore throat,0.80
+Common Cold,cough,0.70
+Common Cold,mild fever,0.40
+Common Cold,fatigue,0.35
+Influenza,fever,0.90
+Influenza,body ache,0.85
+Influenza,fatigue,0.80
+Influenza,cough,0.75
+Influenza,headache,0.70
+Influenza,chills,0.65
+COVID-19,fever,0.85
+COVID-19,cough,0.80
+COVID-19,loss of taste,0.75
+COVID-19,loss of smell,0.75
+COVID-19,fatigue,0.70
+COVID-19,shortness of breath,0.60
+COVID-19,body ache,0.55
+COVID-19,sore throat,0.50
+Typhoid,fever,0.95
+Typhoid,abdominal pain,0.80
+Typhoid,headache,0.70
+Typhoid,weakness,0.65
+Typhoid,constipation,0.50
+Typhoid,fatigue,0.60
+Gastroenteritis,diarrhea,0.90
+Gastroenteritis,vomiting,0.85
+Gastroenteritis,abdominal pain,0.80
+Gastroenteritis,nausea,0.75
+Gastroenteritis,fever,0.50
+Gastroenteritis,fatigue,0.55
+Migraine,severe headache,0.95
+Migraine,nausea,0.70
+Migraine,light sensitivity,0.75
+Migraine,vision changes,0.50
+Migraine,dizziness,0.45
+Pneumonia,cough,0.90
+Pneumonia,fever,0.85
+Pneumonia,shortness of breath,0.80
+Pneumonia,chest pain,0.70
+Pneumonia,fatigue,0.65
+Pneumonia,chills,0.55
+Bronchitis,cough,0.95
+Bronchitis,chest discomfort,0.70
+Bronchitis,fatigue,0.60
+Bronchitis,shortness of breath,0.55
+Bronchitis,mild fever,0.45
+Sinusitis,facial pain,0.85
+Sinusitis,nasal congestion,0.90
+Sinusitis,headache,0.75
+Sinusitis,runny nose,0.70
+Sinusitis,cough,0.50
+Urinary Tract Infection,painful urination,0.90
+Urinary Tract Infection,frequent urination,0.85
+Urinary Tract Infection,abdominal pain,0.60
+Urinary Tract Infection,fever,0.50
+Urinary Tract Infection,fatigue,0.40
+Chickenpox,rash,0.95
+Chickenpox,fever,0.80
+Chickenpox,fatigue,0.65
+Chickenpox,headache,0.55
+Chickenpox,loss of appetite,0.50
+Hypertension,headache,0.60
+Hypertension,dizziness,0.55
+Hypertension,nausea,0.40
+Hypertension,vision changes,0.45
+Hypertension,chest pain,0.35
+Diabetes,fatigue,0.70
+Diabetes,frequent urination,0.75
+Diabetes,increased thirst,0.80
+Diabetes,weight loss,0.65
+Diabetes,vision changes,0.50
+Anemia,fatigue,0.90
+Anemia,weakness,0.85
+Anemia,dizziness,0.70
+Anemia,shortness of breath,0.60
+Anemia,headache,0.50

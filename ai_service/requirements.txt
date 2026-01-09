@@ -1,0 +1,38 @@
+# AI Service Requirements
+# Stable, free, sufficient for CDSS
+
+# Core
+fastapi
+uvicorn
+pandas
+numpy
+scikit-learn
+
+# NLP (Clinical)
+transformers
+torch
+sentencepiece
+
+# OCR & PDF
+pytesseract
+pillow
+pdf2image
+
+# Medical Images (Optional)
+torchvision
+opencv-python
+
+# API Clients
+google-generativeai
+openai
+
+# Utilities
+python-multipart
+python-dotenv
+requests
+redis
+aiohttp
+
+# Testing
+pytest
+pytest-asyncio

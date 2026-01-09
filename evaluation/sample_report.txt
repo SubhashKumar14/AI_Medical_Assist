@@ -1,0 +1,38 @@
+MEDICAL LABORATORY REPORT
+==========================
+
+Patient ID: DEMO-001
+Date: 2026-01-09
+Report Type: Complete Blood Count (CBC) + Metabolic Panel
+
+HEMATOLOGY
+----------
+Hemoglobin: 9.1 g/dL (Normal: 13–17)          [LOW]
+WBC Count: 12,500 cells/mm3 (Normal: 4,000–11,000)  [HIGH]
+Platelets: 85,000 /µL (Normal: 150,000–450,000)    [LOW]
+RBC Count: 4.2 million/µL (Normal: 4.5–5.5)        [LOW]
+Hematocrit: 32% (Normal: 38–50%)                   [LOW]
+
+METABOLIC PANEL
+---------------
+Fasting Glucose: 142 mg/dL (Normal: 70–100)   [HIGH]
+Creatinine: 1.4 mg/dL (Normal: 0.7–1.3)       [HIGH]
+BUN: 25 mg/dL (Normal: 7–20)                  [HIGH]
+Sodium: 138 mEq/L (Normal: 136–145)           [NORMAL]
+Potassium: 4.2 mEq/L (Normal: 3.5–5.0)        [NORMAL]
+
+LIVER FUNCTION
+--------------
+ALT (SGPT): 65 U/L (Normal: 7–56)             [HIGH]
+AST (SGOT): 48 U/L (Normal: 10–40)            [HIGH]
+Total Bilirubin: 1.0 mg/dL (Normal: 0.1–1.2)  [NORMAL]
+
+OBSERVATION
+-----------
+Patient shows low hemoglobin and platelet count suggestive of 
+possible infection or bone marrow suppression. Elevated WBC 
+indicates active infection. Raised glucose and creatinine 
+levels warrant further investigation for metabolic conditions.
+
+NOTE: This is a synthetic report for demonstration purposes only.
+Please consult a qualified healthcare professional for medical advice.
