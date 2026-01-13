@@ -1,0 +1,30 @@
+============================================================
+DEMONSTRATION: Dynamic Question Selection Logic
+============================================================
+
+Step 0: Initial Symptom -> ['fever']
+
+   Initial Probability Distribution (Top 3):
+   - URTI: 28.5%
+   - Viral pharyngitis: 19.2%
+   - Influenza: 16.9%
+
+[Step 1] Top Question: skin skin sore or spots are not peeling
+
+--- BRANCH A: User answers YES to 'skin skin sore or spots are not peeling' ---
+   Updated Probabilities:
+   - Influenza: 90.0%
+   - HIV (initial infection): 4.1%
+   - URTI: 1.5%
+   [Branch A] Next Best Question: skin rash is pale colored
+
+--- BRANCH B: User answers NO to 'skin skin sore or spots are not peeling' ---
+   Updated Probabilities:
+   - URTI: 34.7%
+   - Viral pharyngitis: 23.4%
+   - Acute otitis media: 8.5%
+   [Branch B] Next Best Question: pain character: burn injurying
+
+============================================================
+✅ SUCCESS: The next question CHANGED based on the answer!
+============================================================

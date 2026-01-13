@@ -1,0 +1,54 @@
+RxImage Image File Reference.
+
+The table.csv file in this directory provides a reference between drugs and the
+image files contained in the image subdirectory. The columns of the file are 
+explained below:
+
+ndc11, rxcui, and name
+ - Drug information.
+
+rxnavImageObjectId
+ - Image ID.
+
+rxnavImageFileName and nlmImageFileName
+ - Image file names for RxNav and RxBase formats corresponding to the drug in
+   the previous columns.
+	
+RXNAV 120, RXBASE 120, RXNAV 300, RXBASE 300, RXNAV 600, RXBASE 600, 
+RXNAV 800, RXBASE 800, RXNAV 1024, RXBASE 1024, RXNAV ORIGINAL,
+and RXBASE ORIGINAL
+ - The file path of the image file for the corresponding drug with the given 
+   format and resolution.
+
+
+The different image resolutions for a pill will all have the same file name,
+but are stored in different directories based on their resolution.
+Both rxnav and rxbase images are stored together in the same directories. 
+
+For example: A pill with NDC 00093-0311-01, RxCUI 978006, and name Loperamide
+Hydrochloride 2 MG Oral Capsule, will have 12 images stored at these locations:
+
+image/images/gallery/original/00093-0311-01_RXNAVIMAGE10_26211358.jpg
+image/images/gallery/original/00093-0311-01_NLMIMAGE10_6315B1FD.jpg
+
+image/images/gallery/1024/00093-0311-01_RXNAVIMAGE10_26211358.jpg
+image/images/gallery/1024/00093-0311-01_NLMIMAGE10_6315B1FD.jpg
+
+image/images/gallery/800/00093-0311-01_RXNAVIMAGE10_26211358.jpg
+image/images/gallery/800/00093-0311-01_NLMIMAGE10_6315B1FD.jpg
+
+image/images/gallery/600/00093-0311-01_RXNAVIMAGE10_26211358.jpg
+image/images/gallery/600/00093-0311-01_NLMIMAGE10_6315B1FD.jpg
+
+image/images/gallery/300/00093-0311-01_RXNAVIMAGE10_26211358.jpg
+image/images/gallery/300/00093-0311-01_NLMIMAGE10_6315B1FD.jpg
+
+image/images/gallery/120/00093-0311-01_RXNAVIMAGE10_26211358.jpg
+image/images/gallery/120/00093-0311-01_NLMIMAGE10_6315B1FD.jpg
+
+The metadata for the images is available in the MONGOexport directory. 
+Two .json files represent contain the data used by the RxImage API:
+
+enum.json - contains the valid values for shape, colors, imprint types and other information.
+
+rximagesAll.json - contains the metadata returned by the API for the images

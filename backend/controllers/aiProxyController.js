@@ -24,11 +24,11 @@ const retryWithBackoff = async (fn, retries = MAX_RETRIES) => {
     } catch (error) {
       const isRateLimited = error.response?.status === 429;
       const isServerError = error.response?.status >= 500;
-      
+
       if (attempt === retries || (!isRateLimited && !isServerError)) {
         throw error;
       }
-      
+
       const delay = RETRY_DELAY_MS * Math.pow(2, attempt - 1);
       console.log(`Retry attempt ${attempt}/${retries} after ${delay}ms`);
       await new Promise(resolve => setTimeout(resolve, delay));
@@ -46,8 +46,8 @@ exports.startTriage = async (req, res) => {
     const userId = req.user?.id || 'anonymous';
 
     if (!text || typeof text !== 'string') {
-      return res.status(400).json({ 
-        error: 'Invalid request: symptom text is required' 
+      return res.status(400).json({
+        error: 'Invalid request: symptom text is required'
       });
     }
 
@@ -55,7 +55,8 @@ exports.startTriage = async (req, res) => {
     const response = await retryWithBackoff(async () => {
       return axios.post(`${AI_SERVICE_URL}/start`, {
         text,
-        user_id: userId
+        user_id: userId,
+        model_provider: req.body.model_provider || 'auto' // Forward model selection
       }, {
         timeout: 30000
       });
@@ -67,15 +68,15 @@ exports.startTriage = async (req, res) => {
     res.json(response.data);
   } catch (error) {
     console.error('Error in startTriage:', error.message);
-    
+
     if (error.response?.status === 429) {
-      return res.status(429).json({ 
-        error: 'AI service rate limit exceeded. Please try again later.' 
+      return res.status(429).json({
+        error: 'AI service rate limit exceeded. Please try again later.'
       });
     }
-    
-    res.status(502).json({ 
-      error: 'AI Service temporarily unavailable. Please try again.' 
+
+    res.status(502).json({
+      error: 'AI Service temporarily unavailable. Please try again.'
     });
   }
 };
@@ -90,8 +91,8 @@ exports.nextQuestion = async (req, res) => {
     const userId = req.user?.id || 'anonymous';
 
     if (!session_id || answer === undefined) {
-      return res.status(400).json({ 
-        error: 'Invalid request: session_id and answer are required' 
+      return res.status(400).json({
+        error: 'Invalid request: session_id and answer are required'
       });
     }
 
@@ -112,15 +113,15 @@ exports.nextQuestion = async (req, res) => {
     res.json(response.data);
   } catch (error) {
     console.error('Error in nextQuestion:', error.message);
-    
+
     if (error.response?.status === 404) {
-      return res.status(404).json({ 
-        error: 'Session not found or expired' 
+      return res.status(404).json({
+        error: 'Session not found or expired'
       });
     }
-    
-    res.status(502).json({ 
-      error: 'AI Service temporarily unavailable. Please try again.' 
+
+    res.status(502).json({
+      error: 'AI Service temporarily unavailable. Please try again.'
     });
   }
 };
@@ -134,8 +135,8 @@ exports.analyzeReport = async (req, res) => {
     const userId = req.user?.id || 'anonymous';
 
     if (!req.file) {
-      return res.status(400).json({ 
-        error: 'No file uploaded' 
+      return res.status(400).json({
+        error: 'No file uploaded'
       });
     }
 
@@ -147,6 +148,7 @@ exports.analyzeReport = async (req, res) => {
       contentType: req.file.mimetype
     });
     formData.append('user_id', userId);
+    formData.append('model_provider', req.body.model_provider || 'auto'); // Forward model selection
 
     // Call AI service with retry
     const response = await retryWithBackoff(async () => {
@@ -163,9 +165,9 @@ exports.analyzeReport = async (req, res) => {
     res.json(response.data);
   } catch (error) {
     console.error('Error in analyzeReport:', error.message);
-    
-    res.status(502).json({ 
-      error: 'Report analysis failed. Please try again.' 
+
+    res.status(502).json({
+      error: 'Report analysis failed. Please try again.'
     });
   }
 };
@@ -187,15 +189,15 @@ exports.getSession = async (req, res) => {
     res.json(response.data);
   } catch (error) {
     console.error('Error in getSession:', error.message);
-    
+
     if (error.response?.status === 404) {
-      return res.status(404).json({ 
-        error: 'Session not found' 
+      return res.status(404).json({
+        error: 'Session not found'
       });
     }
-    
-    res.status(502).json({ 
-      error: 'Failed to retrieve session' 
+
+    res.status(502).json({
+      error: 'Failed to retrieve session'
     });
   }
 };
@@ -211,5 +213,32 @@ exports.extractSymptoms = async (req, res) => {
   } catch (error) {
     console.error('Error calling AI service:', error);
     res.status(502).json({ error: 'AI Service Unavailable' });
+  }
+};
+
+/**
+ * POST /api/ai/chat
+ * Chat with AI Assistant (Context-aware)
+ */
+exports.chatWithAi = async (req, res) => {
+  try {
+    const { session_id, message, model_provider } = req.body;
+    const userId = req.user?.id || 'anonymous';
+
+    const response = await retryWithBackoff(async () => {
+      return axios.post(`${AI_SERVICE_URL}/ai/chat`, {
+        session_id,
+        message,
+        user_id: userId,
+        model_provider: model_provider || 'auto'
+      }, {
+        timeout: 30000
+      });
+    });
+
+    res.json(response.data);
+  } catch (error) {
+    console.error('Error in chatWithAi:', error.message);
+    res.status(502).json({ error: 'AI Chat unavailable' });
   }
 };

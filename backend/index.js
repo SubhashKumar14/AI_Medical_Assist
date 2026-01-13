@@ -14,7 +14,11 @@ const mongoose = require('mongoose');
 const aiRoutes = require('./routes/aiRoutes');
 const authRoutes = require('./routes/authRoutes');
 
+const http = require('http');
+const { Server } = require('socket.io');
+
 const app = express();
+const server = http.createServer(app); // Create HTTP server
 const PORT = process.env.PORT || 5000;
 
 // Middleware
@@ -25,7 +29,15 @@ app.use(cors({
 app.use(express.json({ limit: '10mb' }));
 app.use(express.urlencoded({ extended: true, limit: '10mb' }));
 
-// Health check endpoint
+// Socket.io Setup
+const io = new Server(server, {
+  cors: {
+    origin: "http://localhost:3000",
+    methods: ["GET", "POST"]
+  }
+});
+
+// Health check
 app.get('/health', (req, res) => {
   res.json({ status: 'ok', timestamp: new Date().toISOString() });
 });
@@ -33,33 +45,23 @@ app.get('/health', (req, res) => {
 // API Routes
 app.use('/api/auth', authRoutes);
 app.use('/api', aiRoutes);
+// app.use('/api/records', recordRoutes); // Disabled until created
+app.use('/api', require('./routes/appointmentRoutes')); // Added Appointment Routes
 
-// Error handling middleware
+// Socket Handlers
+require('./sockets/signalingHandler')(io);
+require('./sockets/chatHandler')(io);
+
+// Error handling
 app.use((err, req, res, next) => {
   console.error('Error:', err.message);
-  
-  if (err instanceof multer?.MulterError) {
-    return res.status(400).json({
-      error: 'File upload error',
-      message: err.message
-    });
-  }
-  
   res.status(500).json({
     error: 'Internal server error',
-    message: process.env.NODE_ENV === 'development' ? err.message : 'Something went wrong'
+    message: err.message
   });
 });
 
-// 404 handler
-app.use((req, res) => {
-  res.status(404).json({
-    error: 'Not found',
-    message: `Route ${req.method} ${req.path} not found`
-  });
-});
-
-// Database connection (optional - comment out if not using MongoDB yet)
+// Database
 const connectDB = async () => {
   try {
     if (process.env.MONGODB_URI) {
@@ -73,14 +75,14 @@ const connectDB = async () => {
   }
 };
 
-// Start server
+// Start Server (Listen on HTTP Server, not App)
 const startServer = async () => {
   await connectDB();
-  
-  app.listen(PORT, () => {
+
+  server.listen(PORT, () => {
     console.log(`🚀 Backend server running on port ${PORT}`);
     console.log(`📍 Health check: http://localhost:${PORT}/health`);
-    console.log(`🤖 AI Service URL: ${process.env.AI_SERVICE_URL || 'http://localhost:8000'}`);
+    console.log(`🔌 Socket.io initialized`);
   });
 };
 

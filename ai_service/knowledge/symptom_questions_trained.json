@@ -1,894 +1,2162 @@
 {
-  "live with 4 or more people": {
-    "question": "Do you live with 4 or more people?",
+  "pain does not radiate": {
+    "question": "Does your pain stay in one place without spreading?",
     "type": "binary"
   },
-  "significantly increased sweating": {
-    "question": "Have you had significantly increased sweating?",
+  "nasal congestion or runny nose": {
+    "question": "Do you have nasal congestion or a runny nose?",
+    "type": "binary"
+  },
+  "shortness of breath or difficulty breathing in a observable changeificant way": {
+    "question": "Are you experiencing shortness of breath?",
+    "type": "binary"
+  },
+  "skin rash is pink colored": {
+    "question": "Is your skin rash pink in color?",
+    "type": "binary"
+  },
+  "skin skin sore or spots are not peeling": {
+    "question": "Are your skin skin sore or spots staying intact (not peeling)?",
     "type": "binary"
   },
   "pain": {
-    "question": "Do you have pain somewhere, related to your reason for consulting?",
+    "question": "Do you have pain?",
     "type": "binary"
   },
-  "e 54": {
-    "question": "Characterize your pain:",
+  "skin rash pain intensity: 0/10": {
+    "question": "On a scale of 0-10, how intense is your pain?",
+    "type": "scale",
+    "min": 0,
+    "max": 10
+  },
+  "skin rash is na colored": {
+    "question": "What color is your skin rash?",
     "type": "categorical"
   },
-  "feel pain": {
-    "question": "Do you feel pain somewhere?",
-    "type": "categorical"
+  "itching severity: 0/10": {
+    "question": "On a scale of 0-10, how severe is your itching?",
+    "type": "scale",
+    "min": 0,
+    "max": 10
   },
-  "e 56": {
-    "question": "How intense is the pain?",
-    "type": "categorical"
+  "skin rash swelling: 0/10": {
+    "question": "On a scale of 0-10, how severe is your skin rash?",
+    "type": "scale",
+    "min": 0,
+    "max": 10
   },
-  "pain radiate to another location": {
-    "question": "Does the pain radiate to another location?",
-    "type": "categorical"
-  },
-  "e 58": {
-    "question": "How precisely is the pain located?",
-    "type": "categorical"
-  },
-  "e 59": {
-    "question": "How fast did the pain appear?",
-    "type": "categorical"
-  },
-  "cough that produces colored or more abundant sputum than usual": {
-    "question": "Do you have a cough that produces colored or more abundant sputum than usual?",
+  "skin sore or spot smaller than 1cm": {
+    "question": "Is your skin skin sore or spot smaller than 1cm?",
     "type": "binary"
   },
-  "smoking": {
-    "question": "Do you smoke cigarettes?",
+  "skin sore or spot larger than 1cm": {
+    "question": "Is your skin skin sore or spot larger than 1cm?",
     "type": "binary"
   },
-  "fever (either felt or measured with a thermometer)": {
-    "question": "Do you have a fever (either felt or measured with a thermometer)?",
+  "swelling in one or more areas of your body": {
+    "question": "Do you have swelling in your one or more areas of your body?",
     "type": "binary"
   },
-  "sore throat": {
-    "question": "Do you have a sore throat?",
+  "skin rash is pale colored": {
+    "question": "Is your skin rash pale in color?",
     "type": "binary"
+  },
+  "skin skin sore or spots or redness": {
+    "question": "Do you have any skin skin sore or spots or skin rashes?",
+    "type": "binary"
+  },
+  "no skin skin sore or spots present": {
+    "question": "Do you have any skin skin sore or spots or skin rashes?",
+    "type": "binary"
+  },
+  "no swelling present": {
+    "question": "Do you have any swelling anywhere on your body?",
+    "type": "binary"
+  },
+  "clinical evidence 194": {
+    "question": "Have you noticed a high-pitched sound when breathing in (stridor)?",
+    "type": "binary"
+  },
+  "recent travel to: west africa": {
+    "question": "Where did you travel to recently?",
+    "type": "categorical",
+    "options": [
+      "Africa",
+      "Asia",
+      "Europe",
+      "Americas",
+      "Caribbean",
+      "Oceania"
+    ]
   },
   "cough": {
     "question": "Do you have a cough?",
     "type": "binary"
   },
-  "e 204": {
-    "question": "Have you traveled out of the country in the last 4 weeks?",
-    "type": "categorical"
+  "pain character: heavy/pressure-like": {
+    "question": "How would you describe your pain?",
+    "type": "categorical",
+    "options": [
+      "Sharp",
+      "Dull/Aching",
+      "Burning",
+      "Throbbing",
+      "Cramping",
+      "Pressure-like",
+      "Stabbing"
+    ]
   },
-  "exposed to secondhand cigarette smoke on a daily basis": {
-    "question": "Are you exposed to secondhand cigarette smoke on a daily basis?",
+  "pain that is increased with movement": {
+    "question": "Do you have pain that is increased with movement?",
     "type": "binary"
   },
-  "swollen or painful lymph nodes": {
-    "question": "Do you have swollen or painful lymph nodes?",
+  "skin skin sore or spots are peeling": {
+    "question": "Are your skin skin sore or spots peeling?",
     "type": "binary"
   },
-  "e 27": {
-    "question": "Have you ever had a sexually transmitted infection?",
-    "type": "binary"
-  },
-  "diarrhea or an increase in stool frequency": {
-    "question": "Have you had diarrhea or an increase in stool frequency?",
-    "type": "binary"
-  },
-  "unprotected sex with more than one partner in the last 6 months": {
-    "question": "Have you had unprotected sex with more than one partner in the last 6 months?",
-    "type": "binary"
-  },
-  "lesions, redness or problems on your skin that you believe are related to the condition you are consulting for": {
-    "question": "Do you have any lesions, redness or problems on your skin that you believe are related to the condition you are consulting for?",
-    "type": "binary"
-  },
-  "e 130": {
-    "question": "What color is the rash?",
-    "type": "categorical"
-  },
-  "e 131": {
-    "question": "Do your lesions peel off?",
-    "type": "categorical"
-  },
-  "e 132": {
-    "question": "Is the rash swollen?",
-    "type": "categorical"
-  },
-  "e 133": {
-    "question": "Where is the affected region located?",
-    "type": "categorical"
-  },
-  "e 134": {
-    "question": "How intense is the pain caused by the rash?",
-    "type": "categorical"
-  },
-  "e 135": {
-    "question": "Is the lesion (or are the lesions) larger than 1cm?",
-    "type": "categorical"
-  },
-  "e 136": {
-    "question": "How severe is the itching?",
-    "type": "categorical"
-  },
-  "feel like vomiting": {
-    "question": "Are you feeling nauseous or do you feel like vomiting?",
-    "type": "binary"
-  },
-  "involuntary weight loss over the last 3 months": {
-    "question": "Have you had an involuntary weight loss over the last 3 months?",
-    "type": "binary"
-  },
-  "sexual intercourse with an hiv-positive partner in the past 12 months": {
-    "question": "Have you had sexual intercourse with an HIV-positive partner in the past 12 months?",
-    "type": "binary"
-  },
-  "addiction to alcohol": {
-    "question": "Do you drink alcohol excessively or do you have an addiction to alcohol?",
-    "type": "binary"
-  },
-  "chills or shivers": {
-    "question": "Have you had chills or shivers?",
-    "type": "binary"
-  },
-  "heart failure": {
-    "question": "Do you have heart failure?",
-    "type": "binary"
-  },
-  "e 118": {
-    "question": "Have you ever had pneumonia?",
-    "type": "binary"
-  },
-  "chronic obstructive pulmonary disease (copd)": {
-    "question": "Do you have a chronic obstructive pulmonary disease (COPD)?",
-    "type": "binary"
-  },
-  "asthma or have you ever had to use a bronchodilator in the past": {
-    "question": "Do you have asthma or have you ever had to use a bronchodilator in the past?",
-    "type": "binary"
-  },
-  "diffuse (widespread) muscle pain": {
-    "question": "Do you have diffuse (widespread) muscle pain?",
-    "type": "binary"
-  },
-  "e 175": {
-    "question": "Have you noticed any new fatigue, generalized and vague discomfort, diffuse (widespread) muscle aches or a change in your general well-being related to your consultation today?",
-    "type": "binary"
-  },
-  "nasal congestion or a clear runny nose": {
-    "question": "Do you have nasal congestion or a clear runny nose?",
-    "type": "binary"
-  },
-  "attend or work in a daycare": {
-    "question": "Do you attend or work in a daycare?",
-    "type": "binary"
-  },
-  "e 103": {
-    "question": "Have you lost your sense of smell?",
-    "type": "binary"
-  },
-  "cold in the last 2 weeks": {
-    "question": "Have you had a cold in the last 2 weeks?",
-    "type": "binary"
-  },
-  "polyps in your nose": {
-    "question": "Do you have polyps in your nose?",
-    "type": "binary"
-  },
-  "deviated nasal septum": {
-    "question": "Do you have a deviated nasal septum?",
-    "type": "binary"
-  },
-  "e 125": {
-    "question": "Have you ever been diagnosed with gastroesophageal reflux?",
-    "type": "binary"
-  },
-  "greenish or yellowish nasal discharge": {
-    "question": "Do you have greenish or yellowish nasal discharge?",
-    "type": "binary"
-  },
-  "more likely to develop common allergies than the general population": {
-    "question": "Are you more likely to develop common allergies than the general population?",
-    "type": "binary"
-  },
-  "e 41": {
-    "question": "Have you been in contact with a person with similar symptoms in the past 2 weeks?",
-    "type": "binary"
-  },
-  "immunosuppressed": {
-    "question": "Are you immunosuppressed?",
-    "type": "binary"
-  },
-  "poor diet": {
-    "question": "Do you have a poor diet?",
-    "type": "binary"
-  },
-  "e 24": {
-    "question": "Have you ever had a diagnosis of anemia?",
-    "type": "binary"
-  },
-  "feel lightheaded and dizzy or do you feel like you are about to faint": {
-    "question": "Do you feel lightheaded and dizzy or do you feel like you are about to faint?",
-    "type": "binary"
-  },
-  "feel so tired that you are unable to do your usual activities or are you stuck in your bed all day long": {
-    "question": "Do you feel so tired that you are unable to do your usual activities or are you stuck in your bed all day long?",
-    "type": "binary"
-  },
-  "chronic kidney failure": {
-    "question": "Do you have chronic kidney failure?",
-    "type": "binary"
-  },
-  "e 140": {
-    "question": "Have you recently had stools that were black (like coal)?",
-    "type": "binary"
-  },
-  "taking any new oral anticoagulants ((noacs)": {
-    "question": "Are you taking any new oral anticoagulants ((NOACs)?",
-    "type": "binary"
-  },
-  "skin much paler than usual": {
-    "question": "Is your skin much paler than usual?",
-    "type": "binary"
-  },
-  "underweight": {
-    "question": "Is your BMI less than 18.5, or are you underweight?",
-    "type": "binary"
-  },
-  "e 19": {
-    "question": "Have you been diagnosed with hyperthyroidism?",
-    "type": "binary"
-  },
-  "known issue with one of your heart valves": {
-    "question": "Do you have a known issue with one of your heart valves?",
-    "type": "binary"
-  },
-  "severe chronic obstructive pulmonary disease (copd)": {
-    "question": "Do you have severe Chronic Obstructive Pulmonary Disease (COPD)?",
-    "type": "binary"
-  },
-  "shortness of breath or difficulty breathing in a significant way": {
-    "question": "Are you experiencing shortness of breath or difficulty breathing in a significant way?",
-    "type": "binary"
-  },
-  "diabetes": {
-    "question": "Do you have diabetes?",
-    "type": "binary"
-  },
-  "significantly overweight compared to people of the same height as you": {
-    "question": "Are you significantly overweight compared to people of the same height as you?",
-    "type": "binary"
-  },
-  "feel slightly dizzy or lightheaded": {
-    "question": "Do you feel slightly dizzy or lightheaded?",
-    "type": "binary"
-  },
-  "high blood pressure or do you take medications to treat high blood pressure": {
-    "question": "Do you have high blood pressure or do you take medications to treat high blood pressure?",
-    "type": "binary"
-  },
-  "angina (chest pain)": {
-    "question": "Have you ever had a heart attack or do you have angina (chest pain)?",
-    "type": "binary"
-  },
-  "known heart defect": {
-    "question": "Do you have a known heart defect?",
-    "type": "binary"
-  },
-  "feel your heart is beating fast (racing), irregularly (missing a beat) or do you feel palpitations": {
-    "question": "Do you feel your heart is beating fast (racing), irregularly (missing a beat) or do you feel palpitations?",
-    "type": "binary"
-  },
-  "symptoms that are increased with physical exertion but alleviated with rest": {
-    "question": "Do you have symptoms that are increased with physical exertion but alleviated with rest?",
-    "type": "binary"
-  },
-  "close family members who suffer from allergies (any type), hay fever or eczema": {
-    "question": "Do you have any close family members who suffer from allergies (any type), hay fever or eczema?",
-    "type": "binary"
-  },
-  "family members who have asthma": {
-    "question": "Do you have any family members who have asthma?",
-    "type": "binary"
-  },
-  "nose or the back of your throat itchy": {
-    "question": "Is your nose or the back of your throat itchy?",
-    "type": "binary"
-  },
-  "severe itching in one or both eyes": {
-    "question": "Do you have severe itching in one or both eyes?",
-    "type": "binary"
-  },
-  "live in in a big city": {
-    "question": "Do you live in in a big city?",
-    "type": "binary"
-  },
-  "e 194": {
-    "question": "Have you noticed a high pitched sound when breathing in?",
-    "type": "binary"
-  },
-  "e 25": {
-    "question": "Have any of your family members been diagnosed with cluster headaches?",
-    "type": "binary"
-  },
-  "take medication that dilates your blood vessels": {
-    "question": "Do you take medication that dilates your blood vessels?",
-    "type": "binary"
-  },
-  "known severe food allergy": {
-    "question": "Do you have a known severe food allergy?",
-    "type": "binary"
-  },
-  "e 42": {
-    "question": "Have you been in contact with or ate something that you have an allergy to?",
-    "type": "binary"
-  },
-  "swelling in one or more areas of your body": {
-    "question": "Do you have swelling in one or more areas of your body?",
-    "type": "binary"
-  },
-  "e 152": {
-    "question": "Where is the swelling located?",
-    "type": "categorical"
-  },
-  "e 159": {
-    "question": "Did you lose consciousness?",
-    "type": "binary"
-  },
-  "e 45": {
-    "question": "Have you been coughing up blood?",
-    "type": "binary"
-  },
-  "e 21": {
-    "question": "Have you ever had a spontaneous pneumothorax?",
+  "fever": {
+    "question": "Do you have a fever?",
     "type": "binary"
   },
   "pain that is increased when you breathe in deeply": {
     "question": "Do you have pain that is increased when you breathe in deeply?",
     "type": "binary"
   },
-  "feel that your eyes produce excessive tears": {
-    "question": "Do you feel that your eyes produce excessive tears?",
+  "no recent international travel": {
+    "question": "Have you traveled internationally in the last 4 weeks?",
     "type": "binary"
   },
-  "currently, have any weakness/paralysis in one or more of your limbs or in your face": {
-    "question": "Did you previously, or do you currently, have any weakness/paralysis in one or more of your limbs or in your face?",
+  "feel your heart is beating fast (racing), irregularly (missing a beat) or do you feel heart racing or skipping beats": {
+    "question": "Do you have feel your heart is beating fast (racing), irregularly (missing a beat) or do you feel heart racing or skipping beats?",
     "type": "binary"
   },
-  "e 5": {
-    "question": "Have you ever had fluid in your lungs?",
+  "clinical evidence 92": {
+    "question": "Clinical assessment evidence 92?",
     "type": "binary"
   },
-  "e 217": {
-    "question": "Are your symptoms worse when lying down and alleviated while sitting up?",
+  "clinical evidence 187": {
+    "question": "Clinical assessment evidence 187?",
     "type": "binary"
   },
-  "infected with the human immunodeficiency virus (hiv)": {
-    "question": "Are you infected with the human immunodeficiency virus (HIV)?",
+  "clinical evidence 166": {
+    "question": "Clinical assessment evidence 166?",
     "type": "binary"
   },
-  "take corticosteroids": {
-    "question": "Do you take corticosteroids?",
+  "asthma or have you ever had to use a bronchodilator in the past": {
+    "question": "Do you have asthma or have you ever had to use a bronchodilator in the past?",
     "type": "binary"
   },
-  "currently using intravenous drugs": {
-    "question": "Are you currently using intravenous drugs?",
+  "skin rash is red colored": {
+    "question": "Is your skin rash red in color?",
     "type": "binary"
   },
-  "e 28": {
-    "question": "Are there any members of your family who have been diagnosed myasthenia gravis?",
+  "operation within the last month": {
+    "question": "Do you have operation within the last month?",
     "type": "binary"
   },
-  "perception of seeing two images of a single object seen overlapping or adjacent to each other (double vision)": {
-    "question": "Do you have the perception of seeing two images of a single object seen overlapping or adjacent to each other (double vision)?",
+  "smoking": {
+    "question": "Do you smoke cigarettes?",
     "type": "binary"
   },
-  "feel weakness in both arms and/or both legs": {
-    "question": "Do you feel weakness in both arms and/or both legs?",
+  "clinical evidence 209": {
+    "question": "Clinical assessment evidence 209?",
     "type": "binary"
   },
-  "e 90": {
-    "question": "Do your symptoms of muscle weakness increase with fatigue and/or stress?",
+  "polyps in your nose": {
+    "question": "Do you have polyps in your nose?",
     "type": "binary"
   },
-  "hard time opening/raising one or both eyelids": {
-    "question": "Do you have a hard time opening/raising one or both eyelids?",
+  "heart failure": {
+    "question": "Do you have heart failure?",
     "type": "binary"
   },
-  "feel anxious": {
-    "question": "Do you feel anxious?",
+  "clinical evidence 73": {
+    "question": "Clinical assessment evidence 73?",
     "type": "binary"
   },
-  "suffer from chronic anxiety": {
-    "question": "Do you suffer from chronic anxiety?",
+  "clinical evidence 214": {
+    "question": "Have you noticed a wheezing sound when you exhale?",
     "type": "binary"
   },
-  "e 99": {
-    "question": "Have you ever had a migraine or is a member of your family known to have migraines?",
+  "clinical evidence 178": {
+    "question": "Clinical assessment evidence 178?",
     "type": "binary"
   },
-  "suffer from fibromyalgia": {
-    "question": "Do you suffer from fibromyalgia?",
+  "clinical evidence 125": {
+    "question": "Clinical assessment evidence 125?",
     "type": "binary"
   },
-  "e 157": {
-    "question": "Have you recently had numbness, loss of sensation or tingling, in both arms and legs and around your mouth?",
+  "clinical evidence 212": {
+    "question": "Clinical assessment evidence 212?",
     "type": "binary"
   },
-  "currently, or did you ever, have numbness, loss of sensitivity or tingling anywhere on your body": {
-    "question": "Do you currently, or did you ever, have numbness, loss of sensitivity or tingling anywhere on your body?",
+  "clinical evidence 45": {
+    "question": "Clinical assessment evidence 45?",
     "type": "binary"
   },
-  "e 185": {
-    "question": "Have you ever had a head trauma?",
+  "productive cough with colored sputum": {
+    "question": "Do you have a cough that produces colored or thick mucus?",
     "type": "binary"
   },
-  "feel like you are (or were) choking or suffocating": {
-    "question": "Do you feel like you are (or were) choking or suffocating?",
-    "type": "binary"
-  },
-  "e 80": {
-    "question": "Have you ever been diagnosed with depression?",
-    "type": "binary"
-  },
-  "feel like you are dying or were you afraid that you were about do die": {
-    "question": "Do you feel like you are dying or were you afraid that you were about do die?",
-    "type": "binary"
-  },
-  "feel like you are detached from your own body or your surroundings": {
-    "question": "Do you feel like you are detached from your own body or your surroundings?",
-    "type": "binary"
-  },
-  "e 92": {
-    "question": "Did your cheeks suddenly turn red?",
-    "type": "binary"
-  },
-  "e 187": {
-    "question": "Did you eat dark-fleshed fish (such as tuna) or Swiss cheese before the reaction occurred?",
-    "type": "binary"
-  },
-  "pain that improves when you lean forward": {
-    "question": "Do you have pain that improves when you lean forward?",
-    "type": "binary"
-  },
-  "regularly take stimulant drugs": {
-    "question": "Do you regularly take stimulant drugs?",
-    "type": "binary"
-  },
-  "difficulty swallowing, or have a feeling of discomfort/blockage when swallowing": {
-    "question": "Do you have difficulty swallowing, or have a feeling of discomfort/blockage when swallowing?",
-    "type": "binary"
-  },
-  "e 190": {
-    "question": "Have you noticed that you produce more saliva than usual?",
-    "type": "binary"
-  },
-  "e 209": {
-    "question": "Are your vaccinations up to date?",
-    "type": "binary"
-  },
-  "e 150": {
-    "question": "Have you been able to pass stools or gas since your symptoms increased?",
-    "type": "binary"
-  },
-  "e 160": {
-    "question": "Were you born prematurely or did you suffer any complication at birth?",
+  "clinical evidence 21": {
+    "question": "Clinical assessment evidence 21?",
     "type": "binary"
   },
   "intense coughing fits": {
     "question": "Do you have intense coughing fits?",
     "type": "binary"
   },
-  "e 221": {
-    "question": "Are the symptoms or pain increased with coughing, with an effort like lifting a weight or from forcing a bowel movement?",
+  "clinical evidence 103": {
+    "question": "Clinical assessment evidence 103?",
     "type": "binary"
   },
-  "e 211": {
-    "question": "Have you vomited several times or have you made several efforts to vomit?",
+  "feelings that are increased with physical exertion but alleviated with rest": {
+    "question": "Do you have feelings that are increased with physical exertion but alleviated with rest?",
     "type": "binary"
   },
-  "chronic pancreatitis": {
-    "question": "Do you have chronic pancreatitis?",
+  "pain character: burn injurying": {
+    "question": "How would you describe your pain?",
+    "type": "categorical",
+    "options": [
+      "Sharp",
+      "Dull/Aching",
+      "Burning",
+      "Throbbing",
+      "Cramping",
+      "Pressure-like",
+      "Stabbing"
+    ]
+  },
+  "clinical evidence 3": {
+    "question": "Clinical assessment evidence 3?",
     "type": "binary"
   },
-  "non-restful sleep": {
-    "question": "Do you constantly feel fatigued or do you have non-restful sleep?",
+  "clinical evidence 25": {
+    "question": "Clinical assessment evidence 25?",
     "type": "binary"
   },
-  "pale stools and dark urine": {
-    "question": "Do you have pale stools and dark urine?",
+  "pain character: stabbing": {
+    "question": "How would you describe your pain?",
+    "type": "categorical",
+    "options": [
+      "Sharp",
+      "Dull/Aching",
+      "Burning",
+      "Throbbing",
+      "Cramping",
+      "Pressure-like",
+      "Stabbing"
+    ]
+  },
+  "contact_with_sick_person": {
+    "question": "Do you have contact_with_sick_person?",
     "type": "binary"
   },
-  "e 223": {
-    "question": "Are there members of your family who have been diagnosed with pancreatic cancer?",
+  "clinical evidence 5": {
+    "question": "Clinical assessment evidence 5?",
     "type": "binary"
   },
-  "e 3": {
-    "question": "Have you ever had a pericarditis?",
+  "nose or the back of your throat itchy": {
+    "question": "Do you have nose or the back of your throat itchy?",
     "type": "binary"
   },
-  "consulting because you have high blood pressure": {
-    "question": "Are you consulting because you have high blood pressure?",
+  "chronic obstructive pulmonary disease (copd)": {
+    "question": "Do you have chronic obstructive pulmonary disease (copd)?",
     "type": "binary"
   },
-  "painful mouth ulcers or sores": {
-    "question": "Do you have painful mouth ulcers or sores?",
+  "angina (chest pain)": {
+    "question": "Do you have angina (chest pain)?",
     "type": "binary"
   },
-  "e 212": {
-    "question": "Have you noticed that the tone of your voice has become deeper, softer or hoarse?",
+  "more likely to develop common allergies than the general population": {
+    "question": "Do you have more likely to develop common allergies than the general population?",
     "type": "binary"
   },
-  "find that your symptoms have worsened over the last 2 weeks and that progressively less effort is required to cause the symptoms": {
-    "question": "Do you find that your symptoms have worsened over the last 2 weeks and that progressively less effort is required to cause the symptoms?",
+  "pain character: tender/sensitive": {
+    "question": "How would you describe your pain?",
+    "type": "categorical",
+    "options": [
+      "Sharp",
+      "Dull/Aching",
+      "Burning",
+      "Throbbing",
+      "Cramping",
+      "Pressure-like",
+      "Stabbing"
+    ]
+  },
+  "greenish or yellowish nasal discharge": {
+    "question": "Do you have greenish or yellowish nasal discharge?",
     "type": "binary"
   },
-  "chest pain even at rest": {
-    "question": "Do you have chest pain even at rest?",
+  "clinical evidence 118": {
+    "question": "Clinical assessment evidence 118?",
+    "type": "binary"
+  },
+  "clinical evidence 157": {
+    "question": "Clinical assessment evidence 157?",
+    "type": "binary"
+  },
+  "known severe food allergy": {
+    "question": "Do you have known severe food allergy?",
+    "type": "binary"
+  },
+  "clinical evidence 211": {
+    "question": "Clinical assessment evidence 211?",
+    "type": "binary"
+  },
+  "former smoker": {
+    "question": "Do you have former smoker?",
+    "type": "binary"
+  },
+  "taking any new oral anticoagulants ((noacs)": {
+    "question": "Do you have taking any new oral anticoagulants ((noacs)?",
+    "type": "binary"
+  },
+  "pain in ear (right)": {
+    "question": "Do you have ear pain (right)?",
+    "type": "binary"
+  },
+  "pain in tonsil (left)": {
+    "question": "Do you have pain in the tonsil (left)?",
+    "type": "binary"
+  },
+  "pain in ear (left)": {
+    "question": "Do you have ear pain (left)?",
+    "type": "binary"
+  },
+  "pain in tonsil (right)": {
+    "question": "Do you have pain in the tonsil (right)?",
+    "type": "binary"
+  },
+  "pain in adam's apple (throat)": {
+    "question": "Do you have pain in your adam's apple (throat)?",
+    "type": "binary"
+  },
+  "involuntary unexplained weight loss over the last 3 months": {
+    "question": "Do you have involuntary unexplained weight loss over the last 3 months?",
+    "type": "binary"
+  },
+  "fluid-filled lumpic fibrosis": {
+    "question": "Do you have fluid-filled lumpic fibrosis?",
+    "type": "binary"
+  },
+  "pain in throat": {
+    "question": "Do you have pain in your throat?",
+    "type": "binary"
+  },
+  "pain in roof of mouth (palate)": {
+    "question": "Do you have pain in your roof of mouth (palate)?",
+    "type": "binary"
+  },
+  "pain character: cramping": {
+    "question": "How would you describe your pain?",
+    "type": "categorical",
+    "options": [
+      "Sharp",
+      "Dull/Aching",
+      "Burning",
+      "Throbbing",
+      "Cramping",
+      "Pressure-like",
+      "Stabbing"
+    ]
+  },
+  "exposed to secondhand cigarette smoke on a daily basis": {
+    "question": "Are you exposed to secondhand cigarette smoke on a daily basis?",
+    "type": "binary"
+  },
+  "cold in the last 2 weeks": {
+    "question": "Do you have cold in the last 2 weeks?",
+    "type": "binary"
+  },
+  "clinical evidence 4": {
+    "question": "Clinical assessment evidence 4?",
+    "type": "binary"
+  },
+  "sore throat": {
+    "question": "Do you have a sore throat?",
+    "type": "binary"
+  },
+  "pain character: sharp": {
+    "question": "How would you describe your pain?",
+    "type": "categorical",
+    "options": [
+      "Sharp",
+      "Dull/Aching",
+      "Burning",
+      "Throbbing",
+      "Cramping",
+      "Pressure-like",
+      "Stabbing"
+    ]
+  },
+  "swelling in ankle (right)": {
+    "question": "Do you have swelling in your ankle (right)?",
+    "type": "binary"
+  },
+  "swelling in dorsal aspect of the foot (right)": {
+    "question": "Do you have swelling in your dorsal aspect of the foot (right)?",
+    "type": "binary"
+  },
+  "swelling in upper leg (left)": {
+    "question": "Do you have swelling in your upper leg (left)?",
+    "type": "binary"
+  },
+  "clinical evidence 24": {
+    "question": "Clinical assessment evidence 24?",
+    "type": "binary"
+  },
+  "swelling in upper leg (right)": {
+    "question": "Do you have swelling in your upper leg (right)?",
+    "type": "binary"
+  },
+  "being very thin": {
+    "question": "Do you have being very thin?",
+    "type": "binary"
+  },
+  "swelling in ankle (left)": {
+    "question": "Do you have swelling in your ankle (left)?",
+    "type": "binary"
+  },
+  "feel so tired that you are unable to do your usual activities or are you stuck in your bed all day long": {
+    "question": "Do you have feel so tired that you are unable to do your usual activities or are you stuck in your bed all day long?",
+    "type": "binary"
+  },
+  "2 or more asthma attacks in the past year": {
+    "question": "Do you have 2 or more asthma attacks in the past year?",
+    "type": "binary"
+  },
+  "clinical evidence 42": {
+    "question": "Clinical assessment evidence 42?",
     "type": "binary"
   },
   "close family members who had a cardiovascular disease problem before the age of 50": {
     "question": "Do you have close family members who had a cardiovascular disease problem before the age of 50?",
     "type": "binary"
   },
-  "rheumatoid arthritis": {
-    "question": "Do you have Rheumatoid Arthritis?",
+  "feel like you are dying or were you afraid that you were about do die": {
+    "question": "Do you have feel like you are dying or were you afraid that you were about do die?",
     "type": "binary"
   },
-  "suffer from crohn\u2019s disease or ulcerative colitis (uc)": {
-    "question": "Do you suffer from Crohn\u2019s disease or ulcerative colitis (UC)?",
+  "pain in forehead": {
+    "question": "Do you have pain in the forehead?",
     "type": "binary"
   },
-  "problem with poor circulation": {
-    "question": "Do you have a problem with poor circulation?",
+  "skin skin sore or spot on labia majora (right)": {
+    "question": "Is your skin skin sore or spot located on your labia majora (right)?",
     "type": "binary"
   },
-  "get full more quickly then usually": {
-    "question": "Have you recently had a loss of appetite or do you get full more quickly then usually?",
+  "diabetes": {
+    "question": "Do you have diabetes?",
     "type": "binary"
   },
-  "former smoker": {
-    "question": "Are you a former smoker?",
+  "pain in upper tummy": {
+    "question": "Do you have pain in your upper tummy?",
     "type": "binary"
   },
-  "e 174": {
-    "question": "Have you been unintentionally losing weight or have you lost your appetite?",
+  "known issue with one of your heart valves": {
+    "question": "Do you have known issue with one of your heart valves?",
     "type": "binary"
   },
-  "think you are pregnant or are you currently pregnant": {
-    "question": "Do you think you are pregnant or are you currently pregnant?",
-    "type": "binary"
-  },
-  "currently taking or have you recently taken anti-inflammatory drugs (nsaids)": {
-    "question": "Are you currently taking or have you recently taken anti-inflammatory drugs (NSAIDs)?",
-    "type": "binary"
-  },
-  "e 109": {
-    "question": "Have you ever had deep vein thrombosis (DVT)?",
-    "type": "binary"
-  },
-  "e 137": {
-    "question": "Have you ever had surgery to remove lymph nodes?",
-    "type": "binary"
-  },
-  "known kidney problem resulting in an inability to retain proteins": {
-    "question": "Do you have a known kidney problem resulting in an inability to retain proteins?",
-    "type": "binary"
-  },
-  "e 43": {
-    "question": "Have you lost consciousness associated with violent and sustained muscle contractions or had an absence episode?",
-    "type": "binary"
-  },
-  "e 74": {
-    "question": "Have you noticed a diffuse (widespread) redness in one or both eyes?",
-    "type": "binary"
-  },
-  "work in agriculture": {
-    "question": "Do you work in agriculture?",
-    "type": "binary"
-  },
-  "being treated for osteoporosis": {
-    "question": "Are you being treated for osteoporosis?",
-    "type": "binary"
-  },
-  "pain that is increased with movement": {
-    "question": "Do you have pain that is increased with movement?",
-    "type": "binary"
-  },
-  "e 165": {
-    "question": "Have any of your family members ever had a pneumothorax?",
-    "type": "binary"
-  },
-  "e 214": {
-    "question": "Have you noticed a wheezing sound when you exhale?",
-    "type": "binary"
-  },
-  "e 96": {
-    "question": "Have you gained weight recently?",
-    "type": "binary"
-  },
-  "liver cirrhosis": {
-    "question": "Do you have liver cirrhosis?",
-    "type": "binary"
-  },
-  "e 158": {
-    "question": "Were you diagnosed with endocrine disease or a hormone dysfunction?",
-    "type": "binary"
-  },
-  "family members who have been diagnosed with anemia": {
-    "question": "Do you have any family members who have been diagnosed with anemia?",
-    "type": "binary"
-  },
-  "e 179": {
-    "question": "Have you noticed light red blood or blood clots in your stool?",
-    "type": "binary"
-  },
-  "parkinson\u2019s disease": {
-    "question": "Do you have Parkinson\u2019s disease?",
-    "type": "binary"
-  },
-  "hiatal hernia": {
-    "question": "Do you have a hiatal hernia?",
-    "type": "binary"
-  },
-  "burning sensation that starts in your stomach then goes up into your throat, and can be associated with a bitter taste in your mouth": {
-    "question": "Do you have a burning sensation that starts in your stomach then goes up into your throat, and can be associated with a bitter taste in your mouth?",
-    "type": "binary"
-  },
-  "symptoms that get worse after eating": {
-    "question": "Do you have symptoms that get worse after eating?",
-    "type": "binary"
-  },
-  "pain or weakness in your jaw": {
-    "question": "Do you have pain or weakness in your jaw?",
-    "type": "binary"
-  },
-  "difficulty articulating words/speaking": {
-    "question": "Do you have difficulty articulating words/speaking?",
-    "type": "binary"
-  },
-  "e 101": {
-    "question": "Have you been hospitalized for an asthma attack in the past year?",
-    "type": "binary"
-  },
-  "e 119": {
-    "question": "Have you been diagnosed with chronic sinusitis?",
-    "type": "binary"
-  },
-  "one or several flare ups of chronic obstructive pulmonary disease (copd) in the past year": {
-    "question": "Have you had one or several flare ups of chronic obstructive pulmonary disease (COPD) in the past year?",
-    "type": "binary"
-  },
-  "work in construction": {
-    "question": "Do you work in construction?",
-    "type": "binary"
-  },
-  "2 or more asthma attacks in the past year": {
-    "question": "Have you had 2 or more asthma attacks in the past year?",
-    "type": "binary"
-  },
-  "e 0": {
-    "question": "Have you recently had a viral infection?",
-    "type": "binary"
-  },
-  "e 83": {
-    "question": "Have you noticed weakness in your facial muscles and/or eyes?",
-    "type": "binary"
-  },
-  "numbness, loss of sensation or tingling in the feet": {
-    "question": "Do you have numbness, loss of sensation or tingling in the feet?",
-    "type": "binary"
-  },
-  "high cholesterol or do you take medications to treat high cholesterol": {
-    "question": "Do you have high cholesterol or do you take medications to treat high cholesterol?",
-    "type": "binary"
-  },
-  "very abundant or very long menstruation periods": {
-    "question": "Do you have very abundant or very long menstruation periods?",
-    "type": "binary"
-  },
-  "active cancer": {
-    "question": "Do you have an active cancer?",
-    "type": "binary"
-  },
-  "e 110": {
-    "question": "Have you been unable to move or get up for more than 3 consecutive days within the last 4 weeks?",
-    "type": "binary"
-  },
-  "surgery within the last month": {
-    "question": "Have you had surgery within the last month?",
-    "type": "binary"
-  },
-  "e 219": {
-    "question": "Are your symptoms more prominent at night?",
-    "type": "binary"
-  },
-  "e 186": {
-    "question": "Have you ever been diagnosed with obstructive sleep apnea (OSA)?",
-    "type": "binary"
-  },
-  "e 210": {
-    "question": "Have you recently thrown up blood or something resembling coffee beans?",
-    "type": "binary"
-  },
-  "e 40": {
-    "question": "Have you been in contact with someone who has had pertussis (whoooping cough)?",
-    "type": "binary"
-  },
-  "e 166": {
-    "question": "Did you vomit after coughing?",
+  "skin skin sore or spot on upper gum": {
+    "question": "Is your skin skin sore or spot located on your upper gum?",
     "type": "binary"
   },
   "feel your heart is beating very irregularly or in a disorganized pattern": {
-    "question": "Do you feel your heart is beating very irregularly or in a disorganized pattern?",
+    "question": "Do you have feel your heart is beating very irregularly or in a disorganized pattern?",
     "type": "binary"
   },
-  "exercise regularly, 4 times per week or more": {
-    "question": "Do you exercise regularly, 4 times per week or more?",
+  "pain character: pulling/tugging": {
+    "question": "How would you describe your pain?",
+    "type": "categorical",
+    "options": [
+      "Sharp",
+      "Dull/Aching",
+      "Burning",
+      "Throbbing",
+      "Cramping",
+      "Pressure-like",
+      "Stabbing"
+    ]
+  },
+  "feel like vomiting": {
+    "question": "Do you have feel like vomiting?",
     "type": "binary"
   },
-  "e 15": {
-    "question": "Have you started or taken any antipsychotic medication within the last 7 days?",
+  "pain in eye (left)": {
+    "question": "Do you have eye pain (left)?",
     "type": "binary"
   },
-  "e 128": {
-    "question": "Have you ever felt like you were suffocating for a very short time associated with inability to breathe or speak?",
+  "skin skin sore or spot on lower gum": {
+    "question": "Is your skin skin sore or spot located on your lower gum?",
     "type": "binary"
   },
-  "e 147": {
-    "question": "Have you been treated in hospital recently for nausea, agitation, intoxication or aggressive behavior and received medication via an intravenous or intramuscular route?",
+  "pain in right cheek": {
+    "question": "Do you have pain in the right cheek?",
     "type": "binary"
   },
-  "unable to control the direction of your eyes": {
-    "question": "Are you unable to control the direction of your eyes?",
+  "pain in eye (right)": {
+    "question": "Do you have eye pain (right)?",
     "type": "binary"
   },
-  "feel that muscle spasms or soreness in your neck are keeping you from turning your head to one side": {
-    "question": "Do you feel that muscle spasms or soreness in your neck are keeping you from turning your head to one side?",
+  "pain in lower chest": {
+    "question": "Do you have pain in your lower chest?",
     "type": "binary"
   },
-  "annoying muscle spasms in your face, neck or any other part of your body": {
-    "question": "Do you have annoying muscle spasms in your face, neck or any other part of your body?",
+  "pain character: lancinating/shooting": {
+    "question": "How would you describe your pain?",
+    "type": "categorical",
+    "options": [
+      "Sharp",
+      "Dull/Aching",
+      "Burning",
+      "Throbbing",
+      "Cramping",
+      "Pressure-like",
+      "Stabbing"
+    ]
+  },
+  "clinical evidence 217": {
+    "question": "Clinical assessment evidence 217?",
     "type": "binary"
   },
-  "suddenly have difficulty or an inability to open your mouth or have jaw pain when opening it": {
-    "question": "Do you suddenly have difficulty or an inability to open your mouth or have jaw pain when opening it?",
+  "pain character: sickening": {
+    "question": "How would you describe your pain?",
+    "type": "categorical",
+    "options": [
+      "Sharp",
+      "Dull/Aching",
+      "Burning",
+      "Throbbing",
+      "Cramping",
+      "Pressure-like",
+      "Stabbing"
+    ]
+  },
+  "skin skin sore or spot on labia majora (left)": {
+    "question": "Is your skin skin sore or spot located on your labia majora (left)?",
     "type": "binary"
   },
-  "feel your abdomen is bloated or distended (swollen due to pressure from inside)": {
-    "question": "Do you feel your abdomen is bloated or distended (swollen due to pressure from inside)?",
+  "pain in left cheek": {
+    "question": "Do you have pain in the left cheek?",
+    "type": "binary"
+  },
+  "difficulty swallowing, or have a feeling of discomfort/blockage when swallowing": {
+    "question": "Do you have difficulty swallowing, or have a feeling of discomfort/blockage when swallowing?",
+    "type": "binary"
+  },
+  "pain character: violent": {
+    "question": "How would you describe your pain?",
+    "type": "categorical",
+    "options": [
+      "Sharp",
+      "Dull/Aching",
+      "Burning",
+      "Throbbing",
+      "Cramping",
+      "Pressure-like",
+      "Stabbing"
+    ]
+  },
+  "pain radiates to scapula (left)": {
+    "question": "Does your pain spread to your scapula (left)?",
+    "type": "binary"
+  },
+  "skin skin sore or spot on internal cheek (right)": {
+    "question": "Is your skin skin sore or spot located on your internal cheek (right)?",
+    "type": "binary"
+  },
+  "pain in breast (right)": {
+    "question": "Do you have breast pain (right)?",
+    "type": "binary"
+  },
+  "pain radiates to mid back": {
+    "question": "Does your pain spread to your mid back?",
+    "type": "binary"
+  },
+  "pain in upper chest": {
+    "question": "Do you have pain in your upper chest?",
+    "type": "binary"
+  },
+  "swollen or painful lymph nodes": {
+    "question": "Do you have swollen or painful lymph nodes?",
+    "type": "binary"
+  },
+  "suffer from chronic anxiety": {
+    "question": "Do you have suffer from chronic anxiety?",
+    "type": "binary"
+  },
+  "skin skin sore or spot on back of the neck": {
+    "question": "Is your skin skin sore or spot located on your back of the neck?",
+    "type": "binary"
+  },
+  "high cholesterol or do you take medicines to treat high cholesterol": {
+    "question": "Do you have high cholesterol or do you take medicines to treat high cholesterol?",
+    "type": "binary"
+  },
+  "pain radiates to scapula (right)": {
+    "question": "Does your pain spread to your scapula (right)?",
+    "type": "binary"
+  },
+  "pain character: tearing": {
+    "question": "How would you describe your pain?",
+    "type": "categorical",
+    "options": [
+      "Sharp",
+      "Dull/Aching",
+      "Burning",
+      "Throbbing",
+      "Cramping",
+      "Pressure-like",
+      "Stabbing"
+    ]
+  },
+  "chronic kidney failure": {
+    "question": "Do you have chronic kidney failure?",
+    "type": "binary"
+  },
+  "pain radiates to posterior chest wall (left)": {
+    "question": "Does your pain spread to your posterior chest wall (left)?",
+    "type": "binary"
+  },
+  "clinical evidence 137": {
+    "question": "Clinical assessment evidence 137?",
+    "type": "binary"
+  },
+  "take medicine that dilates your blood vessels": {
+    "question": "Do you have take medicine that dilates your blood vessels?",
+    "type": "binary"
+  },
+  "pain radiates to forehead": {
+    "question": "Does your pain spread to your forehead?",
+    "type": "binary"
+  },
+  "skin skin sore or spot on adam's apple (throat)": {
+    "question": "Is your skin skin sore or spot located on your adam's apple (throat)?",
+    "type": "binary"
+  },
+  "skin skin sore or spot on mouth": {
+    "question": "Is your skin skin sore or spot located on your mouth?",
+    "type": "binary"
+  },
+  "clinical evidence 223": {
+    "question": "Clinical assessment evidence 223?",
     "type": "binary"
   },
   "currently undergo dialysis": {
-    "question": "Do you currently undergo dialysis?",
+    "question": "Do you have currently undergo dialysis?",
+    "type": "binary"
+  },
+  "skin skin sore or spot on biceps (left)": {
+    "question": "Is your skin skin sore or spot located on your biceps (left)?",
+    "type": "binary"
+  },
+  "poor diet": {
+    "question": "Do you have poor diet?",
+    "type": "binary"
+  },
+  "clinical evidence 0": {
+    "question": "Clinical assessment evidence 0?",
+    "type": "binary"
+  },
+  "high blood pressure or do you take medicines to treat high blood pressure": {
+    "question": "Do you have high blood pressure or do you take medicines to treat high blood pressure?",
+    "type": "binary"
+  },
+  "pain radiates to left temple": {
+    "question": "Does your pain spread to your left temple?",
+    "type": "binary"
+  },
+  "burn injurying sensation that starts in your belly then goes up into your throat, and can be associated with a bitter taste in your mouth": {
+    "question": "Do you have burn injurying sensation that starts in your belly then goes up into your throat, and can be associated with a bitter taste in your mouth?",
+    "type": "binary"
+  },
+  "severe chronic obstructive pulmonary disease (copd)": {
+    "question": "Do you have severe chronic obstructive pulmonary disease (copd)?",
+    "type": "binary"
+  },
+  "pain radiates to posterior chest wall (right)": {
+    "question": "Does your pain spread to your posterior chest wall (right)?",
+    "type": "binary"
+  },
+  "skin skin sore or spot on biceps (right)": {
+    "question": "Is your skin skin sore or spot located on your biceps (right)?",
+    "type": "binary"
+  },
+  "feelings that get worse after eating": {
+    "question": "Do you have feelings that get worse after eating?",
+    "type": "binary"
+  },
+  "pain in breast (left)": {
+    "question": "Do you have breast pain (left)?",
+    "type": "binary"
+  },
+  "perception of seeing two images of a single object seen overlapping or adjacent to each other (double vision)": {
+    "question": "Do you have perception of seeing two images of a single object seen overlapping or adjacent to each other (double vision)?",
+    "type": "binary"
+  },
+  "pain in nose": {
+    "question": "Do you have pain in your nose?",
+    "type": "binary"
+  },
+  "pain character: exhauinsect sting": {
+    "question": "How would you describe your pain?",
+    "type": "categorical",
+    "options": [
+      "Sharp",
+      "Dull/Aching",
+      "Burning",
+      "Throbbing",
+      "Cramping",
+      "Pressure-like",
+      "Stabbing"
+    ]
+  },
+  "pain radiates to upper chest": {
+    "question": "Does your pain spread to your upper chest?",
+    "type": "binary"
+  },
+  "pain radiates to biceps (left)": {
+    "question": "Does your pain spread to your biceps (left)?",
+    "type": "binary"
+  },
+  "pain character: scary": {
+    "question": "How would you describe your pain?",
+    "type": "categorical",
+    "options": [
+      "Sharp",
+      "Dull/Aching",
+      "Burning",
+      "Throbbing",
+      "Cramping",
+      "Pressure-like",
+      "Stabbing"
+    ]
+  },
+  "pain radiates to biceps (right)": {
+    "question": "Does your pain spread to your biceps (right)?",
+    "type": "binary"
+  },
+  "feel weakness in both arms and/or both legs": {
+    "question": "Do you have feel weakness in both arms and/or both legs?",
     "type": "binary"
   },
   "bouts of choking or shortness of breath that wake you up at night": {
     "question": "Do you have bouts of choking or shortness of breath that wake you up at night?",
     "type": "binary"
   },
-  "family members who have had lung cancer": {
-    "question": "Do you have family members who have had lung cancer?",
+  "difficulty articulating words/speaking": {
+    "question": "Do you have difficulty articulating words/speaking?",
     "type": "binary"
   },
-  "trouble keeping your tongue in your mouth": {
-    "question": "Do you have trouble keeping your tongue in your mouth?",
+  "being treated for osteoporosis": {
+    "question": "Do you have being treated for osteoporosis?",
     "type": "binary"
   },
-  "currently being treated or have you recently been treated with an oral antibiotic for an ear infection": {
-    "question": "Are you currently being treated or have you recently been treated with an oral antibiotic for an ear infection?",
+  "pain radiates to right temple": {
+    "question": "Does your pain spread to your right temple?",
     "type": "binary"
   },
-  "weakness or paralysis on one side of the face, which may still be present or completely resolved": {
-    "question": "Have you had weakness or paralysis on one side of the face, which may still be present or completely resolved?",
+  "pain radiates to lower chest": {
+    "question": "Does your pain spread to your lower chest?",
     "type": "binary"
   },
-  "regularly drink coffee or tea": {
-    "question": "Do you regularly drink coffee or tea?",
+  "pain in mouth": {
+    "question": "Do you have pain in your mouth?",
     "type": "binary"
   },
-  "e 213": {
-    "question": "Have you recently taken decongestants or other substances that may have stimulant effects?",
+  "pain radiates to back of head": {
+    "question": "Does your pain spread to your back of head?",
+    "type": "binary"
+  },
+  "pain radiates to nose": {
+    "question": "Does your pain spread to your nose?",
+    "type": "binary"
+  },
+  "pain radiates to right shoulder": {
+    "question": "Does your pain spread to your right shoulder?",
+    "type": "binary"
+  },
+  "pain radiates to adam's apple (throat)": {
+    "question": "Does your pain spread to your adam's apple (throat)?",
+    "type": "binary"
+  },
+  "hard time opening/raising one or both eyelids": {
+    "question": "Do you have hard time opening/raising one or both eyelids?",
+    "type": "binary"
+  },
+  "pain character: dull/aching": {
+    "question": "How would you describe your pain?",
+    "type": "categorical",
+    "options": [
+      "Sharp",
+      "Dull/Aching",
+      "Burning",
+      "Throbbing",
+      "Cramping",
+      "Pressure-like",
+      "Stabbing"
+    ]
+  },
+  "clinical evidence 119": {
+    "question": "Clinical assessment evidence 119?",
+    "type": "binary"
+  },
+  "pain in back of the neck": {
+    "question": "Do you have pain in your back of the neck?",
+    "type": "binary"
+  },
+  "clinical evidence 190": {
+    "question": "Clinical assessment evidence 190?",
+    "type": "binary"
+  },
+  "clinical evidence 80": {
+    "question": "Clinical assessment evidence 80?",
+    "type": "binary"
+  },
+  "problem with poor circulation": {
+    "question": "Do you have problem with poor circulation?",
+    "type": "binary"
+  },
+  "pain in side of the chest (left)": {
+    "question": "Do you have pain in the side of the chest (left)?",
+    "type": "binary"
+  },
+  "pain radiates to side of the chest (left)": {
+    "question": "Does your pain spread to your side of the chest (left)?",
+    "type": "binary"
+  },
+  "pain in posterior chest wall (right)": {
+    "question": "Do you have pain in the posterior chest wall (right)?",
+    "type": "binary"
+  },
+  "pain in side of the chest (right)": {
+    "question": "Do you have pain in the side of the chest (right)?",
+    "type": "binary"
+  },
+  "pain in scapula (right)": {
+    "question": "Do you have pain in the scapula (right)?",
+    "type": "binary"
+  },
+  "observable changeificantly being heavy compared to people of the same height as you": {
+    "question": "Do you have observable changeificantly being heavy compared to people of the same height as you?",
+    "type": "binary"
+  },
+  "pain radiates to side of the chest (right)": {
+    "question": "Does your pain spread to your side of the chest (right)?",
+    "type": "binary"
+  },
+  "severe itching in one or both eyes": {
+    "question": "Do you have severe itching in one or both eyes?",
+    "type": "binary"
+  },
+  "pain in scapula (left)": {
+    "question": "Do you have pain in the scapula (left)?",
+    "type": "binary"
+  },
+  "one or several flare ups of chronic obstructive pulmonary disease (copd) in the past year": {
+    "question": "Do you have one or several flare ups of chronic obstructive pulmonary disease (copd) in the past year?",
+    "type": "binary"
+  },
+  "pale stools and dark urine": {
+    "question": "Do you have pale stools and dark urine?",
+    "type": "binary"
+  },
+  "person have a whooping cough": {
+    "question": "Do you have person have a whooping cough?",
+    "type": "binary"
+  },
+  "sexual intercourse with an hiv-positive partner in the past 12 months": {
+    "question": "Do you have sexual intercourse with an hiv-positive partner in the past 12 months?",
+    "type": "binary"
+  },
+  "clinical evidence 210": {
+    "question": "Clinical assessment evidence 210?",
+    "type": "binary"
+  },
+  "clinical evidence 175": {
+    "question": "Clinical assessment evidence 175?",
+    "type": "binary"
+  },
+  "skin skin sore or spot on upper tummy": {
+    "question": "Is your skin skin sore or spot located on your upper tummy?",
+    "type": "binary"
+  },
+  "skin rash is yellow colored": {
+    "question": "Is your skin rash yellow in color?",
+    "type": "binary"
+  },
+  "swelling in forehead": {
+    "question": "Do you have swelling in your forehead?",
+    "type": "binary"
+  },
+  "clinical evidence 27": {
+    "question": "Have you ever had a sexually transmitted infection?",
+    "type": "binary"
+  },
+  "swelling in cheek (right)": {
+    "question": "Do you have swelling in your cheek (right)?",
+    "type": "binary"
+  },
+  "swelling in nose": {
+    "question": "Do you have swelling in your nose?",
+    "type": "binary"
+  },
+  "unprotected sex with more than one partner in the last 6 months": {
+    "question": "Have you had unprotected sex with more than one partner in the last 6 months?",
+    "type": "binary"
+  },
+  "attend or work in a daycare": {
+    "question": "Do you attend or work in a daycare?",
+    "type": "binary"
+  },
+  "feel like you are detached from your own body or your surroundings": {
+    "question": "Do you have feel like you are detached from your own body or your surroundings?",
+    "type": "binary"
+  },
+  "clinical evidence 101": {
+    "question": "Clinical assessment evidence 101?",
+    "type": "binary"
+  },
+  "clinical evidence 39": {
+    "question": "Clinical assessment evidence 39?",
+    "type": "binary"
+  },
+  "addiction to alcohol": {
+    "question": "Do you have addiction to alcohol?",
+    "type": "binary"
+  },
+  "clinical evidence 185": {
+    "question": "Clinical assessment evidence 185?",
+    "type": "binary"
+  },
+  "swelling in cheek (left)": {
+    "question": "Do you have swelling in your cheek (left)?",
+    "type": "binary"
+  },
+  "live with 4 or more people": {
+    "question": "Do you live with 4 or more people?",
+    "type": "binary"
+  },
+  "feel slightly dizzy or lightheaded": {
+    "question": "Do you have feel slightly dizzy or lightheaded?",
+    "type": "binary"
+  },
+  "family members who have been diagnosed with anemia": {
+    "question": "Do you have family members who have been diagnosed with anemia?",
+    "type": "binary"
+  },
+  "pain in posterior chest wall (left)": {
+    "question": "Do you have pain in the posterior chest wall (left)?",
+    "type": "binary"
+  },
+  "immunosuppressed": {
+    "question": "Do you have immunosuppressed?",
+    "type": "binary"
+  },
+  "clinical evidence 19": {
+    "question": "Clinical assessment evidence 19?",
+    "type": "binary"
+  },
+  "regularly take stimulant medicines": {
+    "question": "Do you have regularly take stimulant medicines?",
+    "type": "binary"
+  },
+  "clinical evidence 15": {
+    "question": "Clinical assessment evidence 15?",
+    "type": "binary"
+  },
+  "skin skin sore or spot on iliac fossa (right)": {
+    "question": "Is your skin skin sore or spot located on your iliac fossa (right)?",
+    "type": "binary"
+  },
+  "clinical evidence 147": {
+    "question": "Clinical assessment evidence 147?",
+    "type": "binary"
+  },
+  "recent travel to: north america": {
+    "question": "Where did you travel to recently?",
+    "type": "categorical",
+    "options": [
+      "Africa",
+      "Asia",
+      "Europe",
+      "Americas",
+      "Caribbean",
+      "Oceania"
+    ]
+  },
+  "feel lightheaded and dizzy or do you feel like you are about to faint": {
+    "question": "Do you have feel lightheaded and dizzy or do you feel like you are about to faint?",
+    "type": "binary"
+  },
+  "skin skin sore or spot on iliac fossa (left)": {
+    "question": "Is your skin skin sore or spot located on your iliac fossa (left)?",
+    "type": "binary"
+  },
+  "find that your feelings have worsened over the last 2 weeks and that progressively less effort is required to cause the feelings": {
+    "question": "Do you have find that your feelings have worsened over the last 2 weeks and that progressively less effort is required to cause the feelings?",
+    "type": "binary"
+  },
+  "pain in left lower tummy": {
+    "question": "Do you have pain in the left lower tummy?",
+    "type": "binary"
+  },
+  "widespread muscle pain": {
+    "question": "Do you have widespread muscle aches?",
+    "type": "binary"
+  },
+  "deviated nasal septum": {
+    "question": "Do you have deviated nasal septum?",
+    "type": "binary"
+  },
+  "shivering or shivers": {
+    "question": "Have you had shivering or shivers?",
+    "type": "binary"
+  },
+  "close family members who suffer from allergies (any type), hay fever or eczema": {
+    "question": "Do you have close family members who suffer from allergies (any type), hay fever or eczema?",
+    "type": "binary"
+  },
+  "pain in right hip": {
+    "question": "Do you have pain in the right hip?",
+    "type": "binary"
+  },
+  "pain in left hip": {
+    "question": "Do you have pain in the left hip?",
+    "type": "binary"
+  },
+  "hiatal hernia": {
+    "question": "Do you have hiatal hernia?",
+    "type": "binary"
+  },
+  "pain in right lower tummy": {
+    "question": "Do you have pain in the right lower tummy?",
+    "type": "binary"
+  },
+  "pain in top of head": {
+    "question": "Do you have pain in your top of head?",
+    "type": "binary"
+  },
+  "pain in back of head": {
+    "question": "Do you have pain in your back of head?",
+    "type": "binary"
+  },
+  "observable changeificantly increased sweating": {
+    "question": "Do you have observable changeificantly increased sweating?",
+    "type": "binary"
+  },
+  "pain in belly": {
+    "question": "Do you have pain in your belly?",
+    "type": "binary"
+  },
+  "pain in side of the neck (right)": {
+    "question": "Do you have pain in the side of the neck (right)?",
+    "type": "binary"
+  },
+  "rheumatoid arthritis": {
+    "question": "Do you have rheumatoid arthritis?",
+    "type": "binary"
+  },
+  "feel anxious": {
+    "question": "Do you have feel anxious?",
     "type": "binary"
   },
   "metastatic cancer": {
     "question": "Do you have metastatic cancer?",
     "type": "binary"
   },
-  "more irritable or has your mood been very unstable": {
-    "question": "Are you more irritable or has your mood been very unstable recently?",
+  "active cancer": {
+    "question": "Do you have active cancer?",
     "type": "binary"
   },
-  "take a calcium channel blockers (medication)": {
-    "question": "Do you take a calcium channel blockers (medication)?",
+  "swelling in tibia (right)": {
+    "question": "Do you have swelling in your tibia (right)?",
     "type": "binary"
   },
-  "vaginal discharge": {
-    "question": "Have you had any vaginal discharge?",
+  "suffer from crohn\u2019s disease or open soreative colitis (uc)": {
+    "question": "Do you have suffer from crohn\u2019s disease or open soreative colitis (uc)?",
     "type": "binary"
   },
-  "cystic fibrosis": {
-    "question": "Do you have cystic fibrosis?",
+  "pain in under the jaw": {
+    "question": "Do you have pain in your under the jaw?",
     "type": "binary"
   },
-  "currently take hormones": {
-    "question": "Do you currently take hormones?",
+  "swelling in calf (right)": {
+    "question": "Do you have swelling in your calf (right)?",
     "type": "binary"
   },
-  "wheeze while inhaling or is your breathing noisy after coughing spells": {
-    "question": "Do you wheeze while inhaling or is your breathing noisy after coughing spells?",
+  "clinical evidence 159": {
+    "question": "Did you lose consciousness?",
     "type": "binary"
   },
-  "feel out of breath with minimal physical effort": {
-    "question": "Do you feel out of breath with minimal physical effort?",
+  "liver cirrhosis": {
+    "question": "Do you have liver cirrhosis?",
     "type": "binary"
   },
-  "e 29": {
-    "question": "Do any members of your immediate family have a psychiatric illness?",
+  "infected with the human immunodeficiency virus (hiv)": {
+    "question": "Do you have infected with the human immunodeficiency virus (hiv)?",
     "type": "binary"
   },
-  "e 107": {
-    "question": "Have you ever had a stroke?",
+  "skin skin sore or spot on cheek (right)": {
+    "question": "Is your skin skin sore or spot located on your cheek (right)?",
     "type": "binary"
   },
-  "consume energy drinks regularly": {
-    "question": "Do you consume energy drinks regularly?",
+  "known kidney problem resulting in an inability to retain proteins": {
+    "question": "Do you have known kidney problem resulting in an inability to retain proteins?",
     "type": "binary"
   },
-  "person have a whooping cough": {
-    "question": "Does the person have a whooping cough?",
+  "swelling in calf (left)": {
+    "question": "Do you have swelling in your calf (left)?",
     "type": "binary"
   },
-  "e 4": {
-    "question": "Have you or any member of your family ever had croup?",
+  "get full more quickly then usually": {
+    "question": "Do you have get full more quickly then usually?",
+    "type": "binary"
+  },
+  "skin skin sore or spot on nose": {
+    "question": "Is your skin skin sore or spot located on your nose?",
+    "type": "binary"
+  },
+  "clinical evidence 165": {
+    "question": "Clinical assessment evidence 165?",
+    "type": "binary"
+  },
+  "known heart defect": {
+    "question": "Do you have known heart defect?",
+    "type": "binary"
+  },
+  "suffer from fibromuscle pain": {
+    "question": "Do you have suffer from fibromuscle pain?",
+    "type": "binary"
+  },
+  "annoying muscle spasms in your face, neck or any other part of your body": {
+    "question": "Do you have annoying muscle spasms in your face, neck or any other part of your body?",
+    "type": "binary"
+  },
+  "family members who have had lung cancer": {
+    "question": "Do you have family members who have had lung cancer?",
+    "type": "binary"
+  },
+  "skin skin sore or spot on cheek (left)": {
+    "question": "Is your skin skin sore or spot located on your cheek (left)?",
+    "type": "binary"
+  },
+  "trouble keeping your tongue in your mouth": {
+    "question": "Do you have trouble keeping your tongue in your mouth?",
+    "type": "binary"
+  },
+  "pain or weakness in your jaw": {
+    "question": "Do you have pain or weakness in your jaw?",
+    "type": "binary"
+  },
+  "family members who have asthma": {
+    "question": "Do you have family members who have asthma?",
+    "type": "binary"
+  },
+  "clinical evidence 109": {
+    "question": "Clinical assessment evidence 109?",
+    "type": "binary"
+  },
+  "suddenly have difficulty or an inability to open your mouth or have jaw pain when opening it": {
+    "question": "Do you have suddenly have difficulty or an inability to open your mouth or have jaw pain when opening it?",
+    "type": "binary"
+  },
+  "chest pain even at rest": {
+    "question": "Do you have chest pain?",
+    "type": "binary"
+  },
+  "clinical evidence 83": {
+    "question": "Clinical assessment evidence 83?",
+    "type": "binary"
+  },
+  "feel that muscle spasms or soreness in your neck are keeping you from turning your head to one side": {
+    "question": "Do you have feel that muscle spasms or soreness in your neck are keeping you from turning your head to one side?",
+    "type": "binary"
+  },
+  "clinical evidence 40": {
+    "question": "Clinical assessment evidence 40?",
+    "type": "binary"
+  },
+  "exercise regularly, 4 times per week or more": {
+    "question": "Do you have exercise regularly, 4 times per week or more?",
+    "type": "binary"
+  },
+  "painful mouth open sores or sores": {
+    "question": "Do you have painful mouth open sores or sores?",
+    "type": "binary"
+  },
+  "parkinson\u2019s disease": {
+    "question": "Do you have parkinson\u2019s disease?",
+    "type": "binary"
+  },
+  "clinical evidence 28": {
+    "question": "Clinical assessment evidence 28?",
+    "type": "binary"
+  },
+  "pain in left ankle": {
+    "question": "Do you have pain in the left ankle?",
+    "type": "binary"
+  },
+  "pain in right shoulder": {
+    "question": "Do you have pain in the right shoulder?",
+    "type": "binary"
+  },
+  "pain in left shoulder": {
+    "question": "Do you have pain in the left shoulder?",
+    "type": "binary"
+  },
+  "chronic pancreatitis": {
+    "question": "Do you have chronic pancreatitis?",
+    "type": "binary"
+  },
+  "pain in right ankle": {
+    "question": "Do you have pain in the right ankle?",
+    "type": "binary"
+  },
+  "clinical evidence 219": {
+    "question": "Clinical assessment evidence 219?",
+    "type": "binary"
+  },
+  "take corticosteroids": {
+    "question": "Do you have take corticosteroids?",
     "type": "binary"
   },
   "work in the mining sector": {
-    "question": "Do you work in the mining sector?",
+    "question": "Do you have work in the mining sector?",
     "type": "binary"
   },
-  "e 141": {
-    "question": "Did you have your first menstrual period before the age of 12?",
+  "live in in a big city": {
+    "question": "Do you have live in in a big city?",
     "type": "binary"
   },
-  "e 11": {
-    "question": "Have you breastfed one of your children for more than 9 months?",
+  "feel your tummy is bloated or distended (swollen due to pressure from inside)": {
+    "question": "Do you have feel your tummy is bloated or distended (swollen due to pressure from inside)?",
     "type": "binary"
   },
-  "e 39": {
-    "question": "Have you felt confused or disorientated lately?",
+  "clinical evidence 110": {
+    "question": "Clinical assessment evidence 110?",
     "type": "binary"
   },
-  "e 73": {
-    "question": "In the last month, have you been in contact with anyone infected with the Ebola virus?",
+  "pain in left upper tummy": {
+    "question": "Do you have pain in the left upper tummy?",
     "type": "binary"
   },
-  "e 178": {
-    "question": "Have you noticed any unusual bleeding or bruising related to your consultation today?",
+  "numbness, loss of sensation or tingling in the feet": {
+    "question": "Do you have numbness, loss of sensation or tingling in the feet?",
     "type": "binary"
   },
-  "live in the suburbs": {
-    "question": "Do you live in the suburbs?",
+  "pain that improves when you lean forward": {
+    "question": "Do you have pain that improves when you lean forward?",
     "type": "binary"
   },
-  "ever temporarily stop breathing while you\u2019re asleep": {
-    "question": "Do you ever temporarily stop breathing while you\u2019re asleep?",
+  "non-restful sleep": {
+    "question": "Do you have non-restful sleep?",
     "type": "binary"
   },
-  "decrease in appetite": {
-    "question": "Do you have a decrease in appetite?",
+  "pain in dorsal aspect of the foot (right)": {
+    "question": "Do you have pain in the dorsal aspect of the foot (right)?",
     "type": "binary"
   },
-  "e 142": {
-    "question": "Does your mother suffer from asthma?",
+  "loose stools": {
+    "question": "Do you have loose stools?",
+    "type": "binary"
+  },
+  "feel that your eyes produce excessive tears": {
+    "question": "Do you have feel that your eyes produce excessive tears?",
+    "type": "binary"
+  },
+  "feel out of breath with minimal physical effort": {
+    "question": "Do you have feel out of breath with minimal physical effort?",
+    "type": "binary"
+  },
+  "pain in right temple": {
+    "question": "Do you have pain in the right temple?",
+    "type": "binary"
+  },
+  "pain in left temple": {
+    "question": "Do you have pain in the left temple?",
+    "type": "binary"
+  },
+  "work in agriculture": {
+    "question": "Do you have work in agriculture?",
+    "type": "binary"
+  },
+  "clinical evidence 96": {
+    "question": "Clinical assessment evidence 96?",
+    "type": "binary"
+  },
+  "skin much paler than usual": {
+    "question": "Do you have skin much paler than usual?",
+    "type": "binary"
+  },
+  "take a calcium channel blockers (medicine)": {
+    "question": "Do you have take a calcium channel blockers (medicine)?",
+    "type": "binary"
+  },
+  "pain in upper leg (left)": {
+    "question": "Do you have pain in the upper leg (left)?",
+    "type": "binary"
+  },
+  "pain in upper leg (right)": {
+    "question": "Do you have pain in the upper leg (right)?",
+    "type": "binary"
+  },
+  "clinical evidence 179": {
+    "question": "Clinical assessment evidence 179?",
+    "type": "binary"
+  },
+  "clinical evidence 186": {
+    "question": "Clinical assessment evidence 186?",
+    "type": "binary"
+  },
+  "clinical evidence 221": {
+    "question": "Clinical assessment evidence 221?",
+    "type": "binary"
+  },
+  "pain character: pulsating": {
+    "question": "How would you describe your pain?",
+    "type": "categorical",
+    "options": [
+      "Sharp",
+      "Dull/Aching",
+      "Burning",
+      "Throbbing",
+      "Cramping",
+      "Pressure-like",
+      "Stabbing"
+    ]
+  },
+  "currently using intravenous medicines": {
+    "question": "Do you have currently using intravenous medicines?",
+    "type": "binary"
+  },
+  "clinical evidence 140": {
+    "question": "Clinical assessment evidence 140?",
+    "type": "binary"
+  },
+  "clinical evidence 213": {
+    "question": "Clinical assessment evidence 213?",
+    "type": "binary"
+  },
+  "consume energy drinks regularly": {
+    "question": "Do you have consume energy drinks regularly?",
+    "type": "binary"
+  },
+  "clinical evidence 128": {
+    "question": "Clinical assessment evidence 128?",
+    "type": "binary"
+  },
+  "unable to control the direction of your eyes": {
+    "question": "Do you have unable to control the direction of your eyes?",
+    "type": "binary"
+  },
+  "currently, have any weakness/paralysis in one or more of your limbs or in your face": {
+    "question": "Do you have currently, have any weakness/paralysis in one or more of your limbs or in your face?",
+    "type": "binary"
+  },
+  "clinical evidence 107": {
+    "question": "Clinical assessment evidence 107?",
+    "type": "binary"
+  },
+  "pain in neck/upper back": {
+    "question": "Do you have pain in your neck/upper back?",
+    "type": "binary"
+  },
+  "skin skin sore or spot on ankle (right)": {
+    "question": "Is your skin skin sore or spot located on your ankle (right)?",
+    "type": "binary"
+  },
+  "consulting because you have high blood pressure": {
+    "question": "Do you have consulting because you have high blood pressure?",
+    "type": "binary"
+  },
+  "pain in side of the neck (left)": {
+    "question": "Do you have pain in the side of the neck (left)?",
+    "type": "binary"
+  },
+  "clinical evidence 160": {
+    "question": "Clinical assessment evidence 160?",
+    "type": "binary"
+  },
+  "pain in finger (ring finger) (right)": {
+    "question": "Do you have pain in the finger (ring finger) (right)?",
+    "type": "binary"
+  },
+  "pain radiates to left shoulder": {
+    "question": "Does your pain spread to your left shoulder?",
+    "type": "binary"
+  },
+  "swelling in tibia (left)": {
+    "question": "Do you have swelling in your tibia (left)?",
+    "type": "binary"
+  },
+  "currently, or did you ever, have numbness, loss of sensitivity or tingling anywhere on your body": {
+    "question": "Do you have currently, or did you ever, have numbness, loss of sensitivity or tingling anywhere on your body?",
+    "type": "binary"
+  },
+  "wheeze while inhaling or is your breathing noisy after coughing spells": {
+    "question": "Do you have wheeze while inhaling or is your breathing noisy after coughing spells?",
+    "type": "binary"
+  },
+  "clinical evidence 142": {
+    "question": "Clinical assessment evidence 142?",
+    "type": "binary"
+  },
+  "pain in ball (right)": {
+    "question": "Do you have pain in the ball (right)?",
+    "type": "binary"
+  },
+  "pain in finger (index) (left)": {
+    "question": "Do you have pain in the finger (index) (left)?",
+    "type": "binary"
+  },
+  "clinical evidence 43": {
+    "question": "Clinical assessment evidence 43?",
+    "type": "binary"
+  },
+  "pain in finger (middle) (right)": {
+    "question": "Do you have pain in the finger (middle) (right)?",
+    "type": "binary"
+  },
+  "pain in finger (middle) (left)": {
+    "question": "Do you have pain in the finger (middle) (left)?",
+    "type": "binary"
+  },
+  "pain in finger (index) (right)": {
+    "question": "Do you have pain in the finger (index) (right)?",
     "type": "binary"
   },
   "live in a rural area": {
-    "question": "Do you live in a rural area?",
+    "question": "Do you have live in a rural area?",
+    "type": "binary"
+  },
+  "currently taking or have you recently taken anti-inflammatory medicines (nsaids)": {
+    "question": "Do you have currently taking or have you recently taken anti-inflammatory medicines (nsaids)?",
+    "type": "binary"
+  },
+  "pain in dorsal aspect of the wrist (right)": {
+    "question": "Do you have pain in the dorsal aspect of the wrist (right)?",
+    "type": "binary"
+  },
+  "weakness or paralysis on one side of the face, which may still be present or completely resolved": {
+    "question": "Do you feel weak?",
+    "type": "binary"
+  },
+  "skin skin sore or spot on internal cheek (left)": {
+    "question": "Is your skin skin sore or spot located on your internal cheek (left)?",
+    "type": "binary"
+  },
+  "feel like you are (or were) choking or suffocating": {
+    "question": "Do you have feel like you are (or were) choking or suffocating?",
+    "type": "binary"
+  },
+  "work in construction": {
+    "question": "Do you have work in construction?",
+    "type": "binary"
+  },
+  "clinical evidence 174": {
+    "question": "Clinical assessment evidence 174?",
+    "type": "binary"
+  },
+  "decrease in appetite": {
+    "question": "Do you have decrease in appetite?",
+    "type": "binary"
+  },
+  "pain in right flank": {
+    "question": "Do you have pain in the right flank?",
+    "type": "binary"
+  },
+  "pain in left flank": {
+    "question": "Do you have pain in the left flank?",
+    "type": "binary"
+  },
+  "clinical evidence 29": {
+    "question": "Clinical assessment evidence 29?",
+    "type": "binary"
+  },
+  "swelling in dorsal aspect of the foot (left)": {
+    "question": "Do you have swelling in your dorsal aspect of the foot (left)?",
+    "type": "binary"
+  },
+  "pain in dorsal aspect of the foot (left)": {
+    "question": "Do you have pain in the dorsal aspect of the foot (left)?",
+    "type": "binary"
+  },
+  "regularly drink coffee or tea": {
+    "question": "Do you have regularly drink coffee or tea?",
+    "type": "binary"
+  },
+  "clinical evidence 74": {
+    "question": "Clinical assessment evidence 74?",
+    "type": "binary"
+  },
+  "more irritable or has your mood been very unstable": {
+    "question": "Do you have more irritable or has your mood been very unstable?",
+    "type": "binary"
+  },
+  "clinical evidence 158": {
+    "question": "Clinical assessment evidence 158?",
+    "type": "binary"
+  },
+  "currently being treated or have you recently been treated with an oral antibiotic for an ear infection": {
+    "question": "Do you have currently being treated or have you recently been treated with an oral antibiotic for an ear infection?",
+    "type": "binary"
+  },
+  "clinical evidence 99": {
+    "question": "Clinical assessment evidence 99?",
+    "type": "binary"
+  },
+  "ever temporarily stop breathing while you\u2019re asleep": {
+    "question": "Do you have ever temporarily stop breathing while you\u2019re asleep?",
+    "type": "binary"
+  },
+  "live in the suburbs": {
+    "question": "Do you have live in the suburbs?",
+    "type": "binary"
+  },
+  "pain in finger (ring finger) (left)": {
+    "question": "Do you have pain in the finger (ring finger) (left)?",
+    "type": "binary"
+  },
+  "clinical evidence 150": {
+    "question": "Clinical assessment evidence 150?",
+    "type": "binary"
+  },
+  "pain in right upper tummy": {
+    "question": "Do you have pain in the right upper tummy?",
+    "type": "binary"
+  },
+  "pain radiates to jaw": {
+    "question": "Does your pain spread to your jaw?",
+    "type": "binary"
+  },
+  "pain radiates to chin": {
+    "question": "Does your pain spread to your chin?",
+    "type": "binary"
+  },
+  "pain in ball (left)": {
+    "question": "Do you have pain in the ball (left)?",
+    "type": "binary"
+  },
+  "clinical evidence 90": {
+    "question": "Clinical assessment evidence 90?",
+    "type": "binary"
+  },
+  "pain in finger (little finger) (right)": {
+    "question": "Do you have pain in the finger (little finger) (right)?",
+    "type": "binary"
+  },
+  "pain in sole (right)": {
+    "question": "Do you have pain in the sole (right)?",
+    "type": "binary"
+  },
+  "pain in dorsal aspect of the wrist (left)": {
+    "question": "Do you have pain in the dorsal aspect of the wrist (left)?",
+    "type": "binary"
+  },
+  "birth canall discharge": {
+    "question": "Do you have birth canall discharge?",
+    "type": "binary"
+  },
+  "swelling in posterior aspect of the ankle (right)": {
+    "question": "Do you have swelling in your posterior aspect of the ankle (right)?",
+    "type": "binary"
+  },
+  "skin skin sore or spot on ankle (left)": {
+    "question": "Is your skin skin sore or spot located on your ankle (left)?",
+    "type": "binary"
+  },
+  "swelling in posterior aspect of the ankle (left)": {
+    "question": "Do you have swelling in your posterior aspect of the ankle (left)?",
+    "type": "binary"
+  },
+  "pain radiates to under the jaw": {
+    "question": "Does your pain spread to your under the jaw?",
+    "type": "binary"
+  },
+  "pain in windpipe": {
+    "question": "Do you have pain in your windpipe?",
+    "type": "binary"
+  },
+  "skin skin sore or spot on side of the neck (right)": {
+    "question": "Is your skin skin sore or spot located on your side of the neck (right)?",
+    "type": "binary"
+  },
+  "skin skin sore or spot on side of the neck (left)": {
+    "question": "Is your skin skin sore or spot located on your side of the neck (left)?",
+    "type": "binary"
+  },
+  "skin skin sore or spot on forehead": {
+    "question": "Is your skin skin sore or spot located on your forehead?",
+    "type": "binary"
+  },
+  "pain radiates to breast (right)": {
+    "question": "Does your pain spread to your breast (right)?",
+    "type": "binary"
+  },
+  "pain in pubis": {
+    "question": "Do you have pain in your pubis?",
+    "type": "binary"
+  },
+  "pain in finger (little finger) (left)": {
+    "question": "Do you have pain in the finger (little finger) (left)?",
+    "type": "binary"
+  },
+  "pain in sole (left)": {
+    "question": "Do you have pain in the sole (left)?",
+    "type": "binary"
+  },
+  "think you are pregnant or are you currently pregnant": {
+    "question": "Do you have think you are pregnant or are you currently pregnant?",
+    "type": "binary"
+  },
+  "pain onset: sudden": {
+    "question": "How quickly did your pain start?",
+    "type": "categorical",
+    "options": [
+      "Sudden (seconds)",
+      "Quick (minutes)",
+      "Gradual (hours)",
+      "Very gradual (days)"
+    ]
+  },
+  "pain character: na": {
+    "question": "How would you describe your pain?",
+    "type": "categorical",
+    "options": [
+      "Sharp",
+      "Dull/Aching",
+      "Burning",
+      "Throbbing",
+      "Cramping",
+      "Pressure-like",
+      "Stabbing"
+    ]
+  },
+  "pain intensity: 0/10": {
+    "question": "On a scale of 0-10, how intense is your pain?",
+    "type": "scale",
+    "min": 0,
+    "max": 10
+  },
+  "pain in no specific location": {
+    "question": "Do you have pain in your no specific location?",
+    "type": "binary"
+  },
+  "pain localization: 0/10": {
+    "question": "Do you have pain localization: 0/10?",
+    "type": "binary"
+  },
+  "clinical evidence 141": {
+    "question": "Clinical assessment evidence 141?",
+    "type": "binary"
+  },
+  "skin skin sore or spot on bottom lip (right)": {
+    "question": "Is your skin skin sore or spot located on your bottom lip (right)?",
+    "type": "binary"
+  },
+  "pain in palmar face of the wrist (right)": {
+    "question": "Do you have pain in the palmar face of the wrist (right)?",
+    "type": "binary"
+  },
+  "swelling in sole (right)": {
+    "question": "Do you have swelling in your sole (right)?",
+    "type": "binary"
+  },
+  "pain radiates to triceps (right)": {
+    "question": "Does your pain spread to your triceps (right)?",
+    "type": "binary"
+  },
+  "currently take hormones": {
+    "question": "Do you have currently take hormones?",
+    "type": "binary"
+  },
+  "skin skin sore or spot on neck/upper back": {
+    "question": "Is your skin skin sore or spot located on your neck/upper back?",
+    "type": "binary"
+  },
+  "pain onset: very gradual": {
+    "question": "How quickly did your pain start?",
+    "type": "categorical",
+    "options": [
+      "Sudden (seconds)",
+      "Quick (minutes)",
+      "Gradual (hours)",
+      "Very gradual (days)"
+    ]
+  },
+  "pain radiates to windpipe": {
+    "question": "Does your pain spread to your windpipe?",
+    "type": "binary"
+  },
+  "skin skin sore or spot on commissure (right)": {
+    "question": "Is your skin skin sore or spot located on your commissure (right)?",
+    "type": "binary"
+  },
+  "skin skin sore or spot on commissure (left)": {
+    "question": "Is your skin skin sore or spot located on your commissure (left)?",
+    "type": "binary"
+  },
+  "skin skin sore or spot on mid back": {
+    "question": "Is your skin skin sore or spot located on your mid back?",
+    "type": "binary"
+  },
+  "skin skin sore or spot on lower back": {
+    "question": "Is your skin skin sore or spot located on your lower back?",
+    "type": "binary"
+  },
+  "itching severity: 10/10": {
+    "question": "On a scale of 0-10, how severe is your itching?",
+    "type": "scale",
+    "min": 0,
+    "max": 10
+  },
+  "skin skin sore or spot on shoulder (left)": {
+    "question": "Is your skin skin sore or spot located on your shoulder (left)?",
+    "type": "binary"
+  },
+  "skin skin sore or spot on shoulder (right)": {
+    "question": "Is your skin skin sore or spot located on your shoulder (right)?",
+    "type": "binary"
+  },
+  "pain localization: 10/10": {
+    "question": "Do you have pain localization: 10/10?",
+    "type": "binary"
+  },
+  "skin rash pain intensity: 3/10": {
+    "question": "On a scale of 0-10, how intense is your pain?",
+    "type": "scale",
+    "min": 0,
+    "max": 10
+  },
+  "pain intensity: 10/10": {
+    "question": "On a scale of 0-10, how intense is your pain?",
+    "type": "scale",
+    "min": 0,
+    "max": 10
+  },
+  "pain intensity: 8/10": {
+    "question": "On a scale of 0-10, how intense is your pain?",
+    "type": "scale",
+    "min": 0,
+    "max": 10
+  },
+  "itching severity: 9/10": {
+    "question": "On a scale of 0-10, how severe is your itching?",
+    "type": "scale",
+    "min": 0,
+    "max": 10
+  },
+  "pain intensity: 9/10": {
+    "question": "On a scale of 0-10, how intense is your pain?",
+    "type": "scale",
+    "min": 0,
+    "max": 10
+  },
+  "pain localization: 7/10": {
+    "question": "Do you have pain localization: 7/10?",
+    "type": "binary"
+  },
+  "pain localization: 9/10": {
+    "question": "Do you have pain localization: 9/10?",
+    "type": "binary"
+  },
+  "skin rash pain intensity: 2/10": {
+    "question": "On a scale of 0-10, how intense is your pain?",
+    "type": "scale",
+    "min": 0,
+    "max": 10
+  },
+  "itching severity: 8/10": {
+    "question": "On a scale of 0-10, how severe is your itching?",
+    "type": "scale",
+    "min": 0,
+    "max": 10
+  },
+  "skin rash pain intensity: 1/10": {
+    "question": "On a scale of 0-10, how intense is your pain?",
+    "type": "scale",
+    "min": 0,
+    "max": 10
+  },
+  "skin skin sore or spot on buttock (right)": {
+    "question": "Is your skin skin sore or spot located on your buttock (right)?",
+    "type": "binary"
+  },
+  "pain intensity: 7/10": {
+    "question": "On a scale of 0-10, how intense is your pain?",
+    "type": "scale",
+    "min": 0,
+    "max": 10
+  },
+  "pain localization: 8/10": {
+    "question": "Do you have pain localization: 8/10?",
+    "type": "binary"
+  },
+  "itching severity: 7/10": {
+    "question": "On a scale of 0-10, how severe is your itching?",
+    "type": "scale",
+    "min": 0,
+    "max": 10
+  },
+  "itching severity: 1/10": {
+    "question": "On a scale of 0-10, how severe is your itching?",
+    "type": "scale",
+    "min": 0,
+    "max": 10
+  },
+  "itching severity: 3/10": {
+    "question": "On a scale of 0-10, how severe is your itching?",
+    "type": "scale",
+    "min": 0,
+    "max": 10
+  },
+  "skin skin sore or spot on buttock (left)": {
+    "question": "Is your skin skin sore or spot located on your buttock (left)?",
+    "type": "binary"
+  },
+  "itching severity: 2/10": {
+    "question": "On a scale of 0-10, how severe is your itching?",
+    "type": "scale",
+    "min": 0,
+    "max": 10
+  },
+  "pain in lateral side of the foot (right)": {
+    "question": "Do you have pain in the lateral side of the foot (right)?",
+    "type": "binary"
+  },
+  "skin skin sore or spot on flank (right)": {
+    "question": "Is your skin skin sore or spot located on your flank (right)?",
+    "type": "binary"
+  },
+  "pain radiates to triceps (left)": {
+    "question": "Does your pain spread to your triceps (left)?",
+    "type": "binary"
+  },
+  "skin skin sore or spot on flank (left)": {
+    "question": "Is your skin skin sore or spot located on your flank (left)?",
+    "type": "binary"
+  },
+  "very abundant or very long menstruation periods": {
+    "question": "Do you have very abundant or very long menstruation periods?",
+    "type": "binary"
+  },
+  "pain radiates to breast (left)": {
+    "question": "Does your pain spread to your breast (left)?",
+    "type": "binary"
+  },
+  "pain onset: gradual": {
+    "question": "How quickly did your pain start?",
+    "type": "categorical",
+    "options": [
+      "Sudden (seconds)",
+      "Quick (minutes)",
+      "Gradual (hours)",
+      "Very gradual (days)"
+    ]
+  },
+  "pain intensity: 6/10": {
+    "question": "On a scale of 0-10, how intense is your pain?",
+    "type": "scale",
+    "min": 0,
+    "max": 10
+  },
+  "pain intensity: 1/10": {
+    "question": "On a scale of 0-10, how intense is your pain?",
+    "type": "scale",
+    "min": 0,
+    "max": 10
+  },
+  "pain intensity: 3/10": {
+    "question": "On a scale of 0-10, how intense is your pain?",
+    "type": "scale",
+    "min": 0,
+    "max": 10
+  },
+  "pain in palmar face of the wrist (left)": {
+    "question": "Do you have pain in the palmar face of the wrist (left)?",
+    "type": "binary"
+  },
+  "itching severity: 6/10": {
+    "question": "On a scale of 0-10, how severe is your itching?",
+    "type": "scale",
+    "min": 0,
+    "max": 10
+  },
+  "skin rash swelling: 2/10": {
+    "question": "On a scale of 0-10, how severe is your skin rash?",
+    "type": "scale",
+    "min": 0,
+    "max": 10
+  },
+  "pain localization: 6/10": {
+    "question": "Do you have pain localization: 6/10?",
+    "type": "binary"
+  },
+  "pain intensity: 4/10": {
+    "question": "On a scale of 0-10, how intense is your pain?",
+    "type": "scale",
+    "min": 0,
+    "max": 10
+  },
+  "skin rash swelling: 3/10": {
+    "question": "On a scale of 0-10, how severe is your skin rash?",
+    "type": "scale",
+    "min": 0,
+    "max": 10
+  },
+  "skin rash swelling: 4/10": {
+    "question": "On a scale of 0-10, how severe is your skin rash?",
+    "type": "scale",
+    "min": 0,
+    "max": 10
+  },
+  "skin rash swelling: 1/10": {
+    "question": "On a scale of 0-10, how severe is your skin rash?",
+    "type": "scale",
+    "min": 0,
+    "max": 10
+  },
+  "pain intensity: 2/10": {
+    "question": "On a scale of 0-10, how intense is your pain?",
+    "type": "scale",
+    "min": 0,
+    "max": 10
+  },
+  "pain intensity: 5/10": {
+    "question": "On a scale of 0-10, how intense is your pain?",
+    "type": "scale",
+    "min": 0,
+    "max": 10
+  },
+  "skin skin sore or spot on posterior chest wall (right)": {
+    "question": "Is your skin skin sore or spot located on your posterior chest wall (right)?",
+    "type": "binary"
+  },
+  "pain in calf (right)": {
+    "question": "Do you have pain in the calf (right)?",
+    "type": "binary"
+  },
+  "skin skin sore or spot on posterior chest wall (left)": {
+    "question": "Is your skin skin sore or spot located on your posterior chest wall (left)?",
+    "type": "binary"
+  },
+  "pain localization: 5/10": {
+    "question": "Do you have pain localization: 5/10?",
+    "type": "binary"
+  },
+  "itching severity: 4/10": {
+    "question": "On a scale of 0-10, how severe is your itching?",
+    "type": "scale",
+    "min": 0,
+    "max": 10
+  },
+  "itching severity: 5/10": {
+    "question": "On a scale of 0-10, how severe is your itching?",
+    "type": "scale",
+    "min": 0,
+    "max": 10
+  },
+  "skin rash pain intensity: 5/10": {
+    "question": "On a scale of 0-10, how intense is your pain?",
+    "type": "scale",
+    "min": 0,
+    "max": 10
+  },
+  "skin rash pain intensity: 4/10": {
+    "question": "On a scale of 0-10, how intense is your pain?",
+    "type": "scale",
+    "min": 0,
+    "max": 10
+  },
+  "skin skin sore or spot on upper lip (right)": {
+    "question": "Is your skin skin sore or spot located on your upper lip (right)?",
+    "type": "binary"
+  },
+  "pain in biceps (right)": {
+    "question": "Do you have pain in the biceps (right)?",
+    "type": "binary"
+  },
+  "pain localization: 2/10": {
+    "question": "Do you have pain localization: 2/10?",
+    "type": "binary"
+  },
+  "pain localization: 4/10": {
+    "question": "Do you have pain localization: 4/10?",
+    "type": "binary"
+  },
+  "pain localization: 3/10": {
+    "question": "Do you have pain localization: 3/10?",
+    "type": "binary"
+  },
+  "pain in lateral side of the foot (left)": {
+    "question": "Do you have pain in the lateral side of the foot (left)?",
+    "type": "binary"
+  },
+  "pain localization: 1/10": {
+    "question": "Do you have pain localization: 1/10?",
+    "type": "binary"
+  },
+  "skin rash pain intensity: 7/10": {
+    "question": "On a scale of 0-10, how intense is your pain?",
+    "type": "scale",
+    "min": 0,
+    "max": 10
+  },
+  "skin skin sore or spot on belly": {
+    "question": "Is your skin skin sore or spot located on your belly?",
+    "type": "binary"
+  },
+  "skin rash pain intensity: 6/10": {
+    "question": "On a scale of 0-10, how intense is your pain?",
+    "type": "scale",
+    "min": 0,
+    "max": 10
+  },
+  "swelling in sole (left)": {
+    "question": "Do you have swelling in your sole (left)?",
+    "type": "binary"
+  },
+  "skin rash swelling: 5/10": {
+    "question": "On a scale of 0-10, how severe is your skin rash?",
+    "type": "scale",
+    "min": 0,
+    "max": 10
+  },
+  "skin rash swelling: 6/10": {
+    "question": "On a scale of 0-10, how severe is your skin rash?",
+    "type": "scale",
+    "min": 0,
+    "max": 10
+  },
+  "skin rash swelling: 7/10": {
+    "question": "On a scale of 0-10, how severe is your skin rash?",
+    "type": "scale",
+    "min": 0,
+    "max": 10
+  },
+  "skin rash pain intensity: 8/10": {
+    "question": "On a scale of 0-10, how intense is your pain?",
+    "type": "scale",
+    "min": 0,
+    "max": 10
+  },
+  "pain in biceps (left)": {
+    "question": "Do you have pain in the biceps (left)?",
+    "type": "binary"
+  },
+  "pain in right knee": {
+    "question": "Do you have pain in the right knee?",
     "type": "binary"
   },
   "of asian descent": {
-    "question": "Are you of Asian descent?",
+    "question": "Do you have of asian descent?",
+    "type": "binary"
+  },
+  "pain in calf (left)": {
+    "question": "Do you have pain in the calf (left)?",
+    "type": "binary"
+  },
+  "clinical evidence 11": {
+    "question": "Clinical assessment evidence 11?",
+    "type": "binary"
+  },
+  "pain in mid back": {
+    "question": "Do you have pain in your mid back?",
+    "type": "binary"
+  },
+  "skin skin sore or spot on roof of mouth (palate)": {
+    "question": "Is your skin skin sore or spot located on your roof of mouth (palate)?",
+    "type": "binary"
+  },
+  "recent travel to: south africa": {
+    "question": "Where did you travel to recently?",
+    "type": "categorical",
+    "options": [
+      "Africa",
+      "Asia",
+      "Europe",
+      "Americas",
+      "Caribbean",
+      "Oceania"
+    ]
+  },
+  "recent travel to: north africa": {
+    "question": "Where did you travel to recently?",
+    "type": "categorical",
+    "options": [
+      "Africa",
+      "Asia",
+      "Europe",
+      "Americas",
+      "Caribbean",
+      "Oceania"
+    ]
+  },
+  "pain in left knee": {
+    "question": "Do you have pain in the left knee?",
+    "type": "binary"
+  },
+  "pain in tibia (right)": {
+    "question": "Do you have pain in the tibia (right)?",
+    "type": "binary"
+  },
+  "swelling in lateral side of the foot (right)": {
+    "question": "Do you have swelling in your lateral side of the foot (right)?",
+    "type": "binary"
+  },
+  "recent travel to: central america": {
+    "question": "Where did you travel to recently?",
+    "type": "categorical",
+    "options": [
+      "Africa",
+      "Asia",
+      "Europe",
+      "Americas",
+      "Caribbean",
+      "Oceania"
+    ]
+  },
+  "recent travel to: asia": {
+    "question": "Where did you travel to recently?",
+    "type": "categorical",
+    "options": [
+      "Africa",
+      "Asia",
+      "Europe",
+      "Americas",
+      "Caribbean",
+      "Oceania"
+    ]
+  },
+  "recent travel to: south east asia": {
+    "question": "Where did you travel to recently?",
+    "type": "categorical",
+    "options": [
+      "Africa",
+      "Asia",
+      "Europe",
+      "Americas",
+      "Caribbean",
+      "Oceania"
+    ]
+  },
+  "recent travel to: south america": {
+    "question": "Where did you travel to recently?",
+    "type": "categorical",
+    "options": [
+      "Africa",
+      "Asia",
+      "Europe",
+      "Americas",
+      "Caribbean",
+      "Oceania"
+    ]
+  },
+  "skin skin sore or spot on upper leg (right)": {
+    "question": "Is your skin skin sore or spot located on your upper leg (right)?",
     "type": "binary"
   }
 }

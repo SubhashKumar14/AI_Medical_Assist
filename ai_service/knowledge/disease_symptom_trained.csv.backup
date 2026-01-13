@@ -1,0 +1,1894 @@
+disease,symptom,weight,info_gain
+URTI,pain does not radiate,1.0,23.6038
+Bronchiolitis,nasal congestion or runny nose,1.0,8.0171
+Bronchiolitis,shortness of breath or difficulty breathing in a significant way,1.0,10.3715
+Inguinal hernia,pain does not radiate,1.0,23.6038
+HIV (initial infection),pain does not radiate,1.0,23.6038
+Scombroid food poisoning,rash is pink colored,1.0,6.8587
+Sarcoidosis,skin lesions are not peeling,1.0,13.3891
+SLE,pain,1.0,20.388
+Myocarditis,pain does not radiate,1.0,23.6038
+Unstable angina,pain,1.0,20.388
+Sarcoidosis,pain,1.0,20.388
+Sarcoidosis,rash pain intensity: 0/10,1.0,2.6038
+Spontaneous rib fracture,pain,1.0,20.388
+Sarcoidosis,rash is na colored,1.0,2.1071
+Acute rhinosinusitis,pain,1.0,20.388
+Inguinal hernia,skin lesions are not peeling,1.0,13.3891
+Sarcoidosis,itching severity: 0/10,1.0,6.0007
+Sarcoidosis,rash swelling: 0/10,1.0,2.5805
+Sarcoidosis,lesion smaller than 1cm,1.0,3.9451
+Chagas,pain does not radiate,1.0,23.6038
+Chagas,pain,1.0,20.388
+Spontaneous pneumothorax,pain does not radiate,1.0,23.6038
+Spontaneous pneumothorax,pain,1.0,20.388
+Epiglottitis,pain,1.0,20.388
+Localized edema,pain does not radiate,1.0,23.6038
+HIV (initial infection),lesion larger than 1cm,1.0,10.3408
+HIV (initial infection),itching severity: 0/10,1.0,6.0007
+Localized edema,swelling in one or more areas of your body,1.0,6.9475
+Pulmonary embolism,pain,1.0,20.388
+HIV (initial infection),rash is pale colored,1.0,3.4887
+Anaphylaxis,lesion larger than 1cm,1.0,10.3408
+Sarcoidosis,pain does not radiate,1.0,23.6038
+Localized edema,pain,1.0,20.388
+SLE,skin lesions are not peeling,1.0,13.3891
+Viral pharyngitis,pain does not radiate,1.0,23.6038
+Bronchitis,pain does not radiate,1.0,23.6038
+Anaphylaxis,skin lesions or redness,1.0,11.7506
+Stable angina,pain,1.0,20.388
+Pneumonia,lesion smaller than 1cm,1.0,3.9451
+Acute pulmonary edema,pain,1.0,20.388
+Pneumonia,pain does not radiate,1.0,23.6038
+Anemia,pain does not radiate,1.0,23.6038
+Cluster headache,pain,1.0,20.388
+Scombroid food poisoning,skin lesions or redness,1.0,11.7506
+Pulmonary neoplasm,pain does not radiate,1.0,23.6038
+Pancreatic neoplasm,skin lesions are not peeling,1.0,13.3891
+Influenza,skin lesions are not peeling,1.0,13.3891
+HIV (initial infection),skin lesions or redness,1.0,11.7506
+Anaphylaxis,pain does not radiate,1.0,23.6038
+Scombroid food poisoning,lesion larger than 1cm,1.0,10.3408
+Panic attack,pain does not radiate,1.0,23.6038
+Sarcoidosis,no skin lesions present,1.0,2.1071
+Influenza,pain,1.0,20.388
+Acute laryngitis,pain does not radiate,1.0,23.6038
+Viral pharyngitis,pain,1.0,20.388
+Anaphylaxis,skin lesions are not peeling,1.0,13.3891
+HIV (initial infection),skin lesions are not peeling,1.0,13.3891
+Chronic rhinosinusitis,pain,1.0,20.388
+Scombroid food poisoning,skin lesions are not peeling,1.0,13.3891
+Possible NSTEMI / STEMI,pain,1.0,20.388
+Influenza,pain does not radiate,1.0,23.6038
+SLE,pain does not radiate,1.0,23.6038
+Anaphylaxis,rash is pink colored,1.0,6.8587
+Inguinal hernia,itching severity: 0/10,1.0,6.0007
+Epiglottitis,pain does not radiate,1.0,23.6038
+Acute otitis media,pain does not radiate,1.0,23.6038
+Panic attack,pain,1.0,20.388
+Cluster headache,pain does not radiate,1.0,23.6038
+Chagas,no swelling present,1.0,1.9699
+Larygospasm,clinical evidence 194,1.0,4.5582
+Pericarditis,pain,1.0,20.388
+Ebola,recent travel to: west africa,1.0,1.9617
+PSVT,pain does not radiate,1.0,23.6038
+Boerhaave,pain,0.9999,20.388
+Inguinal hernia,pain,0.9998,20.388
+Tuberculosis,cough,0.9998,12.413
+Inguinal hernia,pain character: heavy/pressure-like,0.9998,6.7571
+Anaphylaxis,pain,0.9995,20.388
+Acute laryngitis,pain,0.9993,20.388
+Acute pulmonary edema,swelling in one or more areas of your body,0.9988,6.9475
+Acute otitis media,pain,0.9982,20.388
+HIV (initial infection),pain,0.9971,20.388
+Spontaneous rib fracture,pain that is increased with movement,0.9965,1.9456
+URTI,pain,0.9962,20.388
+GERD,pain,0.9948,20.388
+Bronchitis,pain,0.9945,20.388
+Myocarditis,pain,0.9938,20.388
+Pneumonia,skin lesions are peeling,0.9934,1.9333
+Pneumonia,rash is pink colored,0.9934,6.8587
+Pneumonia,skin lesions or redness,0.9934,11.7506
+Anaphylaxis,swelling in one or more areas of your body,0.9933,6.9475
+Bronchiolitis,fever,0.993,9.051
+Spontaneous rib fracture,pain that is increased when you breathe in deeply,0.9929,5.5419
+Anemia,pain,0.9905,20.388
+Bronchiolitis,no recent international travel,0.9896,3.0182
+PSVT,"feel your heart is beating fast (racing), irregularly (missing a beat) or do you feel palpitations",0.9892,5.1248
+Scombroid food poisoning,clinical evidence 92,0.9854,1.902
+Pneumonia,pain,0.9846,20.388
+Scombroid food poisoning,clinical evidence 187,0.9796,1.8795
+Whooping cough,clinical evidence 166,0.977,1.8694
+Bronchospasm / acute asthma exacerbation,asthma or have you ever had to use a bronchodilator in the past,0.9735,8.2922
+Boerhaave,no recent international travel,0.973,3.0182
+Pancreatic neoplasm,pain,0.9727,20.388
+Acute rhinosinusitis,no recent international travel,0.9723,3.0182
+Pericarditis,no recent international travel,0.9722,3.0182
+SLE,skin lesions or redness,0.972,11.7506
+Possible NSTEMI / STEMI,no recent international travel,0.972,3.0182
+SLE,rash is red colored,0.972,1.8501
+SLE,lesion larger than 1cm,0.972,10.3408
+Localized edema,no recent international travel,0.9718,3.0182
+Pulmonary neoplasm,no recent international travel,0.9716,3.0182
+PSVT,no recent international travel,0.971,3.0182
+URTI,no recent international travel,0.9707,3.0182
+Scombroid food poisoning,no recent international travel,0.9707,3.0182
+GERD,no recent international travel,0.9706,3.0182
+Acute pulmonary edema,no recent international travel,0.9706,3.0182
+Bronchitis,no recent international travel,0.9705,3.0182
+Acute laryngitis,no recent international travel,0.9704,3.0182
+Spontaneous rib fracture,no recent international travel,0.9703,3.0182
+Pneumonia,no recent international travel,0.9701,3.0182
+Anaphylaxis,no recent international travel,0.9701,3.0182
+Stable angina,no recent international travel,0.9701,3.0182
+Acute otitis media,no recent international travel,0.9701,3.0182
+Panic attack,no recent international travel,0.97,3.0182
+Viral pharyngitis,no recent international travel,0.9699,3.0182
+Sarcoidosis,no recent international travel,0.9697,3.0182
+Unstable angina,no recent international travel,0.9697,3.0182
+Cluster headache,no recent international travel,0.9694,3.0182
+Influenza,no recent international travel,0.9694,3.0182
+Chronic rhinosinusitis,no recent international travel,0.9693,3.0182
+Spontaneous pneumothorax,no recent international travel,0.969,3.0182
+Pancreatic neoplasm,no recent international travel,0.9688,3.0182
+Myocarditis,no recent international travel,0.9685,3.0182
+Acute dystonic reactions,no recent international travel,0.9684,3.0182
+Tuberculosis,no recent international travel,0.9683,3.0182
+Epiglottitis,no recent international travel,0.9681,3.0182
+Acute COPD exacerbation / infection,no recent international travel,0.968,3.0182
+Atrial fibrillation,no recent international travel,0.9679,3.0182
+Bronchiectasis,no recent international travel,0.9675,3.0182
+Guillain-Barré syndrome,no recent international travel,0.9665,3.0182
+Bronchospasm / acute asthma exacerbation,no recent international travel,0.9663,3.0182
+Croup,no recent international travel,0.9634,3.0182
+Inguinal hernia,no recent international travel,0.9584,3.0182
+Myasthenia gravis,no recent international travel,0.9577,3.0182
+Pulmonary embolism,surgery within the last month,0.953,2.2138
+Allergic sinusitis,no recent international travel,0.9521,3.0182
+Larygospasm,no recent international travel,0.9469,3.0182
+Pulmonary neoplasm,smoking,0.9359,11.0741
+Whooping cough,clinical evidence 209,0.9234,4.1077
+SLE,no recent international travel,0.9171,3.0182
+HIV (initial infection),no recent international travel,0.9166,3.0182
+Acute rhinosinusitis,polyps in your nose,0.9128,3.1761
+Acute pulmonary edema,heart failure,0.9097,3.5963
+Chronic rhinosinusitis,polyps in your nose,0.9086,3.1761
+Ebola,clinical evidence 73,0.9059,1.6046
+Spontaneous pneumothorax,pain that is increased when you breathe in deeply,0.9058,5.5419
+Inguinal hernia,lesion larger than 1cm,0.9055,10.3408
+Inguinal hernia,rash is pale colored,0.9055,3.4887
+Inguinal hernia,skin lesions or redness,0.9055,11.7506
+Acute COPD exacerbation / infection,clinical evidence 214,0.9051,5.3032
+Ebola,clinical evidence 178,0.9035,1.596
+Pulmonary embolism,swelling in one or more areas of your body,0.894,6.9475
+Whooping cough,no recent international travel,0.8927,3.0182
+Allergic sinusitis,nasal congestion or runny nose,0.8764,8.0171
+Acute rhinosinusitis,asthma or have you ever had to use a bronchodilator in the past,0.8743,8.2922
+Bronchitis,cough,0.8717,12.413
+Chronic rhinosinusitis,asthma or have you ever had to use a bronchodilator in the past,0.8675,8.2922
+Acute COPD exacerbation / infection,clinical evidence 125,0.8655,3.5721
+Influenza,rash is pink colored,0.865,6.8587
+Influenza,skin lesions or redness,0.865,11.7506
+Influenza,lesion larger than 1cm,0.865,10.3408
+Bronchospasm / acute asthma exacerbation,clinical evidence 214,0.8631,5.3032
+Acute laryngitis,clinical evidence 212,0.8608,2.5159
+Pulmonary neoplasm,clinical evidence 45,0.8572,4.6275
+Pneumonia,productive cough with colored sputum,0.8536,4.9588
+Pulmonary neoplasm,pain,0.8531,20.388
+Bronchiectasis,productive cough with colored sputum,0.8523,4.9588
+Bronchospasm / acute asthma exacerbation,shortness of breath or difficulty breathing in a significant way,0.8493,10.3715
+Spontaneous pneumothorax,clinical evidence 21,0.8446,1.3925
+Spontaneous rib fracture,intense coughing fits,0.8434,2.8522
+Chronic rhinosinusitis,clinical evidence 103,0.8432,2.4083
+HIV (initial infection),fever,0.8408,9.051
+Stable angina,symptoms that are increased with physical exertion but alleviated with rest,0.84,5.004
+Viral pharyngitis,pain character: burning,0.8379,7.083
+Chagas,no recent international travel,0.8375,3.0182
+Pericarditis,clinical evidence 3,0.8369,2.0347
+Cluster headache,clinical evidence 25,0.8308,1.3469
+Chronic rhinosinusitis,cough,0.8287,12.413
+Epiglottitis,pain character: stabbing,0.828,9.5684
+Pneumonia,cough,0.8276,12.413
+Ebola,contact_with_sick_person,0.8267,3.2716
+Acute pulmonary edema,clinical evidence 5,0.8252,1.3285
+Allergic sinusitis,nose or the back of your throat itchy,0.8236,1.3233
+Acute COPD exacerbation / infection,chronic obstructive pulmonary disease (copd),0.8234,4.6812
+Influenza,cough,0.8207,12.413
+Pulmonary neoplasm,shortness of breath or difficulty breathing in a significant way,0.8192,10.3715
+Acute pulmonary edema,angina (chest pain),0.8187,5.4348
+Stable angina,angina (chest pain),0.8185,5.4348
+Chronic rhinosinusitis,more likely to develop common allergies than the general population,0.8177,5.018
+Unstable angina,angina (chest pain),0.8172,5.4348
+Acute otitis media,pain character: tender/sensitive,0.8163,8.6855
+Acute COPD exacerbation / infection,smoking,0.8141,11.0741
+Acute rhinosinusitis,greenish or yellowish nasal discharge,0.8102,2.1005
+Acute rhinosinusitis,pain character: burning,0.81,7.083
+Pericarditis,pain character: stabbing,0.8099,9.5684
+Chronic rhinosinusitis,pain character: burning,0.8092,7.083
+URTI,nasal congestion or runny nose,0.8079,8.0171
+Acute rhinosinusitis,more likely to develop common allergies than the general population,0.8067,5.018
+Pneumonia,clinical evidence 118,0.8055,3.7898
+Panic attack,clinical evidence 157,0.805,2.1519
+Anaphylaxis,known severe food allergy,0.804,1.2603
+Boerhaave,clinical evidence 211,0.8033,1.2581
+Pulmonary neoplasm,former smoker,0.8012,1.8876
+Influenza,fever,0.8008,9.051
+Viral pharyngitis,contact_with_sick_person,0.7988,3.2716
+Anemia,taking any new oral anticoagulants ((noacs),0.7983,1.2423
+Acute otitis media,pain in ear (right),0.7976,1.2401
+Viral pharyngitis,pain in tonsil (left),0.7975,3.1485
+Acute otitis media,pain in ear (left),0.7972,1.2389
+Viral pharyngitis,pain character: tender/sensitive,0.7972,8.6855
+Viral pharyngitis,pain in tonsil (right),0.7968,3.159
+Viral pharyngitis,pain in thyroid cartilage,0.7962,1.7192
+Pulmonary neoplasm,involuntary weight loss over the last 3 months,0.7961,3.2873
+Spontaneous pneumothorax,smoking,0.7961,11.0741
+Bronchiectasis,cystic fibrosis,0.7956,1.2338
+Viral pharyngitis,pain in pharynx,0.7953,3.4434
+Acute pulmonary edema,shortness of breath or difficulty breathing in a significant way,0.7935,10.3715
+Viral pharyngitis,pain in palace,0.7935,3.1344
+Panic attack,pain character: cramping,0.7869,3.7986
+Bronchitis,chronic obstructive pulmonary disease (copd),0.7865,4.6812
+Epiglottitis,pain in tonsil (right),0.7834,3.159
+Pulmonary neoplasm,exposed to secondhand cigarette smoke on a daily basis,0.7834,3.0379
+Bronchitis,productive cough with colored sputum,0.7818,4.9588
+Epiglottitis,pain in tonsil (left),0.781,3.1485
+Bronchospasm / acute asthma exacerbation,cold in the last 2 weeks,0.7808,3.7424
+Epiglottitis,pain in palace,0.7798,3.1344
+Croup,clinical evidence 4,0.7794,1.1835
+URTI,sore throat,0.7793,3.3494
+Epiglottitis,pain character: sharp,0.7792,10.1932
+Localized edema,swelling in ankle (right),0.7792,2.0029
+SLE,pain character: sharp,0.7791,10.1932
+Localized edema,swelling in dorsal aspect of the foot (right),0.7788,1.1816
+Localized edema,swelling in thigh (left),0.7787,1.1813
+Anemia,clinical evidence 24,0.7775,1.1776
+Localized edema,swelling in thigh (right),0.7774,1.1773
+Anemia,underweight,0.7772,2.5741
+Epiglottitis,clinical evidence 194,0.777,4.5582
+Localized edema,swelling in ankle (left),0.7769,1.9991
+Influenza,feel so tired that you are unable to do your usual activities or are you stuck in your bed all day long,0.7766,2.627
+Acute laryngitis,pain character: burning,0.7754,7.083
+Acute rhinosinusitis,cough,0.7742,12.413
+Epiglottitis,pain in pharynx,0.7742,3.4434
+Acute COPD exacerbation / infection,cough,0.7731,12.413
+Bronchospasm / acute asthma exacerbation,2 or more asthma attacks in the past year,0.7729,1.1635
+Bronchospasm / acute asthma exacerbation,cough,0.7728,12.413
+Anaphylaxis,clinical evidence 42,0.772,1.1608
+Tuberculosis,clinical evidence 45,0.7709,4.6275
+Spontaneous pneumothorax,pain character: stabbing,0.7705,9.5684
+Stable angina,close family members who had a cardiovascular disease problem before the age of 50,0.7691,2.8628
+Unstable angina,close family members who had a cardiovascular disease problem before the age of 50,0.7668,2.8628
+Myocarditis,shortness of breath or difficulty breathing in a significant way,0.7667,10.3715
+Panic attack,feel like you are dying or were you afraid that you were about do die,0.7666,1.1444
+Acute rhinosinusitis,pain in forehead,0.7662,5.9043
+Pulmonary embolism,pain character: stabbing,0.766,9.5684
+HIV (initial infection),skin lesion on labia majora (right),0.7652,1.1402
+Possible NSTEMI / STEMI,diabetes,0.765,5.5862
+Boerhaave,pain in upper abdomen,0.7647,5.699
+Atrial fibrillation,known issue with one of your heart valves,0.7647,1.8662
+Cluster headache,pain in forehead,0.7641,5.9043
+Unstable angina,diabetes,0.7639,5.5862
+Myasthenia gravis,shortness of breath or difficulty breathing in a significant way,0.7639,10.3715
+HIV (initial infection),skin lesion on upper gum,0.7636,1.1354
+Stable angina,diabetes,0.7633,5.5862
+Atrial fibrillation,feel your heart is beating very irregularly or in a disorganized pattern,0.7632,1.1341
+Cluster headache,pain character: pulling/tugging,0.7629,4.1004
+Boerhaave,feel like vomiting,0.7626,5.387
+Cluster headache,pain in eye (left),0.7623,1.5452
+Cluster headache,pain character: sharp,0.7623,10.1932
+HIV (initial infection),skin lesion on lower gum,0.762,1.1305
+Cluster headache,pain in right cheek,0.7617,3.6361
+Cluster headache,pain in eye (right),0.7615,2.2954
+Pericarditis,pain in lower chest,0.7613,6.3707
+Cluster headache,pain character: lancinating/shooting,0.7613,3.6621
+Acute pulmonary edema,clinical evidence 217,0.7609,3.4495
+Boerhaave,pain character: sickening,0.7598,3.0164
+Cluster headache,pain character: stabbing,0.7597,9.5684
+HIV (initial infection),skin lesion on labia majora (left),0.7596,1.1233
+Cluster headache,pain in left cheek,0.7593,3.6301
+Epiglottitis,clinical evidence 212,0.7591,2.5159
+Myasthenia gravis,"difficulty swallowing, or have a feeling of discomfort/blockage when swallowing",0.759,2.1116
+Acute pulmonary edema,symptoms that are increased with physical exertion but alleviated with rest,0.7589,5.004
+Cluster headache,pain character: violent,0.7588,4.0309
+GERD,pain in upper abdomen,0.7581,5.699
+Boerhaave,pain radiates to scapula (left),0.758,2.3345
+HIV (initial infection),skin lesion on internal cheek (right),0.7576,1.1173
+Spontaneous pneumothorax,pain in breast (right),0.7572,6.0427
+Boerhaave,pain character: lancinating/shooting,0.7571,3.6621
+Myocarditis,pain character: stabbing,0.7565,9.5684
+Boerhaave,pain radiates to mid back,0.7558,5.2286
+Allergic sinusitis,asthma or have you ever had to use a bronchodilator in the past,0.7548,8.2922
+Pericarditis,pain character: sharp,0.7544,10.1932
+Boerhaave,pain in lower chest,0.7537,6.3707
+Boerhaave,pain in upper chest,0.7532,5.3575
+HIV (initial infection),swollen or painful lymph nodes,0.7527,2.4759
+Boerhaave,pain character: stabbing,0.7525,9.5684
+Panic attack,suffer from chronic anxiety,0.7523,1.1016
+Anaphylaxis,skin lesion on back of the neck,0.7521,2.264
+Possible NSTEMI / STEMI,high cholesterol or do you take medications to treat high cholesterol,0.7521,2.9053
+Localized edema,heart failure,0.7517,3.5963
+Boerhaave,pain radiates to scapula (right),0.7516,2.4264
+Boerhaave,pain character: tearing,0.7514,3.06
+Anemia,chronic kidney failure,0.7514,1.0989
+Pericarditis,pain radiates to posterior chest wall (left),0.7512,2.6001
+Localized edema,clinical evidence 137,0.751,1.0977
+Cluster headache,take medication that dilates your blood vessels,0.7506,1.0965
+Acute rhinosinusitis,pain radiates to forehead,0.7505,1.8342
+Spontaneous pneumothorax,pain character: tearing,0.7505,3.06
+Anaphylaxis,skin lesion on thyroid cartilage,0.7505,1.9222
+Anaphylaxis,skin lesion on mouth,0.7503,1.9338
+Pancreatic neoplasm,clinical evidence 223,0.7502,1.0953
+Acute rhinosinusitis,pain in left cheek,0.7501,3.6301
+Acute pulmonary edema,currently undergo dialysis,0.75,1.0947
+Anaphylaxis,skin lesion on biceps (left),0.7498,1.9187
+Anemia,poor diet,0.7497,1.0939
+Boerhaave,pain character: violent,0.7495,4.0309
+Spontaneous pneumothorax,pain character: violent,0.7495,4.0309
+Chronic rhinosinusitis,pain in forehead,0.7494,5.9043
+Chronic rhinosinusitis,pain in right cheek,0.7492,3.6361
+Pericarditis,clinical evidence 0,0.7491,2.881
+Acute pulmonary edema,high blood pressure or do you take medications to treat high blood pressure,0.749,5.0569
+Influenza,smoking,0.7482,11.0741
+Acute rhinosinusitis,pain radiates to left temple,0.7476,1.8358
+GERD,"burning sensation that starts in your stomach then goes up into your throat, and can be associated with a bitter taste in your mouth",0.7475,1.0874
+Acute otitis media,pain character: sharp,0.7474,10.1932
+Atrial fibrillation,severe chronic obstructive pulmonary disease (copd),0.7471,1.9001
+Pericarditis,pain radiates to posterior chest wall (right),0.7471,2.9546
+Acute COPD exacerbation / infection,shortness of breath or difficulty breathing in a significant way,0.747,10.3715
+Anaphylaxis,skin lesion on biceps (right),0.747,1.9013
+GERD,pain character: burning,0.7464,7.083
+Chronic rhinosinusitis,pain character: sharp,0.7459,10.1932
+Pericarditis,pain radiates to mid back,0.7458,5.2286
+Bronchitis,pain character: burning,0.7457,7.083
+GERD,symptoms that get worse after eating,0.7457,1.0821
+Spontaneous pneumothorax,pain in breast (left),0.7457,5.5486
+Possible NSTEMI / STEMI,pain character: heavy/pressure-like,0.7457,6.7571
+Possible NSTEMI / STEMI,smoking,0.7454,11.0741
+Myasthenia gravis,perception of seeing two images of a single object seen overlapping or adjacent to each other (double vision),0.7448,1.0794
+Acute rhinosinusitis,pain in nose,0.7446,2.1021
+Unstable angina,pain character: exhausting,0.7442,5.0553
+Possible NSTEMI / STEMI,pain character: sickening,0.7441,3.0164
+GERD,pain radiates to upper chest,0.7439,1.0892
+Possible NSTEMI / STEMI,pain character: sharp,0.7437,10.1932
+Possible NSTEMI / STEMI,pain radiates to biceps (left),0.7436,3.3038
+Possible NSTEMI / STEMI,pain character: scary,0.7431,1.3182
+Possible NSTEMI / STEMI,pain radiates to biceps (right),0.7431,3.314
+Guillain-Barré syndrome,feel weakness in both arms and/or both legs,0.743,1.8272
+Acute pulmonary edema,bouts of choking or shortness of breath that wake you up at night,0.743,1.0741
+Myasthenia gravis,difficulty articulating words/speaking,0.7429,1.0738
+Spontaneous rib fracture,being treated for osteoporosis,0.7428,1.0735
+Acute rhinosinusitis,pain in right cheek,0.7428,3.6361
+Acute rhinosinusitis,pain radiates to right temple,0.7427,1.8163
+Acute rhinosinusitis,pain character: sharp,0.7424,10.1932
+Acute rhinosinusitis,clinical evidence 103,0.742,2.4083
+GERD,pain radiates to lower chest,0.7419,1.0709
+Acute rhinosinusitis,pain in mouth,0.7412,2.0889
+Possible NSTEMI / STEMI,pain radiates to mid back,0.7411,5.2286
+Acute rhinosinusitis,pain radiates to back of head,0.741,1.8175
+Chronic rhinosinusitis,pain in nose,0.7409,2.1021
+Pancreatic neoplasm,pain character: cramping,0.7407,3.7986
+Chronic rhinosinusitis,pain in left cheek,0.7404,3.6301
+Acute rhinosinusitis,pain radiates to nose,0.7399,1.821
+Pneumonia,pain character: stabbing,0.7398,9.5684
+Possible NSTEMI / STEMI,pain radiates to right shoulder,0.7398,3.3027
+Possible NSTEMI / STEMI,pain in lower chest,0.7398,6.3707
+Possible NSTEMI / STEMI,pain radiates to thyroid cartilage,0.7397,2.8833
+Chronic rhinosinusitis,pain in mouth,0.7397,2.0889
+Myasthenia gravis,hard time opening/raising one or both eyelids,0.7393,1.709
+Possible NSTEMI / STEMI,pain character: dull/aching,0.7392,5.599
+Bronchospasm / acute asthma exacerbation,clinical evidence 119,0.739,1.0624
+Atrial fibrillation,high blood pressure or do you take medications to treat high blood pressure,0.7386,5.0569
+Epiglottitis,pain in back of the neck,0.7385,3.3589
+Epiglottitis,clinical evidence 190,0.7376,1.687
+Pneumonia,chronic obstructive pulmonary disease (copd),0.7359,4.6812
+Panic attack,clinical evidence 80,0.7337,1.047
+Possible NSTEMI / STEMI,problem with poor circulation,0.7333,1.0459
+Pulmonary embolism,pain radiates to posterior chest wall (right),0.7322,2.9546
+Pulmonary embolism,pain in side of the chest (left),0.7319,4.7443
+Atrial fibrillation,"feel your heart is beating fast (racing), irregularly (missing a beat) or do you feel palpitations",0.7314,5.1248
+Pulmonary embolism,pain character: sharp,0.7313,10.1932
+Bronchospasm / acute asthma exacerbation,more likely to develop common allergies than the general population,0.7313,5.018
+Pulmonary embolism,pain radiates to side of the chest (left),0.7305,1.0378
+Pulmonary embolism,pain radiates to scapula (right),0.7296,2.4264
+Epiglottitis,"difficulty swallowing, or have a feeling of discomfort/blockage when swallowing",0.7295,2.1116
+Pulmonary embolism,pain in posterior chest wall (right),0.729,3.7359
+Pneumonia,heart failure,0.7285,3.5963
+Pulmonary embolism,pain in side of the chest (right),0.7282,5.4358
+Pulmonary embolism,pain in scapula (right),0.7278,1.03
+Unstable angina,significantly overweight compared to people of the same height as you,0.7276,5.8498
+Pulmonary embolism,pain radiates to scapula (left),0.7269,2.3345
+Pulmonary embolism,pain radiates to side of the chest (right),0.7267,1.0269
+Unstable angina,pain radiates to thyroid cartilage,0.7267,2.8833
+Stable angina,significantly overweight compared to people of the same height as you,0.7265,5.8498
+Allergic sinusitis,severe itching in one or both eyes,0.7263,1.0257
+Acute COPD exacerbation / infection,productive cough with colored sputum,0.7257,4.9588
+Pulmonary embolism,pain in scapula (left),0.7253,1.0229
+Acute COPD exacerbation / infection,one or several flare ups of chronic obstructive pulmonary disease (copd) in the past year,0.7251,1.0223
+Pancreatic neoplasm,pale stools and dark urine,0.7241,1.0195
+Bronchiolitis,clinical evidence 214,0.7232,5.3032
+Possible NSTEMI / STEMI,high blood pressure or do you take medications to treat high blood pressure,0.7227,5.0569
+Croup,person have a whooping cough,0.7227,1.0155
+Unstable angina,pain in lower chest,0.7226,6.3707
+Unstable angina,pain character: heavy/pressure-like,0.7222,6.7571
+Croup,clinical evidence 194,0.722,4.5582
+Panic attack,"feel your heart is beating fast (racing), irregularly (missing a beat) or do you feel palpitations",0.7219,5.1248
+Acute rhinosinusitis,clinical evidence 118,0.7218,3.7898
+Atrial fibrillation,shortness of breath or difficulty breathing in a significant way,0.7217,10.3715
+Unstable angina,pain radiates to biceps (right),0.7212,3.314
+Unstable angina,pain character: dull/aching,0.7206,5.599
+Pulmonary embolism,shortness of breath or difficulty breathing in a significant way,0.7199,10.3715
+Unstable angina,pain radiates to biceps (left),0.7196,3.3038
+Pulmonary embolism,pain that is increased when you breathe in deeply,0.7195,5.5419
+HIV (initial infection),sexual intercourse with an hiv-positive partner in the past 12 months,0.7194,1.0061
+Atrial fibrillation,angina (chest pain),0.7191,5.4348
+Boerhaave,clinical evidence 210,0.719,1.1678
+Acute pulmonary edema,clinical evidence 175,0.7187,2.9676
+Possible NSTEMI / STEMI,angina (chest pain),0.7187,5.4348
+Pancreatic neoplasm,skin lesion on upper abdomen,0.7184,1.0032
+Pancreatic neoplasm,lesion larger than 1cm,0.7184,10.3408
+Pancreatic neoplasm,skin lesions or redness,0.7184,11.7506
+Pancreatic neoplasm,rash is yellow colored,0.7184,1.0032
+Spontaneous rib fracture,pain character: stabbing,0.718,9.5684
+Anaphylaxis,swelling in forehead,0.718,1.0021
+Unstable angina,symptoms that are increased with physical exertion but alleviated with rest,0.718,5.004
+Unstable angina,pain radiates to right shoulder,0.7178,3.3027
+HIV (initial infection),clinical evidence 27,0.7177,1.0013
+Anaphylaxis,swelling in cheek (right),0.7173,1.0001
+Anaphylaxis,swelling in nose,0.7173,1.0001
+HIV (initial infection),unprotected sex with more than one partner in the last 6 months,0.7168,0.9987
+Viral pharyngitis,attend or work in a daycare,0.7167,2.3282
+Spontaneous rib fracture,pain character: tearing,0.7165,3.06
+Panic attack,feel like you are detached from your own body or your surroundings,0.7163,0.9973
+Bronchiectasis,shortness of breath or difficulty breathing in a significant way,0.7162,10.3715
+Unstable angina,pain radiates to mid back,0.7161,5.2286
+Bronchospasm / acute asthma exacerbation,clinical evidence 101,0.7155,0.995
+Influenza,pain character: exhausting,0.7151,5.0553
+Stable angina,smoking,0.7146,11.0741
+Spontaneous rib fracture,pain character: violent,0.7144,4.0309
+Myocarditis,clinical evidence 0,0.7143,2.881
+Ebola,clinical evidence 39,0.7141,0.9911
+Boerhaave,addiction to alcohol,0.7141,6.2613
+Panic attack,clinical evidence 185,0.714,0.9908
+Anaphylaxis,swelling in cheek (left),0.7137,0.99
+URTI,live with 4 or more people,0.7136,2.8818
+Allergic sinusitis,more likely to develop common allergies than the general population,0.7134,5.018
+PSVT,feel slightly dizzy or lightheaded,0.7133,2.5106
+Anemia,family members who have been diagnosed with anemia,0.7126,0.9869
+Pericarditis,clinical evidence 217,0.7124,3.4495
+Acute rhinosinusitis,smoking,0.7123,11.0741
+Spontaneous rib fracture,pain in posterior chest wall (left),0.712,3.3986
+Stable angina,pain character: exhausting,0.7116,5.0553
+Pulmonary neoplasm,cough,0.7116,12.413
+Spontaneous rib fracture,pain in posterior chest wall (right),0.7116,3.7359
+Bronchiectasis,immunosuppressed,0.711,2.1992
+Unstable angina,smoking,0.7105,11.0741
+Chronic rhinosinusitis,clinical evidence 118,0.7103,3.7898
+Chronic rhinosinusitis,smoking,0.7099,11.0741
+Atrial fibrillation,clinical evidence 19,0.7098,0.979
+Acute dystonic reactions,regularly take stimulant drugs,0.7079,2.5202
+Pericarditis,pain in upper chest,0.7078,5.3575
+SLE,shortness of breath or difficulty breathing in a significant way,0.7073,10.3715
+Pericarditis,pain in breast (left),0.7068,5.5486
+Bronchiectasis,cough,0.7068,12.413
+Spontaneous rib fracture,pain character: lancinating/shooting,0.7065,3.6621
+Pericarditis,pain in breast (right),0.7062,6.0427
+Acute dystonic reactions,clinical evidence 15,0.7058,0.9679
+Inguinal hernia,skin lesion on iliac fossa (right),0.7056,0.9673
+Panic attack,shortness of breath or difficulty breathing in a significant way,0.7054,10.3715
+Spontaneous rib fracture,pain character: sharp,0.705,10.1932
+Unstable angina,high cholesterol or do you take medications to treat high cholesterol,0.705,2.9053
+Acute dystonic reactions,clinical evidence 147,0.7048,0.9651
+Stable angina,high cholesterol or do you take medications to treat high cholesterol,0.7047,2.9053
+Pulmonary embolism,recent travel to: north america,0.7039,0.9775
+PSVT,regularly take stimulant drugs,0.703,2.5202
+Spontaneous rib fracture,pain radiates to posterior chest wall (left),0.703,2.6001
+GERD,pain character: tender/sensitive,0.7027,8.6855
+Possible NSTEMI / STEMI,pain in upper abdomen,0.7018,5.699
+Panic attack,feel lightheaded and dizzy or do you feel like you are about to faint,0.7013,3.693
+Spontaneous rib fracture,pain in side of the chest (left),0.701,4.7443
+Sarcoidosis,significantly overweight compared to people of the same height as you,0.7009,5.8498
+Spontaneous rib fracture,pain radiates to posterior chest wall (right),0.7008,2.9546
+URTI,fever,0.7008,9.051
+Inguinal hernia,skin lesion on iliac fossa (left),0.7,0.9518
+Spontaneous rib fracture,pain in breast (right),0.6999,6.0427
+Possible NSTEMI / STEMI,pain in upper chest,0.6995,5.3575
+GERD,pain character: sickening,0.6979,3.0164
+Possible NSTEMI / STEMI,pain in breast (left),0.6976,5.5486
+GERD,pain character: pulling/tugging,0.6965,4.1004
+Pneumonia,fever,0.6961,9.051
+Possible NSTEMI / STEMI,pain in breast (right),0.6959,6.0427
+Spontaneous rib fracture,pain in side of the chest (right),0.6957,5.4358
+Pericarditis,pain that is increased when you breathe in deeply,0.6957,5.5419
+Unstable angina,find that your symptoms have worsened over the last 2 weeks and that progressively less effort is required to cause the symptoms,0.6953,0.9389
+Sarcoidosis,swollen or painful lymph nodes,0.6948,2.4759
+Panic attack,pain character: sharp,0.6948,10.1932
+Inguinal hernia,pain in left lower abdomen,0.6934,1.7604
+Guillain-Barré syndrome,clinical evidence 157,0.6934,2.1519
+Stable angina,pain radiates to right shoulder,0.693,3.3027
+Influenza,widespread muscle pain,0.6922,3.4885
+Tuberculosis,diabetes,0.6919,5.5862
+GERD,cough,0.6914,12.413
+Atrial fibrillation,feel slightly dizzy or lightheaded,0.6912,2.5106
+Pneumonia,widespread muscle pain,0.6904,3.4885
+Acute rhinosinusitis,deviated nasal septum,0.6897,1.796
+Pneumonia,chills or shivers,0.6893,1.7233
+Guillain-Barré syndrome,clinical evidence 0,0.6892,2.881
+Allergic sinusitis,"close family members who suffer from allergies (any type), hay fever or eczema",0.6886,0.9206
+Stable angina,pain character: dull/aching,0.6886,5.599
+PSVT,feel lightheaded and dizzy or do you feel like you are about to faint,0.6883,3.693
+Stable angina,pain in lower chest,0.6882,6.3707
+Chronic rhinosinusitis,clinical evidence 125,0.6879,3.5721
+Stable angina,pain radiates to mid back,0.6874,5.2286
+Stable angina,pain radiates to thyroid cartilage,0.6873,2.8833
+Inguinal hernia,pain in right hip,0.687,0.9163
+Acute rhinosinusitis,clinical evidence 125,0.6869,3.5721
+Viral pharyngitis,nasal congestion or runny nose,0.6868,8.0171
+Stable angina,pain radiates to biceps (right),0.6867,3.314
+Possible NSTEMI / STEMI,significantly overweight compared to people of the same height as you,0.6857,5.8498
+Ebola,cough,0.6856,12.413
+Inguinal hernia,pain in left hip,0.6853,0.9117
+Chronic rhinosinusitis,deviated nasal septum,0.6849,1.796
+Stable angina,pain radiates to biceps (left),0.6848,3.3038
+GERD,hiatal hernia,0.6844,0.9093
+Stable angina,pain character: heavy/pressure-like,0.684,6.7571
+Pneumonia,shortness of breath or difficulty breathing in a significant way,0.6839,10.3715
+Influenza,pain in back of the neck,0.6838,3.3589
+Inguinal hernia,pain in right lower abdomen,0.6836,1.7481
+URTI,cough,0.6834,12.413
+Influenza,pain in top of head,0.6831,3.2727
+Influenza,pain in back of head,0.6827,2.8334
+Epiglottitis,shortness of breath or difficulty breathing in a significant way,0.6826,10.3715
+Influenza,significantly increased sweating,0.6825,4.5145
+Epiglottitis,fever,0.682,9.051
+Influenza,pain in forehead,0.6813,5.9043
+Boerhaave,pain in belly,0.6805,2.2215
+Influenza,pain character: tender/sensitive,0.6801,8.6855
+Influenza,pain in side of the neck (right),0.6784,1.418
+Influenza,pain character: heavy/pressure-like,0.6784,6.7571
+Unstable angina,pain in breast (right),0.6781,6.0427
+Unstable angina,pain in breast (left),0.678,5.5486
+Stable angina,high blood pressure or do you take medications to treat high blood pressure,0.6772,5.0569
+Unstable angina,high blood pressure or do you take medications to treat high blood pressure,0.6772,5.0569
+Bronchiectasis,rheumatoid arthritis,0.6771,0.8897
+PSVT,feel anxious,0.677,1.7277
+Unstable angina,pain in upper chest,0.6761,5.3575
+Spontaneous rib fracture,addiction to alcohol,0.676,6.2613
+Spontaneous rib fracture,metastatic cancer,0.6754,0.8851
+Pulmonary embolism,active cancer,0.6749,0.8838
+Unstable angina,pain in upper abdomen,0.6741,5.699
+Scombroid food poisoning,skin lesion on mouth,0.6731,1.9338
+Acute pulmonary edema,swelling in tibia (right),0.6725,0.8774
+HIV (initial infection),involuntary weight loss over the last 3 months,0.6722,3.2873
+Panic attack,feel anxious,0.6716,1.7277
+Bronchiectasis,suffer from crohn’s disease or ulcerative colitis (uc),0.6708,0.8729
+Acute laryngitis,pain in under the jaw,0.6706,1.4394
+Acute pulmonary edema,swelling in calf (right),0.6705,1.2051
+Pulmonary embolism,clinical evidence 159,0.6695,1.5328
+Pancreatic neoplasm,smoking,0.6695,11.0741
+GERD,smoking,0.6695,11.0741
+GERD,asthma or have you ever had to use a bronchodilator in the past,0.6694,8.2922
+Anaphylaxis,more likely to develop common allergies than the general population,0.669,5.018
+Localized edema,liver cirrhosis,0.669,0.8682
+Possible NSTEMI / STEMI,infected with the human immunodeficiency virus (hiv),0.669,1.5479
+SLE,skin lesion on cheek (right),0.6687,0.8674
+Scombroid food poisoning,skin lesion on thyroid cartilage,0.6684,1.9222
+Acute pulmonary edema,swelling in ankle (left),0.6679,1.9991
+Scombroid food poisoning,skin lesion on biceps (left),0.6678,1.9187
+Chronic rhinosinusitis,greenish or yellowish nasal discharge,0.6675,2.1005
+Scombroid food poisoning,skin lesion on back of the neck,0.6672,2.264
+Anemia,feel lightheaded and dizzy or do you feel like you are about to faint,0.6671,3.693
+Localized edema,known kidney problem resulting in an inability to retain proteins,0.6667,0.8622
+Acute pulmonary edema,swelling in ankle (right),0.6667,2.0029
+Acute pulmonary edema,swelling in calf (left),0.6667,1.1865
+Pneumonia,get full more quickly then usually,0.6666,2.8867
+Acute laryngitis,pain in tonsil (right),0.6665,3.159
+SLE,skin lesion on nose,0.6661,0.8606
+Possible NSTEMI / STEMI,shortness of breath or difficulty breathing in a significant way,0.6661,10.3715
+Acute laryngitis,pain character: tender/sensitive,0.6659,8.6855
+Spontaneous pneumothorax,clinical evidence 165,0.6654,0.8587
+Pancreatic neoplasm,significantly overweight compared to people of the same height as you,0.6653,5.8498
+Cluster headache,addiction to alcohol,0.6652,6.2613
+Atrial fibrillation,known heart defect,0.6652,0.8582
+Panic attack,suffer from fibromyalgia,0.6651,0.858
+Acute laryngitis,pain in palace,0.6649,3.1344
+Acute laryngitis,cold in the last 2 weeks,0.6648,3.7424
+Ebola,shortness of breath or difficulty breathing in a significant way,0.6646,10.3715
+Acute laryngitis,pain in tonsil (left),0.6643,3.1485
+Scombroid food poisoning,skin lesion on biceps (right),0.6642,1.9013
+Acute dystonic reactions,"annoying muscle spasms in your face, neck or any other part of your body",0.6639,0.8548
+Acute COPD exacerbation / infection,severe chronic obstructive pulmonary disease (copd),0.6636,1.9001
+Pulmonary neoplasm,family members who have had lung cancer,0.6631,0.8527
+SLE,skin lesion on cheek (left),0.6623,0.8506
+Acute dystonic reactions,trouble keeping your tongue in your mouth,0.6619,0.8496
+Myasthenia gravis,pain or weakness in your jaw,0.6618,0.8493
+Bronchospasm / acute asthma exacerbation,family members who have asthma,0.6611,1.3347
+Pulmonary embolism,clinical evidence 109,0.6603,1.4346
+SLE,smoking,0.6599,11.0741
+Acute dystonic reactions,suddenly have difficulty or an inability to open your mouth or have jaw pain when opening it,0.6589,0.8418
+Croup,shortness of breath or difficulty breathing in a significant way,0.6589,10.3715
+Unstable angina,chest pain even at rest,0.6586,1.4329
+Bronchiectasis,chronic obstructive pulmonary disease (copd),0.6584,4.6812
+Guillain-Barré syndrome,clinical evidence 83,0.658,0.8395
+Acute dystonic reactions,feel that muscle spasms or soreness in your neck are keeping you from turning your head to one side,0.6575,0.8382
+Guillain-Barré syndrome,shortness of breath or difficulty breathing in a significant way,0.6575,10.3715
+Influenza,chills or shivers,0.6572,1.7233
+Whooping cough,clinical evidence 40,0.6565,0.8356
+Unstable angina,"exercise regularly, 4 times per week or more",0.6562,1.6341
+URTI,contact_with_sick_person,0.656,3.2716
+Stable angina,"exercise regularly, 4 times per week or more",0.6559,1.6341
+SLE,painful mouth ulcers or sores,0.6557,0.8335
+PSVT,pain,0.6548,20.388
+Sarcoidosis,pain character: burning,0.6538,7.083
+Croup,nasal congestion or runny nose,0.6531,8.0171
+Spontaneous pneumothorax,shortness of breath or difficulty breathing in a significant way,0.6529,10.3715
+Influenza,nasal congestion or runny nose,0.6515,8.0171
+Pneumonia,parkinson’s disease,0.6509,0.8212
+SLE,pain in back of the neck,0.6499,3.3589
+Ebola,sore throat,0.6497,3.3494
+Myasthenia gravis,clinical evidence 28,0.6495,0.8176
+Sarcoidosis,shortness of breath or difficulty breathing in a significant way,0.6494,10.3715
+Inguinal hernia,intense coughing fits,0.6489,2.8522
+URTI,significantly increased sweating,0.6467,4.5145
+Acute laryngitis,pain in pharynx,0.6459,3.4434
+Anaphylaxis,pain character: stabbing,0.6457,9.5684
+Myocarditis,symptoms that are increased with physical exertion but alleviated with rest,0.6449,5.004
+Pneumonia,smoking,0.6448,11.0741
+Tuberculosis,fever,0.6443,9.051
+SLE,pain in left ankle,0.6438,1.5609
+GERD,clinical evidence 217,0.6434,3.4495
+SLE,pain in right shoulder,0.6412,0.911
+Boerhaave,shortness of breath or difficulty breathing in a significant way,0.641,10.3715
+SLE,pain in left shoulder,0.6406,0.8506
+Chronic rhinosinusitis,pain radiates to nose,0.6403,1.821
+Pancreatic neoplasm,chronic pancreatitis,0.64,0.7935
+Possible NSTEMI / STEMI,get full more quickly then usually,0.6399,2.8867
+Viral pharyngitis,live with 4 or more people,0.6399,2.8818
+SLE,pain in right ankle,0.6393,1.654
+Myasthenia gravis,feel weakness in both arms and/or both legs,0.6392,1.8272
+Croup,clinical evidence 219,0.6387,1.9713
+URTI,pain character: dull/aching,0.6387,5.599
+Chagas,clinical evidence 175,0.6385,2.9676
+Stable angina,pain in upper abdomen,0.6384,5.699
+Localized edema,take corticosteroids,0.638,1.3264
+Stable angina,pain in breast (left),0.6376,5.5486
+HIV (initial infection),feel like vomiting,0.6376,5.387
+Chronic rhinosinusitis,pain radiates to back of head,0.6376,1.8175
+Stable angina,pain in breast (right),0.6375,6.0427
+Chronic rhinosinusitis,pain radiates to left temple,0.6373,1.8358
+Possible NSTEMI / STEMI,significantly increased sweating,0.6372,4.5145
+HIV (initial infection),feel so tired that you are unable to do your usual activities or are you stuck in your bed all day long,0.6359,2.627
+Stable angina,pain in upper chest,0.6356,5.3575
+Anemia,feel so tired that you are unable to do your usual activities or are you stuck in your bed all day long,0.6352,2.627
+Bronchiectasis,clinical evidence 118,0.6352,3.7898
+Chronic rhinosinusitis,pain radiates to right temple,0.6351,1.8163
+HIV (initial infection),widespread muscle pain,0.6347,3.4885
+Chronic rhinosinusitis,pain radiates to forehead,0.6332,1.8342
+URTI,exposed to secondhand cigarette smoke on a daily basis,0.632,3.0379
+Unstable angina,shortness of breath or difficulty breathing in a significant way,0.6309,10.3715
+Panic attack,asthma or have you ever had to use a bronchodilator in the past,0.6307,8.2922
+Anaphylaxis,feel lightheaded and dizzy or do you feel like you are about to faint,0.6307,3.693
+Pericarditis,shortness of breath or difficulty breathing in a significant way,0.6302,10.3715
+Acute COPD exacerbation / infection,work in the mining sector,0.6301,0.7687
+Whooping cough,intense coughing fits,0.6298,2.8522
+Pulmonary embolism,clinical evidence 45,0.6297,4.6275
+Localized edema,known issue with one of your heart valves,0.6292,1.8662
+Tuberculosis,underweight,0.6291,2.5741
+Spontaneous rib fracture,cough,0.6287,12.413
+Acute pulmonary edema,pain character: heavy/pressure-like,0.6281,6.7571
+Allergic sinusitis,cough,0.6277,12.413
+Unstable angina,addiction to alcohol,0.6275,6.2613
+Myocarditis,clinical evidence 217,0.6273,3.4495
+Stable angina,addiction to alcohol,0.6269,6.2613
+Atrial fibrillation,significantly overweight compared to people of the same height as you,0.6241,5.8498
+HIV (initial infection),pain character: exhausting,0.6239,5.0553
+Bronchospasm / acute asthma exacerbation,exposed to secondhand cigarette smoke on a daily basis,0.6215,3.0379
+Allergic sinusitis,live in in a big city,0.6211,1.3644
+Acute rhinosinusitis,cold in the last 2 weeks,0.6208,3.7424
+Chronic rhinosinusitis,cold in the last 2 weeks,0.6206,3.7424
+HIV (initial infection),significantly increased sweating,0.6204,4.5145
+Anemia,pain character: exhausting,0.6201,5.0553
+Pancreatic neoplasm,involuntary weight loss over the last 3 months,0.6195,3.2873
+Pneumonia,underweight,0.6188,2.5741
+Pneumonia,addiction to alcohol,0.6181,6.2613
+Inguinal hernia,feel your abdomen is bloated or distended (swollen due to pressure from inside),0.6156,0.7332
+Pneumonia,asthma or have you ever had to use a bronchodilator in the past,0.6153,8.2922
+URTI,attend or work in a daycare,0.6145,2.3282
+SLE,pain character: tender/sensitive,0.613,8.6855
+Pulmonary neoplasm,pain in posterior chest wall (right),0.6129,3.7359
+Pancreatic neoplasm,pain in upper abdomen,0.6115,5.699
+Pulmonary embolism,clinical evidence 110,0.6111,0.7223
+Stable angina,shortness of breath or difficulty breathing in a significant way,0.6103,10.3715
+Localized edema,pain character: dull/aching,0.6102,5.599
+Pulmonary neoplasm,pain in posterior chest wall (left),0.6096,3.3986
+Pancreatic neoplasm,pain in left upper abdomen,0.6096,2.0952
+Guillain-Barré syndrome,"numbness, loss of sensation or tingling in the feet",0.6092,0.7178
+Epiglottitis,pain that improves when you lean forward,0.609,0.7173
+Tuberculosis,infected with the human immunodeficiency virus (hiv),0.607,1.5479
+Pulmonary neoplasm,get full more quickly then usually,0.6069,2.8867
+Chagas,pain character: exhausting,0.6069,5.0553
+Pneumonia,clinical evidence 175,0.6068,2.9676
+Pancreatic neoplasm,non-restful sleep,0.6066,4.2598
+Influenza,get full more quickly then usually,0.6065,2.8867
+Chagas,fever,0.6065,9.051
+Panic attack,significantly increased sweating,0.6063,4.5145
+SLE,clinical evidence 3,0.6054,2.0347
+Localized edema,pain character: pulling/tugging,0.6052,4.1004
+Acute otitis media,nasal congestion or runny nose,0.605,8.0171
+Epiglottitis,diabetes,0.6048,5.5862
+Localized edema,pain in dorsal aspect of the foot (right),0.6048,0.7073
+Anaphylaxis,diarrhea,0.6047,3.4266
+Cluster headache,feel that your eyes produce excessive tears,0.6044,0.7063
+Anemia,shortness of breath or difficulty breathing in a significant way,0.6041,10.3715
+Myocarditis,feel out of breath with minimal physical effort,0.6041,0.7056
+GERD,addiction to alcohol,0.604,6.2613
+Anemia,pain in right temple,0.6038,2.7333
+HIV (initial infection),pain in top of head,0.6029,3.2727
+Anemia,feel slightly dizzy or lightheaded,0.6027,2.5106
+GERD,pain in left upper abdomen,0.6025,2.0952
+Pulmonary neoplasm,non-restful sleep,0.6022,4.2598
+Anaphylaxis,shortness of breath or difficulty breathing in a significant way,0.6022,10.3715
+Anemia,pain in forehead,0.6021,5.9043
+Anemia,pain in back of head,0.6021,2.8334
+HIV (initial infection),pain in left temple,0.6021,2.0817
+Acute laryngitis,attend or work in a daycare,0.6015,2.3282
+GERD,significantly overweight compared to people of the same height as you,0.6014,5.8498
+Sarcoidosis,work in agriculture,0.6014,1.3283
+Anemia,non-restful sleep,0.6014,4.2598
+Localized edema,clinical evidence 96,0.6012,0.6987
+Anemia,skin much paler than usual,0.6011,0.6985
+Anemia,pain in left temple,0.6011,2.0817
+Localized edema,take a calcium channel blockers (medication),0.601,0.6983
+Localized edema,pain character: sharp,0.601,10.1932
+Anaphylaxis,clinical evidence 194,0.601,4.5582
+Localized edema,pain character: heavy/pressure-like,0.6009,6.7571
+Localized edema,pain in thigh (left),0.6009,0.698
+HIV (initial infection),pain character: dull/aching,0.6009,5.599
+Chagas,pain in back of the neck,0.6009,3.3589
+Localized edema,pain in thigh (right),0.6006,0.6973
+Viral pharyngitis,smoking,0.6004,11.0741
+Anemia,clinical evidence 179,0.6004,0.6969
+Localized edema,pain character: tender/sensitive,0.6001,8.6855
+Anaphylaxis,clinical evidence 159,0.5999,1.5328
+Viral pharyngitis,cough,0.5998,12.413
+Epiglottitis,regularly take stimulant drugs,0.5996,2.5202
+Localized edema,clinical evidence 186,0.5995,0.6947
+Inguinal hernia,clinical evidence 221,0.5994,0.6945
+Possible NSTEMI / STEMI,feel like vomiting,0.5989,5.387
+Chagas,pain character: pulsating,0.5988,1.3706
+Localized edema,pain in right ankle,0.5987,1.654
+Chagas,pain in back of head,0.5987,2.8334
+HIV (initial infection),pain in back of head,0.5985,2.8334
+Epiglottitis,high blood pressure or do you take medications to treat high blood pressure,0.5984,5.0569
+HIV (initial infection),pain character: tender/sensitive,0.5983,8.6855
+HIV (initial infection),currently using intravenous drugs,0.5982,1.2967
+Anemia,clinical evidence 140,0.5981,0.8535
+Localized edema,pain in left ankle,0.5981,1.5609
+GERD,pain character: stabbing,0.598,9.5684
+HIV (initial infection),pain in forehead,0.5978,5.9043
+Anaphylaxis,clinical evidence 214,0.5977,5.3032
+Acute laryngitis,live with 4 or more people,0.5976,2.8818
+PSVT,clinical evidence 213,0.5974,0.6898
+Chagas,pain character: dull/aching,0.5973,5.599
+PSVT,consume energy drinks regularly,0.5973,0.6896
+HIV (initial infection),pain character: pulsating,0.5972,1.3706
+Acute pulmonary edema,pain character: tender/sensitive,0.5972,8.6855
+HIV (initial infection),pain in right temple,0.5969,2.7333
+Possible NSTEMI / STEMI,close family members who had a cardiovascular disease problem before the age of 50,0.5965,2.8628
+GERD,pain character: lancinating/shooting,0.5964,3.6621
+Anemia,pain in top of head,0.5963,3.2727
+Acute laryngitis,smoking,0.5957,11.0741
+Tuberculosis,addiction to alcohol,0.5956,6.2613
+Acute dystonic reactions,clinical evidence 128,0.5952,0.6846
+HIV (initial infection),diarrhea,0.5949,3.4266
+Epiglottitis,addiction to alcohol,0.5942,6.2613
+Chagas,pain character: tender/sensitive,0.5942,8.6855
+Anemia,pain character: cramping,0.5942,3.7986
+Cluster headache,nasal congestion or runny nose,0.5941,8.0171
+Acute dystonic reactions,hard time opening/raising one or both eyelids,0.5937,1.709
+Pancreatic neoplasm,diabetes,0.5937,5.5862
+Viral pharyngitis,immunosuppressed,0.5935,2.1992
+Anemia,pain character: tender/sensitive,0.5934,8.6855
+Acute pulmonary edema,pain character: dull/aching,0.5934,5.599
+Acute dystonic reactions,shortness of breath or difficulty breathing in a significant way,0.5934,10.3715
+Acute dystonic reactions,unable to control the direction of your eyes,0.5933,0.6802
+Anemia,pain character: pulling/tugging,0.593,4.1004
+Croup,fever,0.5922,9.051
+Spontaneous pneumothorax,chronic obstructive pulmonary disease (copd),0.5918,4.6812
+Possible NSTEMI / STEMI,former smoker,0.5908,1.8876
+Chagas,pain in top of head,0.5905,3.2727
+Ebola,diarrhea,0.5891,3.4266
+Chagas,pain in forehead,0.5887,5.9043
+Spontaneous rib fracture,pain in breast (left),0.5881,5.5486
+Guillain-Barré syndrome,"currently, have any weakness/paralysis in one or more of your limbs or in your face",0.5879,1.2676
+Bronchiectasis,clinical evidence 45,0.5877,4.6275
+URTI,widespread muscle pain,0.5876,3.4885
+SLE,non-restful sleep,0.5874,4.2598
+Pneumonia,clinical evidence 107,0.5866,0.6647
+Acute pulmonary edema,significantly increased sweating,0.5865,4.5145
+Chagas,pain in neck/upper back,0.5863,0.7807
+Croup,clinical evidence 190,0.5861,1.687
+Scombroid food poisoning,skin lesion on ankle (right),0.5853,1.2719
+Bronchiectasis,asthma or have you ever had to use a bronchodilator in the past,0.5838,8.2922
+Myocarditis,clinical evidence 175,0.5836,2.9676
+Acute COPD exacerbation / infection,work in agriculture,0.5834,1.3283
+Pancreatic neoplasm,pain character: tender/sensitive,0.5832,8.6855
+SLE,consulting because you have high blood pressure,0.5824,0.655
+Tuberculosis,shortness of breath or difficulty breathing in a significant way,0.5821,10.3715
+Influenza,pain in side of the neck (left),0.582,0.8311
+Pulmonary embolism,pain in posterior chest wall (left),0.5819,3.3986
+Pancreatic neoplasm,pain radiates to mid back,0.5818,5.2286
+Ebola,feel like vomiting,0.5817,5.387
+Myocarditis,pain in breast (right),0.5815,6.0427
+Pulmonary embolism,pain radiates to posterior chest wall (left),0.5814,2.6001
+Inguinal hernia,clinical evidence 160,0.5805,0.6507
+Sarcoidosis,pain in finger (ring finger) (right),0.5795,0.6484
+Tuberculosis,involuntary weight loss over the last 3 months,0.5789,3.2873
+Unstable angina,pain radiates to left shoulder,0.5788,2.2908
+Bronchospasm / acute asthma exacerbation,live in in a big city,0.5788,1.3644
+Acute pulmonary edema,swelling in tibia (left),0.5786,0.6463
+Stable angina,pain radiates to left shoulder,0.5768,2.2908
+Bronchitis,smoking,0.5763,11.0741
+Atrial fibrillation,diabetes,0.5762,5.5862
+Myocarditis,pain in breast (left),0.576,5.5486
+Guillain-Barré syndrome,"currently, or did you ever, have numbness, loss of sensitivity or tingling anywhere on your body",0.5758,1.2013
+Acute laryngitis,cough,0.5755,12.413
+URTI,smoking,0.5754,11.0741
+Atrial fibrillation,symptoms that are increased with physical exertion but alleviated with rest,0.5748,5.004
+Whooping cough,wheeze while inhaling or is your breathing noisy after coughing spells,0.5746,0.6373
+Anaphylaxis,skin lesion on ankle (right),0.5746,1.2719
+Bronchiolitis,clinical evidence 142,0.5744,0.6368
+Inguinal hernia,pain in testicle (right),0.5741,0.6362
+Myocarditis,pain in side of the chest (left),0.5737,4.7443
+Pneumonia,clinical evidence 219,0.573,1.9713
+Bronchitis,clinical evidence 219,0.5726,1.9713
+Chronic rhinosinusitis,pain in eye (right),0.5725,2.2954
+Tuberculosis,currently using intravenous drugs,0.5725,1.2967
+Chagas,shortness of breath or difficulty breathing in a significant way,0.5724,10.3715
+Possible NSTEMI / STEMI,pain radiates to left shoulder,0.5722,2.2908
+Sarcoidosis,pain in finger (index) (left),0.5718,0.631
+Acute rhinosinusitis,pain in eye (right),0.5716,2.2954
+Influenza,immunosuppressed,0.5715,2.1992
+Chagas,diarrhea,0.5714,3.4266
+Sarcoidosis,clinical evidence 43,0.5708,0.6287
+Bronchitis,shortness of breath or difficulty breathing in a significant way,0.5704,10.3715
+Sarcoidosis,pain character: tender/sensitive,0.5702,8.6855
+Myasthenia gravis,"currently, have any weakness/paralysis in one or more of your limbs or in your face",0.57,1.2676
+Myocarditis,pain in lower chest,0.5697,6.3707
+Spontaneous pneumothorax,symptoms that are increased with physical exertion but alleviated with rest,0.5694,5.004
+Panic attack,addiction to alcohol,0.5694,6.2613
+Sarcoidosis,pain in finger (middle) (right),0.5689,0.6245
+Sarcoidosis,pain in finger (middle) (left),0.5681,0.6227
+Sarcoidosis,pain in finger (index) (right),0.5678,0.622
+Myocarditis,pain in side of the chest (right),0.5678,5.4358
+Spontaneous pneumothorax,chest pain even at rest,0.5678,1.4329
+Bronchiolitis,live in a rural area,0.5675,0.6214
+Whooping cough,asthma or have you ever had to use a bronchodilator in the past,0.5675,8.2922
+Localized edema,currently taking or have you recently taken anti-inflammatory drugs (nsaids),0.5668,0.6198
+Localized edema,clinical evidence 109,0.5666,1.4346
+Pulmonary neoplasm,pain character: stabbing,0.5664,9.5684
+SLE,pain in dorsal aspect of the wrist (right),0.5663,0.6407
+Acute otitis media,fever,0.5662,9.051
+Guillain-Barré syndrome,"weakness or paralysis on one side of the face, which may still be present or completely resolved",0.566,0.618
+HIV (initial infection),skin lesion on internal cheek (left),0.566,0.618
+Panic attack,feel like you are (or were) choking or suffocating,0.5659,0.6178
+Myocarditis,pain character: tender/sensitive,0.5646,8.6855
+Bronchiolitis,cough,0.564,12.413
+HIV (initial infection),sore throat,0.5634,3.3494
+Chagas,feel like vomiting,0.5631,5.387
+Panic attack,pain in side of the chest (right),0.5625,5.4358
+Pancreatic neoplasm,diarrhea,0.5605,3.4266
+Acute COPD exacerbation / infection,work in construction,0.5599,0.6045
+Pericarditis,"feel your heart is beating fast (racing), irregularly (missing a beat) or do you feel palpitations",0.5586,5.1248
+Cluster headache,pain in right temple,0.5581,2.7333
+Chagas,clinical evidence 174,0.5577,0.5997
+PSVT,shortness of breath or difficulty breathing in a significant way,0.5575,10.3715
+Bronchiolitis,live with 4 or more people,0.5571,2.8818
+Bronchiolitis,decrease in appetite,0.5571,0.5984
+Boerhaave,pain in right flank,0.557,1.4761
+Anaphylaxis,pain character: cramping,0.5569,3.7986
+Anaphylaxis,pain in left flank,0.5569,1.7209
+Scombroid food poisoning,shortness of breath or difficulty breathing in a significant way,0.5568,10.3715
+Possible NSTEMI / STEMI,non-restful sleep,0.5568,4.2598
+Anaphylaxis,pain in right flank,0.5562,1.4761
+Spontaneous pneumothorax,pain in side of the chest (right),0.5558,5.4358
+Possible NSTEMI / STEMI,pain in side of the chest (right),0.5553,5.4358
+Anaphylaxis,pain in right lower abdomen,0.5548,1.7481
+Anaphylaxis,pain character: sharp,0.5541,10.1932
+Panic attack,clinical evidence 29,0.5539,0.5914
+Localized edema,swelling in dorsal aspect of the foot (left),0.5537,0.591
+Viral pharyngitis,clinical evidence 45,0.5525,4.6275
+Anaphylaxis,pain in left lower abdomen,0.552,1.7604
+Panic attack,"currently, or did you ever, have numbness, loss of sensitivity or tingling anywhere on your body",0.5518,1.2013
+Spontaneous pneumothorax,pain in lower chest,0.5518,6.3707
+Localized edema,pain in dorsal aspect of the foot (left),0.5517,0.5866
+PSVT,regularly drink coffee or tea,0.551,0.5851
+Anaphylaxis,pain in upper abdomen,0.5507,5.699
+Unstable angina,feel like vomiting,0.55,5.387
+Sarcoidosis,clinical evidence 74,0.5499,0.5827
+URTI,pain in left cheek,0.5499,3.6301
+Chagas,pain character: cramping,0.5495,3.7986
+Chagas,pain character: pulling/tugging,0.549,4.1004
+Acute laryngitis,fever,0.5483,9.051
+URTI,pain in back of head,0.5481,1.5068
+Anaphylaxis,feel like vomiting,0.5479,5.387
+URTI,pain in right cheek,0.5474,3.6361
+Acute otitis media,more irritable or has your mood been very unstable,0.5472,0.5769
+Localized edema,clinical evidence 158,0.5472,0.5769
+Spontaneous pneumothorax,pain in side of the chest (left),0.5466,4.7443
+URTI,pain in top of head,0.5462,3.2727
+Sarcoidosis,pain character: sharp,0.5453,10.1932
+URTI,pain character: heavy/pressure-like,0.545,6.7571
+URTI,pain in forehead,0.544,5.9043
+Acute otitis media,currently being treated or have you recently been treated with an oral antibiotic for an ear infection,0.5435,0.569
+Panic attack,clinical evidence 99,0.5434,0.5688
+Bronchitis,clinical evidence 214,0.5427,5.3032
+Chagas,pain character: sharp,0.5427,10.1932
+URTI,pain character: tender/sensitive,0.5423,8.6855
+Influenza,sore throat,0.5422,3.3494
+Tuberculosis,take corticosteroids,0.542,1.3264
+Viral pharyngitis,pain in under the jaw,0.5413,1.4394
+Stable angina,non-restful sleep,0.5411,4.2598
+Unstable angina,non-restful sleep,0.5407,4.2598
+Bronchiolitis,ever temporarily stop breathing while you’re asleep,0.5398,0.5611
+Bronchiolitis,live in the suburbs,0.5398,0.5611
+Scombroid food poisoning,"feel your heart is beating fast (racing), irregularly (missing a beat) or do you feel palpitations",0.5366,5.1248
+Epiglottitis,pain in side of the neck (right),0.5365,1.418
+Bronchitis,fever,0.5357,9.051
+Scombroid food poisoning,clinical evidence 214,0.5354,5.3032
+Sarcoidosis,pain in finger (ring finger) (left),0.5352,0.5514
+Myocarditis,"feel your heart is beating fast (racing), irregularly (missing a beat) or do you feel palpitations",0.5348,5.1248
+Larygospasm,smoking,0.5348,11.0741
+Myocarditis,pain in upper chest,0.5342,5.3575
+Panic attack,feel like vomiting,0.5337,5.387
+Scombroid food poisoning,feel like vomiting,0.5329,5.387
+Pneumonia,pain in side of the chest (right),0.5308,5.4358
+Inguinal hernia,clinical evidence 150,0.5301,0.5408
+Chagas,swollen or painful lymph nodes,0.5296,2.4759
+Larygospasm,cold in the last 2 weeks,0.5292,3.7424
+Anemia,no recent international travel,0.5285,3.0182
+Anaphylaxis,pain in right upper abdomen,0.5276,1.4309
+Pneumonia,pain in posterior chest wall (left),0.5273,3.3986
+Pneumonia,pain in side of the chest (left),0.5272,4.7443
+Unstable angina,significantly increased sweating,0.5265,4.5145
+Acute otitis media,cough,0.5263,12.413
+Pneumonia,pain that is increased when you breathe in deeply,0.5263,5.5419
+Acute pulmonary edema,pain character: pulling/tugging,0.525,4.1004
+Acute pulmonary edema,pain radiates to biceps (right),0.5242,3.314
+Acute pulmonary edema,pain in lower chest,0.5241,6.3707
+Scombroid food poisoning,diarrhea,0.5232,3.4266
+Acute pulmonary edema,pain radiates to biceps (left),0.5229,3.3038
+Acute pulmonary edema,pain in posterior chest wall (right),0.5229,3.7359
+Pneumonia,clinical evidence 45,0.5227,4.6275
+Pancreatic neoplasm,pain in belly,0.5217,2.2215
+Acute pulmonary edema,pain radiates to left shoulder,0.5211,2.2908
+Acute pulmonary edema,pain in side of the chest (right),0.5211,5.4358
+Unstable angina,pain in side of the chest (right),0.5208,5.4358
+Acute pulmonary edema,pain in posterior chest wall (left),0.5202,3.3986
+URTI,pain in right temple,0.5199,2.7333
+Acute pulmonary edema,pain radiates to right shoulder,0.5193,3.3027
+Larygospasm,exposed to secondhand cigarette smoke on a daily basis,0.5187,3.0379
+Larygospasm,asthma or have you ever had to use a bronchodilator in the past,0.5185,8.2922
+Pneumonia,pain in posterior chest wall (right),0.5185,3.7359
+Acute pulmonary edema,pain in side of the chest (left),0.5181,4.7443
+Acute pulmonary edema,pain radiates to jaw,0.5178,0.5155
+Scombroid food poisoning,feel lightheaded and dizzy or do you feel like you are about to faint,0.5176,3.693
+Allergic sinusitis,family members who have asthma,0.5174,1.3347
+Croup,clinical evidence 209,0.5159,4.1077
+Pulmonary embolism,pain character: tender/sensitive,0.5156,8.6855
+Pneumonia,pain character: sharp,0.515,10.1932
+Pancreatic neoplasm,pain in left flank,0.515,1.7209
+Chronic rhinosinusitis,nasal congestion or runny nose,0.5134,8.0171
+Larygospasm,clinical evidence 125,0.5107,3.5721
+Acute laryngitis,pain in thyroid cartilage,0.5106,1.7192
+Pulmonary neoplasm,pain character: exhausting,0.5094,5.0553
+Pulmonary neoplasm,pain character: tender/sensitive,0.5091,8.6855
+Ebola,widespread muscle pain,0.5087,3.4885
+Whooping cough,significantly overweight compared to people of the same height as you,0.5075,5.8498
+Acute pulmonary edema,pain radiates to chin,0.5059,0.4916
+Pancreatic neoplasm,cough,0.5023,12.413
+Ebola,non-restful sleep,0.5,4.2598
+Inguinal hernia,pain in testicle (left),0.4993,0.4786
+Acute pulmonary edema,pain in breast (right),0.4992,6.0427
+Epiglottitis,clinical evidence 209,0.4991,4.1077
+Acute otitis media,clinical evidence 209,0.498,4.1077
+Stable angina,pain in side of the chest (right),0.4973,5.4358
+Pneumonia,surgery within the last month,0.4971,2.2138
+Acute rhinosinusitis,clinical evidence 209,0.4954,4.1077
+Myasthenia gravis,clinical evidence 90,0.4952,0.4706
+Pancreatic neoplasm,feel like vomiting,0.4947,5.387
+Spontaneous pneumothorax,pain in upper chest,0.4941,5.3575
+Viral pharyngitis,fever,0.4932,9.051
+Bronchitis,sore throat,0.491,3.3494
+Ebola,fever,0.4901,9.051
+Bronchiolitis,clinical evidence 209,0.481,4.1077
+GERD,pain in lower chest,0.4792,6.3707
+GERD,pain in belly,0.4745,2.2215
+Pericarditis,pain in upper abdomen,0.4736,5.699
+GERD,pain in right upper abdomen,0.4731,1.4309
+Pancreatic neoplasm,rash swelling: 0/10,0.4667,2.5805
+Sarcoidosis,pain in finger (little finger) (right),0.4649,0.4137
+Anaphylaxis,pain in left upper abdomen,0.462,2.0952
+Bronchitis,nasal congestion or runny nose,0.4609,8.0171
+Boerhaave,pain in left flank,0.4609,1.7209
+Chagas,pain in right temple,0.4608,2.7333
+Pancreatic neoplasm,rash pain intensity: 0/10,0.4595,2.6038
+URTI,pain in left temple,0.4589,2.0817
+Localized edema,pain in sole (right),0.4572,0.3998
+Acute pulmonary edema,pain in breast (left),0.453,5.5486
+Panic attack,pain in side of the chest (left),0.4518,4.7443
+Acute pulmonary edema,pain radiates to scapula (right),0.4516,2.4264
+GERD,pain in upper chest,0.451,5.3575
+SLE,pain in dorsal aspect of the wrist (left),0.4466,0.3893
+Bronchitis,pain in side of the chest (left),0.4451,4.7443
+Bronchitis,pain character: tender/sensitive,0.4438,8.6855
+Bronchitis,pain in lower chest,0.4436,6.3707
+Bronchitis,pain in side of the chest (right),0.4415,5.4358
+Bronchitis,pain in posterior chest wall (left),0.4394,3.3986
+Bronchitis,pain in posterior chest wall (right),0.4369,3.7359
+Bronchitis,pain in pharynx,0.4367,3.4434
+Pulmonary embolism,swelling in calf (right),0.4321,1.2051
+Spontaneous rib fracture,shortness of breath or difficulty breathing in a significant way,0.4316,10.3715
+Sarcoidosis,vaginal discharge,0.431,0.3543
+Bronchitis,clinical evidence 209,0.4278,4.1077
+Pulmonary embolism,swelling in posterior aspect of the ankle (right),0.4274,0.3483
+Pancreatic neoplasm,itching severity: 0/10,0.4268,6.0007
+Pulmonary embolism,swelling in calf (left),0.4267,1.1865
+Scombroid food poisoning,skin lesion on ankle (left),0.4259,0.5613
+Pulmonary embolism,swelling in posterior aspect of the ankle (left),0.4254,0.345
+Pneumonia,clinical evidence 209,0.4227,4.1077
+Pneumonia,nasal congestion or runny nose,0.4187,8.0171
+Pancreatic neoplasm,pain does not radiate,0.4182,23.6038
+Bronchitis,pain in breast (right),0.4182,6.0427
+Stable angina,pain radiates to under the jaw,0.4154,0.8244
+Panic attack,pain in right upper abdomen,0.4135,1.4309
+Panic attack,pain in left upper abdomen,0.4126,2.0952
+URTI,productive cough with colored sputum,0.4121,4.9588
+Panic attack,pain in right lower abdomen,0.4101,1.7481
+Panic attack,pain in right flank,0.4087,1.4761
+Panic attack,pain in left flank,0.4081,1.7209
+Stable angina,pain in side of the chest (left),0.4069,4.7443
+Panic attack,pain in left lower abdomen,0.4041,1.7604
+Acute laryngitis,pain in trachea,0.3998,0.3098
+Influenza,skin lesion on side of the neck (right),0.3978,0.3783
+Influenza,skin lesion on back of the neck,0.3959,2.264
+Influenza,skin lesion on side of the neck (left),0.3941,0.3605
+Influenza,skin lesion on forehead,0.3919,0.2916
+Unstable angina,pain in side of the chest (left),0.39,4.7443
+Panic attack,pain in belly,0.3885,2.2215
+Unstable angina,pain radiates to under the jaw,0.3872,0.8244
+Acute pulmonary edema,pain in upper chest,0.3866,5.3575
+Possible NSTEMI / STEMI,pain in side of the chest (left),0.3854,4.7443
+Acute pulmonary edema,pain radiates to scapula (left),0.3834,2.3345
+Bronchitis,pain in breast (left),0.3817,5.5486
+Pulmonary embolism,pain in breast (right),0.3788,6.0427
+Anaphylaxis,pain in belly,0.3773,2.2215
+GERD,pain character: scary,0.3748,1.3182
+Pulmonary embolism,pain radiates to breast (right),0.3732,0.2637
+Panic attack,pain in pubis,0.3702,0.4036
+Sarcoidosis,pain in finger (little finger) (left),0.3646,0.2514
+Possible NSTEMI / STEMI,pain radiates to under the jaw,0.3615,0.8244
+Inguinal hernia,significantly overweight compared to people of the same height as you,0.3541,5.8498
+Acute pulmonary edema,pain in right ankle,0.3529,1.654
+Acute rhinosinusitis,fever,0.3528,9.051
+Chronic rhinosinusitis,pain in eye (left),0.3518,1.5452
+Boerhaave,pain in right upper abdomen,0.3517,1.4309
+Acute rhinosinusitis,pain in eye (left),0.3512,1.5452
+Localized edema,pain in sole (left),0.3477,0.228
+Anaphylaxis,skin lesion on ankle (left),0.3471,0.5613
+GERD,think you are pregnant or are you currently pregnant,0.3464,0.4381
+Chagas,pain in left temple,0.3462,2.0817
+PSVT,pain onset: sudden,0.3452,0.751
+PSVT,pain character: na,0.3452,0.2583
+PSVT,pain intensity: 0/10,0.3452,0.2583
+PSVT,pain in no specific location,0.3452,0.2583
+PSVT,pain localization: 0/10,0.3452,0.4857
+Anemia,think you are pregnant or are you currently pregnant,0.3426,0.4381
+SLE,clinical evidence 141,0.3401,0.2178
+Bronchitis,pain in upper chest,0.3353,5.3575
+HIV (initial infection),skin lesion on bottom lip (right),0.3342,0.2101
+Cluster headache,pain in left temple,0.3265,2.0817
+Acute rhinosinusitis,nasal congestion or runny nose,0.3228,8.0171
+Panic attack,pain in lower chest,0.3208,6.3707
+Epiglottitis,pain in side of the neck (left),0.3197,0.8311
+SLE,pain in palmar face of the wrist (right),0.3133,0.1861
+GERD,clinical evidence 210,0.3106,1.1678
+Localized edema,swelling in sole (right),0.308,0.1775
+Acute pulmonary edema,pain radiates to triceps (right),0.3074,0.2418
+GERD,clinical evidence 140,0.3072,0.8535
+Pulmonary embolism,no recent international travel,0.2961,3.0182
+Pulmonary embolism,currently take hormones,0.2955,0.163
+Scombroid food poisoning,skin lesion on neck/upper back,0.2874,0.3261
+Pulmonary neoplasm,pain onset: sudden,0.2863,0.751
+Anaphylaxis,pain in pubis,0.2862,0.4036
+HIV (initial infection),pain in back of the neck,0.2838,3.3589
+Pancreatic neoplasm,rash is na colored,0.2816,2.1071
+Pancreatic neoplasm,no skin lesions present,0.2816,2.1071
+Pancreatic neoplasm,lesion smaller than 1cm,0.2816,3.9451
+Influenza,rash swelling: 0/10,0.2783,2.5805
+Influenza,itching severity: 0/10,0.2751,6.0007
+SLE,itching severity: 0/10,0.2726,6.0007
+Influenza,pain in pharynx,0.2721,3.4434
+Pulmonary neoplasm,pain localization: 0/10,0.2684,0.4857
+Spontaneous rib fracture,pain onset: very gradual,0.2673,0.5638
+HIV (initial infection),pain in neck/upper back,0.2639,0.7807
+Stable angina,pain radiates to trachea,0.2634,0.2748
+Pneumonia,skin lesion on commissure (right),0.2618,0.1268
+Pneumonia,skin lesion on commissure (left),0.2607,0.1256
+Pneumonia,skin lesion on neck/upper back,0.2602,0.3261
+Pneumonia,skin lesion on back of the neck,0.2596,2.264
+Chagas,pain in upper abdomen,0.2592,5.699
+Sarcoidosis,pain in right shoulder,0.2584,0.911
+Acute pulmonary edema,pain in left ankle,0.2577,1.5609
+Pneumonia,skin lesion on mid back,0.2577,0.1795
+Influenza,rash pain intensity: 0/10,0.2576,2.6038
+Pneumonia,skin lesion on lower back,0.2559,0.1328
+Anaphylaxis,itching severity: 10/10,0.2551,0.1895
+Pneumonia,skin lesion on shoulder (left),0.2543,0.1193
+Anaphylaxis,rash pain intensity: 0/10,0.2539,2.6038
+Cluster headache,pain onset: very gradual,0.2537,0.5638
+Pneumonia,skin lesion on shoulder (right),0.2533,0.1183
+Spontaneous rib fracture,pain localization: 10/10,0.253,0.4175
+Pneumonia,pain in lower chest,0.253,6.3707
+Scombroid food poisoning,rash pain intensity: 3/10,0.253,0.3726
+Scombroid food poisoning,rash pain intensity: 0/10,0.2518,2.6038
+Cluster headache,pain intensity: 10/10,0.2512,0.4343
+Cluster headache,pain intensity: 8/10,0.2507,0.5473
+Anaphylaxis,itching severity: 9/10,0.2507,0.1826
+Cluster headache,pain intensity: 9/10,0.2505,0.5211
+Spontaneous rib fracture,pain localization: 7/10,0.2499,0.4903
+Pneumonia,pain in breast (right),0.2496,6.0427
+Spontaneous rib fracture,pain localization: 9/10,0.2496,0.4141
+Anaphylaxis,rash pain intensity: 2/10,0.2493,0.3626
+Anaphylaxis,rash pain intensity: 3/10,0.2491,0.3726
+Anaphylaxis,itching severity: 8/10,0.249,0.1831
+Scombroid food poisoning,rash pain intensity: 1/10,0.2487,0.3469
+Pneumonia,skin lesion on buttock (right),0.2479,0.1131
+Anaphylaxis,rash pain intensity: 1/10,0.2477,0.3469
+Cluster headache,pain intensity: 7/10,0.2476,0.5221
+Spontaneous rib fracture,pain localization: 8/10,0.2475,0.515
+Boerhaave,pain in left upper abdomen,0.2468,2.0952
+Scombroid food poisoning,rash pain intensity: 2/10,0.2465,0.3626
+Anaphylaxis,itching severity: 7/10,0.2451,0.1776
+SLE,itching severity: 1/10,0.2436,0.2172
+SLE,itching severity: 3/10,0.2427,0.2137
+Pneumonia,skin lesion on buttock (left),0.2418,0.1074
+SLE,itching severity: 2/10,0.2411,0.2122
+Localized edema,pain in lateral side of the foot (right),0.2407,0.1064
+Pneumonia,skin lesion on flank (right),0.2368,0.1028
+Pneumonia,pain in breast (left),0.2365,5.5486
+Acute pulmonary edema,pain radiates to triceps (left),0.2354,0.1126
+Pneumonia,pain in upper chest,0.2269,5.3575
+Pneumonia,skin lesion on flank (left),0.2252,0.0926
+SLE,rash swelling: 0/10,0.2219,2.5805
+Unstable angina,pain radiates to trachea,0.2206,0.2748
+PSVT,pain character: burning,0.2202,7.083
+Anemia,very abundant or very long menstruation periods,0.2177,0.0862
+Pneumonia,skin lesion on side of the neck (right),0.2153,0.3783
+Pulmonary embolism,pain radiates to breast (left),0.21,0.08
+Pulmonary embolism,pain in breast (left),0.2085,5.5486
+Chronic rhinosinusitis,pain onset: gradual,0.2063,0.4853
+Spontaneous pneumothorax,pain intensity: 8/10,0.2052,0.5473
+Panic attack,pain in breast (right),0.2044,6.0427
+Boerhaave,pain onset: very gradual,0.204,0.409
+Boerhaave,pain intensity: 6/10,0.2033,0.4696
+Spontaneous rib fracture,pain intensity: 8/10,0.2031,0.5473
+Boerhaave,pain intensity: 10/10,0.2025,0.4343
+Anemia,pain intensity: 1/10,0.2024,0.3478
+Bronchitis,pain intensity: 3/10,0.2024,0.4716
+SLE,pain in palmar face of the wrist (left),0.2021,0.0738
+Boerhaave,pain intensity: 8/10,0.202,0.5473
+Acute otitis media,pain localization: 10/10,0.2017,0.4175
+Scombroid food poisoning,itching severity: 6/10,0.2017,0.0735
+Panic attack,pain localization: 8/10,0.2016,0.515
+HIV (initial infection),rash swelling: 2/10,0.2015,0.3118
+Scombroid food poisoning,itching severity: 10/10,0.2015,0.1895
+Spontaneous rib fracture,pain intensity: 7/10,0.2014,0.5221
+HIV (initial infection),rash swelling: 0/10,0.2012,2.5805
+Acute otitis media,pain localization: 9/10,0.201,0.4141
+Spontaneous rib fracture,pain intensity: 6/10,0.2008,0.4696
+Scombroid food poisoning,itching severity: 8/10,0.2007,0.1831
+Panic attack,pain localization: 6/10,0.2005,0.4249
+Panic attack,pain localization: 10/10,0.2002,0.4175
+Chronic rhinosinusitis,pain onset: sudden,0.2002,0.751
+Bronchitis,pain intensity: 4/10,0.1997,0.4581
+HIV (initial infection),rash swelling: 3/10,0.1995,0.3118
+SLE,rash swelling: 4/10,0.1994,0.2742
+Spontaneous pneumothorax,pain intensity: 7/10,0.1994,0.5221
+Acute otitis media,pain localization: 7/10,0.1992,0.4903
+Pneumonia,skin lesion on side of the neck (left),0.1992,0.3605
+HIV (initial infection),rash swelling: 4/10,0.1991,0.2742
+Acute otitis media,pain localization: 6/10,0.1991,0.4249
+Anemia,pain intensity: 3/10,0.199,0.4716
+Panic attack,pain localization: 9/10,0.199,0.4141
+Spontaneous rib fracture,pain intensity: 10/10,0.199,0.4343
+Spontaneous pneumothorax,pain intensity: 6/10,0.1989,0.4696
+HIV (initial infection),rash swelling: 1/10,0.1987,0.3125
+Panic attack,pain localization: 7/10,0.1987,0.4903
+Spontaneous pneumothorax,pain intensity: 9/10,0.1984,0.5211
+Scombroid food poisoning,itching severity: 7/10,0.1982,0.1776
+Spontaneous pneumothorax,pain intensity: 10/10,0.1981,0.4343
+Anemia,pain intensity: 4/10,0.1981,0.4581
+Scombroid food poisoning,itching severity: 9/10,0.1979,0.1826
+Boerhaave,pain intensity: 9/10,0.1977,0.5211
+Bronchitis,pain intensity: 2/10,0.1977,0.466
+SLE,rash swelling: 3/10,0.1976,0.3118
+Bronchitis,pain intensity: 5/10,0.1973,0.4589
+Bronchitis,pain intensity: 1/10,0.1973,0.3478
+Acute otitis media,pain localization: 8/10,0.1971,0.515
+Possible NSTEMI / STEMI,pain radiates to trachea,0.1963,0.2748
+Anemia,pain intensity: 5/10,0.1961,0.4589
+Spontaneous rib fracture,pain intensity: 9/10,0.1957,0.5211
+Anemia,pain intensity: 2/10,0.1949,0.466
+Boerhaave,pain intensity: 7/10,0.1945,0.5221
+PSVT,pain in right temple,0.1939,2.7333
+PSVT,pain in left temple,0.1933,2.0817
+PSVT,pain in top of head,0.1932,3.2727
+Pancreatic neoplasm,pain localization: 0/10,0.193,0.4857
+PSVT,pain in forehead,0.1927,5.9043
+SLE,rash swelling: 2/10,0.1925,0.3118
+Chronic rhinosinusitis,pain in right temple,0.1913,2.7333
+PSVT,pain in back of head,0.191,2.8334
+Pancreatic neoplasm,pain onset: sudden,0.1907,0.751
+SLE,rash swelling: 1/10,0.1886,0.3125
+Sarcoidosis,pain in left shoulder,0.1877,0.8506
+Pneumonia,skin lesion on posterior chest wall (right),0.1858,0.0618
+Pancreatic neoplasm,rash pain intensity: 1/10,0.184,0.3469
+Anaphylaxis,skin lesion on neck/upper back,0.184,0.3261
+Pancreatic neoplasm,rash swelling: 2/10,0.1802,0.3118
+Pancreatic neoplasm,rash pain intensity: 3/10,0.1799,0.3726
+Pancreatic neoplasm,rash swelling: 3/10,0.1774,0.3118
+Pancreatic neoplasm,rash pain intensity: 2/10,0.1767,0.3626
+Pancreatic neoplasm,rash swelling: 1/10,0.1757,0.3125
+Spontaneous rib fracture,pain in lower chest,0.1752,6.3707
+Pneumonia,rash pain intensity: 0/10,0.1743,2.6038
+Anemia,pain onset: sudden,0.1739,0.751
+Myocarditis,pain onset: sudden,0.1727,0.751
+Acute laryngitis,pain onset: sudden,0.1724,0.5038
+Spontaneous pneumothorax,pain onset: very gradual,0.1724,0.5638
+Pneumonia,itching severity: 0/10,0.1718,6.0007
+Acute pulmonary edema,pain in calf (right),0.1709,0.0674
+Chronic rhinosinusitis,pain intensity: 3/10,0.1705,0.4716
+SLE,pain localization: 10/10,0.1705,0.4175
+Pneumonia,skin lesion on posterior chest wall (left),0.1704,0.0514
+Epiglottitis,pain localization: 5/10,0.1704,0.4049
+Scombroid food poisoning,skin lesion on mid back,0.1702,0.1795
+Chronic rhinosinusitis,pain intensity: 2/10,0.1702,0.466
+Sarcoidosis,pain onset: gradual,0.1702,0.4815
+Chronic rhinosinusitis,pain intensity: 1/10,0.1699,0.3478
+Viral pharyngitis,pain onset: sudden,0.1699,0.4978
+URTI,pain onset: sudden,0.1699,0.751
+Spontaneous pneumothorax,pain onset: gradual,0.1696,0.464
+Possible NSTEMI / STEMI,pain onset: very gradual,0.1695,0.5129
+Pneumonia,itching severity: 4/10,0.1692,0.1159
+Bronchitis,pain onset: gradual,0.1691,0.4853
+Possible NSTEMI / STEMI,pain intensity: 7/10,0.1691,0.5221
+Cluster headache,pain localization: 10/10,0.169,0.4175
+Viral pharyngitis,pain onset: gradual,0.1689,0.4815
+Panic attack,pain onset: very gradual,0.1688,0.5638
+URTI,pain onset: gradual,0.1687,0.4853
+Epiglottitis,pain intensity: 9/10,0.1687,0.5211
+SLE,pain localization: 6/10,0.1685,0.4249
+Sarcoidosis,pain onset: sudden,0.1685,0.4978
+Epiglottitis,pain localization: 10/10,0.1682,0.4175
+Cluster headache,pain localization: 7/10,0.168,0.4903
+Pneumonia,itching severity: 5/10,0.168,0.0854
+Epiglottitis,pain localization: 7/10,0.1677,0.4903
+Myocarditis,pain onset: gradual,0.1677,0.4815
+Epiglottitis,pain intensity: 8/10,0.1677,0.5473
+Epiglottitis,pain localization: 6/10,0.1675,0.4249
+Possible NSTEMI / STEMI,pain intensity: 6/10,0.1675,0.4696
+Bronchitis,pain onset: sudden,0.1674,0.5038
+Possible NSTEMI / STEMI,pain intensity: 5/10,0.1673,0.4589
+SLE,pain localization: 8/10,0.1673,0.515
+Possible NSTEMI / STEMI,pain intensity: 9/10,0.1671,0.5211
+Epiglottitis,pain intensity: 10/10,0.1671,0.4343
+Pneumonia,rash pain intensity: 5/10,0.167,0.141
+Cluster headache,pain localization: 8/10,0.1669,0.515
+Epiglottitis,pain intensity: 6/10,0.1669,0.4696
+Acute laryngitis,pain onset: gradual,0.1667,0.4815
+Cluster headache,pain localization: 9/10,0.1665,0.4141
+Pneumonia,rash pain intensity: 4/10,0.1664,0.1274
+Epiglottitis,pain intensity: 5/10,0.1662,0.4589
+Pneumonia,rash pain intensity: 1/10,0.1661,0.3469
+HIV (initial infection),skin lesion on upper lip (right),0.1661,0.0487
+Possible NSTEMI / STEMI,pain onset: gradual,0.166,0.464
+Anemia,pain onset: gradual,0.166,0.4815
+Panic attack,pain onset: gradual,0.1659,0.464
+Cluster headache,pain localization: 5/10,0.1656,0.4049
+SLE,pain localization: 9/10,0.1655,0.4141
+Chronic rhinosinusitis,pain intensity: 6/10,0.1655,0.4696
+Possible NSTEMI / STEMI,pain intensity: 8/10,0.1653,0.5473
+Pancreatic neoplasm,pain onset: gradual,0.1653,0.464
+Stable angina,pain in biceps (right),0.1653,0.111
+Pancreatic neoplasm,pain intensity: 1/10,0.1651,0.3478
+Pancreatic neoplasm,pain intensity: 3/10,0.165,0.4716
+SLE,pain localization: 7/10,0.1649,0.4903
+Pneumonia,itching severity: 1/10,0.1644,0.2172
+Pneumonia,itching severity: 2/10,0.1642,0.2122
+Cluster headache,pain localization: 6/10,0.1641,0.4249
+Chronic rhinosinusitis,pain intensity: 5/10,0.1641,0.4589
+Pneumonia,rash pain intensity: 3/10,0.1639,0.3726
+Possible NSTEMI / STEMI,pain intensity: 10/10,0.1637,0.4343
+Epiglottitis,pain in under the jaw,0.1636,1.4394
+SLE,pain localization: 5/10,0.1635,0.4049
+Epiglottitis,pain intensity: 7/10,0.1634,0.5221
+Pancreatic neoplasm,pain localization: 2/10,0.1633,0.398
+Epiglottitis,pain localization: 8/10,0.1633,0.515
+Epiglottitis,pain localization: 9/10,0.1629,0.4141
+Pneumonia,itching severity: 3/10,0.1624,0.2137
+Pneumonia,rash pain intensity: 2/10,0.1623,0.3626
+Pancreatic neoplasm,pain localization: 4/10,0.1621,0.3967
+Pancreatic neoplasm,pain intensity: 2/10,0.162,0.466
+Pancreatic neoplasm,pain localization: 3/10,0.1612,0.3954
+Localized edema,pain in lateral side of the foot (left),0.1605,0.0453
+Pancreatic neoplasm,pain intensity: 6/10,0.1605,0.4696
+Pancreatic neoplasm,pain localization: 5/10,0.1602,0.4049
+Pancreatic neoplasm,pain localization: 1/10,0.1602,0.2877
+Pancreatic neoplasm,pain intensity: 4/10,0.1601,0.4581
+Pancreatic neoplasm,pain intensity: 5/10,0.16,0.4589
+Chronic rhinosinusitis,pain intensity: 4/10,0.1599,0.4581
+Pneumonia,pain onset: sudden,0.1597,0.751
+Inguinal hernia,rash pain intensity: 7/10,0.1578,0.0784
+Spontaneous rib fracture,pain in upper chest,0.1571,5.3575
+Chagas,pain in right flank,0.157,1.4761
+Pneumonia,skin lesion on belly,0.1544,0.0417
+Influenza,pain in right temple,0.1541,2.7333
+Inguinal hernia,pain localization: 0/10,0.1527,0.4857
+Stable angina,pain radiates to triceps (right),0.1508,0.2418
+Inguinal hernia,rash pain intensity: 5/10,0.1503,0.141
+Inguinal hernia,pain intensity: 7/10,0.1495,0.5221
+Inguinal hernia,rash pain intensity: 6/10,0.1494,0.0936
+Inguinal hernia,pain onset: sudden,0.1494,0.5038
+Stable angina,pain intensity: 5/10,0.1488,0.4589
+GERD,pain onset: sudden,0.1486,0.751
+Chagas,pain intensity: 2/10,0.1484,0.466
+Acute otitis media,pain onset: sudden,0.1482,0.4978
+Influenza,rash swelling: 4/10,0.1481,0.2742
+Localized edema,swelling in sole (left),0.1479,0.038
+SLE,pain onset: sudden,0.1479,0.4978
+Boerhaave,pain localization: 2/10,0.1477,0.398
+SLE,pain intensity: 3/10,0.1475,0.4716
+Acute rhinosinusitis,pain onset: sudden,0.1474,0.751
+Pneumonia,rash swelling: 0/10,0.1473,2.5805
+Chronic rhinosinusitis,pain localization: 8/10,0.1473,0.515
+Acute laryngitis,pain localization: 8/10,0.1472,0.515
+Panic attack,pain intensity: 6/10,0.1472,0.4696
+Stable angina,pain localization: 2/10,0.1471,0.398
+Myocarditis,pain intensity: 2/10,0.1471,0.466
+Inguinal hernia,pain intensity: 1/10,0.1471,0.3478
+Acute rhinosinusitis,pain localization: 3/10,0.147,0.3954
+Pulmonary neoplasm,pain intensity: 0/10,0.1469,0.2583
+Pulmonary neoplasm,pain character: na,0.1469,0.2583
+Inguinal hernia,pain localization: 4/10,0.1469,0.3967
+Pulmonary neoplasm,pain in no specific location,0.1469,0.2583
+HIV (initial infection),rash pain intensity: 3/10,0.1469,0.3726
+Influenza,itching severity: 3/10,0.1468,0.2137
+Unstable angina,pain intensity: 5/10,0.1466,0.4589
+Unstable angina,pain in biceps (right),0.1465,0.111
+Influenza,itching severity: 5/10,0.1465,0.0854
+Acute rhinosinusitis,pain intensity: 8/10,0.1464,0.5473
+SLE,pain onset: very gradual,0.1464,0.4549
+Scombroid food poisoning,rash swelling: 4/10,0.1463,0.2742
+Inguinal hernia,pain intensity: 2/10,0.1462,0.466
+Anemia,pain localization: 5/10,0.1462,0.4049
+Pancreatic neoplasm,itching severity: 1/10,0.1462,0.2172
+Myocarditis,pain intensity: 5/10,0.1461,0.4589
+Stable angina,pain onset: very gradual,0.1461,0.5638
+Epiglottitis,pain onset: very gradual,0.1461,0.4846
+Influenza,pain onset: sudden,0.1461,0.5038
+SLE,pain intensity: 6/10,0.146,0.4696
+Epiglottitis,pain onset: gradual,0.146,0.464
+Acute rhinosinusitis,pain localization: 6/10,0.1459,0.4249
+Boerhaave,pain localization: 6/10,0.1459,0.4249
+Unstable angina,pain onset: very gradual,0.1458,0.4549
+Pericarditis,pain intensity: 7/10,0.1458,0.5221
+Pneumonia,rash swelling: 5/10,0.1458,0.1574
+Acute otitis media,pain intensity: 9/10,0.1458,0.5211
+Stable angina,pain localization: 7/10,0.1457,0.4903
+HIV (initial infection),pain localization: 3/10,0.1456,0.3954
+Pericarditis,pain localization: 5/10,0.1456,0.4049
+Acute rhinosinusitis,pain onset: gradual,0.1456,0.4815
+Pulmonary neoplasm,pain intensity: 6/10,0.1456,0.4696
+Anaphylaxis,pain intensity: 8/10,0.1455,0.5473
+SLE,pain onset: gradual,0.1455,0.4815
+Influenza,itching severity: 1/10,0.1455,0.2172
+Possible NSTEMI / STEMI,pain localization: 7/10,0.1454,0.4903
+HIV (initial infection),pain onset: sudden,0.1454,0.751
+Acute laryngitis,pain localization: 6/10,0.1454,0.4249
+Anaphylaxis,pain localization: 5/10,0.1454,0.4049
+Pulmonary neoplasm,pain onset: gradual,0.1453,0.4853
+Acute otitis media,pain intensity: 7/10,0.1453,0.5221
+Acute rhinosinusitis,pain intensity: 7/10,0.1453,0.5221
+Acute laryngitis,pain localization: 5/10,0.1453,0.4049
+Inguinal hernia,pain onset: very gradual,0.1452,0.4549
+Localized edema,pain intensity: 7/10,0.1452,0.5221
+Stable angina,pain intensity: 9/10,0.1451,0.5211
+Influenza,pain intensity: 2/10,0.1451,0.466
+Viral pharyngitis,pain localization: 5/10,0.145,0.4049
+Viral pharyngitis,pain intensity: 4/10,0.145,0.4581
+Panic attack,pain intensity: 2/10,0.145,0.466
+Chagas,pain intensity: 5/10,0.145,0.4589
+Spontaneous pneumothorax,pain localization: 3/10,0.145,0.3954
+Panic attack,pain intensity: 5/10,0.145,0.4589
+GERD,pain intensity: 9/10,0.145,0.5211
+HIV (initial infection),pain localization: 7/10,0.145,0.4903
+HIV (initial infection),rash pain intensity: 7/10,0.1449,0.0784
+GERD,pain intensity: 4/10,0.1449,0.4581
+Bronchitis,pain localization: 6/10,0.1449,0.4249
+Influenza,pain localization: 6/10,0.1449,0.4249
+Chagas,pain onset: sudden,0.1448,0.4978
+Acute laryngitis,pain intensity: 3/10,0.1448,0.4716
+Influenza,pain localization: 5/10,0.1448,0.4049
+Influenza,pain localization: 8/10,0.1448,0.515
+GERD,pain intensity: 8/10,0.1448,0.5473
+Anaphylaxis,pain intensity: 3/10,0.1447,0.4716
+Pericarditis,pain onset: gradual,0.1447,0.464
+Unstable angina,pain localization: 4/10,0.1447,0.3967
+HIV (initial infection),pain intensity: 4/10,0.1447,0.4581
+Stable angina,pain intensity: 3/10,0.1446,0.4716
+Influenza,itching severity: 2/10,0.1446,0.2122
+Anaphylaxis,rash swelling: 1/10,0.1446,0.3125
+Pericarditis,pain onset: very gradual,0.1446,0.5638
+Localized edema,pain localization: 4/10,0.1446,0.3967
+Spontaneous pneumothorax,pain localization: 5/10,0.1445,0.4049
+Chronic rhinosinusitis,pain localization: 7/10,0.1445,0.4903
+Anaphylaxis,pain intensity: 4/10,0.1445,0.4581
+Possible NSTEMI / STEMI,pain localization: 8/10,0.1444,0.515
+Anaphylaxis,pain onset: gradual,0.1444,0.4815
+Localized edema,pain localization: 8/10,0.1444,0.515
+GERD,pain localization: 5/10,0.1444,0.4049
+Influenza,pain localization: 4/10,0.1444,0.3967
+URTI,pain localization: 2/10,0.1444,0.398
+URTI,pain intensity: 2/10,0.1443,0.466
+Possible NSTEMI / STEMI,pain localization: 5/10,0.1443,0.4049
+Acute laryngitis,pain intensity: 5/10,0.1443,0.4589
+Chronic rhinosinusitis,pain localization: 6/10,0.1443,0.4249
+SLE,pain intensity: 2/10,0.1443,0.466
+Inguinal hernia,pain localization: 5/10,0.1443,0.4049
+Chagas,pain intensity: 3/10,0.1442,0.4716
+Influenza,rash swelling: 1/10,0.1442,0.3125
+Viral pharyngitis,pain localization: 6/10,0.1442,0.4249
+GERD,pain onset: gradual,0.1442,0.4853
+Myocarditis,pain localization: 2/10,0.1442,0.398
+Anaphylaxis,pain onset: very gradual,0.1442,0.5129
+Myocarditis,pain localization: 3/10,0.1442,0.3954
+Myocarditis,pain localization: 7/10,0.1442,0.4903
+Unstable angina,pain localization: 8/10,0.1441,0.515
+Influenza,pain intensity: 5/10,0.1441,0.4589
+Viral pharyngitis,pain intensity: 7/10,0.1441,0.5221
+Inguinal hernia,pain onset: gradual,0.1441,0.464
+Scombroid food poisoning,rash swelling: 6/10,0.1441,0.1279
+Anaphylaxis,pain intensity: 7/10,0.1441,0.5221
+GERD,pain localization: 2/10,0.144,0.398
+GERD,pain localization: 6/10,0.144,0.4249
+Myocarditis,pain intensity: 7/10,0.144,0.5221
+Anaphylaxis,pain localization: 0/10,0.144,0.4857
+Acute laryngitis,pain intensity: 4/10,0.144,0.4581
+Localized edema,pain onset: sudden,0.1439,0.4978
+Localized edema,pain intensity: 5/10,0.1439,0.4589
+Localized edema,pain localization: 5/10,0.1439,0.4049
+Localized edema,pain onset: very gradual,0.1439,0.4549
+Pericarditis,pain intensity: 4/10,0.1439,0.4581
+Pericarditis,pain localization: 3/10,0.1439,0.3954
+HIV (initial infection),pain onset: gradual,0.1439,0.464
+Acute rhinosinusitis,pain intensity: 6/10,0.1439,0.4696
+Pulmonary neoplasm,pain intensity: 5/10,0.1438,0.4589
+Viral pharyngitis,pain intensity: 9/10,0.1438,0.5211
+GERD,pain onset: very gradual,0.1438,0.4549
+Unstable angina,pain intensity: 9/10,0.1438,0.5211
+Spontaneous pneumothorax,pain localization: 6/10,0.1438,0.4249
+Pulmonary neoplasm,pain intensity: 4/10,0.1438,0.4581
+HIV (initial infection),rash pain intensity: 5/10,0.1438,0.141
+Influenza,pain intensity: 4/10,0.1438,0.4581
+Pericarditis,pain localization: 4/10,0.1437,0.3967
+Localized edema,pain onset: gradual,0.1437,0.4853
+Viral pharyngitis,pain localization: 7/10,0.1437,0.4903
+Anaphylaxis,pain localization: 3/10,0.1437,0.3954
+Influenza,pain intensity: 7/10,0.1437,0.5221
+Pneumonia,rash swelling: 6/10,0.1437,0.1279
+Chagas,pain onset: gradual,0.1437,0.4815
+Scombroid food poisoning,rash swelling: 1/10,0.1437,0.3125
+Pancreatic neoplasm,itching severity: 4/10,0.1437,0.1159
+URTI,pain localization: 5/10,0.1436,0.4049
+HIV (initial infection),pain intensity: 6/10,0.1436,0.4696
+Anaphylaxis,rash swelling: 2/10,0.1436,0.3118
+Acute laryngitis,pain localization: 4/10,0.1436,0.3967
+Localized edema,pain localization: 2/10,0.1436,0.398
+Possible NSTEMI / STEMI,pain localization: 4/10,0.1435,0.3967
+Anaphylaxis,rash swelling: 0/10,0.1435,2.5805
+Anaphylaxis,pain localization: 1/10,0.1435,0.2877
+Influenza,rash swelling: 2/10,0.1434,0.3118
+Anaphylaxis,pain localization: 4/10,0.1434,0.3967
+HIV (initial infection),pain localization: 8/10,0.1434,0.515
+Pericarditis,pain intensity: 9/10,0.1434,0.5211
+Stable angina,pain onset: gradual,0.1433,0.4815
+Scombroid food poisoning,rash swelling: 5/10,0.1433,0.1574
+Localized edema,pain intensity: 4/10,0.1433,0.4581
+Pericarditis,pain localization: 2/10,0.1433,0.398
+HIV (initial infection),pain intensity: 8/10,0.1432,0.5473
+SLE,pain intensity: 7/10,0.1432,0.5221
+Pericarditis,pain localization: 6/10,0.1432,0.4249
+Panic attack,pain intensity: 4/10,0.1432,0.4581
+Unstable angina,pain localization: 7/10,0.1432,0.4903
+Bronchitis,pain localization: 2/10,0.1432,0.398
+Chagas,pain intensity: 4/10,0.1432,0.4581
+Influenza,pain onset: gradual,0.1432,0.464
+Influenza,rash swelling: 3/10,0.1431,0.3118
+Unstable angina,pain intensity: 4/10,0.1431,0.4581
+GERD,pain intensity: 3/10,0.1431,0.4716
+Anemia,pain localization: 7/10,0.1431,0.4903
+URTI,pain intensity: 5/10,0.1431,0.4589
+URTI,pain localization: 3/10,0.143,0.3954
+Panic attack,pain intensity: 8/10,0.143,0.5473
+Pericarditis,pain intensity: 6/10,0.143,0.4696
+Anemia,pain localization: 6/10,0.143,0.4249
+Anaphylaxis,rash swelling: 6/10,0.143,0.1279
+HIV (initial infection),pain intensity: 2/10,0.1429,0.466
+Myocarditis,pain localization: 1/10,0.1429,0.2877
+Unstable angina,pain intensity: 6/10,0.1429,0.4696
+Inguinal hernia,pain localization: 3/10,0.1428,0.3954
+Stable angina,pain intensity: 8/10,0.1428,0.5473
+Influenza,rash swelling: 5/10,0.1428,0.1574
+Acute rhinosinusitis,pain intensity: 3/10,0.1428,0.4716
+Unstable angina,pain localization: 6/10,0.1428,0.4249
+HIV (initial infection),pain localization: 5/10,0.1428,0.4049
+Boerhaave,pain localization: 5/10,0.1428,0.4049
+URTI,pain localization: 1/10,0.1427,0.2877
+Pneumonia,pain intensity: 2/10,0.1427,0.466
+Acute otitis media,pain intensity: 4/10,0.1427,0.4581
+Inguinal hernia,pain intensity: 6/10,0.1427,0.4696
+Localized edema,pain localization: 6/10,0.1427,0.4249
+Possible NSTEMI / STEMI,pain localization: 2/10,0.1426,0.398
+Anaphylaxis,rash swelling: 3/10,0.1426,0.3118
+Pneumonia,pain onset: gradual,0.1426,0.4853
+Acute rhinosinusitis,pain localization: 4/10,0.1426,0.3967
+HIV (initial infection),rash pain intensity: 4/10,0.1426,0.1274
+Pneumonia,rash swelling: 3/10,0.1425,0.3118
+Anaphylaxis,pain intensity: 6/10,0.1425,0.4696
+Stable angina,pain localization: 6/10,0.1424,0.4249
+URTI,pain intensity: 8/10,0.1424,0.5473
+Viral pharyngitis,pain intensity: 5/10,0.1424,0.4589
+Unstable angina,pain localization: 5/10,0.1424,0.4049
+Acute laryngitis,pain intensity: 6/10,0.1424,0.4696
+GERD,pain localization: 4/10,0.1423,0.3967
+Chronic rhinosinusitis,pain localization: 5/10,0.1423,0.4049
+Localized edema,pain intensity: 8/10,0.1423,0.5473
+Acute rhinosinusitis,pain intensity: 4/10,0.1423,0.4581
+Influenza,pain intensity: 3/10,0.1422,0.4716
+Acute otitis media,pain onset: very gradual,0.1422,0.5638
+Influenza,pain localization: 7/10,0.1422,0.4903
+Pneumonia,rash swelling: 4/10,0.1422,0.2742
+Viral pharyngitis,pain localization: 9/10,0.1422,0.4141
+Stable angina,pain localization: 5/10,0.1422,0.4049
+Spontaneous pneumothorax,pain localization: 7/10,0.1422,0.4903
+Acute rhinosinusitis,pain localization: 8/10,0.1421,0.515
+Viral pharyngitis,pain localization: 10/10,0.1421,0.4175
+Viral pharyngitis,pain intensity: 6/10,0.1421,0.4696
+Chagas,pain intensity: 7/10,0.1421,0.5221
+HIV (initial infection),pain intensity: 5/10,0.1421,0.4589
+Spontaneous pneumothorax,pain localization: 2/10,0.1421,0.398
+URTI,pain localization: 4/10,0.142,0.3967
+Chagas,pain onset: very gradual,0.142,0.4549
+Myocarditis,pain localization: 6/10,0.142,0.4249
+Unstable angina,pain intensity: 8/10,0.142,0.5473
+Acute rhinosinusitis,pain intensity: 5/10,0.142,0.4589
+Viral pharyngitis,pain intensity: 8/10,0.142,0.5473
+Acute otitis media,pain intensity: 5/10,0.142,0.4589
+Localized edema,pain intensity: 6/10,0.142,0.4696
+Boerhaave,pain localization: 4/10,0.1419,0.3967
+Influenza,pain intensity: 8/10,0.1419,0.5473
+Bronchitis,pain localization: 5/10,0.1419,0.4049
+HIV (initial infection),pain onset: very gradual,0.1419,0.4549
+URTI,pain intensity: 3/10,0.1418,0.4716
+Chronic rhinosinusitis,pain localization: 4/10,0.1418,0.3967
+Influenza,pain localization: 3/10,0.1418,0.3954
+Scombroid food poisoning,rash swelling: 3/10,0.1417,0.3118
+Stable angina,pain localization: 4/10,0.1417,0.3967
+Pneumonia,pain intensity: 7/10,0.1417,0.5221
+Pericarditis,pain localization: 8/10,0.1417,0.515
+Pericarditis,pain intensity: 10/10,0.1417,0.4343
+Pancreatic neoplasm,itching severity: 2/10,0.1417,0.2122
+Acute laryngitis,pain intensity: 2/10,0.1417,0.466
+Pneumonia,pain intensity: 3/10,0.1417,0.4716
+Localized edema,pain intensity: 3/10,0.1417,0.4716
+Pancreatic neoplasm,itching severity: 3/10,0.1416,0.2137
+Spontaneous pneumothorax,pain localization: 1/10,0.1416,0.2877
+URTI,pain intensity: 4/10,0.1416,0.4581
+Unstable angina,pain localization: 3/10,0.1416,0.3954
+Bronchitis,pain localization: 1/10,0.1415,0.2877
+Inguinal hernia,rash swelling: 7/10,0.1415,0.0346
+Viral pharyngitis,pain localization: 4/10,0.1415,0.3967
+Unstable angina,pain onset: gradual,0.1415,0.4815
+Localized edema,pain intensity: 2/10,0.1415,0.466
+URTI,pain intensity: 7/10,0.1415,0.5221
+Anemia,pain localization: 3/10,0.1415,0.3954
+Anaphylaxis,rash swelling: 4/10,0.1415,0.2742
+URTI,pain intensity: 6/10,0.1415,0.4696
+Acute otitis media,pain intensity: 6/10,0.1414,0.4696
+HIV (initial infection),rash pain intensity: 8/10,0.1414,0.0345
+Influenza,itching severity: 4/10,0.1414,0.1159
+Pericarditis,pain intensity: 5/10,0.1414,0.4589
+Viral pharyngitis,pain localization: 8/10,0.1414,0.515
+Scombroid food poisoning,rash swelling: 2/10,0.1413,0.3118
+Acute otitis media,pain onset: gradual,0.1413,0.4853
+Possible NSTEMI / STEMI,pain localization: 6/10,0.1413,0.4249
+Bronchitis,pain localization: 7/10,0.1413,0.4903
+Anaphylaxis,rash swelling: 5/10,0.1412,0.1574
+Pneumonia,pain intensity: 5/10,0.1412,0.4589
+SLE,pain intensity: 5/10,0.1412,0.4589
+HIV (initial infection),pain intensity: 7/10,0.1412,0.5221
+Acute laryngitis,pain intensity: 1/10,0.1412,0.3478
+Unstable angina,pain localization: 2/10,0.1412,0.398
+Acute otitis media,pain intensity: 8/10,0.1412,0.5473
+Unstable angina,pain intensity: 10/10,0.1412,0.4343
+GERD,pain localization: 7/10,0.1411,0.4903
+Bronchitis,pain localization: 4/10,0.1411,0.3967
+URTI,pain localization: 7/10,0.1411,0.4903
+Acute laryngitis,pain intensity: 7/10,0.141,0.5221
+Anaphylaxis,pain localization: 6/10,0.141,0.4249
+Acute rhinosinusitis,pain localization: 7/10,0.141,0.4903
+Chagas,pain intensity: 6/10,0.141,0.4696
+Acute rhinosinusitis,pain localization: 2/10,0.141,0.398
+Stable angina,pain intensity: 4/10,0.141,0.4581
+HIV (initial infection),pain localization: 4/10,0.141,0.3967
+Boerhaave,pain localization: 1/10,0.1409,0.2877
+Stable angina,pain localization: 8/10,0.1407,0.515
+Viral pharyngitis,pain intensity: 3/10,0.1407,0.4716
+Pericarditis,pain intensity: 8/10,0.1407,0.5473
+Spontaneous pneumothorax,pain localization: 4/10,0.1407,0.3967
+Localized edema,pain localization: 7/10,0.1406,0.4903
+Bronchitis,pain localization: 3/10,0.1405,0.3954
+Acute laryngitis,pain localization: 7/10,0.1405,0.4903
+HIV (initial infection),rash pain intensity: 2/10,0.1405,0.3626
+Pneumonia,rash swelling: 1/10,0.1405,0.3125
+Anemia,pain localization: 2/10,0.1404,0.398
+Acute rhinosinusitis,pain localization: 5/10,0.1404,0.4049
+Unstable angina,pain intensity: 7/10,0.1404,0.5221
+Boerhaave,pain localization: 7/10,0.1404,0.4903
+Pulmonary neoplasm,pain intensity: 1/10,0.1404,0.3478
+GERD,pain localization: 3/10,0.1404,0.3954
+Localized edema,pain localization: 3/10,0.1403,0.3954
+Boerhaave,pain localization: 3/10,0.1403,0.3954
+Stable angina,pain localization: 3/10,0.1403,0.3954
+SLE,pain intensity: 8/10,0.1403,0.5473
+Pulmonary neoplasm,pain intensity: 2/10,0.1403,0.466
+Inguinal hernia,pain localization: 1/10,0.1402,0.2877
+Stable angina,pain intensity: 6/10,0.1401,0.4696
+Chronic rhinosinusitis,pain localization: 3/10,0.14,0.3954
+Myocarditis,pain intensity: 8/10,0.14,0.5473
+Inguinal hernia,pain localization: 2/10,0.1399,0.398
+Inguinal hernia,pain intensity: 3/10,0.1398,0.4716
+Acute otitis media,pain intensity: 3/10,0.1398,0.4716
+HIV (initial infection),rash pain intensity: 6/10,0.1398,0.0936
+HIV (initial infection),pain localization: 6/10,0.1398,0.4249
+Chronic rhinosinusitis,pain localization: 2/10,0.1397,0.398
+GERD,pain intensity: 6/10,0.1397,0.4696
+Pneumonia,pain intensity: 4/10,0.1396,0.4581
+Pneumonia,pain onset: very gradual,0.1396,0.4549
+Scombroid food poisoning,rash swelling: 0/10,0.1396,2.5805
+Influenza,pain onset: very gradual,0.1396,0.4549
+HIV (initial infection),pain intensity: 3/10,0.1395,0.4716
+HIV (initial infection),pain localization: 2/10,0.1395,0.398
+Anaphylaxis,pain intensity: 5/10,0.1395,0.4589
+Myocarditis,pain intensity: 4/10,0.1395,0.4581
+Pneumonia,pain intensity: 6/10,0.1394,0.4696
+Myocarditis,pain intensity: 6/10,0.1394,0.4696
+Pulmonary neoplasm,pain intensity: 3/10,0.1393,0.4716
+Influenza,pain intensity: 6/10,0.1393,0.4696
+URTI,pain localization: 6/10,0.1393,0.4249
+Acute laryngitis,pain localization: 2/10,0.1393,0.398
+Panic attack,pain intensity: 7/10,0.1393,0.5221
+Anaphylaxis,pain localization: 2/10,0.139,0.398
+Anaphylaxis,pain onset: sudden,0.1389,0.4978
+Anaphylaxis,pain intensity: 9/10,0.1388,0.5211
+GERD,pain intensity: 7/10,0.1388,0.5221
+Anemia,pain localization: 4/10,0.1386,0.3967
+GERD,pain localization: 8/10,0.1386,0.515
+Pericarditis,pain localization: 7/10,0.1386,0.4903
+Possible NSTEMI / STEMI,pain localization: 3/10,0.1385,0.3954
+Myocarditis,pain localization: 4/10,0.1384,0.3967
+GERD,pain intensity: 5/10,0.1384,0.4589
+Pneumonia,pain intensity: 1/10,0.1382,0.3478
+Acute laryngitis,pain localization: 3/10,0.138,0.3954
+Pneumonia,rash swelling: 2/10,0.138,0.3118
+Myocarditis,pain localization: 5/10,0.138,0.4049
+Inguinal hernia,pain intensity: 5/10,0.1378,0.4589
+Anemia,pain localization: 8/10,0.1377,0.515
+Stable angina,pain intensity: 7/10,0.1376,0.5221
+Myocarditis,pain intensity: 3/10,0.1376,0.4716
+SLE,pain intensity: 4/10,0.1375,0.4581
+Acute rhinosinusitis,pain onset: very gradual,0.1373,0.4549
+Panic attack,pain intensity: 3/10,0.1373,0.4716
+Acute rhinosinusitis,pain intensity: 2/10,0.1373,0.466
+Inguinal hernia,rash swelling: 1/10,0.1373,0.3125
+Influenza,pain localization: 2/10,0.1372,0.398
+Inguinal hernia,pain intensity: 4/10,0.1367,0.4581
+Chagas,pain intensity: 8/10,0.1362,0.5473
+Influenza,rash is na colored,0.135,2.1071
+Influenza,lesion smaller than 1cm,0.135,3.9451
+Influenza,no skin lesions present,0.135,2.1071
+Stable angina,pain in biceps (left),0.1342,0.0685
+Inguinal hernia,pain localization: 6/10,0.1332,0.4249
+Possible NSTEMI / STEMI,pain in biceps (right),0.1331,0.111
+PSVT,pain character: heavy/pressure-like,0.1322,6.7571
+PSVT,pain character: lancinating/shooting,0.1319,3.6621
+Inguinal hernia,rash swelling: 5/10,0.1318,0.1574
+PSVT,pain character: pulling/tugging,0.1317,4.1004
+Inguinal hernia,rash swelling: 6/10,0.1312,0.1279
+Acute pulmonary edema,pain intensity: 7/10,0.1309,0.5221
+PSVT,pain character: stabbing,0.1305,9.5684
+PSVT,pain character: pulsating,0.13,1.3706
+PSVT,pain character: cramping,0.1297,3.7986
+Sarcoidosis,pain intensity: 3/10,0.1287,0.4716
+PSVT,pain character: dull/aching,0.1285,5.599
+PSVT,pain character: sharp,0.1283,10.1932
+Sarcoidosis,pain intensity: 7/10,0.1281,0.5221
+Acute pulmonary edema,pain localization: 7/10,0.1276,0.4903
+Sarcoidosis,pain in dorsal aspect of the wrist (right),0.1272,0.6407
+Acute pulmonary edema,pain localization: 5/10,0.1269,0.4049
+Acute pulmonary edema,pain intensity: 8/10,0.1266,0.5473
+Acute pulmonary edema,pain intensity: 6/10,0.1265,0.4696
+Influenza,rash pain intensity: 3/10,0.1264,0.3726
+Acute pulmonary edema,pain localization: 2/10,0.1262,0.398
+Acute pulmonary edema,pain localization: 6/10,0.1258,0.4249
+Sarcoidosis,pain intensity: 5/10,0.1254,0.4589
+Inguinal hernia,rash swelling: 2/10,0.1252,0.3118
+Acute pulmonary edema,pain intensity: 9/10,0.1251,0.5211
+Inguinal hernia,rash pain intensity: 4/10,0.1248,0.1274
+Influenza,rash pain intensity: 1/10,0.1247,0.3469
+Acute pulmonary edema,pain localization: 1/10,0.1247,0.2877
+Sarcoidosis,pain intensity: 6/10,0.1247,0.4696
+Acute pulmonary edema,pain intensity: 3/10,0.1245,0.4716
+Acute pulmonary edema,pain localization: 4/10,0.1245,0.3967
+Pulmonary neoplasm,pain localization: 2/10,0.1245,0.398
+Sarcoidosis,pain intensity: 8/10,0.1243,0.5473
+Acute pulmonary edema,pain localization: 8/10,0.1237,0.515
+Influenza,rash pain intensity: 5/10,0.1236,0.141
+Sarcoidosis,pain intensity: 4/10,0.1235,0.4581
+Influenza,rash pain intensity: 2/10,0.1231,0.3626
+Pulmonary neoplasm,pain localization: 6/10,0.1228,0.4249
+Sarcoidosis,pain intensity: 1/10,0.1228,0.3478
+Pulmonary neoplasm,pain localization: 5/10,0.1226,0.4049
+Acute pulmonary edema,pain intensity: 5/10,0.1225,0.4589
+Influenza,rash pain intensity: 4/10,0.1225,0.1274
+Sarcoidosis,pain intensity: 2/10,0.1224,0.466
+Acute pulmonary edema,pain intensity: 4/10,0.1223,0.4581
+Influenza,rash pain intensity: 6/10,0.1221,0.0936
+Pulmonary neoplasm,pain localization: 4/10,0.1218,0.3967
+Acute pulmonary edema,pain intensity: 2/10,0.1215,0.466
+Pulmonary neoplasm,pain localization: 3/10,0.1206,0.3954
+Acute pulmonary edema,pain localization: 3/10,0.1205,0.3954
+Inguinal hernia,rash swelling: 3/10,0.12,0.3118
+SLE,pain in right knee,0.1198,0.0241
+Unstable angina,pain in biceps (left),0.1196,0.0685
+Pulmonary neoplasm,pain localization: 1/10,0.1193,0.2877
+Inguinal hernia,rash swelling: 4/10,0.1184,0.2742
+Panic attack,pain in breast (left),0.1181,5.5486
+Chagas,pain localization: 10/10,0.1181,0.4175
+Unstable angina,pain radiates to triceps (right),0.117,0.2418
+Chagas,pain localization: 4/10,0.1148,0.3967
+Acute pulmonary edema,pain onset: very gradual,0.1146,0.5129
+Acute pulmonary edema,pain onset: gradual,0.1143,0.4853
+Pulmonary embolism,pain localization: 3/10,0.1137,0.3954
+Pulmonary embolism,pain localization: 8/10,0.1134,0.515
+Stable angina,pain in thyroid cartilage,0.1132,1.7192
+Bronchiectasis,of asian descent,0.1131,0.0213
+Acute pulmonary edema,pain onset: sudden,0.1125,0.4978
+Pneumonia,pain localization: 0/10,0.1123,0.4857
+Chagas,pain localization: 6/10,0.1122,0.4249
+Pulmonary embolism,pain localization: 6/10,0.1121,0.4249
+Chagas,pain localization: 3/10,0.1119,0.3954
+Acute pulmonary edema,pain in calf (left),0.1117,0.0253
+Pulmonary embolism,pain localization: 2/10,0.1112,0.398
+Chagas,pain localization: 2/10,0.1112,0.398
+Pulmonary embolism,pain localization: 7/10,0.111,0.4903
+Inguinal hernia,rash pain intensity: 2/10,0.1108,0.3626
+Pulmonary embolism,pain localization: 4/10,0.1107,0.3967
+Chagas,pain localization: 7/10,0.1104,0.4903
+Pulmonary embolism,pain localization: 9/10,0.11,0.4141
+Inguinal hernia,rash pain intensity: 1/10,0.1099,0.3469
+Pulmonary embolism,pain localization: 10/10,0.109,0.4175
+Pulmonary embolism,pain localization: 5/10,0.1089,0.4049
+Chagas,pain localization: 5/10,0.1087,0.4049
+Chagas,pain localization: 8/10,0.1075,0.515
+Whooping cough,recent travel to: north america,0.1073,0.9775
+Pulmonary embolism,pain in upper chest,0.1067,5.3575
+Pulmonary embolism,no swelling present,0.106,1.9699
+Pulmonary embolism,pain radiates to upper chest,0.1056,1.0892
+Chagas,pain localization: 9/10,0.1053,0.4141
+Sarcoidosis,pain localization: 5/10,0.1038,0.4049
+Sarcoidosis,pain localization: 9/10,0.1028,0.4141
+Sarcoidosis,pain localization: 4/10,0.1026,0.3967
+Pulmonary embolism,pain intensity: 5/10,0.1026,0.4589
+Inguinal hernia,rash pain intensity: 3/10,0.1026,0.3726
+Pulmonary embolism,pain intensity: 6/10,0.1022,0.4696
+Localized edema,pain in calf (right),0.1019,0.0674
+Sarcoidosis,pain localization: 2/10,0.1014,0.398
+Possible NSTEMI / STEMI,pain in biceps (left),0.1011,0.0685
+Sarcoidosis,pain localization: 0/10,0.1011,0.4857
+Chagas,pain in left flank,0.101,1.7209
+Pulmonary embolism,pain intensity: 9/10,0.101,0.5211
+Pulmonary embolism,pain intensity: 8/10,0.1009,0.5473
+Pneumonia,pain localization: 3/10,0.1006,0.3954
+Pneumonia,pain localization: 1/10,0.1003,0.2877
+SLE,clinical evidence 11,0.1002,0.0163
+Pulmonary embolism,pain intensity: 4/10,0.1001,0.4581
+Pneumonia,pain localization: 7/10,0.0994,0.4903
+Pneumonia,pain localization: 8/10,0.0993,0.515
+Pneumonia,pain localization: 9/10,0.0991,0.4141
+Pulmonary embolism,pain intensity: 2/10,0.0991,0.466
+Pulmonary embolism,pain intensity: 10/10,0.099,0.4343
+Sarcoidosis,pain localization: 6/10,0.0989,0.4249
+Pneumonia,pain localization: 2/10,0.0989,0.398
+Sarcoidosis,pain localization: 3/10,0.0989,0.3954
+Pulmonary embolism,pain intensity: 1/10,0.0987,0.3478
+Sarcoidosis,pain localization: 1/10,0.0986,0.2877
+Pneumonia,pain localization: 5/10,0.0984,0.4049
+Pulmonary embolism,pain intensity: 3/10,0.0983,0.4716
+Pulmonary embolism,pain intensity: 7/10,0.0981,0.5221
+PSVT,pain localization: 5/10,0.0978,0.4049
+Pneumonia,pain localization: 6/10,0.0978,0.4249
+Sarcoidosis,pain localization: 8/10,0.0974,0.515
+PSVT,pain localization: 6/10,0.097,0.4249
+PSVT,pain intensity: 3/10,0.0955,0.4716
+PSVT,pain intensity: 2/10,0.0953,0.466
+PSVT,pain intensity: 8/10,0.0949,0.5473
+PSVT,pain onset: gradual,0.0949,0.4853
+PSVT,pain intensity: 5/10,0.0946,0.4589
+PSVT,pain localization: 4/10,0.0946,0.3967
+Inguinal hernia,rash swelling: 0/10,0.0945,2.5805
+Inguinal hernia,rash is na colored,0.0945,2.1071
+PSVT,pain onset: very gradual,0.0945,0.5638
+Inguinal hernia,rash pain intensity: 0/10,0.0945,2.6038
+Inguinal hernia,no skin lesions present,0.0945,2.1071
+Inguinal hernia,lesion smaller than 1cm,0.0945,3.9451
+Sarcoidosis,pain localization: 7/10,0.0944,0.4903
+Unstable angina,pain in thyroid cartilage,0.0943,1.7192
+Pneumonia,pain localization: 4/10,0.094,0.3967
+Pulmonary embolism,pain onset: gradual,0.0933,0.4815
+Pulmonary embolism,pain onset: very gradual,0.093,0.5129
+PSVT,pain localization: 2/10,0.0929,0.398
+Chronic rhinosinusitis,pain in left temple,0.0929,2.0817
+PSVT,pain intensity: 4/10,0.0927,0.4581
+Pulmonary embolism,pain onset: sudden,0.0927,0.4978
+Scombroid food poisoning,skin lesion on lower back,0.0925,0.1328
+Possible NSTEMI / STEMI,pain radiates to triceps (right),0.0923,0.2418
+PSVT,pain localization: 7/10,0.0923,0.4903
+PSVT,pain localization: 8/10,0.0913,0.515
+PSVT,pain intensity: 6/10,0.0911,0.4696
+PSVT,pain intensity: 7/10,0.0907,0.5221
+Spontaneous rib fracture,pain does not radiate,0.0899,23.6038
+PSVT,pain localization: 3/10,0.0889,0.3954
+Stable angina,pain in mid back,0.0886,0.0238
+Anaphylaxis,skin lesion on mid back,0.0856,0.1795
+Influenza,pain in left temple,0.0848,2.0817
+Sarcoidosis,pain in dorsal aspect of the wrist (left),0.084,0.3893
+Stable angina,pain radiates to triceps (left),0.0793,0.1126
+HIV (initial infection),skin lesion on palace,0.0766,0.0089
+Possible NSTEMI / STEMI,pain in thyroid cartilage,0.0762,1.7192
+Stable angina,pain in right shoulder,0.0746,0.911
+Anemia,recent travel to: south africa,0.0738,0.0081
+Epiglottitis,pain in trachea,0.0737,0.3098
+Unstable angina,pain in mid back,0.0731,0.0238
+Anemia,recent travel to: north africa,0.0707,0.0074
+Anemia,recent travel to: west africa,0.0704,1.9617
+SLE,pain in left knee,0.0686,0.0069
+GERD,pain does not radiate,0.0682,23.6038
+Acute pulmonary edema,pain in tibia (right),0.0679,0.0067
+Panic attack,pain in upper chest,0.0667,5.3575
+Chagas,pain in right lower abdomen,0.0665,1.7481
+Localized edema,swelling in lateral side of the foot (right),0.0627,0.0056
+Stable angina,pain in left shoulder,0.0615,0.8506
+Localized edema,pain in calf (left),0.0601,0.0253
+Possible NSTEMI / STEMI,pain in mid back,0.0571,0.0238
+Unstable angina,pain in right shoulder,0.0562,0.911
+Chagas,recent travel to: central america,0.056,0.0042
+Anemia,recent travel to: asia,0.0556,0.0042
+Anemia,recent travel to: south east asia,0.0553,0.0041
+Unstable angina,pain radiates to triceps (left),0.0537,0.1126
+Chagas,recent travel to: north america,0.0534,0.9775
+Chagas,recent travel to: south america,0.0531,0.0037
+Larygospasm,recent travel to: north america,0.0531,0.9775
+Scombroid food poisoning,skin lesion on thigh (right),0.0509,0.0033
+Sarcoidosis,pain in palmar face of the wrist (right),0.0502,0.1861

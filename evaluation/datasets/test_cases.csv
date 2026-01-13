@@ -40,3 +40,50 @@ symptoms,disease
 "weight loss,fatigue,frequent urination",Diabetes
 "facial pain,nasal congestion,headache",Sinusitis
 "runny nose,headache,cough",Sinusitis
+"sore throat,fever,swollen lymph nodes",Viral pharyngitis
+"sore throat,difficulty swallowing,fever",Viral pharyngitis
+"sore throat,headache,fatigue",URTI
+"runny nose,sore throat,cough,fever",URTI
+"nasal congestion,sneezing,sore throat",URTI
+"chest pain,shortness of breath,sweating",Unstable angina
+"chest pain,fatigue,dizziness",Stable angina
+"chest pain,shortness of breath,palpitations",Possible NSTEMI / STEMI
+"chest pain,sweating,nausea",Possible NSTEMI / STEMI
+"wheezing,shortness of breath,cough",Bronchospasm / acute asthma exacerbation
+"difficulty breathing,wheezing,chest tightness",Bronchospasm / acute asthma exacerbation
+"persistent cough,shortness of breath,fatigue",Acute COPD exacerbation / infection
+"cough,increased sputum,shortness of breath",Acute COPD exacerbation / infection
+"heartburn,chest pain,regurgitation",GERD
+"acid reflux,chest pain,difficulty swallowing",GERD
+"rapid heartbeat,dizziness,shortness of breath",Atrial fibrillation
+"irregular heartbeat,fatigue,weakness",Atrial fibrillation
+"rapid heartbeat,chest pain,dizziness",PSVT
+"palpitations,shortness of breath,anxiety",PSVT
+"chest pain,sharp pain on breathing,fever",Pericarditis
+"chest pain,fever,fatigue",Pericarditis
+"sudden shortness of breath,chest pain,rapid heartbeat",Pulmonary embolism
+"leg swelling,shortness of breath,chest pain",Pulmonary embolism
+"anxiety,rapid heartbeat,sweating",Panic attack
+"shortness of breath,chest pain,dizziness",Panic attack
+"fever,night sweats,weight loss,cough",Tuberculosis
+"persistent cough,blood in sputum,fatigue",Tuberculosis
+"swelling,rash,difficulty breathing",Anaphylaxis
+"hives,shortness of breath,dizziness",Anaphylaxis
+"fever,rash,fatigue,joint pain",SLE
+"joint pain,rash,fatigue",SLE
+"muscle weakness,drooping eyelids,difficulty swallowing",Myasthenia gravis
+"fatigue,muscle weakness,double vision",Myasthenia gravis
+"weakness in legs,numbness,difficulty walking",Guillain-Barré syndrome
+"tingling,weakness,difficulty breathing",Guillain-Barré syndrome
+"cluster of headaches,eye pain,nasal congestion",Cluster headache
+"severe headache around eye,tearing,restlessness",Cluster headache
+"hoarse voice,sore throat,cough",Acute laryngitis
+"voice changes,throat pain,dry cough",Acute laryngitis
+"ear pain,fever,hearing loss",Acute otitis media
+"ear pain,irritability,fever",Acute otitis media
+"barking cough,stridor,hoarse voice",Croup
+"difficulty breathing,barking cough,fever",Croup
+"severe sore throat,difficulty breathing,drooling",Epiglottitis
+"high fever,severe sore throat,difficulty swallowing",Epiglottitis
+"whooping cough,vomiting after cough,fatigue",Whooping cough
+"severe coughing fits,difficulty breathing",Whooping cough

@@ -62,4 +62,10 @@ router.post(
   aiProxyController.analyzeReport
 );
 
+/**
+ * POST /api/ai/chat
+ * AI Chat Assistant
+ */
+router.post('/ai/chat', consentMiddleware, aiProxyController.chatWithAi);
+
 module.exports = router;

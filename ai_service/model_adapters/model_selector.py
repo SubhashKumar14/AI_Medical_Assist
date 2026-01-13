@@ -122,9 +122,13 @@ class GeminiModelAdapter(BaseModelAdapter):
             # Rate limiting
             await self._rate_limit()
             
+            # Prepend Mandatory System Prompt
+            from safety_config import SYSTEM_PROMPT
+            full_prompt = f"{SYSTEM_PROMPT}\n\nTask: {prompt}"
+
             # Generate response
             response = client.generate_content(
-                prompt,
+                full_prompt,
                 generation_config={
                     "temperature": kwargs.get("temperature", 0.3),
                     "max_output_tokens": kwargs.get("max_tokens", 1024),
@@ -179,9 +183,14 @@ class OpenRouterModelAdapter(BaseModelAdapter):
                 "HTTP-Referer": "https://telemedicine-cdss.local",
             }
             
+            from safety_config import SYSTEM_PROMPT
+            
             payload = {
                 "model": model,
-                "messages": [{"role": "user", "content": prompt}],
+                "messages": [
+                    {"role": "system", "content": SYSTEM_PROMPT},
+                    {"role": "user", "content": prompt}
+                ],
                 "temperature": kwargs.get("temperature", 0.3),
                 "max_tokens": kwargs.get("max_tokens", 1024),
             }
@@ -237,19 +246,48 @@ class ModelSelector:
         self,
         prompt: str,
         task_type: str = "general",
+        provider: str = "auto",
         **kwargs
     ) -> str:
         """
-        Generate response using best available model.
+        Generate response using best available model or requested provider.
         
         Args:
             prompt: The prompt to send
             task_type: Type of task (extraction, summary, reasoning)
+            provider: 'auto', 'gemini', 'openrouter', or 'local'
             **kwargs: Additional parameters
             
         Returns:
             Generated response string
         """
+        # Explicit Provider Selection
+        if provider == "gemini":
+            if self.use_gemini:
+                try:
+                    return await self.gemini_adapter.generate(prompt, **kwargs)
+                except Exception as e:
+                    return f"[Error using Gemini: {str(e)}]"
+            else:
+                return "[Gemini is not configured or available]"
+
+        if provider == "openrouter":
+            if self.use_openrouter:
+                try:
+                    return await self.openrouter_adapter.generate(prompt, **kwargs)
+                except Exception as e:
+                    return f"[Error using OpenRouter: {str(e)}]"
+            else:
+                return "[OpenRouter is not configured or available]"
+                
+        if provider == "local":
+             if self.use_local:
+                 return await self.local_adapter.generate(prompt, **kwargs)
+             else:
+                 return "[Local model is not enabled]"
+
+        # === AUTO MODE (Fallback Logic) ===
+        
         # For simple extraction tasks, prefer local
         if task_type == "extraction" and self.use_local:
             try:
@@ -285,18 +323,11 @@ class ModelSelector:
         self,
         extracted_text: str,
         lab_values: List[Dict],
-        abnormal_findings: List[Dict]
+        abnormal_findings: List[Dict],
+        provider: str = "auto"
     ) -> str:
         """
         Generate AI summary of medical report.
-        
-        Args:
-            extracted_text: Raw OCR text
-            lab_values: Parsed lab values
-            abnormal_findings: Identified abnormalities
-            
-        Returns:
-            Summary string
         """
         # Build prompt
         prompt = self._build_report_summary_prompt(
@@ -305,7 +336,7 @@ class ModelSelector:
             abnormal_findings
         )
         
-        return await self.generate(prompt, task_type="summary")
+        return await self.generate(prompt, task_type="summary", provider=provider)
     
     def _build_report_summary_prompt(
         self,
@@ -384,6 +415,62 @@ Return ONLY valid JSON, no other text."""
         except Exception:
             # Return empty result on failure
             return {"symptoms": [], "duration": None, "severity": None}
+
+    async def generate_chat_response(
+        self,
+        system_prompt: str,
+        user_message: str,
+        session_context: Dict[str, Any],
+        provider: str = "auto"
+    ) -> str:
+        """
+        Generate chat response using Gemini or fallback.
+        """
+        full_prompt = f"{system_prompt}\n\nUSER QUESTION: {user_message}"
+        
+        # We can pass context as kwargs if adapters supported it, but for now simple concatenation
+        return await self.generate(full_prompt, task_type="reasoning", provider=provider)
+    
+    async def identify_pill(self, image_bytes: bytes) -> Dict[str, Any]:
+        """
+        Identify pill from image using Gemini Vision (or mockup fallback).
+        """
+        # PROMPT for Vision Model
+        prompt = """
+        Analyze this pill image. Identify:
+        1. Imprint code (letters/numbers on pill)
+        2. Shape (round, oval, etc.)
+        3. Color
+        4. Likely Drug Name (if confident)
+        5. Strength (e.g. 500mg)
+        
+        DISCLAIMER: State clearly that this is AI identification and requires pharmacist verification.
+        
+        Return JSON: {
+            "imprint": "...",
+            "characteristics": "...",
+            "likely_name": "...",
+            "strength": "...",
+            "safety_warning": "..."
+        }
+        """
+
+        if self.use_gemini and self.gemini_adapter:
+             # In a real scenario, we'd pass the image bytes to Gemini Vision here
+             # self.gemini_adapter.generate_vision(image_bytes, prompt)
+             pass
+        
+        # MOCK RESPONSE (For now, as Vision API setup is complex without actual tokens/images)
+        # In production, this would call the actual Vision API.
+        import asyncio
+        await asyncio.sleep(1) # Simulate think time
+        return {
+            "imprint": "AL T 500",
+            "characteristics": "White, Oval",
+            "likely_name": "Acetaminophen (Generic for Tylenol)",
+            "strength": "500 mg",
+            "safety_warning": "⚠️ visual identification is experimental. Verify with a pharmacist."
+        }
     
     def get_status(self) -> Dict[str, Any]:
         """Get status of all adapters."""

@@ -253,8 +253,9 @@ class ReportParser:
         for test_name, config in self.reference_ranges.items():
             for alias in config["aliases"]:
                 # Pattern: test_name followed by value and optional unit
-                # Example: "Hemoglobin: 14.5 g/dL" or "HB 14.5"
-                pattern = rf"(?i){re.escape(alias)}[:\s]*(\d+\.?\d*)\s*({re.escape(config['unit'])}|[a-zA-Z/]+)?"
+                # Example: "Hemoglobin: 14.5 g/dL" or "HB 14.5" or "WBC Count 14,500"
+                # Updated regex to handle commas in numbers and optional intermediate text
+                pattern = rf"(?i){re.escape(alias)}.*?([\d,]+\.?\d*)\s*({re.escape(config['unit'])}|[a-zA-Z/%]+)?"
                 patterns.append({
                     "test": test_name,
                     "pattern": pattern,
@@ -287,7 +288,9 @@ class ReportParser:
                     continue
                 
                 try:
-                    value = float(match.group(1))
+                    # Remove commas before converting to float
+                    value_str = match.group(1).replace(",", "")
+                    value = float(value_str)
                     unit = match.group(2) if match.group(2) else pattern_info["unit"]
                     
                     # Get reference range

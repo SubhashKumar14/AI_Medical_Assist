@@ -68,14 +68,11 @@ def get_sapbert_adapter():
     global _sapbert_adapter
     if _sapbert_adapter is None:
         try:
-            from model_adapters.sapbert_ddxplus import SapBERTDDXPlusAdapter
-            _sapbert_adapter = SapBERTDDXPlusAdapter(use_local=True)
-            if _sapbert_adapter.initialize():
-                logger.info("SapBERT-DDXPlus adapter loaded for symptom normalization")
-            else:
-                _sapbert_adapter = False
+            from model_adapters.sapbert_helper import SapBERTHelper
+            _sapbert_adapter = SapBERTHelper(use_api=False)
+            logger.info("SapBERT adapter loaded for symptom normalization")
         except Exception as e:
-            logger.info(f"SapBERT not available: {e}")
+            logger.info(f"SapBERT not available: {e}. Falling back to fuzzy match.")
             _sapbert_adapter = False
     return _sapbert_adapter if _sapbert_adapter else None
 
@@ -143,6 +140,31 @@ class SymptomEliminationEngine:
         self.disease_priors = self._load_disease_priors()
         
         logger.info(f"Engine initialized: {len(self.diseases)} diseases, {len(self.symptoms)} symptoms")
+    
+    def check_red_flags(self, symptoms: List[str]) -> List[Dict[str, Any]]:
+        """
+        Check for emergency symptoms using centralized safety config.
+        """
+        try:
+            from safety_config import RED_FLAG_SYMPTOMS
+        except ImportError:
+            # Fallback for tests if path issue
+            RED_FLAG_SYMPTOMS = ["chest pain", "severe chest pain", "difficulty breathing", "shortness of breath", "fainting"]
+            
+        detected = []
+        for s in symptoms:
+            # Check for substring match
+            s_lower = s.lower()
+            for flag in RED_FLAG_SYMPTOMS:
+                if flag in s_lower:
+                    detected.append({
+                        "symptom": s, # Return original string
+                        "severity": "emergency",
+                        "message": "This symptom requires immediate medical attention. Please call emergency services."
+                    })
+                    break # One flag-hit is enough for this symptom
+        # print(f"DEBUG RED FLAGS: {symptoms} -> {detected}")
+        return detected
     
     def _load_disease_symptoms(self) -> List[Dict]:
         """Load disease-symptom relationships from trained CSV."""
@@ -633,13 +655,52 @@ class SymptomEliminationEngine:
         # Check for red flags in the extracted symptoms
         red_flags = self.check_red_flags(found_symptoms)
         
+
+        
+        # --- SapBERT Fallback for Null Results ---
+        # If no symptoms found and input is short (< 50 chars), 
+        # try to map the whole string or chunks using SapBERT
+        if not found_symptoms and len(text) < 100:
+            sapbert = get_sapbert_adapter()
+            if sapbert:
+                try:
+                    # Provide candidate symptoms for normalization
+                    candidates = self.symptoms 
+                    if not sapbert.candidate_embeddings: 
+                        sapbert.cache_candidates(candidates)
+                    
+                    # Try whole sentence matches (e.g., "my head hurts")
+                    # Or simple splitting
+                    potential_phrases = [text]
+                    if " and " in text:
+                        potential_phrases.extend(text.split(" and "))
+                    if "," in text:
+                        potential_phrases.extend(text.split(","))
+                        
+                    for phrase in potential_phrases:
+                        phrase = phrase.strip()
+                        if not phrase: continue
+                        
+                        canonical_match = sapbert.normalize(phrase, candidates=None)
+                        if canonical_match and canonical_match not in found_symptoms:
+                             found_symptoms.append(canonical_match)
+                             # Add synthetic entity
+                             entities.append({
+                                "text": phrase,
+                                "label": canonical_match,
+                                "start": text.find(phrase),
+                                "end": text.find(phrase) + len(phrase)
+                             })
+                except Exception as e:
+                    logger.debug(f"SapBERT fallback failed: {e}")
+        
         return {
             "symptoms": found_symptoms,
             "entities": entities,
             "duration": duration,
             "original_text": text,
-            "red_flags": red_flags,
-            "extraction_method": "rule_based"
+            "red_flags": self.check_red_flags(found_symptoms), # Re-check with new symptoms
+            "extraction_method": "rule_based_with_sapbert"
         }
     
     def _extract_duration(self, text: str) -> Optional[str]:
@@ -696,10 +757,17 @@ class SymptomEliminationEngine:
             sapbert = get_sapbert_adapter()
             if sapbert:
                 try:
-                    result = sapbert.normalize_symptom(symptom_lower, self.symptoms[:100])  # Top 100 symptoms
-                    if result["similarity"] > 0.75:  # High similarity threshold
-                        if result["canonical"] not in canonical:
-                            canonical.append(result["canonical"])
+                    # Provide candidate symptoms for normalization
+                    candidates = self.symptoms 
+                    # If candidates list is huge, we might want to cache it inside the adapter once
+                    if not sapbert.candidate_embeddings: 
+                        sapbert.cache_candidates(candidates)
+                        
+                    canonical_match = sapbert.normalize(symptom_lower, candidates=None) # Uses cached
+                    
+                    if canonical_match:
+                        if canonical_match not in canonical:
+                            canonical.append(canonical_match)
                         continue
                 except Exception as e:
                     logger.debug(f"SapBERT matching failed for '{symptom}': {e}")
@@ -717,22 +785,7 @@ class SymptomEliminationEngine:
         
         return canonical
     
-    def check_red_flags(self, symptoms: List[str]) -> List[Dict]:
-        """Check for critical/red flag symptoms that need immediate attention."""
-        warnings = []
-        
-        for flag in self.red_flags:
-            flag_symptom = flag["symptom"].lower()
-            for symptom in symptoms:
-                if flag_symptom in symptom.lower() or symptom.lower() in flag_symptom:
-                    warnings.append({
-                        "symptom": symptom,
-                        "severity": flag.get("severity", "high"),
-                        "action": flag.get("action", "Seek medical attention")
-                    })
-                    break
-        
-        return warnings
+
     
     def start(self, symptoms: List[str], session_id: str = None) -> Dict[str, Any]:
         """
@@ -1042,6 +1095,9 @@ class SymptomEliminationEngine:
         elif "no" in answer_lower or answer_lower in ["false", "0"]:
             if current_symptom not in negative:
                 negative.append(current_symptom)
+        elif answer_lower == "continue":
+             # User consented to extend questions
+             state["extended"] = True
         # "Not sure" or other answers don't update
         
         # Recompute posterior
@@ -1061,7 +1117,9 @@ class SymptomEliminationEngine:
         
         # ===== 3-5-7 DECISION LOGIC =====
         should_stop = False
+        extend_needed = False
         stop_reason = None
+        is_extended = state.get("extended", False)
         
         if questions_asked < self.MIN_QUESTIONS:
             should_stop = False
@@ -1069,7 +1127,23 @@ class SymptomEliminationEngine:
             if top_score >= self.HIGH_CONFIDENCE:
                 should_stop = True
                 stop_reason = f"High confidence ({top_score:.1%}) reached at {questions_asked} questions"
-        elif self.SOFT_MAX_QUESTIONS <= questions_asked < self.HARD_MAX_QUESTIONS:
+        elif questions_asked == self.SOFT_MAX_QUESTIONS:
+             # At 5 questions, check if we need to extend
+             if not is_extended and top_score < self.LOW_CONFIDENCE:
+                 # Low confidence, suggest extension
+                 extend_needed = True
+                 should_stop = False # We don't stop, but we pause for consent
+             else:
+                 # Sufficient confidence OR user already extended
+                 # If not extended and score is good -> stop
+                 # If extended -> continue (fall through to next block logic basically)
+                 if not is_extended: 
+                     should_stop = True
+                     stop_reason = f"Sufficient confidence ({top_score:.1%}) at 5 questions"
+                 # If is_extended, we just continue (don't set should_stop)
+                 
+        elif self.SOFT_MAX_QUESTIONS < questions_asked < self.HARD_MAX_QUESTIONS:
+             # Already extended, continue until HARD_MAX or LOW_CONFIDENCE met
             if top_score >= self.LOW_CONFIDENCE:
                 should_stop = True
                 stop_reason = f"Sufficient confidence ({top_score:.1%}) at {questions_asked} questions"
@@ -1091,14 +1165,22 @@ class SymptomEliminationEngine:
             "answers": {**state.get("answers", {}), current_symptom: answer},
             "candidate_questions": state.get("candidate_questions", []),
             "last_question": current_symptom,
-            "red_flags": state.get("red_flags", [])
+            "red_flags": state.get("red_flags", []),
+            "extend_needed": extend_needed
         }
         
         if should_stop:
             new_state["status"] = "FINISHED"
             new_state["stop_reason"] = stop_reason
             new_state["next_question"] = None
-            new_state["final_predictions"] = self._generate_predictions(posterior)
+            new_state["final_predictions"] = self._generate_predictions(posterior) # predictions already have explanation
+        elif extend_needed:
+            new_state["status"] = "IN_PROGRESS"
+            # Do NOT generate next question yet, wait for user consent (which calls next_step again)
+            # Actually, to make API stateless, we might want to propose the question but mark extend_needed
+            # But the requirement implies a Pause.
+            new_state["next_question"] = None 
+            # We don't set status to FINISHED, just leave it. 
         else:
             new_state["status"] = "IN_PROGRESS"
             next_q = self._get_best_question(posterior, observed + negative + asked)

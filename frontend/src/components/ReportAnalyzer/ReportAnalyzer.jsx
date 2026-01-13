@@ -1,100 +1,27 @@
-/**
- * ReportAnalyzer Component
- * 
- * Goal:
- * - Upload medical reports (PDF/image)
- * - Display extracted lab values and abnormalities
- * - Show AI-generated summary
- *
- * Non-goals:
- * - No diagnosis, only interpretation assistance
- * - No prescription recommendations
- */
-
-import React, { useState, useCallback, useRef } from 'react';
-import api from '../../services/api';
-
-const ACCEPTED_FILE_TYPES = [
-  'application/pdf',
-  'image/png',
-  'image/jpeg',
-  'image/jpg'
-];
-
-const MAX_FILE_SIZE = 10 * 1024 * 1024; // 10MB
+import React, { useState } from 'react';
+import { reportAPI } from '../../services/api';
 
 const ReportAnalyzer = () => {
   const [file, setFile] = useState(null);
-  const [preview, setPreview] = useState(null);
+  const [previewUrl, setPreviewUrl] = useState(null);
   const [loading, setLoading] = useState(false);
-  const [error, setError] = useState(null);
   const [results, setResults] = useState(null);
-  const [consent, setConsent] = useState(false);
-  const fileInputRef = useRef(null);
+  const [error, setError] = useState(null);
+  const [selectedModel, setSelectedModel] = useState('auto'); // Added Model State
 
-  // Handle file selection
-  const handleFileSelect = useCallback((event) => {
-    const selectedFile = event.target.files?.[0];
-    setError(null);
-    setResults(null);
-
-    if (!selectedFile) return;
-
-    // Validate file type
-    if (!ACCEPTED_FILE_TYPES.includes(selectedFile.type)) {
-      setError('Please upload a PDF or image file (PNG, JPG)');
-      return;
+  const handleFileChange = (e) => {
+    const selected = e.target.files[0];
+    if (selected) {
+      setFile(selected);
+      setPreviewUrl(URL.createObjectURL(selected));
+      setResults(null);
+      setError(null);
     }
-
-    // Validate file size
-    if (selectedFile.size > MAX_FILE_SIZE) {
-      setError('File size must be less than 10MB');
-      return;
-    }
-
-    setFile(selectedFile);
-
-    // Create preview for images
-    if (selectedFile.type.startsWith('image/')) {
-      const reader = new FileReader();
-      reader.onload = (e) => setPreview(e.target.result);
-      reader.readAsDataURL(selectedFile);
-    } else {
-      setPreview(null);
-    }
-  }, []);
-
-  // Handle drag and drop
-  const handleDrop = useCallback((event) => {
-    event.preventDefault();
-    event.stopPropagation();
-    
-    const droppedFile = event.dataTransfer.files?.[0];
-    if (droppedFile) {
-      // Simulate file input change
-      const dataTransfer = new DataTransfer();
-      dataTransfer.items.add(droppedFile);
-      if (fileInputRef.current) {
-        fileInputRef.current.files = dataTransfer.files;
-        handleFileSelect({ target: { files: dataTransfer.files } });
-      }
-    }
-  }, [handleFileSelect]);
-
-  const handleDragOver = (event) => {
-    event.preventDefault();
-    event.stopPropagation();
   };
 
-  // Submit report for analysis
-  const handleAnalyze = useCallback(async () => {
+  const handleUpload = async () => {
     if (!file) {
-      setError('Please select a file to analyze');
-      return;
-    }
-
-    if (!consent) {
-      setError('Please provide consent to proceed with AI analysis');
+      setError("Please select a file first.");
       return;
     }
 
@@ -104,230 +31,159 @@ const ReportAnalyzer = () => {
     try {
       const formData = new FormData();
       formData.append('file', file);
-      formData.append('consent', 'true');
+      formData.append('user_id', 'anonymous');
+      formData.append('model_provider', selectedModel); // Forward model selection
 
-      const response = await api.post('/api/report/analyze', formData, {
-        headers: {
-          'Content-Type': 'multipart/form-data'
-        }
-      });
-
+      // Call API
+      const response = await reportAPI.analyze(formData);
       setResults(response.data);
     } catch (err) {
-      setError(err.response?.data?.error || 'Failed to analyze report');
+      setError(err.response?.data?.detail || "Failed to analyze report");
     } finally {
       setLoading(false);
     }
-  }, [file, consent]);
-
-  // Reset state
-  const handleReset = () => {
-    setFile(null);
-    setPreview(null);
-    setResults(null);
-    setError(null);
-    if (fileInputRef.current) {
-      fileInputRef.current.value = '';
-    }
-  };
-
-  // Render abnormal findings
-  const renderFindings = (findings) => {
-    if (!findings || findings.length === 0) {
-      return <p className="no-findings">No abnormal findings detected.</p>;
-    }
-
-    return (
-      <ul className="findings-list">
-        {findings.map((finding, idx) => (
-          <li key={idx} className={`finding-item ${finding.severity}`}>
-            <div className="finding-header">
-              <span className="finding-name">{finding.test_name}</span>
-              <span className={`severity-badge ${finding.severity}`}>
-                {finding.severity}
-              </span>
-            </div>
-            <div className="finding-details">
-              <span className="finding-value">
-                Value: {finding.value} {finding.unit}
-              </span>
-              <span className="finding-range">
-                Reference: {finding.reference_range}
-              </span>
-            </div>
-            {finding.interpretation && (
-              <p className="finding-interpretation">{finding.interpretation}</p>
-            )}
-          </li>
-        ))}
-      </ul>
-    );
   };
 
   return (
-    <div className="report-analyzer">
-      <h2>Medical Report Analysis</h2>
+    <div className="report-analyzer-container" style={{ display: 'flex', gap: '20px', padding: '20px', height: 'calc(100vh - 100px)' }}>
 
-      {/* Disclaimer */}
-      <div className="disclaimer">
-        <p>
-          <strong>⚠️ Important:</strong> This tool extracts and highlights 
-          information from medical reports. It does not provide diagnosis. 
-          Always consult a healthcare professional for interpretation.
-        </p>
-      </div>
+      {/* LEFT PANEL: Upload & Preview */}
+      <div className="left-panel" style={{ flex: 1, borderRight: '1px solid #ddd', paddingRight: '20px', display: 'flex', flexDirection: 'column' }}>
+        <h2>📄 Upload Medical Report</h2>
+        <p>Upload a clear photo or PDF of your lab report.</p>
 
-      {/* File upload area */}
-      {!results && (
-        <div 
-          className="upload-area"
-          onDrop={handleDrop}
-          onDragOver={handleDragOver}
-        >
-          <input
-            ref={fileInputRef}
-            type="file"
-            accept=".pdf,.png,.jpg,.jpeg"
-            onChange={handleFileSelect}
-            disabled={loading}
-            id="file-upload"
-            className="file-input"
-          />
-          
-          <label htmlFor="file-upload" className="upload-label">
-            <div className="upload-icon">📄</div>
-            <p>Drag & drop or click to upload</p>
-            <small>PDF, PNG, JPG (max 10MB)</small>
-          </label>
-
-          {/* File preview */}
-          {file && (
-            <div className="file-preview">
-              <p className="file-name">📎 {file.name}</p>
-              {preview && (
-                <img 
-                  src={preview} 
-                  alt="Report preview" 
-                  className="image-preview"
-                />
-              )}
-            </div>
-          )}
-
-          {/* Consent checkbox */}
-          <div className="consent-section">
-            <label>
-              <input
-                type="checkbox"
-                checked={consent}
-                onChange={(e) => setConsent(e.target.checked)}
-                disabled={loading}
-              />
-              I consent to AI-assisted analysis of this medical report.
-            </label>
-          </div>
-
-          <button
-            onClick={handleAnalyze}
-            disabled={loading || !file || !consent}
-            className="primary-btn"
+        {/* Model Selection */}
+        <div style={{ marginBottom: '15px', padding: '10px', backgroundColor: '#f0f9ff', borderRadius: '5px', border: '1px solid #bae6fd' }}>
+          <label style={{ display: 'block', marginBottom: '5px', fontWeight: 'bold', color: '#0369a1' }}>🤖 AI Model Provider:</label>
+          <select
+            value={selectedModel}
+            onChange={(e) => setSelectedModel(e.target.value)}
+            style={{ width: '100%', padding: '8px', borderRadius: '4px', border: '1px solid #ccc' }}
           >
-            {loading ? 'Analyzing...' : 'Analyze Report'}
-          </button>
+            <option value="auto">Auto (Best Available)</option>
+            <option value="gemini">Google Gemini Pro</option>
+            <option value="openrouter">OpenRouter (Claude/GPT-4)</option>
+          </select>
         </div>
-      )}
 
-      {/* Error display */}
-      {error && (
-        <div className="error-message">
-          <p>❌ {error}</p>
-        </div>
-      )}
+        <input
+          type="file"
+          accept="image/*,application/pdf"
+          onChange={handleFileChange}
+          style={{ marginBottom: '20px' }}
+        />
 
-      {/* Analysis results */}
-      {results && (
-        <div className="results-section">
-          {/* Extracted text summary */}
-          {results.extracted_text && (
-            <div className="extracted-text">
-              <h3>📝 Extracted Content</h3>
-              <div className="text-content">
-                {results.extracted_text.substring(0, 500)}
-                {results.extracted_text.length > 500 && '...'}
-              </div>
-            </div>
-          )}
-
-          {/* Lab values */}
-          <div className="lab-values">
-            <h3>🔬 Lab Values</h3>
-            {results.lab_values && results.lab_values.length > 0 ? (
-              <table className="lab-table">
-                <thead>
-                  <tr>
-                    <th>Test</th>
-                    <th>Value</th>
-                    <th>Unit</th>
-                    <th>Status</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  {results.lab_values.map((lab, idx) => (
-                    <tr key={idx} className={lab.is_abnormal ? 'abnormal' : ''}>
-                      <td>{lab.name}</td>
-                      <td>{lab.value}</td>
-                      <td>{lab.unit}</td>
-                      <td>
-                        <span className={`status ${lab.is_abnormal ? 'abnormal' : 'normal'}`}>
-                          {lab.is_abnormal ? '⚠️ Abnormal' : '✓ Normal'}
-                        </span>
-                      </td>
-                    </tr>
-                  ))}
-                </tbody>
-              </table>
+        {previewUrl && (
+          <div className="preview-container" style={{ flex: 1, backgroundColor: '#f0f0f0', borderRadius: '8px', overflow: 'hidden', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+            {file.type.includes('image') ? (
+              <img src={previewUrl} alt="Report Preview" style={{ maxWidth: '100%', maxHeight: '100%', objectFit: 'contain' }} />
             ) : (
-              <p>No lab values extracted.</p>
+              <embed src={previewUrl} type="application/pdf" width="100%" height="100%" />
             )}
           </div>
+        )}
 
-          {/* Abnormal findings */}
-          <div className="abnormal-findings">
-            <h3>⚠️ Abnormal Findings</h3>
-            {renderFindings(results.abnormal_findings)}
+        <button
+          className="primary-btn"
+          onClick={handleUpload}
+          disabled={!file || loading}
+          style={{ marginTop: '20px', padding: '15px', fontSize: '1.1rem' }}
+        >
+          {loading ? "🔍 Analyzing (this may take 10-20s)..." : "Analyze Report"}
+        </button>
+      </div>
+
+      {/* RIGHT PANEL: Analysis Results */}
+      <div className="right-panel" style={{ flex: 1, overflowY: 'auto', paddingLeft: '10px' }}>
+        <h2>📊 AI Analysis Results</h2>
+
+        {loading && (
+          <div style={{ textAlign: 'center', marginTop: '50px' }}>
+            <div className="spinner"></div>
+            <p>Extracting text & values...</p>
+            <p>Applying reference ranges...</p>
+            <p>Generating clinical summary...</p>
           </div>
+        )}
 
-          {/* AI Summary */}
-          {results.summary && (
-            <div className="ai-summary">
-              <h3>📋 AI Summary</h3>
-              <p className="summary-disclaimer">
-                <em>This summary is AI-generated and requires professional review.</em>
-              </p>
-              <div className="summary-content">
-                {results.summary}
-              </div>
-            </div>
-          )}
+        {error && (
+          <div className="error-message" style={{ color: 'red', marginTop: '20px' }}>
+            ❌ {error}
+          </div>
+        )}
 
-          {/* Red flags warning */}
-          {results.red_flags && results.red_flags.length > 0 && (
-            <div className="red-flags-warning">
-              <h3>🚨 Critical Findings</h3>
-              <p>The following findings require immediate medical attention:</p>
-              <ul>
-                {results.red_flags.map((flag, idx) => (
-                  <li key={idx}>{flag}</li>
+        {results && (
+          <div className="results-content">
+            {/* RED FLAGS */}
+            {results.red_flags && results.red_flags.length > 0 && (
+              <div className="red-flags-section" style={{ backgroundColor: '#fee2e2', border: '1px solid #ef4444', padding: '15px', borderRadius: '8px', marginBottom: '20px' }}>
+                <h3 style={{ color: '#b91c1c', marginTop: 0 }}>🚨 CRITICAL ALERTS</h3>
+                {results.red_flags.map((flag, i) => (
+                  <p key={i} style={{ color: '#b91c1c', fontWeight: 'bold' }}>{flag}</p>
                 ))}
-              </ul>
-            </div>
-          )}
+              </div>
+            )}
 
-          <button onClick={handleReset} className="secondary-btn">
-            Analyze Another Report
-          </button>
-        </div>
-      )}
+            {/* AI SUMMARY */}
+            <div className="summary-card" style={{ backgroundColor: '#f0f9ff', padding: '20px', borderRadius: '8px', borderLeft: '5px solid #0ea5e9', marginBottom: '20px' }}>
+              <h3 style={{ marginTop: 0, color: '#0369a1' }}>🤖 Clinical Summary</h3>
+              <div style={{ whiteSpace: 'pre-line' }}>{results.summary}</div>
+            </div>
+
+            {/* ABNORMALITIES */}
+            <div className="abnormalities-section">
+              <h3>⚠️ Abnormal Findings</h3>
+              {results.abnormal_findings.length === 0 ? (
+                <p style={{ color: 'green' }}>✅ No significant abnormalities detected.</p>
+              ) : (
+                <table style={{ width: '100%', borderCollapse: 'collapse', marginBottom: '20px' }}>
+                  <thead>
+                    <tr style={{ backgroundColor: '#f3f4f6', textAlign: 'left' }}>
+                      <th style={{ padding: '10px' }}>Test</th>
+                      <th style={{ padding: '10px' }}>Value</th>
+                      <th style={{ padding: '10px' }}>Ref Range</th>
+                      <th style={{ padding: '10px' }}>Flag</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    {results.abnormal_findings.map((item, i) => (
+                      <tr key={i} style={{ borderBottom: '1px solid #eee', backgroundColor: item.severity === 'critical' ? '#fecaca' : '#fef3c7' }}>
+                        <td style={{ padding: '10px', fontWeight: 'bold' }}>{item.test_name}</td>
+                        <td style={{ padding: '10px' }}>{item.value} {item.unit}</td>
+                        <td style={{ padding: '10px', fontSize: '0.9rem', color: '#666' }}>{item.reference_range}</td>
+                        <td style={{ padding: '10px' }}>
+                          <span style={{
+                            padding: '4px 8px', borderRadius: '4px', fontSize: '0.8rem', fontWeight: 'bold',
+                            backgroundColor: item.severity === 'critical' ? '#dc2626' : '#d97706',
+                            color: 'white'
+                          }}>
+                            {item.direction.toUpperCase()} ({item.severity})
+                          </span>
+                        </td>
+                      </tr>
+                    ))}
+                  </tbody>
+                </table>
+              )}
+            </div>
+
+            {/* ALL VALUES ACCORDION (Simplified) */}
+            <details style={{ marginTop: '20px', cursor: 'pointer', padding: '10px', border: '1px solid #eee', borderRadius: '8px' }}>
+              <summary style={{ fontWeight: 'bold' }}>View All Extracted Values ({results.lab_values.length})</summary>
+              <div style={{ marginTop: '10px', maxHeight: '300px', overflowY: 'auto' }}>
+                {results.lab_values.map((val, i) => (
+                  <div key={i} style={{ display: 'flex', justifyContent: 'space-between', padding: '8px 0', borderBottom: '1px solid #f9f9f9' }}>
+                    <span>{val.name}</span>
+                    <span style={{ fontWeight: val.is_abnormal ? 'bold' : 'normal', color: val.is_abnormal ? 'orange' : 'inherit' }}>
+                      {val.value} {val.unit}
+                    </span>
+                  </div>
+                ))}
+              </div>
+            </details>
+          </div>
+        )}
+      </div>
     </div>
   );
 };

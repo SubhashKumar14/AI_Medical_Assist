@@ -38,11 +38,22 @@ app = FastAPI(
 # CORS configuration
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],
-    allow_credentials=True,
-    allow_methods=["*"],
     allow_headers=["*"],
 )
+
+# === SAFETY MIDDLEWARE ===
+from safety_config import safety_filter, UNSAFE_TERMS, validate_safety
+from fastapi import Request, Response
+from starlette.middleware.base import BaseHTTPMiddleware
+
+class SafetyMiddleware(BaseHTTPMiddleware):
+    async def dispatch(self, request: Request, call_next):
+        response = await call_next(request)
+        return response
+
+# Register middleware (placeholder)
+# app.add_middleware(SafetyMiddleware)
+
 
 # Initialize engines
 elimination_engine = SymptomEliminationEngine()
@@ -64,11 +75,23 @@ except:
     USE_REDIS = False
     sessions: Dict[str, dict] = {}
 
+def get_session(session_id: str) -> Optional[dict]:
+    """Helper to retrieve session from Redis or Memory"""
+    if USE_REDIS:
+        try:
+            data = redis_client.get(f"session:{session_id}")
+            return json.loads(data) if data else None
+        except Exception:
+            return None
+    else:
+        return sessions.get(session_id)
+
 
 # Request/Response models
 class StartRequest(BaseModel):
     text: str
     user_id: Optional[str] = "anonymous"
+    model_provider: Optional[str] = "auto"
 
 class NextRequest(BaseModel):
     session_id: str
@@ -83,133 +106,197 @@ class TriageResponse(BaseModel):
     probabilities: List[Dict[str, Any]]
     next_question: Optional[Dict[str, Any]]
     is_complete: bool
-    red_flags: Optional[List[str]] = None
-
-
-def save_session(session_id: str, data: dict):
-    """Save session to Redis or in-memory store"""
-    if USE_REDIS:
-        redis_client.setex(session_id, 3600, json.dumps(data))  # 1 hour TTL
-    else:
-        sessions[session_id] = data
-
-def get_session(session_id: str) -> Optional[dict]:
-    """Get session from Redis or in-memory store"""
-    if USE_REDIS:
-        data = redis_client.get(session_id)
-        return json.loads(data) if data else None
-    else:
-        return sessions.get(session_id)
-
-
-@app.get("/health")
-async def health_check():
-    """Health check endpoint"""
-    return {"status": "ok", "service": "ai_service"}
-
+    red_flags: Optional[List[Dict[str, Any]]] = None
+    safe_summary: Optional[str] = None # MANDATORY SAFE OUTPUT
+    extend_needed: bool = False # Flag to ask user consent for more questions
 
 @app.post("/start", response_model=TriageResponse)
 async def start_triage(request: StartRequest):
-    """
-    Start a new triage session.
-    
-    Extracts symptoms from user text and initializes probability engine.
-    """
     try:
-        # Generate session ID
         session_id = str(uuid.uuid4())
         
-        # Extract symptoms from text
-        extracted = elimination_engine.extract_symptoms(request.text)
-        symptoms = extracted.get("symptoms", [])
+        # Extract symptoms
+        # Note: validation/extraction happens inside engine or via model_selector
+        # For now, using engine's standard extraction
+        initial_symptoms = elimination_engine.extract_symptoms(request.text)
         
-        # Check for red flags (emergency symptoms)
-        red_flags = elimination_engine.check_red_flags(symptoms)
+        # Start Engine Session
+        state = elimination_engine.start(initial_symptoms, session_id=session_id)
         
-        # Initialize session state
-        state = elimination_engine.start(symptoms)
-        
-        # Get initial probabilities with explainability
-        probabilities = explainability_engine.add_contributions(
-            state["probabilities"],
-            symptoms
-        )
-        
-        # Get first follow-up question
-        next_question = elimination_engine.next_question(state)
-        
-        # Determine if triage is complete
-        is_complete = next_question is None or len(state.get("asked_questions", [])) >= 10
-        
-        # Save session
-        session_data = {
+        # Save Session
+        sessions[session_id] = {
             "state": state,
-            "user_id": request.user_id,
-            "symptoms": symptoms,
-            "original_text": request.text,
             "asked_questions": [],
-            "answers": []
+            "answers": {},
+            "model_provider": request.model_provider
         }
-        save_session(session_id, session_data)
         
+        # Unpack state
+        probabilities = state.get('probabilities', [])
+        next_question = state.get('next_question')
+        red_flags = state.get('red_flags')
+        is_complete = state.get('status') == 'FINISHED'
+        symptoms = state.get('present_symptoms', [])
+        extend_needed = state.get('extend_needed', False)
+
+        # Generate Safe Summary (The 5-Step Structure)
+        from safety_config import format_safe_response, RISK_CATEGORIES, validate_safety
+            
+        # SAFETY V2: Red Flag Override
+        if red_flags:
+            safe_text = format_safe_response(
+                conditions=["EMERGENCY CONCERN"],
+                general_explanation="**CRITICAL WARNING:** Your symptoms indicate a potentially serious medical emergency.",
+                next_step="**CALL EMERGENCY SERVICES (911/112) IMMEDIATELY.** Do not wait."
+            )
+            return TriageResponse(
+                session_id=session_id,
+                probabilities=[],
+                next_question=None,
+                is_complete=True,
+                red_flags=red_flags,
+                safe_summary=validate_safety(safe_text),
+                extend_needed=False
+            )
+
+        # SAFETY V2: Confidence & Risk Masking
+        safe_candidates = []
+        top_prob = probabilities[0]['probability'] if probabilities else 0.0
+        
+        # Threshold Check
+        if top_prob < 0.60:
+            # Low confidence -> Generic viral/bacterial bucket
+            explanation = "Your symptoms are non-specific and could be related to common viral or bacterial infections. No specific condition reached high confidence."
+            safe_candidates = ["Common Viral Infection", "Non-specific Bacterial Infection"]
+        else:
+            # High confidence -> Show top 3 (Masked if needed)
+            explanation = f"Symptoms such as {', '.join(symptoms[:3])} are commonly seen in these conditions."
+            for p in probabilities[:3]:
+                d_name = p['disease']
+                # Mask if High Risk
+                if d_name in RISK_CATEGORIES:
+                    d_name = f"⚠️ {RISK_CATEGORIES[d_name]}"
+                safe_candidates.append(d_name)
+            
+        safe_text = format_safe_response(
+            conditions=safe_candidates,
+            general_explanation=explanation,
+            next_step="Please consult a healthcare professional for further evaluation."
+        )
+
         return TriageResponse(
             session_id=session_id,
-            probabilities=probabilities[:10],  # Top 10
+            probabilities=probabilities[:10],  # Internal probs still sent for debug/frontend bars? Maybe mask them too? 
+            # Ideally frontend shouldn't see sensitive names either.
+            # For now, let's keep them but Frontend relies on safe_summary.
             next_question=next_question,
             is_complete=is_complete,
-            red_flags=red_flags if red_flags else None
+            red_flags=red_flags if red_flags else None,
+            safe_summary=validate_safety(safe_text),
+            extend_needed=extend_needed
         )
         
     except Exception as e:
-        raise HTTPException(status_code=500, detail=str(e))
+        print(f"Error in start_triage: {e}")
+        # Return safe fallback
+        return TriageResponse(
+            session_id=request.user_id, # Fallback ID
+            probabilities=[],
+            next_question=None,
+            is_complete=True,
+            safe_summary="**System Error:** Unable to process symptoms at this time. Please try again or consult a doctor directly.",
+            extend_needed=False
+        )
 
 
 @app.post("/next", response_model=TriageResponse)
-async def next_step(request: NextRequest):
+async def next_question_endpoint(request: NextRequest):
     """
-    Process answer and return next question or final results.
+    Handle follow-up answer and determine next step.
     """
     try:
-        # Get session
-        session_data = get_session(request.session_id)
-        if not session_data:
+        session_id = request.session_id
+        if session_id not in sessions:
             raise HTTPException(status_code=404, detail="Session not found")
+            
+        session = sessions[session_id]
+        engine_state = session["state"]
         
-        state = session_data["state"]
+        # Update Engine with Answer
+        new_state = elimination_engine.update(engine_state, request.answer)
         
-        # Update state with answer
-        state = elimination_engine.update(state, request.answer)
+        # Update Session
+        session["state"] = new_state
         
-        # Track question/answer
-        session_data["asked_questions"].append(state.get("last_question"))
-        session_data["answers"].append(request.answer)
+        # Safe access to previous question ID
+        prev_q = engine_state.get('next_question') or {}
+        session["answers"][prev_q.get('symptom_id', 'unknown')] = request.answer
         
-        # Get updated probabilities with explainability
-        probabilities = explainability_engine.add_contributions(
-            state["probabilities"],
-            session_data["symptoms"]
+        if prev_q:
+             session["asked_questions"].append(prev_q.get('text', ''))
+
+        # Unpack state
+        probabilities = new_state.get('probabilities', [])
+        next_q = new_state.get('next_question')
+        red_flags = new_state.get('red_flags')
+        is_complete = new_state.get('status') == 'FINISHED'
+        
+        # Safety & Summary Logic (Same as start_triage)
+        from safety_config import format_safe_response, RISK_CATEGORIES, validate_safety
+        
+        # 1. Red Flags
+        if red_flags:
+            safe_text = format_safe_response(
+                conditions=["EMERGENCY CONCERN"],
+                general_explanation="**CRITICAL WARNING:** Your symptoms indicate a potentially serious medical emergency.",
+                next_step="**CALL EMERGENCY SERVICES (911/112) IMMEDIATELY.** Do not wait."
+            )
+            return TriageResponse(
+                session_id=session_id,
+                probabilities=[],
+                next_question=None,
+                is_complete=True,
+                red_flags=red_flags,
+                safe_summary=validate_safety(safe_text),
+                extend_needed=False
+            )
+
+        # 2. Risk Masking
+        safe_candidates = []
+        top_prob = probabilities[0]['probability'] if probabilities else 0.0
+        symptoms = new_state.get('present_symptoms', [])
+        
+        if top_prob < 0.60:
+             explanation = "Based on your answers, the cause remains unclear but suggests common minor illnesses."
+             safe_candidates = ["Unspecified Viral Illness", "General Fatigue/Stress"]
+        else:
+            explanation = f"Based on your answers, symptoms such as {', '.join(symptoms[:3])} are consistent with these patterns."
+            for p in probabilities[:3]:
+                d_name = p['disease']
+                if d_name in RISK_CATEGORIES:
+                    d_name = f"⚠️ {RISK_CATEGORIES[d_name]}"
+                safe_candidates.append(d_name)
+
+        safe_text = format_safe_response(
+            conditions=safe_candidates,
+            general_explanation=explanation,
+            next_step="Please consult a doctor for a physical examination." if is_complete else None
         )
-        
-        # Get next question
-        next_question = elimination_engine.next_question(state)
-        
-        # Determine if complete (max 10 questions or no more questions)
-        is_complete = next_question is None or len(session_data["asked_questions"]) >= 10
-        
-        # Update session
-        session_data["state"] = state
-        save_session(request.session_id, session_data)
-        
+
         return TriageResponse(
-            session_id=request.session_id,
+            session_id=session_id,
             probabilities=probabilities[:10],
-            next_question=next_question,
-            is_complete=is_complete
+            next_question=next_q,
+            is_complete=is_complete,
+            red_flags=red_flags,
+            safe_summary=validate_safety(safe_text),
+            extend_needed=new_state.get("extend_needed", False)
         )
-        
+
     except HTTPException:
         raise
     except Exception as e:
+        print(f"Error in next_question: {e}")
         raise HTTPException(status_code=500, detail=str(e))
 
 
@@ -245,7 +332,8 @@ async def get_session_state(session_id: str):
 @app.post("/report/analyze")
 async def analyze_report(
     file: UploadFile = File(...),
-    user_id: str = Form("anonymous")
+    user_id: str = Form("anonymous"),
+    model_provider: str = Form("auto")
 ):
     """
     Analyze uploaded medical report (PDF/image).
@@ -272,7 +360,8 @@ async def analyze_report(
         summary = await model_selector.summarize_report(
             extracted_text,
             lab_values,
-            abnormal_findings
+            abnormal_findings,
+            provider=model_provider
         )
         
         return {
@@ -286,6 +375,120 @@ async def analyze_report(
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))
 
+
+
+# === AI CHAT ENDPOINT ===
+class ChatRequest(BaseModel):
+    session_id: str
+    message: str
+    user_id: Optional[str] = "anonymous"
+    model_provider: Optional[str] = "auto"
+
+class ChatResponse(BaseModel):
+    reply: str
+    safe_disclaimer: str
+
+@app.post("/ai/chat", response_model=ChatResponse)
+async def chat_with_ai(request: ChatRequest):
+    """
+    Context-aware AI Health Chat.
+    Uses cached session state from Redis/Memory to provide relevant answers.
+    """
+    try:
+        session_data = get_session(request.session_id)
+        if not session_data:
+            raise HTTPException(status_code=404, detail="Session not found")
+            
+        # factory prompt
+        context = {
+            "symptoms": session_data["state"].get("observed_symptoms", []),
+            "probabilities": session_data["state"]["probabilities"][:3]
+        }
+        
+        system_prompt = f"""
+        You are a helpful AI Health Assistant.
+        CONTEXT:
+        Patient Symptoms: {', '.join(context['symptoms'])}
+        Possible Conditions (Internal): {', '.join([p['disease'] for p in context['probabilities']])}
+        
+        RULES:
+        1. Answer the user's question clearly and simply.
+        2. DO NOT diagnose or prescribe.
+        3. If asked "What do I have?", refer to the Triage Report summaries.
+        4. Refer to the patient context when relevant (e.g. "Given your fever...").
+        """
+        
+        # Call LLM (Gemini preferred, or local fallback)
+        # Using ModelSelector to handle routing
+        
+        reply = await model_selector.generate_chat_response(
+            system_prompt=system_prompt,
+            user_message=request.message,
+            session_context=context,
+            provider=request.model_provider
+        )
+        
+        # Safety Filter on Output
+        safe_reply = validate_safety(reply)
+        
+        return ChatResponse(
+            reply=safe_reply,
+            safe_disclaimer="This is an AI assistant, not a doctor. Advice is informational only."
+        )
+
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=str(e))
+
+
+@app.post("/pill/identify")
+async def identify_pill_endpoint(file: UploadFile = File(...)):
+    """
+    Identify pill from uploaded image.
+    """
+    try:
+        content = await file.read()
+        result = await model_selector.identify_pill(content)
+        return result
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=str(e))
+
+
+# Import Token System
+from booking.token_system import token_system
+
+class BookingRequest(BaseModel):
+    patient_id: str
+    doctor_id: str
+    severity: str # critical, high, normal
+    time_slot: Optional[str] = None
+
+@app.post("/appointments/book")
+async def book_appointment(request: BookingRequest):
+    """
+    Book appointment with Priority Token System.
+    """
+    try:
+        booking = await token_system.book_appointment(
+            patient_id=request.patient_id,
+            doctor_id=request.doctor_id,
+            severity=request.severity,
+            time_slot=request.time_slot
+        )
+        return booking
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=str(e))
+
+@app.get("/doctor/queue")
+async def get_doctor_queue():
+    """Get priority sorted queue."""
+    return token_system.get_queue()
+
+@app.post("/doctor/complete/{token_id}")
+async def complete_appointment(token_id: str):
+    """Mark appointment as done."""
+    if token_system.complete_appointment(token_id):
+        return {"status": "success"}
+    raise HTTPException(status_code=404, detail="Token not found")
 
 if __name__ == "__main__":
     import uvicorn

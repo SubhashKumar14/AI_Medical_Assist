@@ -1,0 +1,6 @@
+This directory contains the json export of the MONGO DB databases for rximage.
+
+enum.json - enumeration data (shapes, colors, etc)
+
+rximagesAll.json - image metadata
+

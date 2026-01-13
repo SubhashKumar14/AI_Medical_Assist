@@ -78,14 +78,24 @@ export const authAPI = {
 
 // AI Triage API
 export const triageAPI = {
-  start: (text, consent = true) => api.post('/ai/triage/start', { text, consent }),
-  next: (sessionId, answer, consent = true) => api.post('/ai/triage/next', { sessionId, answer, consent }),
-  getSession: (sessionId) => api.get(`/ai/session/${sessionId}`)
+  start: (text, consent = true, model = 'auto') => api.post('/triage/start', { text, consent, model_provider: model }),
+  next: (sessionId, answer, consent = true) => api.post('/triage/next', { session_id: sessionId, answer, consent }),
+  getSession: (sessionId) => api.get(`/triage/session/${sessionId}`)
+};
+
+// AI Chat API
+export const chatAPI = {
+  sendMessage: (sessionId, message, model = 'auto') => api.post('/ai/chat', {
+    session_id: sessionId,
+    message,
+    model_provider: model,
+    consent: true // Required by backend
+  })
 };
 
 // Report API
 export const reportAPI = {
-  analyze: (formData) => api.post('/ai/report/analyze', formData, {
+  analyze: (formData) => api.post('/report/analyze', formData, {
     headers: { 'Content-Type': 'multipart/form-data' }
   }),
   getHistory: () => api.get('/reports'),
@@ -98,6 +108,18 @@ export const recordsAPI = {
   create: (data) => api.post('/records', data),
   update: (id, data) => api.put(`/records/${id}`, data),
   delete: (id) => api.delete(`/records/${id}`)
+};
+
+// Booking API
+export const bookingAPI = {
+  book: (data) => api.post('/appointments/book', data),
+  getDoctors: () => api.get('/doctors')
+};
+
+// Doctor Portal API
+export const doctorAPI = {
+  getQueue: () => api.get('/doctor/queue'),
+  complete: (tokenId) => api.post(`/doctor/complete/${tokenId}`)
 };
 
 export default api;

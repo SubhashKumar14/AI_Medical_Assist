@@ -1,0 +1,12 @@
+{
+  "timestamp": "2026-01-13T13:48:14.997881",
+  "test_file": "datasets\\test_cases.csv",
+  "total_cases": 88,
+  "metrics": {
+    "top1_accuracy": 3.41,
+    "top3_accuracy": 9.09,
+    "top5_accuracy": 17.05,
+    "avg_questions": 1.67,
+    "avg_confidence": 16.62
+  }
+}
